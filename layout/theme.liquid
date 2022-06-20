@@ -28,6 +28,7 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
     {% style %}
+      
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -36,23 +37,24 @@
 
       @font-face {
         font-family: "Bembo Book";
-        src: url({{ "BemboBookMTPro-Regular.otf" | asset_url}}) format("otf");
-        font-weight: 400;
+        src: url({{ 'BemboBookMTPro-Regular.otf' | asset_url}}) format("otf");
+        font-weight: normal;
         font-style: normal;
       }
 
       @font-face {
         font-family: "Mars Extended";
-        src: url({{ "MarsExtended-Regular.otf" | asset_url}}) format("otf");
-        font-weight: 400;
+        src: url({{ 'MarsExtended-Regular.otf' | asset_url}}) format("otf");
+        font-weight: normal;
         font-style: normal;
       }
 
       :root {
+        --background-color: #F8F7F0;
         --outer-margin: 2rem;
         --header-height: 28px;
-        --margin: 3rem;
-        --small-margin: 1rem;
+        --margin: 8rem;
+        --small-margin: 2rem;
       }
       
     {% endstyle %}

@@ -5,5 +5,42 @@
 {% endcomment %}
 
 <footer class="footer">
-  footer
+  <section class="footer-about">
+    <span class="footer-header">
+      COMFORTABLE CLOTHING<br/>
+      FOR COMFORTABLE LIVING
+    </span>
+    <img src="{{ 'rubato-outline.svg' | asset_url }}" class="footer-logo" width="100%" height="100%">
+    <span class="footer-text">
+      The Rubato philosophy is to create wearable, contemporary garments full of character 
+      by looking to the past. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+      sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </span>
+  </section>
+  <div class="footer-line"></div>
+  <section class="footer-newsletter">
+    <div class="footer-newsletter-signup">Sign up for our newsletter</div>
+    <form class="footer-newsletter-form">
+      <div class="footer-newsletter-email">
+        <span>E-mail:</span>
+        <input type="text" value="bjorn@konst-teknik.se">
+      </div>
+      <button>Sign up</button>
+    </form>
+  </section>
+  
+  <section class="footer-links">
+    <ul>
+      {%- for link in linklists.rubato-menu-footer.links -%}  
+        <li>
+          <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+            {{ link.title | escape }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  <section class="footer-copyright">
+    © RUBATO 2022
+  </section>
 </footer>
