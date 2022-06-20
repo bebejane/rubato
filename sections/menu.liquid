@@ -11,20 +11,20 @@
   <nav id="nav">
     <ul class="navbar">
       {%- for link in linklists.rubato-menu.links -%}  
-        <li>
-          <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
-            {{ link.title | escape }}
-          </a>
-        </li>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+          <li>
+            {{ link.title | escape }}      
+          </li>
+        </a>
       {%- endfor -%}
     </ul>
     <ul class="navbar-footer">
       {%- for link in linklists.rubato-menu-footer.links -%}  
-        <li>
-          <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+          <li>
             {{ link.title | escape }}
-          </a>
-        </li>
+          </li>
+        </a>
       {%- endfor -%}
     </ul>
   </nav>

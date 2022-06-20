@@ -53,10 +53,19 @@
         --background-color: #F8F7F0;
         --outer-margin: 2rem;
         --header-height: 28px;
-        --margin: 8rem;
+        --margin: 6rem;
         --small-margin: 2rem;
       }
-      
+
+      @media screen and (min-width: 750px) {
+        :root {
+          --outer-margin: 2.5rem;
+          --header-height: 36px;
+          --margin: 7rem;
+          --small-margin: 2.5rem;
+        }
+      }
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
