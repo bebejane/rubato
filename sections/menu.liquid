@@ -1,0 +1,32 @@
+{{ 'section-menu.css' | asset_url | stylesheet_tag }}
+{% comment %}
+<link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
+{% endcomment %}
+
+<div id="menu">
+  <div class="logo">
+    <a href="/"><img src="{{ 'rubato.svg' | asset_url }}" width="20" height="20"></a>
+  </div>
+  <nav id="nav">
+    <ul class="navbar">
+      {%- for link in linklists.rubato-menu.links -%}  
+        <li>
+          <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+            {{ link.title | escape }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <ul class="navbar-footer">
+      {%- for link in linklists.rubato-menu-footer.links -%}  
+        <li>
+          <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
+            {{ link.title | escape }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+  <img id="menu-toggle" src="{{ 'close.svg' | asset_url }}" width="20" height="20">
+</div>

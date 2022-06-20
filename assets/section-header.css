@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  margin-top: var(--outer-margin);
+  height: var(--header-height);
+}
+.logo-header{
+  width: var(--header-height);
+  height: var(--header-height);
+}
+
+@media screen and (max-width: 749px) {
+ 
+}
+
+@media screen and (min-width: 750px) {
+  
+}
+
+@media screen and (max-width: 749px) {
+  
+}
+
+@media screen and (max-width: 749px) {
+  
+}
