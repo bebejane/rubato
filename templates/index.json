@@ -1,11 +1,10 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "settings": {}
+    "image_banner": {
+      "type": "image-banner"
     }
   },
   "order": [
-    "slideshow"
+    "image_banner"
   ]
 }
