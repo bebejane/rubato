@@ -1,0 +1,98 @@
+{{ 'section-collage.css' | asset_url | stylesheet_tag }}
+
+<div id="collage-{{ section.id }}" class="collage">
+  {% for block in section.blocks %}
+    {% render 'log', object:block.settings %}
+    {% capture style %}
+      flex: 0 0 {{ block.settings.width }}%;
+      margin-left: {{ block.settings.left }}%;
+      margin-right: {{ block.settings.right }}%;
+      margin-top: {{ block.settings.top }}%;
+      margin-bottom: {{ block.settings.bottom }}%;
+    {% endcapture %}
+    <div class="collage-block" style="{{style}}">
+      {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}">{%- endif -%}
+        {% render 'image-responsive', image:block.settings.image %}
+      {%- if block.settings.product -%}</a>{%- endif -%}
+    </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+{
+  "name": "Collage",
+  "tag": "section",
+  "class": "section",
+  "blocks": [{
+    "type": "image",
+    "name": "Image",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "default": 25,
+          "max":100,
+          "min":0,
+          "step":1,
+          "label": "Width %"
+        },
+        {
+          "type": "range",
+          "id": "height",
+          "default": 25,
+          "max":100,
+          "min":0,
+          "step":1,
+          "label": "Height %"
+        },
+        {
+          "type": "range",
+          "id": "left",
+          "default": 0,
+          "max":50,
+          "min":-50,
+          "step":1,
+          "label": "Margin Left %"
+        },
+        {
+          "type": "range",
+          "id": "right",
+          "default": 0,
+          "max":50,
+          "min":-50,
+          "step":1,
+          "label": "Margin Right %"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "default": 0,
+          "max":50,
+          "min":-50,
+          "step":1,
+          "label": "Margin Top %"
+        },
+        {
+          "type": "range",
+          "id": "bottom",
+          "default": 0,
+          "max":50,
+          "min":-50,
+          "step":1,
+          "label": "Margin Bottom %"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Link product"
+        }
+      ]
+  }]
+}
+{% endschema %}

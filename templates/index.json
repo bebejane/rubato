@@ -2,9 +2,13 @@
   "sections": {
     "image_banner": {
       "type": "image-banner"
+    },
+    "collage": {
+      "type": "collage"
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "collage"
   ]
 }

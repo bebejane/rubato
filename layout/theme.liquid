@@ -52,15 +52,18 @@
       :root {
         --background-color: #F8F7F0;
         --outer-margin: 2rem;
-        --header-height: 28px;
+        --navbar-height: 50px;
+        --navbar-logo-size: 30px;
         --margin: 6rem;
         --small-margin: 2rem;
+        --content-margin: calc((var(--outer-margin) * 2 ) +  var(--navbar-height));
       }
 
       @media screen and (min-width: 750px) {
         :root {
           --outer-margin: 2.5rem;
-          --header-height: 36px;
+          --navbar-height: 70px;
+          --navbar-logo-size: 40px;
           --margin: 7rem;
           --small-margin: 2.5rem;
         }
