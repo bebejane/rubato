@@ -4,6 +4,7 @@
   position: relative;
   flex-direction: column;
   min-height: 100vh;
+  margin-top: calc(var(--navbar-height) * -1);
 }
 
 .banner-box {
@@ -39,7 +40,7 @@
 }
 
 .banner-box-logo-image{
-  margin-top: var(--outer-margin);
+  margin-top: calc(var(--navbar-height) / 2);
   max-height: calc(100% - (var(--margin) * 2 ) - (var(--outer-margin) * 2));
   max-width: calc(100% - (var(--margin) * 2 ) - (var(--outer-margin) * 2));
 }

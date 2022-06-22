@@ -1,6 +1,5 @@
 .page{
   width: auto;
-  margin-top: var(--content-margin);
   margin-left: var(--outer-margin);
   margin-right: var(--outer-margin);
 }

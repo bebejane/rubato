@@ -1,20 +1,3 @@
-#menu-toggle {
-  position: absolute;
-  display: inline-block;
-  top:0;
-  right:0;
-  height: var(--navbar-logo-size);
-  width: var(--navbar-logo-size);
-  margin: var(--outer-margin);
-  cursor: pointer;
-  transform: rotate(45deg) scale(0.6);
-  transition: transform .3s ease;
-}
-
-.menu--toggle-active{
-  transform: rotate(90deg) scale(0.75) !important;
-}
-
 #menu {
   position: fixed;
   z-index: 100;
@@ -25,22 +8,45 @@
   align-items: center;
   min-width: 100%;
   background-color: transparent;
-  height: var(--nabar-height);
+  max-height: var(--navbar-height);
 }
 
 #menu.menu-active{
   background-color: var(--background-color);
+  max-height: unset;
 }
 
 #menu * > li {
   margin:0
 }
 
-.logo{
-  padding-top: var(--outer-margin);
-  flex: 0 0 var(--navbar-logo-size);
+#menu-toggle {
+  position: absolute;
+  display: inline-block;
+  top:0;
+  right:0;
+  height: var(--navbar-logo-size);
+  width: var(--navbar-logo-size);
+  max-height: var(--navbar-logo-size);
+  max-width: var(--navbar-logo-size);
+  margin: var(--outer-margin);
+  cursor: pointer;
+  transform: rotate(45deg) scale(0.6);
+  transition: transform .3s ease;
 }
-.logo a img {
+
+.menu--toggle-active{
+  transform: rotate(90deg) scale(0.75) !important;
+}
+.logo{
+  display: flex;
+  height: var(--navbar-height);
+  width: var(--navbar-height);
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 var(--navbar-height);
+}
+.logo *{
   width: var(--navbar-logo-size);
   height: var(--navbar-logo-size);
 }

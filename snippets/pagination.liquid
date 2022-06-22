@@ -1,0 +1,40 @@
+{% style %}
+
+  .paginate{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    list-style: none;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paginate li {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+
+  .paginate-current{
+    font-weight: normal !important;
+  }
+
+{% endstyle %}
+
+{% if pagination.pages > 1 %}
+  <ul class="paginate">
+    {% for part in pagination.parts %}
+      {%if pagination.current_page ==  forloop.index %}
+        <li class="paginate-current">{{ forloop.index }}</li>
+      {% else %} 
+        <li><a href="{{part.url}}">{{ forloop.index }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {%if pagination.current_page == pagination.pages %}
+      <li class="paginate-current">NEXT</li>
+    {% else %} 
+      <li class="paginate-current"><a href="{{pagination.next.url}}">NEXT</a></li>
+    {% endif %}
+  </ul>
+{% endif %}

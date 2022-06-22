@@ -1,0 +1,20 @@
+{{ 'section-collection-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="collection-banner nomargin">
+  {% render 'image-responsive', image: section.settings.image, class:'collection-banner-image', style:'' %}
+<div>
+  
+{% schema %}
+{
+  "name": "Banner Image",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ]
+}
+{% endschema %}

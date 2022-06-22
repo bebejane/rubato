@@ -1,0 +1,27 @@
+{{ 'collection.css' | asset_url | stylesheet_tag }}
+
+{%- assign limit = 10 -%}
+{% paginate collection.products by limit %}
+
+<div data-section-id="{{ section.id }}" data-section-type="collection-template" class="collection">
+  
+  <ul class="collection-list">
+    {% for product in collection.products %}
+      <li class="collection-item">
+        
+        {% render 'image-responsive', image: product.featured_image, class: 'collection-item-image', style:'' %}
+        <div class="collection-caption">
+          <div class="collection-caption-title">
+            {{product.title}}
+          </div>
+          <div class="collection-caption-price">
+            {{product.price | money_without_currency}} {{ cart.currency.iso_code }}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  {% render 'pagination', pagination:paginate %}
+</div>
+
+{% endpaginate %}
