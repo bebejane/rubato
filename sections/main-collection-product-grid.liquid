@@ -8,20 +8,23 @@
   <ul class="collection-list">
     {% for product in collection.products %}
       <li class="collection-item">
-        
-        {% render 'image-responsive', image: product.featured_image, class: 'collection-item-image', style:'' %}
+        <a href="{{ product.url }}">
+          {% render 'image-responsive', image: product.featured_image, class: 'collection-item-image', style:'' %}
+        </a>
         <div class="collection-caption">
           <div class="collection-caption-title">
-            {{product.title}}
+            {{ product.title }}
           </div>
           <div class="collection-caption-price">
-            {{product.price | money_without_currency}} {{ cart.currency.iso_code }}
+            {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
           </div>
         </div>
       </li>
     {% endfor %}
   </ul>
-  {% render 'pagination', pagination:paginate %}
+  
+  {% render 'pagination', pagination: paginate %}
+
 </div>
 
 {% endpaginate %}

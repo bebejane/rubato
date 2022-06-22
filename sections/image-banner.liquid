@@ -6,9 +6,9 @@
       {% capture style %}
         object-position: {{ section.settings.focal }}% center;
       {% endcapture %}
-      {% render 'image-responsive', image:section.settings.image, style:style class:'banner-box-image' %}
+      {% render 'image-responsive', image: section.settings.image, style: style class:'banner-box-image' %}
       <div class="banner-box-logo">
-        <img class="banner-box-logo-image" src="{{ 'rubato-outline.svg' | asset_url }}" width="100%" height="100%"/>
+        <img class="banner-box-logo-image" src="{{ 'rubato-outline.svg' | asset_url }}" width="100" height="100" loading="eager"/>
       </div>
     </div>
   {%- endif -%}

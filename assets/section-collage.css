@@ -11,13 +11,17 @@
   flex: 1 1 auto;
 }
 
-
-.collage-col{
-  
+.collage-block-caption{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
-
-.collage-col img {
-  
+.collage-block-caption-title{
+  flex: 1 1 auto;
+}
+.collage-block-caption-price{
+  flex: 1 1 auto;
+  text-align: right;
 }
 
 @media only screen and (max-width: 749px) {

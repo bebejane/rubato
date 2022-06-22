@@ -14,6 +14,16 @@
       {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}">{%- endif -%}
         {% render 'image-responsive', image:block.settings.image %}
       {%- if block.settings.product -%}</a>{%- endif -%}
+      {%- if block.settings.product != blank -%}
+        <div class="collage-block-caption">
+          <div class="collage-block-caption-title">
+            {{ block.settings.product.title }}
+          </div>
+          <div class="collage-block-caption-price">
+            {{ block.settings.product.price | money_without_currency }} {{ cart.currency.iso_code }}
+          </div>
+        </div>
+      {%- endif -%}
     </div>
   {% endfor %}
 </div>
