@@ -4,7 +4,8 @@
   "description": "Rubato starter",
   "main": "index.js",
   "scripts": {
-    "dev": "theme watch",
+    "dev": "shopify theme serve",
+    "deploy": "shopify theme push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

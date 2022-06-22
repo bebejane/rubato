@@ -7,5 +7,5 @@
     "README.md": true,
     "config.yml": true
   },
-  "workspace.isHidden": false
+  "workspace.isHidden": true
 }

@@ -19,7 +19,7 @@
 .product-attributes{
   display: flex; 
   flex-direction: column;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 
