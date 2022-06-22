@@ -1,17 +1,19 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 
-
-
+<!-- Parse sizes table -->
 {% assign html = product.description %}
-{% assign arr = html | split: '<tbody data-mce-fragment="1">' %}
-{% assign sizes = arr[1] | split: '</tbody>' %}
-{% assign arr2 = arr[0] | split: '<table' %}
-{% assign description = arr2[0] %}
+{% assign arr = html | split: '<table' %}
+{% assign arr2 = arr[1] | split: '</table>' %}
+{% capture sizes_table %}<table{{ arr2[0] }}</table>{% endcapture %}
+{% assign arr3 = arr[0] | split: '<table' %}
+{% assign description = arr[0] %}
 
-{% render 'log', object:description %}
+<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer></script>
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-{% render 'log', object:product %}
+
+{% render 'log', object:arr %}
 
 <section class="product">
   <div class="product-wrap">
@@ -21,36 +23,84 @@
           {{ product.title }}
         </div>
         <div class="product-attributes-row">
-          <div class="product-attributes-key">key</div>
-          <div class="product-attributes-value">val</div>
+          <div class="product-attributes-key">Color</div>
+          <div class="product-attributes-value">Stone</div>
         </div>
         <div class="product-attributes-row">
-          <div class="product-attributes-key">key</div>
-          <div class="product-attributes-value">val</div>
+          <div class="product-attributes-key">Material</div>
+          <div class="product-attributes-value">100% lamb wool</div>
         </div>
         <div class="product-attributes-row">
-          <div class="product-attributes-key">key</div>
-          <div class="product-attributes-value">val</div>
+          <div class="product-attributes-key">Made in</div>
+          <div class="product-attributes-value">Scotland</div>
+        </div>
+        <div class="product-attributes-row">
+          <div class="product-attributes-key">Cut</div>
+          <div class="product-attributes-value">Boxy</div>
+        </div>
+        <div class="product-attributes-row">
+          <div class="product-attributes-key">Care</div>
+          <div class="product-attributes-value">Hand Wash</div>
         </div>
       </div>
+      
       <div class="product-description">
-        {{ description }}
+        {% if description %}
+          {{ description }}
+        {% else %}
+          {{ product.description }}
+        {% endif %}
       </div>
       <ul class="product-variants">
-        <li>S</li>
-        <li>M</li>
-        <li>XL</li>
+        {% for variant in product.variants %}
+            <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%}>
+              {{ variant.title }}
+            </li>
+        {% endfor %}
       </ul>
     </div>
-    <div class="product-gallery"></div>
+    <div class="product-gallery">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          {% for image in product.images %}
+            <div class="swiper-slide">
+              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%' %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
   </div>
-  <div class="product-sizes">
-    <div>Size Chart</div>
-    <table>
-      {{ sizes }}
-    </table>
-  </div>
+  {% if sizes_table != blank %}
+    <div class="product-sizes">
+      <div class="product-sizes-header">
+        Size Chart
+      </div>
+      {{ sizes_table }}
+    </div>
+  {% endif %}
 </section>
+
+{% javascript %}
+
+  var initSwiper = function(){
+    var swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: true,
+      centerSlides:true,
+      
+      spaceBetween:0,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:true,
+      },
+    });
+  }
+  document.addEventListener("DOMContentLoaded", initSwiper);
+  document.addEventListener("shopify:section:load", initSwiper);
+  
+{% endjavascript %}
 
 
 {% schema %}

@@ -25,6 +25,7 @@
 
     {% render 'meta-tags' %}
 
+    
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
     {% style %}
@@ -76,9 +77,10 @@
     {{ 'normalize.css' | asset_url | stylesheet_tag }}
     {{ 'skeleton.css' | asset_url | stylesheet_tag }}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    
   </head>
   <body>
+
     {% section 'header' %}
     {% section 'menu' %}
 
