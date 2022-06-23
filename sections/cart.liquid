@@ -1,15 +1,15 @@
-<div class="page-width" data-section-id="{{ section.id }}" data-section-type="cart-template">
+{{ 'section-cart.css' | asset_url | stylesheet_tag }}
 
+<div class="cart" data-section-id="{{ section.id }}">
   {% if cart.item_count > 0 %}
     <div class="cart-header">
       <h1 class="cart-header__title">{{ 'cart.general.title' | t }}</h1>
-      <a href="/collections/all" class="text-link text-link--accent">
+      <a href="/collections/all">
         {{ 'cart.general.continue_shopping' | t }}
       </a>
     </div>
-
-    <form action="/cart" method="post" novalidate class="cart">
-      <table>
+    <form action="/cart" method="post" novalidate class="cart-form">
+      <table class="cart-table">
         <thead class="cart__row">
           <th colspan="2" scope="col">{{ 'cart.label.product' | t }}</th>
           <th class="text-right" scope="col">{{ 'cart.label.price' | t }}</th>
@@ -18,13 +18,12 @@
         </thead>
         <tbody>
           {% for item in cart.items %}
-            <tr class="cart__row border-bottom line{{ forloop.index }}{% if forloop.first %} border-top{% endif %}">
+            {% render 'log', object:item %}
+            <tr class="cart__row">
               <td class="cart__image-wrapper">
-                <div>
-                  <img class="cart__image" src="{{ item | img_url: '95x95', scale: 2 }}" alt="{{ item.title | escape }}" data-item-url="{{ item.url }}">
-                </div>
+                {% render 'image-responsive', image: item.image, class: 'cart__image' %}
               </td>
-              <td class="cart__meta small--text-left">
+              <td class="cart__meta">
                 <div class="list-view-item__title">
                   <a href="{{ item.url }}" class="cart__product-title">
                     {{ item.product.title }}
@@ -71,32 +70,32 @@
                   </div>
                 {% endif %}
 
-                <p class="cart__remove small--hide">
+                <p class="cart__remove hide--small">
                   <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="text-link text-link--accent" aria-label="{{ 'cart.general.remove' | t }} {{ item.product.title }}">{{ 'cart.general.remove' | t }}</a>
                 </p>
               </td>
-              <td class="cart__price-wrapper text-right">
+              <td class="cart__price-wrapper cart-table__pre">
                 {%- if item.original_price != item.final_price -%}
                   <dl>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                     </dt>
                     <dd>
-                      <s>{{ item.original_price | money }}</s>
+                      <s>{{ item.original_price | money_without_currency }} {{ cart.currency.iso_code }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span class="order-discount">{{ item.final_price | money }}</span>
+                      <span class="order-discount">{{ item.final_price | money_without_currency }} {{ cart.currency.iso_code }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
-                  {{ item.original_price | money }}
+                  {{ item.original_price | money_without_currency }} {{ cart.currency.iso_code }}
                 {%- endif -%}
 
                 {%- if item.line_level_discount_allocations != blank -%}
-                  <ul class="order-discount order-discount--list order-discount--title order-discount--cart" aria-label="{{ 'customer.order.discount' | t }}">
+                  <ul class="order-discount" aria-label="{{ 'customer.order.discount' | t }}">
                     {%- for discount_allocation in item.line_level_discount_allocations -%}
                       <li class="order-discount__item">
                         {%- include 'icon-saletag' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
@@ -105,58 +104,55 @@
                   </ul>
                 {%- endif -%}
 
-                <div class="cart__edit medium-up--hide">
+                <div class="cart__edit">
                   <button type="button" class="btn btn--secondary btn--small js-edit-toggle cart__edit--active" data-target="line{{ forloop.index }}" aria-label="{{ 'cart.general.edit' | t }} {{ item.product.title }}" aria-expanded="false">
                     <span class="cart__edit-text--edit">{{ 'cart.general.edit' | t }}</span>
                     <span class="cart__edit-text--cancel">{{ 'cart.general.cancel' | t }}</span>
                   </button>
                 </div>
               </td>
-              <td class="text-right small--hide">
-                <div class="cart__qty">
+              <td class="cart__qty small--hide">
+                <div class="cart__qty small--hide">
                   <label for="updates_large_{{ item.key }}" class="cart__qty-label">{{ 'cart.label.quantity' | t }}</label>
                   <input class="cart__qty-input" type="number" name="updates[]" id="updates_large_{{ item.key }}" value="{{ item.quantity }}" min="0" pattern="[0-9]*" data-quantity-item="{{ forloop.index }}">
                 </div>
               </td>
-              <td class="text-right small--hide">
+              <td class="small--hide cart-table__pre">
                 {%- if item.original_line_price != item.final_line_price -%}
                   <dl>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                     </dt>
                     <dd>
-                      <s>{{ item.original_line_price | money }}</s>
+                      <s>{{ item.original_line_price | money_without_currency }} {{ cart.currency.iso_code }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span class="order-discount">{{ item.final_line_price | money }}</span>
+                      <span class="order-discount">{{ item.final_line_price | money_without_currency }} {{ cart.currency.iso_code }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
-                  {{ item.original_line_price | money }}
+                  {{ item.original_line_price | money_without_currency }} {{ cart.currency.iso_code }}
                 {%- endif -%}
               </td>
             </tr>
-            <tr class="medium-up--hide cart__update-wrapper">
+            <tr class="cart__update-wrapper">
               <td colspan="3" class="text-right">
                 <div class="cart__update-controls">
                   <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0"
-                    class="text-link text-link--accent medium-up--hide cart__update-control cart__update-control--remove"
+                    class="cart__update-control--remove"
                     aria-label="{{ 'cart.general.remove' | t }} {{ item.product.title }}">
                       {{ 'cart.general.remove' | t }}
                   </a>
                   <div class="cart__qty cart__update-control">
-                    <label for="updates_{{ item.key }}"
-                      class="cart__qty-label">
-                        {{ 'cart.label.quantity' | t }}
-                    </label>
+                    
                     <input class="cart__qty-input" type="number" id="updates_{{ item.key }}"
                       value="{{ item.quantity }}" min="0" pattern="[0-9]*"
                       data-quantity-item="{{ forloop.index }}">
                   </div>
-                  <button type="submit" name="update" class="btn btn--small medium-up--hide cart__update-control"
+                  <button type="submit" name="update" class="cart__update-button"
                     aria-label="{{ 'cart.general.update' | t }} {{ item.product.title }}">
                     {{ 'cart.general.update' | t }}
                   </button>
@@ -180,17 +176,17 @@
             {%- if cart.cart_level_discount_applications != blank -%}
               <div class="order-discount-card-wrapper">
                 {%- for discount_application in cart.cart_level_discount_applications -%}
-                  <span class="order-discount order-discount--title order-discount--cart">
+                  <span class="order-discount--title">
                     {%- include 'icon-saletag' -%}<span class="visually-hidden">{{ 'customer.order.discount' | t }}:</span>{{- discount_application.title -}}
                   </span>
-                  <span class="order-discount order-discount--cart order-discount--cart-total">-{{ discount_application.total_allocated_amount | money }}</span>
+                  <span class="order-discount--cart-total">-{{ discount_application.total_allocated_amount | money }}</span>
                 {%- endfor -%}
               </div>
             {%- endif -%}
 
             <div class="cart-subtotal">
               <span class="cart-subtotal__title">{{ 'cart.general.subtotal' | t }}</span>
-              <span class="cart-subtotal__price">{{ cart.total_price | money }}</span>
+              <span class="cart-subtotal__price">{{ cart.total_price | money_without_currency }} {{ cart.currency.iso_code }}</span>
             </div>
 
             {%- capture taxes_shipping_checkout -%}
@@ -204,13 +200,13 @@
                 {{ 'cart.general.taxes_and_shipping_at_checkout' | t }}
               {%- endif -%}
             {%- endcapture -%}
-            <div class="cart__shipping rte">{{ taxes_shipping_checkout }}</div>
+            <div class="cart__shipping">{{ taxes_shipping_checkout }}</div>
             <div class="cart__submit-controls">
               <input type="submit" name="update"
-                class="btn btn--secondary small--hide cart__submit-control"
+                class="cart__submit-control"
                 value="{{ 'cart.general.update' | t }}">
               <input type="submit" name="checkout"
-                class="btn btn--small-wide cart__submit cart__submit-control"
+                class="cart__submit-control"
                 value="{{ 'cart.general.checkout' | t }}">
             </div>
 
@@ -222,13 +218,13 @@
       </div>
     </form>
   {% else %}
-    <div class="empty-page-content text-center">
+    <div class="cart-empty">
       <h1>{{ 'cart.general.title' | t }}</h1>
       <p class="cart--empty-message">{{ 'cart.general.empty' | t }}</p>
       <div class="cookie-message">
         <p>{{ 'cart.general.cookies_required' | t }}</p>
       </div>
-      <a href="/" class="btn btn--has-icon-after cart__continue-btn">{{ 'general.404.link' | t }}{% include 'icon-arrow-right' %}</a>
+      <a href="/" class="cart__continue-btn">{{ 'general.404.link' | t }}</a>
     </div>
   {% endif %}
 </div>
