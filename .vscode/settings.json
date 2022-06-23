@@ -1,11 +1,11 @@
 {
   "files.exclude": {
-    "config": true,
-    "locales": true,
-    ".vscode": true,
-    "package.json": true,
-    "README.md": true,
-    "config.yml": true
+    "config": false,
+    "locales": false,
+    ".vscode": false,
+    "package.json": false,
+    "README.md": false,
+    "config.yml": false
   },
-  "workspace.isHidden": true
+  "workspace.isHidden": false
 }

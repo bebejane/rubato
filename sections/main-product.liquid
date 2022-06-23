@@ -1,4 +1,5 @@
-{% comment %}theme-check-disable TemplateLength{% endcomment %}
+<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 
@@ -7,57 +8,71 @@
 {% assign arr = html | split: '<table' %}
 {% assign arr2 = arr[1] | split: '</table>' %}
 {% capture sizes_table %}<table{{ arr2[0] }}</table>{% endcapture %}
-{% assign arr3 = arr[0] | split: '<table' %}
 {% assign description = arr[0] %}
-
-<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer></script>
-<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-
-{% render 'log', object:arr %}
+{% assign selected_variant = product.selected_or_first_available_variant %}
 
 <section class="product">
   <div class="product-wrap">
-    <div class="product-details">
-      <div class="product-attributes">
-        <div class="product-attributes-header">
-          {{ product.title }}
+    <div class="product-details-wrap">
+      <div class="product-details">
+        <div class="product-attributes">
+          <div class="product-attributes-header">
+            {{ product.title }}
+          </div>
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Color</div>
+            <div class="product-attributes-value">Stone</div>
+          </div>
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Material</div>
+            <div class="product-attributes-value">100% lamb wool</div>
+          </div>
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Made in</div>
+            <div class="product-attributes-value">Scotland</div>
+          </div>
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Cut</div>
+            <div class="product-attributes-value">Boxy</div>
+          </div>
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Care</div>
+            <div class="product-attributes-value">Hand Wash</div>
+          </div>
         </div>
-        <div class="product-attributes-row">
-          <div class="product-attributes-key">Color</div>
-          <div class="product-attributes-value">Stone</div>
+        
+        <div class="product-description">
+          {% if description %}
+            {{ description }}
+          {% else %}
+            {{ product.description }}
+          {% endif %}
         </div>
-        <div class="product-attributes-row">
-          <div class="product-attributes-key">Material</div>
-          <div class="product-attributes-value">100% lamb wool</div>
-        </div>
-        <div class="product-attributes-row">
-          <div class="product-attributes-key">Made in</div>
-          <div class="product-attributes-value">Scotland</div>
-        </div>
-        <div class="product-attributes-row">
-          <div class="product-attributes-key">Cut</div>
-          <div class="product-attributes-value">Boxy</div>
-        </div>
-        <div class="product-attributes-row">
-          <div class="product-attributes-key">Care</div>
-          <div class="product-attributes-value">Hand Wash</div>
-        </div>
-      </div>
-      
-      <div class="product-description">
-        {% if description %}
-          {{ description }}
-        {% else %}
-          {{ product.description }}
-        {% endif %}
-      </div>
-      <ul class="product-variants">
-        {% for variant in product.variants %}
-            <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%}>
-              {{ variant.title }}
-            </li>
-        {% endfor %}
-      </ul>
+        <ul class="product-variants">
+          {% for variant in product.variants %}
+              <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
+                {{ variant.title }}
+              </li>
+          {% endfor %}
+        </ul>
+        <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
+          <select id="product-variant" class="product-variants-select" name="id" data-variant-selector>
+            {% for variant in product.variants %}
+                <option value="{{variant.id}}" data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
+                  {{ variant.title }}
+                </option>
+            {% endfor %}
+          </select>
+          <div class="product-form-buttons">
+            <button name="add" id="add" value="Add to Cart" class="product-form-submit">
+              Add to cart {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
+            </button>
+            <button onclick="location.href='/cart'" class="product-form-view-cart">
+              View cart
+            </button>
+          </div>
+        </form> 
+      </div> 
     </div>
     <div class="product-gallery">
       <div class="swiper">
@@ -81,10 +96,15 @@
     </div>
   {% endif %}
 </section>
-
+  
 {% javascript %}
 
-  var initSwiper = function(){
+  function init(){
+    initForm()
+    initSwiper()
+  }
+
+  function initSwiper(){
     var swiper = new Swiper('.swiper', {
       direction: 'horizontal',
       loop: true,
@@ -97,195 +117,27 @@
       },
     });
   }
-  document.addEventListener("DOMContentLoaded", initSwiper);
-  document.addEventListener("shopify:section:load", initSwiper);
+
+  function initForm(){
+
+    var sizes = document.querySelectorAll('ul.product-variants li')
+    var sizeSelect = document.getElementById('product-variant')
+    var sizeSelector = document.querySelector('ul.product-variants')
+    var form = document.getElementById('product-form')
+  
+    sizeSelector.addEventListener('click', function(e){
+      if(e.target.hasAttribute('disabled')) return
+      var id = e.target.dataset.id;
+      sizeSelect.value = id
+      sizes.forEach(function(el){
+        el.removeAttribute('selected')
+        if(el.dataset.id === id)
+          el.setAttribute('selected', true)
+      })
+    })
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+  document.addEventListener("shopify:section:load", init);
   
 {% endjavascript %}
-
-
-{% schema %}
-{
-  "name": "Product information",
-  "tag": "section",
-  "class": "product-section spaced-section",
-  "blocks": [
-    {
-      "type": "@app"
-    },
-    {
-      "type": "text",
-      "name": "t:sections.main-product.blocks.text.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Text block",
-          "label": "Text"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "body",
-              "label": "Body"
-            },
-            {
-              "value": "subtitle",
-              "label": "Subtitle"
-            },
-            {
-              "value": "uppercase",
-              "label": "Uppercase"
-            }
-          ],
-          "default": "body",
-          "label": "Text style"
-        }
-      ]
-    },
-    {
-      "type": "title",
-      "name": "Title",
-      "limit": 1
-    },
-    {
-      "type": "price",
-      "name": "Price",
-      "limit": 1
-    },
-    {
-      "type": "quantity_selector",
-      "name": "Quantity selector",
-      "limit": 1
-    },
-    {
-      "type": "variant_picker",
-      "name": "Variant picker",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "select",
-          "id": "picker_type",
-          "options": [
-            {
-              "value": "dropdown",
-              "label": "Dropdown"
-            },
-            {
-              "value": "button",
-              "label": "Button"
-            }
-          ],
-          "default": "button",
-          "label": "Type"
-        }
-      ]
-    },
-    {
-      "type": "buy_buttons",
-      "name": "Buy buttons",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "checkbox",
-          "id": "show_dynamic_checkout",
-          "default": true,
-          "label": "Show dynamic checkout buttons",
-          "info": "Using the payment methods available on your store, customers see their preferred option, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
-        }
-      ]
-    },
-    {
-      "type": "description",
-      "name": "Description",
-      "limit": 1
-    },
-    {
-      "type": "share",
-      "name": "Share",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "share_label",
-          "label": "Text",
-          "default": "Share"
-        },
-        {
-          "type": "paragraph",
-          "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
-        },
-        {
-          "type": "paragraph",
-          "content": "A store title and description are included with the preview image. [Learn more](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
-        }
-      ]
-    },
-    {
-      "type": "custom_liquid",
-      "name": "Custom liquid",
-      "settings": [
-        {
-          "type": "liquid",
-          "id": "custom_liquid",
-          "label": "Custom liquid",
-          "info": "Add app snippets or other Liquid code to create advanced customizations."
-        }
-      ]
-    },
-    {
-      "type": "collapsible_tab",
-      "name": "Collapsible tab",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Collapsible tab",
-          "info": "Include a heading that explains the content.",
-          "label": "Heading"
-        },
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "Tab content"
-        },
-        {
-          "type": "page",
-          "id": "page",
-          "label": "Tab content from page"
-        }
-      ]
-    },
-    {
-      "type": "popup",
-      "name": "Pop-up",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Pop-up link text",
-          "label": "Link label"
-        },
-        {
-          "id": "page",
-          "type": "page",
-          "label": "Page"
-        }
-      ]
-    },
-    {
-      "type": "rating",
-      "name": "Product rating",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
-        }
-      ]
-    }
-  ],
-  "settings": []
-}
-{% endschema %}

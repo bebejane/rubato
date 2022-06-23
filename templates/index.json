@@ -1,10 +1,16 @@
 {
   "sections": {
     "image_banner": {
-      "type": "image-banner"
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/splash-full-201109-sartoism.jpg",
+        "focal": 25
+      }
     },
     "collage": {
-      "type": "collage"
+      "type": "collage",
+      "settings": {
+      }
     }
   },
   "order": [

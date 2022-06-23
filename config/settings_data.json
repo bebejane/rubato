@@ -1,1 +1,27 @@
-{}
+{
+  "current": {
+    "sections": {
+      "main-menu": {
+        "type": "main-menu",
+        "settings": {
+          "menu": "rubato-menu",
+          "menu-footer": "rubato-menu-footer"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "headline": "",
+          "description": "",
+          "signup": "",
+          "signup-button": "",
+          "copyright": "",
+          "menu": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

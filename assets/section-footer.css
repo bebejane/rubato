@@ -48,6 +48,7 @@
 
 .footer-newsletter-signup {
   font-weight: bold;
+  text-transform: uppercase;
   margin-bottom: calc(var(--margin) * 2);
 }
 
