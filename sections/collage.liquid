@@ -1,5 +1,6 @@
 {{ 'section-collage.css' | asset_url | stylesheet_tag }}
 
+{% if section.blocks.size > 0 %}
 <div id="collage-{{ section.id }}" class="collage">
   {% for block in section.blocks %}
     {% render 'log', object:block.settings %}
@@ -27,7 +28,7 @@
     </div>
   {% endfor %}
 </div>
-
+{% endif %}
 
 {% schema %}
 {

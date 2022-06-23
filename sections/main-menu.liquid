@@ -8,7 +8,7 @@
   </div>
   <nav id="nav">
     <ul class="navbar">
-      {%- for link in linklists.rubato-menu.links -%}  
+      {%- for link in section.settings.menu.links -%}  
         <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
           <li>
             {{ link.title | escape }}      
@@ -17,7 +17,7 @@
       {%- endfor -%}
     </ul>
     <ul class="navbar-footer">
-      {%- for link in linklists.rubato-menu-footer.links -%}  
+      {%- for link in section.settings.menu-footer.links -%}  
         <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
           <li>
             {{ link.title | escape }}
@@ -28,3 +28,23 @@
   </nav>
   <img id="menu-toggle" src="{{ 'close.svg' | asset_url }}" width="20" height="20">
 </div>
+
+{% schema %}
+{
+  "name": "Menu",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu-footer",
+      "label": "Menu Footer"
+    }
+  ]
+}
+{% endschema %}
