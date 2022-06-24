@@ -130,7 +130,9 @@
 .cart-subtotal, .cart-subtotal__price, .cart__shipping{
   text-align: right;  
 }
-
+.cart-subtotal, .cart-subtotal__price{
+  font-weight: bold;
+}
 .cart-subtotal__title{
 
 }

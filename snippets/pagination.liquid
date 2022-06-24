@@ -22,10 +22,11 @@
 
 {% endstyle %}
 
-{% if pagination.pages > 1 %}
-  <ul class="paginate">
+<ul class="paginate">
+
+  {% if pagination.pages > 1 %}
     {% for part in pagination.parts %}
-      {%if pagination.current_page ==  forloop.index %}
+      {%if pagination.current_page == forloop.index %}
         <li class="paginate-current">{{ forloop.index }}</li>
       {% else %} 
         <li><a href="{{part.url}}">{{ forloop.index }}</a></li>
@@ -36,5 +37,10 @@
     {% else %} 
       <li class="paginate-current"><a href="{{pagination.next.url}}">NEXT</a></li>
     {% endif %}
-  </ul>
+  {% else %}
+    
 {% endif %}
+
+
+
+</ul>

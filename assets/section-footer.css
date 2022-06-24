@@ -65,12 +65,12 @@
   margin-right: var(--outer-margin);
 }
 
-.footer-newsletter-email span {
+.footer-newsletter-email label {
   flex: 0 0;
   margin-right: 0.5rem;
 }
 
-.footer-newsletter-email input {
+.footer-newsletter-email > input {
   appearance: none;
   background-color: transparent;
   color: #000;
@@ -85,12 +85,12 @@
   
 }
 
-.footer-newsletter-email input:focus {
+.footer-newsletter-email > input:focus {
   outline: none !important;
 }
 
 .footer-newsletter-button {
-  padding: 0;
+  
   width: auto;
   margin-left: var(--margin);
   margin-right: var(--margin);
@@ -172,7 +172,6 @@
   }
 
   .footer-newsletter-button {
-    padding: 0;
     width: auto;
     margin-left: var(--margin);
     margin-right: var(--margin);

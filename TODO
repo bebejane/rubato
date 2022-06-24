@@ -1,9 +1,12 @@
-* Newsletter form
-* Product details page
-  - Fix size Options
+Search page
+  - use product grid
+Product
+  - Check size chart exist
   - loop meta fields
-  - add to cart
-  
+Cart
+  - Updated button cart item 
+
 * Instagram feeed?
-* Customize footer
-* Customize menu
+* fonts
+* safari
+* mobile

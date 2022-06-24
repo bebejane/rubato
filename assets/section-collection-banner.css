@@ -1,6 +1,7 @@
 .collection-banner{
   line-height:0;
   margin-bottom:var(--outer-margin);
+  min-height: var(--navbar-height);
 }
 .collection-banner-image{
   min-width: 100%;

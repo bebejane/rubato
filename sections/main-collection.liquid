@@ -4,23 +4,38 @@
 {% paginate collection.products by limit %}
 
 <div data-section-id="{{ section.id }}" data-section-type="collection-template" class="collection">
-  
+  <div class="collection-search">
+    <form class="collection-search-form" action="{{ routes.search_url }}">
+      <div class="collection-search-pad-left"></div>
+
+      <input 
+        class="collection-search-input"
+        type="text"
+        placeholder="SEARCH"
+        name="q"
+        value="{{ search.terms | escape }}"
+     >  
+    </form>
+  </div>
   <ul class="collection-list">
     {% for product in collection.products %}
-      <li class="collection-item">
-        <a href="{{ product.url }}">
-          {% render 'image-responsive', image: product.featured_image, class: 'collection-item-image', style:'' %}
-        </a>
-        <div class="collection-caption">
-          <div class="collection-caption-title">
-            {{ product.title }}
-          </div>
-          <div class="collection-caption-price">
-            {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
+      <li class="collection-item-wrap">
+        <div class="collection-item">
+          <a href="{{ product.url }}">
+            {% render 'image-responsive', image: product.featured_image, class: 'collection-item-image', style:'' %}
+          </a>
+          <div class="collection-caption">
+            <div class="collection-caption-title">
+              {{ product.title }}
+            </div>
+            <div class="collection-caption-price">
+              {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
+            </div>
           </div>
         </div>
       </li>
     {% endfor %}
+    <div class="collection-bottom-line"></div>
   </ul>
   
   {% render 'pagination', pagination: paginate %}
