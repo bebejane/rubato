@@ -34,6 +34,28 @@
   >
 </div>
 
+{% javascript %}
+
+  function initMenu(){
+    var menu = document.getElementById('menu')
+    var menuToggle = document.getElementById('menu-toggle')
+    var nav = document.getElementById('nav')
+
+    menuToggle.addEventListener('click', function(e){
+      menuToggle.classList.toggle('menu--toggle-active')
+      nav.classList.toggle('nav-active')
+      menu.classList.toggle('menu-active')
+    })
+
+    var bar = document.getElementById('preview-bar-iframe')
+    if(bar) bar.remove()
+  }
+
+  document.addEventListener("DOMContentLoaded", initMenu);
+  document.addEventListener("shopify:section:load", initMenu);
+
+{% endjavascript %}
+
 {% schema %}
 {
   "name": "Menu",
