@@ -8,9 +8,13 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
-    {%- if settings.favicon != blank -%}
-      <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
-    {%- endif -%}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | asset_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | asset_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | asset_url }}">
+    <link rel="manifest" href="{{ 'site.webmanifest' | asset_url }}">
+    <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | asset_url }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <title>
       {{ page_title }}
@@ -28,7 +32,7 @@
 
     {% style %}
     
-    @font-face {
+      @font-face {
         font-family: "Bembo Book";
         src: url({{ 'Bembo Book MT Std.woff2' | asset_url}}) format("woff2"); 
       }
