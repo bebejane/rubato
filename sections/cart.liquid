@@ -147,10 +147,7 @@
                       {{ 'cart.general.remove' | t }}
                   </a>
                   <div class="cart__qty cart__update-control">
-                    
-                    <input class="cart__qty-input" type="number" id="updates_{{ item.key }}"
-                      value="{{ item.quantity }}" min="0" pattern="[0-9]*"
-                      data-quantity-item="{{ forloop.index }}">
+                    <input class="cart__qty-input" type="number" id="qty_{{ item.key }}" value="{{ item.quantity }}" min="0" pattern="[0-9]*" data-quantity-index="{{ forloop.index }}">
                   </div>
                   <button type="submit" name="update" class="cart__update-button"
                     aria-label="{{ 'cart.general.update' | t }} {{ item.product.title }}">
@@ -228,6 +225,26 @@
     </div>
   {% endif %}
 </div>
+
+{% javascript %}
+
+  // Update quantity in form in mobile view
+  function initCartPage(){
+    var qtySmall = document.querySelectorAll('input[id^=qty_]')
+    
+    qtySmall.forEach(function(el){
+      el.addEventListener('change', function(e){
+        var index = parseInt(e.target.dataset.quantityIndex)
+        var qtyLarge = document.querySelector('input[data-quantity-item="' + index +'"]')
+        qtyLarge.value = e.target.value
+      })
+    })
+  }
+
+  document.addEventListener("DOMContentLoaded", initCartPage);
+  document.addEventListener("shopify:section:load", initCartPage);
+  
+{% endjavascript %}
 
 
 

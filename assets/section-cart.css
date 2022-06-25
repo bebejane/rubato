@@ -85,7 +85,7 @@
 
 }
 .cart__qty-input{
-
+  max-width: 40px !important;
 }
 
 .cart__update-wrapper{
@@ -152,6 +152,7 @@
 }
 .additional-checkout-buttons{
   margin-top: var(--outer-margin);
+  padding-bottom: var(--outer-margin);
 
 }
 .cart-empty{

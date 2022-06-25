@@ -46,7 +46,9 @@
   border-right: 1px solid #000;
   padding: calc((var(--outer-margin) / 2) - 2px);
   padding-bottom: var(--outer-margin);
-  margin:0
+  opacity: 0;
+  animation: fadein 1s ease forwards;
+  
 }
 
 .product-grid-item {
