@@ -9,6 +9,7 @@
   min-width: 100%;
   background-color: transparent;
   max-height: var(--navbar-height);
+  overflow-y: scroll;
 }
 
 #menu.menu-active{
@@ -89,7 +90,7 @@
 }
 
 .navbar{
-  flex: 0 0 70%;
+  flex: 0 0 60%;
   border-bottom: 1px solid #000;
 }
 

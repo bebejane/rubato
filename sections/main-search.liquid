@@ -1,26 +1,19 @@
-{% schema %}
-{
-  "name": "Search results",
-  "tag": "section",
-  "class": "spaced-section",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Filtering and sorting"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_filtering",
-      "default": true,
-      "label": "Enable filtering",
-      "info": "Customize [filters](/admin/menus)"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_sorting",
-      "default": true,
-      "label": "Enable sorting"
-    }
-  ]
+{% style %}
+.search-empty{
+  
+  margin: var(--outer-margin);
+  text-align:center;
 }
-{% endschema %}
+{% endstyle %}
+{% assign limit = 10 %}
+
+{% if search.results.size > 0 %}
+  {% render 'product-grid', products: search.results %}
+  {% paginate search.results by limit %}
+  {% render 'pagination', pagination: paginate %}
+  {% endpaginate %}
+{% else %}
+  <div class="search-empty">
+    No products found
+  </div>
+{% endif %}

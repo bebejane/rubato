@@ -1,3 +1,5 @@
+{%- assign limit = 10 -%}
+
 {% style %}
 
   .paginate{
@@ -8,6 +10,9 @@
     min-width: 100%;
     align-items: center;
     justify-content: center;
+    padding-top: var(--outer-margin);
+    padding-bottom: var(--outer-margin);
+
   }
 
   .paginate li {
@@ -19,11 +24,9 @@
   .paginate-current{
     font-weight: normal !important;
   }
-
 {% endstyle %}
 
 <ul class="paginate">
-
   {% if pagination.pages > 1 %}
     {% for part in pagination.parts %}
       {%if pagination.current_page == forloop.index %}
@@ -38,9 +41,6 @@
       <li class="paginate-current"><a href="{{pagination.next.url}}">NEXT</a></li>
     {% endif %}
   {% else %}
-    
-{% endif %}
-
-
-
+    1
+  {% endif %}
 </ul>

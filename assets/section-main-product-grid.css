@@ -1,8 +1,8 @@
-.collection {
+.product-grid {
   width: auto;
 }
 
-.collection-search {
+.product-grid-search {
   display: flex;
   flex-direction: row;
   width: auto;
@@ -11,15 +11,15 @@
 
 }
 
-.collection-search-form{
+.product-grid-search-form{
   display: flex;
   flex: 0 0 100%;
   margin: 0;
 }
-.collection-search-pad-left{
+.product-grid-search-pad-left{
   flex: 0 0 66%;
 }
-.collection-search-input {
+.product-grid-search-input {
   margin-left: var(--outer-margin);
   margin-bottom: calc(var(--outer-margin) /2 );
   border: 0 !important;
@@ -31,7 +31,7 @@
   height: 2rem !important;
 }
 
-.collection-list {
+.product-grid-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,7 +40,7 @@
  
 }
 
-.collection-item-wrap{
+.product-grid-item-wrap{
   display: flex;
   flex-direction: column;
   border-right: 1px solid #000;
@@ -49,32 +49,32 @@
   margin:0
 }
 
-.collection-item {
+.product-grid-item {
   display: flex;
   flex-direction: column;
 }
 
-.collection-item-image {
+.product-grid-item-image {
   max-width: 100%;
   border: 1px solid #000;
 }
 
-.collection-caption {
+.product-grid-caption {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.collection-caption-title {
+.product-grid-caption-title {
   flex: 1 1 auto;
 }
 
-.collection-caption-price {
+.product-grid-caption-price {
   flex: 1 1 auto;
   text-align: right;
 }
 
-.collection-bottom-line{
+.product-grid-bottom-line{
   display: block;
   width: 100%;
   min-height: 1px;
@@ -84,33 +84,33 @@
 }
 
 @media only screen and (max-width: 749px) {
-  .collection-item-wrap {
+  .product-grid-item-wrap {
     flex: 0 0 calc(50% - var(--outer-margin) + 3px);
     border-bottom: 1px solid #000;
   }
-  .collection-item-wrap:nth-child(2n){
+  .product-grid-item-wrap:nth-child(2n){
     border-right: 0px;
   }
-  .collection-list{
+  .product-grid-list{
     
   }
-  .collection-search{
+  .product-grid-search{
     display: none;
   }
 }
 
 @media only screen and (min-width: 750px) {
   
-  .collection-item-wrap {
+  .product-grid-item-wrap {
     flex: 0 0 calc(33.333333% - var(--outer-margin) + 3px);
   }
-  .collection-item-wrap:nth-child(3n){
+  .product-grid-item-wrap:nth-child(3n){
     border-right: 0px solid #000;
   }
-  .collection-item-wrap:nth-child(-n+3){
+  .product-grid-item-wrap:nth-child(-n+3){
     border-top: 0px solid #000;
   }
-  .collection-item-wrap{
+  .product-grid-item-wrap{
     border-bottom: 1px solid #000;  
   }
   

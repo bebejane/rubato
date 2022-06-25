@@ -5,11 +5,20 @@
 
 <!-- Parse sizes table -->
 {% assign html = product.description %}
-{% assign arr = html | split: '<table' %}
-{% assign arr2 = arr[1] | split: '</table>' %}
-{% capture sizes_table %}<table{{ arr2[0] }}</table>{% endcapture %}
-{% assign description = arr[0] %}
+{% if html contains '<table' %}
+  {% assign arr = html | split: '<table' %}
+  {% assign arr2 = arr[1] | split: '</table>' %}
+  {% capture sizes_table %}<table{{ arr2[0] }}</table>{% endcapture %}
+  {% assign description = arr[0] %}
+{% else %}
+  {% assign sizes_table = blank %}
+  {% assign description = product.description %}
+{% endif %}
+
 {% assign selected_variant = product.selected_or_first_available_variant %}
+
+{% render 'log', object:product %}
+{% render 'log', object:arr %}
 
 <section class="product">
   <div class="product-wrap">

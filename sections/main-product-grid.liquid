@@ -1,0 +1,40 @@
+{{ 'section-main-product-grid.css' | asset_url | stylesheet_tag }}
+{% render 'log', object: products %}
+
+{%- assign limit = 10 -%}
+
+<div data-section-id="{{ section.id }}" data-section-type="product-grid-template" class="product-grid">
+  <div class="product-grid-search">
+    <form class="product-grid-search-form" action="{{ routes.search_url }}">
+      <div class="product-grid-search-pad-left"></div>
+
+      <input 
+        class="product-grid-search-input"
+        type="text"
+        placeholder="SEARCH"
+        name="q"
+        value="{{ search.terms | escape }}"
+     >  
+    </form>
+  </div>
+  <ul class="product-grid-list">
+    {% for product in products %}
+      <li class="product-grid-item-wrap">
+        <div class="product-grid-item">
+          <a href="{{ product.url }}">
+            {% render 'image-responsive', image: product.featured_image, class: 'product-grid-item-image', style:'' %}
+          </a>
+          <div class="product-grid-caption">
+            <div class="product-grid-caption-title">
+              {{ product.title }}
+            </div>
+            <div class="product-grid-caption-price">
+              {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
+            </div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <div class="product-grid-bottom-line"></div>
+  </ul>
+</div>
