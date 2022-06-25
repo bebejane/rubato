@@ -33,13 +33,12 @@
       
       @font-face {
         font-family: "Bembo Book";
-        src: url({{ 'BemboBookMTPro-Regular.otf' | asset_url}}) format("otf");
-        
+        src: url({{ 'Bembo Book MT Std.woff2' | asset_url}}) format("woff2"); 
       }
 
       @font-face {
-        font-family: "Mars Extended";
-        src: url({{ 'MarsExtended-Regular.otf' | asset_url}}) format("otf");
+        font-family: "Mars Extended Web Regular";
+        src: url({{ 'Mars Extended Web Regular.woff2' | asset_url}}) format("woff2");
       }
 
       :root {
@@ -68,14 +67,10 @@
       .nomargin { 
         margin-top: calc((var(--content-margin) * -1));
       }
-      
-
     {% endstyle %}
 
-
-    {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'normalize.css' | asset_url | stylesheet_tag }}
-    
+    {{ 'base.css' | asset_url | stylesheet_tag }}
 
   </head>
   <body>

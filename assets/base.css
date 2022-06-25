@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; 
-  font-family: "Mars Extended", Helvetica, Arial, sans-serif;
+  font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
 }
 h1 { font-size: 3.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 2.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -65,14 +65,12 @@ button, input{
   padding: 0.5rem 1rem 0.5rem 1rem;
   text-transform: uppercase !important;
   font-weight: bold !important;
-  font-size: 1rem !important; 
-  min-height: 20px;
+  min-height: 30px;
 }
 
 input[type=number]{
   padding: 2px;
   text-align: center;
-  
 }
 
 @keyframes fadein {
