@@ -35,7 +35,7 @@
   margin-left: var(--margin);
   margin-right: var(--margin);
   width: auto;
-  max-height: 400px;
+  max-height: 300px;
 }
 .footer-text {
   font-weight: bold;
@@ -156,6 +156,9 @@
   .footer-logo {
     margin-top: var(--margin);
     margin-bottom: var(--margin);
+  }
+  .footer-logo, .footer-text{
+    max-height: 400px;
   }
   .footer-newsletter{
     /*flex: 0 0 calc(50% - (var(--outer-margin)*2));*/

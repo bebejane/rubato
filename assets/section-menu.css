@@ -10,6 +10,11 @@
   background-color: transparent;
   max-height: var(--navbar-height);
   overflow-y: scroll;
+  scrollbar-width: 0px;
+}
+
+#menu::-webkit-scrollbar { 
+  display: none; 
 }
 
 #menu.menu-active{
@@ -30,7 +35,7 @@
   width: var(--navbar-logo-size);
   max-height: var(--navbar-logo-size);
   max-width: var(--navbar-logo-size);
-  margin: var(--outer-margin);
+  padding: var(--outer-margin);
   cursor: pointer;
   transform: rotate(45deg) scale(0.6);
   transition: transform .3s ease;
