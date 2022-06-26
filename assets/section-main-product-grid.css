@@ -28,6 +28,7 @@
   background-color: transparent !important;
   padding: 0 !important;
   height: 2rem !important;
+  text-transform: none !important;
 }
 
 .product-grid-list {
