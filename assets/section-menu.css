@@ -9,12 +9,13 @@
   min-width: 100%;
   background-color: transparent;
   max-height: var(--navbar-height);
-  overflow-y: scroll;
-  scrollbar-width: 0px;
+  overflow-y: auto;  
+  scrollbar-width: none;
+
 }
 
 #menu::-webkit-scrollbar { 
-  display: none; 
+  display: none;
 }
 
 #menu.menu-active{
