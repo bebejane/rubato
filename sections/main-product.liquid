@@ -17,9 +17,6 @@
 
 {% assign selected_variant = product.selected_or_first_available_variant %}
 
-{% render 'log', object:product %}
-{% render 'log', object:arr %}
-
 <section class="product">
   <div class="product-wrap">
     <div class="product-details-wrap">
@@ -28,28 +25,37 @@
           <div class="product-attributes-header">
             {{ product.title }}
           </div>
+          {% if product.metafields.custom.color.value != blank %}
           <div class="product-attributes-row">
             <div class="product-attributes-key">Color</div>
-            <div class="product-attributes-value">Stone</div>
+            <div class="product-attributes-value">{{product.metafields.custom.color.value}}</div>
           </div>
-          <div class="product-attributes-row">
-            <div class="product-attributes-key">Material</div>
-            <div class="product-attributes-value">100% lamb wool</div>
-          </div>
-          <div class="product-attributes-row">
-            <div class="product-attributes-key">Made in</div>
-            <div class="product-attributes-value">Scotland</div>
-          </div>
-          <div class="product-attributes-row">
-            <div class="product-attributes-key">Cut</div>
-            <div class="product-attributes-value">Boxy</div>
-          </div>
-          <div class="product-attributes-row">
-            <div class="product-attributes-key">Care</div>
-            <div class="product-attributes-value">Hand Wash</div>
-          </div>
-        </div>
-        
+          {% endif %}
+          {% if product.metafields.custom.material.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Material</div>
+              <div class="product-attributes-value">{{product.metafields.custom.material.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.made_in.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Made in</div>
+              <div class="product-attributes-value">{{product.metafields.custom.made_in.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.cut.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Cut</div>
+              <div class="product-attributes-value">{{product.metafields.custom.cut.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.care.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Care</div>
+              <div class="product-attributes-value">{{product.metafields.custom.care.value}}</div>
+            </div>
+          {% endif%}
+        </div>        
         <div class="product-description">
           {% if description %}
             {{ description }}

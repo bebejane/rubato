@@ -4,7 +4,7 @@
   {% if cart.item_count > 0 %}
     <div class="cart-header">
       <h1 class="cart-header__title">{{ 'cart.general.title' | t }}</h1>
-      <a href="/collections/all">
+      <a href="/collections">
         {{ 'cart.general.continue_shopping' | t }}
       </a>
     </div>
@@ -221,7 +221,7 @@
       <div class="cookie-message">
         <p>{{ 'cart.general.cookies_required' | t }}</p>
       </div>
-      <a href="/" class="cart__continue-btn">{{ 'general.404.link' | t }}</a>
+      <a href="/collections" class="cart__continue-btn">{{ 'general.404.link' | t }}</a>
     </div>
   {% endif %}
 </div>
@@ -261,25 +261,6 @@
     "pt-BR": "Página do carrinho",
     "zh-CN": "购物车页面",
     "zh-TW": "購物車頁面"
-  },
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "cart_notes_enable",
-      "label": {
-        "de": "Warenkorb-Notifikationen erlauben",
-        "en": "Enable cart notes",
-        "es": "Habilitar notas de carrito",
-        "fr": "Activer les notes de panier",
-        "it": "Abilita note carrello",
-        "ja": "カートメモを有効にする",
-        "nl": "Notities voor winkelwagen inschakelen",
-        "pt-BR": "Ativar observações sobre o carrinho",
-        "zh-CN": "启用购物车备注",
-        "zh-TW": "啟用購物車備註"
-      },
-      "default": false
-    }
-  ]
+  }
 }
 {% endschema %}

@@ -1,4 +1,11 @@
-Product
-  - loop meta fields?
-  
-* Instagram feeed?
+* Blurry mobile splash
+
+Updates
+* Splash wait 1s, fadeout 2s
+* Metalfields on product page
+* Show image caption on hover in Collage
+* Footer menu can have more then 4 items
+* Different image collections
+  - Can be done on live theme, dropdown > collection > create template
+    - Assign collection to template under Shopify Admin > Collections > Knitware > Theme template
+

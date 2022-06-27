@@ -10,7 +10,9 @@
   position: relative;
   flex: 1 1 auto;
 }
-
+.collage-block:hover > .collage-block-caption {
+  visibility: visible;
+}
 .collage-block-caption{
   display: flex;
   flex-direction: row;
@@ -48,6 +50,9 @@
   .collage {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .collage-block-caption{
+    visibility: hidden;
   }
   .collage picture img {
     max-width: 100%;

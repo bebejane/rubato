@@ -154,9 +154,8 @@
   padding-bottom: var(--margin);
 }
 .product-sizes{
-  overflow-x: scroll;
+  overflow-x: auto;
   scrollbar-width: 5px;
-  
 }
 .product-sizes::-webkit-scrollbar { 
   display: none; 

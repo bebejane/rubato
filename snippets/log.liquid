@@ -1,1 +1,6 @@
-<script>console.log({{ object | json }});</script>
+{% if object != blank %}
+  <script>console.log({{ object | json }});</script>
+{% elsif string != blank %}
+  <script>console.log("{{ string }}");</script>
+{% endif %}
+

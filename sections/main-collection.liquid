@@ -1,4 +1,4 @@
-{% assign limit = 10 %}
+{% assign limit = 20 %}
 {% render 'product-grid', products: collection.products %}
 {% paginate collection.products by limit %}
 {% render 'pagination', pagination: paginate %}
