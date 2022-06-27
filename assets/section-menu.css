@@ -9,8 +9,9 @@
   min-width: 100%;
   background-color: transparent;
   max-height: var(--navbar-height);
-  overflow-y: auto;  
+  overflow-y: auto;
   scrollbar-width: none;
+  transition: max-height 0.2s ease-in-out;
 }
 
 #menu::-webkit-scrollbar { 
@@ -19,7 +20,11 @@
 
 #menu.menu-active{
   background-color: var(--background-color);
-  max-height: unset;
+  max-height: 100%;
+}
+#menu.menu-active > nav {
+  max-height: 2000px !important;
+  overflow: unset !important;
 }
 
 #menu * > li {
@@ -68,10 +73,7 @@
   max-height: 0px;
   overflow: hidden;
 }
-.nav-active{
-  max-height: 2000px !important;
-  overflow: unset !important;
-}
+
   
 .navbar, .navbar-footer {
   display: flex;

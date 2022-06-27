@@ -6,6 +6,12 @@
       <img src="{{ 'rubato.svg' | asset_url }}" width="48" height="48">
     </a>
   </div>
+  <img 
+    id="menu-toggle" 
+    src="{{ 'close.svg' | asset_url }}" 
+    width="20" 
+    height="20"
+  >
   <nav id="nav">
     <ul class="navbar">
       {%- for link in section.settings.menu.links -%}  
@@ -26,12 +32,6 @@
       {%- endfor -%}
     </ul>
   </nav>
-  <img 
-    id="menu-toggle" 
-    src="{{ 'close.svg' | asset_url }}" 
-    width="20" 
-    height="20"
-  >
 </div>
 
 {% javascript %}
@@ -39,11 +39,9 @@
   function initMenu(){
     var menu = document.getElementById('menu')
     var menuToggle = document.getElementById('menu-toggle')
-    var nav = document.getElementById('nav')
-
+    
     menuToggle.addEventListener('click', function(e){
       menuToggle.classList.toggle('menu--toggle-active')
-      nav.classList.toggle('nav-active')
       menu.classList.toggle('menu-active')
     })
 
