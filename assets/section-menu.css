@@ -12,6 +12,7 @@
   overflow-y: auto;
   scrollbar-width: none;
   transition: max-height 0.2s ease-in-out;
+  font-family: "Mars Extended" !important;
 }
 
 #menu::-webkit-scrollbar { 
@@ -20,10 +21,16 @@
 
 #menu.menu-active{
   background-color: var(--background-color);
-  max-height: 100%;
+  max-height: 100vh;
+  height: 100vh;
+}
+#menu.menu-opaque {
+  background-color: var(--background-color) !important;
+  border-bottom: 1px solid #000;
 }
 #menu.menu-active > nav {
-  max-height: 2000px !important;
+  max-height: calc(100vh - var(--navbar-height));
+  min-height: calc(100vh - var(--navbar-height));
   overflow: unset !important;
 }
 
@@ -32,22 +39,24 @@
 }
 
 #menu-toggle {
-  position: absolute;
+  position: fixed;
   display: inline-block;
   top:0;
   right:0;
   height: var(--navbar-logo-size);
   width: var(--navbar-logo-size);
+  min-height: var(--navbar-logo-size);
+  min-width: var(--navbar-logo-size);
   max-height: var(--navbar-logo-size);
   max-width: var(--navbar-logo-size);
   padding: var(--outer-margin);
   cursor: pointer;
-  transform: rotate(45deg) scale(0.6);
+  transform: rotate(45deg);
   transition: transform .3s ease;
 }
 
 .menu--toggle-active{
-  transform: rotate(90deg) scale(0.75) !important;
+  transform: rotate(90deg) !important;
 }
 .logo{
   display: flex;
@@ -60,6 +69,7 @@
 .logo *{
   width: var(--navbar-logo-size);
   height: var(--navbar-logo-size);
+  line-height: 0;
 }
 
 #nav{
@@ -98,14 +108,14 @@
 }
 
 .navbar{
-  flex: 0 0 60%;
+  flex: 0 1 80%;
   border-bottom: 1px solid #000;
 }
 
 .navbar-footer{
   margin-top: var(--outer-margin);
   margin-bottom: var(--outer-margin);
-  flex: 0 0 30%;
+  flex: 0 0 20%;
 }
 
 @media screen and (max-width: 749px) {
@@ -127,8 +137,8 @@
     
   }
   .navbar{
-    padding-top: var(--margin);
-    padding-bottom: var(--margin);
+    padding-top: var(--outer-margin);
+    padding-bottom: var(--outer-margin);
   }
   .navbar a { 
     width: auto;

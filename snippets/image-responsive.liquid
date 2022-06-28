@@ -1,4 +1,4 @@
-<picture>
+<picture {% if picture_style %} style="{{ picture_style }}"{% endif %}>
   {%- if image.width >= 375 -%}<source srcset="{{ image | image_url: width: 375 }} 1x" media="all and (max-width: 375px)">{%- endif -%}
   {%- if image.width >= 550 -%}<source srcset="{{ image | image_url: width: 550 }} 1x" media="all and (max-width: 550px)">{%- endif -%}
   {%- if image.width >= 750 -%}<source srcset="{{ image | image_url: width: 750 }} 1x" media="all and (max-width: 750px)">{%- endif -%}

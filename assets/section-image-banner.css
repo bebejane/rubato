@@ -11,7 +11,7 @@
   z-index: 101;
   opacity: 1;
   animation:fadeoutbanner 2s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 @keyframes fadeoutbanner {
   to {

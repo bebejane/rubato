@@ -2,15 +2,25 @@
   position: relative;
   display: flex;
   position: relative;
+  margin-top: calc(var(--margin) * 2);
+  margin-bottom: calc(var(--margin) * 2);
   padding: var(--outer-margin);
   overflow: hidden;
+  justify-content: space-between
 }
 
 .collage-block{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   position: relative;
-  flex: 1 1 auto;
+  margin-bottom: var(--outer-margin);
 }
-.collage-block:hover > .collage-block-caption {
+.collage-block picture{
+  display: flex;
+  align-items: flex-start;
+}
+.collage-block:hover > a > .collage-block-caption {
   visibility: visible;
 }
 .collage-block-caption{

@@ -8,7 +8,6 @@
   width: auto;
   margin-left: var(--outer-margin);
   margin-right: var(--outer-margin);
-
 }
 
 .product-grid-search-form{
@@ -21,7 +20,7 @@
 }
 .product-grid-search-input {
   margin-left: var(--outer-margin);
-  margin-bottom: calc(var(--outer-margin) /2 );
+  margin-bottom: calc(var(--outer-margin) / 2 );
   border: 0 !important;
   border-radius: 0 !important;
   border-bottom: 1px solid #000 !important;
@@ -29,8 +28,12 @@
   padding: 0 !important;
   height: 2rem !important;
   text-transform: none !important;
+  font-family: "Mars Extended";
 }
-
+.product-grid-search-input::placeholder, .product-grid-search-input::-moz-placeholder{
+  color:#000;
+  opacity: 1;
+}
 .product-grid-list {
   display: flex;
   flex-direction: row;
@@ -44,7 +47,7 @@
   display: flex;
   flex-direction: column;
   border-right: 1px solid #000;
-  padding: calc((var(--outer-margin) / 2) - 2px);
+  padding: calc((var(--outer-margin) / 1.5) - 2px);
   padding-bottom: var(--outer-margin);
   opacity: 0;
   animation: fadein 1s ease forwards;
@@ -54,11 +57,24 @@
 .product-grid-item {
   display: flex;
   flex-direction: column;
+  
 }
 
+.product-grid-item a{
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #000;
+  background-color: #fff;
+  padding-bottom: var(--margin);
+  padding-top: var(--margin);
+}
 .product-grid-item-image {
-  max-width: 100%;
-  border: 1px solid #000;
+  max-width: 80%;
+  margin-left: 10%;
+  
 }
 
 .product-grid-caption {
@@ -69,6 +85,7 @@
 
 .product-grid-caption-title {
   flex: 1 1 auto;
+  font-family: "Mars Extended";
 }
 
 .product-grid-caption-price {
@@ -87,7 +104,7 @@
 
 @media only screen and (max-width: 749px) {
   .product-grid-item-wrap {
-    flex: 0 0 calc(50% - var(--outer-margin) + 3px);
+    flex: 0 0 calc(50% - calc(var(--outer-margin) * 1.5) + 6px);
     border-bottom: 1px solid #000;
   }
   .product-grid-item-wrap:nth-child(2n){
@@ -104,7 +121,7 @@
 @media only screen and (min-width: 750px) {
   
   .product-grid-item-wrap {
-    flex: 0 0 calc(33.333333% - var(--outer-margin) + 3px);
+    flex: 0 0 calc(33.333333% - calc(var(--outer-margin) * 1.5) + 6px);
   }
   .product-grid-item-wrap:nth-child(3n){
     border-right: 0px solid #000;

@@ -1,21 +1,36 @@
+
 {{ 'section-collage.css' | asset_url | stylesheet_tag }}
+{% assign max_columns = 4 %}
+{% assign column = 0 %}
+{% assign column_width = 0 %}
 
 {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
   <div id="collage-{{ section.id }}" class="collage">
+    
     {% for block in section.blocks %}
+      {% render 'log', object:block %}
+      {% assign column = column | plus: block.settings.columns %}
+      {% if column > max_columns %}
+        {% assign column = block.settings.columns %}
+      {% endif %}
+      
       {% capture style %}
-        flex: 0 0 {{ block.settings.width }}%;
-        margin-left: {{ block.settings.left }}%;
-        margin-right: {{ block.settings.right }}%;
-        margin-top: {{ block.settings.top }}%;
-        margin-bottom: {{ block.settings.bottom }}%;
+        flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - 1.5rem);
       {% endcapture %}
+
+      {% capture image_style %}
+        max-width: {{ block.settings.width}}%;
+      {% endcapture %}
+      {% capture picture_style %}
+        justify-content: {{block.settings.align}};
+      {% endcapture %}
+
       <div id="collage-block-{{ block.id }}" class="collage-block" style="{{ style }}">
         {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}">{%- endif -%}
-          {% render 'image-responsive', image:block.settings.image %}
-        {%- if block.settings.product -%}</a>{%- endif -%}
+          {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
+        
         {%- if block.settings.product != blank -%}
-          <div class="collage-block-caption">
+          <div class="collage-block-caption" style="{{image_style}}"">
             <div class="collage-block-caption-title">
               {{ block.settings.product.title }}
             </div>
@@ -24,6 +39,7 @@
             </div>
           </div>
         {%- endif -%}
+        {%- if block.settings.product -%}</a>{%- endif -%}
       </div>
     {% endfor %}
   </div>
@@ -38,62 +54,55 @@
     "type": "image",
     "name": "Image",
     "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "range",
-          "id": "width",
-          "default": 25,
-          "max":100,
-          "min":0,
-          "step":1,
-          "label": "Width %"
-        },
-        {
-          "type": "range",
-          "id": "left",
-          "default": 0,
-          "max":50,
-          "min":-50,
-          "step":1,
-          "label": "Margin Left %"
-        },
-        {
-          "type": "range",
-          "id": "right",
-          "default": 0,
-          "max":50,
-          "min":-50,
-          "step":1,
-          "label": "Margin Right %"
-        },
-        {
-          "type": "range",
-          "id": "top",
-          "default": 0,
-          "max":50,
-          "min":-50,
-          "step":1,
-          "label": "Margin Top %"
-        },
-        {
-          "type": "range",
-          "id": "bottom",
-          "default": 0,
-          "max":50,
-          "min":-50,
-          "step":1,
-          "label": "Margin Bottom %"
-        },
-        {
-          "type": "product",
-          "id": "product",
-          "label": "Link product"
-        }
-      ]
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "columns",
+        "default": 1,
+        "max":4,
+        "min":1,
+        "step":1,
+        "label": "Columns"
+      },
+      {
+        "type": "range",
+        "id": "width",
+        "default": 100,
+        "max":100,
+        "min":1,
+        "step":1,
+        "label": "Width %"
+      },
+      {
+        "type": "select",
+        "id": "align",
+        "label": "Align",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ],
+        "default": "flex-start"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Link product"
+      }  
+    ]
   }]
 }
 {% endschema %}

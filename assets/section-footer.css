@@ -3,6 +3,7 @@
   flex-direction: column;
   border-top: 1px solid #000;
   margin-top: -1px;
+  
 }
 
 .footer>section {
@@ -13,6 +14,9 @@
   text-align: center;
   width: 100%;
 }
+.footer-header, .footer-about, .footer-links, .footer-newsletter-signup, .footer-copyright{
+  font-family: "Mars Extended";
+}
 
 .footer>section:last-child {
   border-bottom: 0px;
@@ -20,17 +24,19 @@
 
 .footer-about {
   text-align: center;
-  padding-bottom: var(--margin) !important;
-  padding-top: var(--margin) !important;
+  padding-top: var(--margin);
+  padding-bottom: var(--margin);
+  
 }
 
 .footer-header {
   font-weight: bold;
+  
 }
 
 .footer-logo {
-  margin-top: var(--margin);
-  margin-bottom: var(--margin);
+  padding-top: var(--margin);
+  padding-bottom: var(--margin);
 }
 .footer-logo, .footer-text{
   margin-left: var(--margin);
@@ -38,11 +44,21 @@
   width: auto;
   max-height: 300px;
 }
+.footer-text-wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  
+}
 .footer-text {
-  font-weight: bold;
+   max-width: 800px;
+   
 }
 
 .footer-newsletter {
+  display: flex;
+  flex-direction: column;
   padding-top: var(--margin) !important;
   padding-bottom: var(--margin) !important;
 }
@@ -50,27 +66,46 @@
 .footer-newsletter-signup {
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: calc(var(--margin) * 2);
 }
-
+.footer-newsletter > form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  min-height: 300px;
+}
 .footer-newsletter-email {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-weight: bold;
   width: auto;
   white-space: pre;
   border-bottom: 1px solid #000;
   margin-bottom: var(--margin);
-  margin-left: var(--outer-margin);
-  margin-right: var(--outer-margin);
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+  padding-bottom: 0.5rem;
 }
 
 .footer-newsletter-email label {
   flex: 0 0;
   margin-right: 0.5rem;
+  
 }
 
+.footer-newsletter-circle {
+  position: absolute;
+  z-index: 1;
+  top:0.5rem;
+  right:0;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  border: 1px solid #000;
+  border-radius: .75rem;
+  
+}
 .footer-newsletter-email > input {
   appearance: none;
   background-color: transparent;
@@ -83,7 +118,6 @@
   padding-bottom: 0;
   line-height: 1;
   border: 0 !important;
-  
 }
 
 .footer-newsletter-email > input:focus {
@@ -92,14 +126,14 @@
 
 .footer-newsletter-button {
   
-  width: auto;
-  margin-left: var(--margin);
-  margin-right: var(--margin);
+  min-width: 300px;
   display: inline-block;
+
 
 }
 
 .footer-links {
+  text-transform: uppercase;
   padding: 0 !important;
 }
 
@@ -143,44 +177,79 @@
     flex-wrap: wrap;
   }
   .footer-about{
-    flex: 0 0 calc(50%);
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
     margin-left: -1px;
+    
     border-right: 1px solid #000; 
-    padding-top: var(--outer-margin) !important;
+    
     padding-bottom: var(--outer-margin) !important;
+    padding-top: var(--outer-margin) !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
   .footer-line{
     display: block;
   }
+  .footer-header{
+    flex: 0 0 10%;
+  }
   .footer-logo {
-    margin-top: var(--margin);
-    margin-bottom: var(--margin);
+    flex: 1 1 70%;
+    padding-top: var(--margin);
+    padding-bottom: var(--margin);
+    
   }
   .footer-logo, .footer-text{
-    max-height: 400px;
+    max-height: 300px;
+  }
+  .footer-text-wrap{
+    flex: 0 0 20%;
+    align-items:center;
+    
   }
   .footer-newsletter{
-    /*flex: 0 0 calc(50% - (var(--outer-margin)*2));*/
+    
+    display: flex;
+    flex-direction: column;
     flex: 0 0 calc(50%);
     justify-content: space-between;
-    padding: 0 !important;
+    padding-bottom: var(--outer-margin) !important;
+    padding-top: var(--outer-margin) !important;
+    
   }
   .footer-newsletter-signup{
-    margin-top: var(--outer-margin);
+    flex: 0 0 10%;
+  }
+  .footer-newsletter-email-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 70%;
+    padding: var(--margin);
+    
   }
   .footer-newsletter-email{
-    margin-left: var(--margin);
-    margin-right: var(--margin);
+    width: 100%;
+    margin-left: calc(var(--margin) * 1);
+    margin-right: calc(var(--margin) * 1);
+    
   }
 
+  .footer-newsletter-button-wrap {
+    display: flex;
+    flex: 0 0 20%;
+    align-items: center;
+    justify-content: center;
+  }
   .footer-newsletter-button {
     width: auto;
     margin-left: var(--margin);
     margin-right: var(--margin);
-    margin-bottom: var(--outer-margin);
+  
     display: inline-block;
+    
   }
 
   .footer-links ul{
