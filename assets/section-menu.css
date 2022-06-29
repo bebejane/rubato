@@ -134,7 +134,7 @@
   .navbar-footer{
     flex-direction: row;
     border-bottom: 1px solid #000;
-    
+    justify-content: space-between;
   }
   .navbar{
     padding-top: var(--outer-margin);
@@ -146,9 +146,15 @@
   .navbar-footer a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex: 1 0;
     
+    flex: 1 1 auto;
+    
+  }
+  .navbar-footer > a:first-child{
+    align-items: flex-start;
+  }
+  .navbar-footer > a:last-child{
+    align-items: flex-end;
   }
   .navbar-footer a li {
     width: 100%;

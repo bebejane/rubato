@@ -8,29 +8,38 @@
   <div id="collage-{{ section.id }}" class="collage">
     
     {% for block in section.blocks %}
-      {% render 'log', object:block %}
+      
       {% assign column = column | plus: block.settings.columns %}
       {% if column > max_columns %}
         {% assign column = block.settings.columns %}
       {% endif %}
       
       {% capture style %}
-        flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - 1.5rem);
+        flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - calc(var(--outer-margin)));
       {% endcapture %}
 
       {% capture image_style %}
-        max-width: {{ block.settings.width}}%;
+        max-width: calc({{ block.settings.width}}%);
       {% endcapture %}
+
       {% capture picture_style %}
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
+      {% capture caption_style %}
+        max-width: calc({{ block.settings.width}}%);
+      {% endcapture %}
+
+      {% capture a_style %}
+        align-items: {{block.settings.align}};
+      {% endcapture %}
+
       <div id="collage-block-{{ block.id }}" class="collage-block" style="{{ style }}">
-        {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}">{%- endif -%}
+        {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}" style="{{ a_style }}">{%- endif -%}
           {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
         
         {%- if block.settings.product != blank -%}
-          <div class="collage-block-caption" style="{{image_style}}"">
+          <div class="collage-block-caption" style="{{caption_style}}"">
             <div class="collage-block-caption-title">
               {{ block.settings.product.title }}
             </div>

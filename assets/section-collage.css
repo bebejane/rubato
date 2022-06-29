@@ -1,12 +1,17 @@
 .collage {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
   position: relative;
   margin-top: calc(var(--margin) * 2);
   margin-bottom: calc(var(--margin) * 2);
-  padding: var(--outer-margin);
   overflow: hidden;
-  justify-content: space-between
+  justify-content: flex-start;
+  width: calc(100% - calc(var(--outer-margin) / 1));
+  margin-left: calc(var(--outer-margin) / 2);
+  
 }
 
 .collage-block{
@@ -14,7 +19,13 @@
   align-items: flex-start;
   flex-direction: column;
   position: relative;
-  margin-bottom: var(--outer-margin);
+  border: calc(var(--outer-margin) /2) solid transparent;
+  
+ 
+}
+.collage-block a {
+  display:flex;
+  flex-direction:column;      
 }
 .collage-block picture{
   display: flex;
