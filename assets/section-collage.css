@@ -5,8 +5,8 @@
   flex-direction: row;
   justify-content: flex-start;
   position: relative;
-  margin-top: calc(var(--margin) * 2);
-  margin-bottom: calc(var(--margin) * 2);
+  margin-top: calc(var(--margin) * 1);
+  margin-bottom: calc(var(--margin) * 1);
   overflow: hidden;
   justify-content: flex-start;
   width: calc(100% - calc(var(--outer-margin) / 1));

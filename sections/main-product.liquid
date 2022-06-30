@@ -55,14 +55,34 @@
               <div class="product-attributes-value">{{product.metafields.custom.care.value}}</div>
             </div>
           {% endif%}
-        </div>        
-        <div class="product-description">
-          {% if description %}
-            {{ description }}
-          {% else %}
-            {{ product.description }}
-          {% endif %}
         </div>
+      </div> 
+    </div>
+    <div class="product-gallery">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          {% for image in product.images %}
+            <div class="swiper-slide">
+              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%' %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <div class="product-info">
+    <div class="product-description-wrap">
+      <div class="product-description">
+        {% if description %}
+          {{ description }}
+        {% else %}
+          {{ product.description }}
+        {% endif %}
+      </div>
+    </div>
+    <div class="product-order-wrap">
+      <div class="product-form-wrap">
         <ul class="product-variants">
           {% for variant in product.variants %}
               <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
@@ -87,18 +107,6 @@
             </button>
           </div>
         </form> 
-      </div> 
-    </div>
-    <div class="product-gallery">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          {% for image in product.images %}
-            <div class="swiper-slide">
-              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%' %}
-            </div>
-          {% endfor %}
-        </div>
-        <div class="swiper-pagination"></div>
       </div>
     </div>
   </div>
