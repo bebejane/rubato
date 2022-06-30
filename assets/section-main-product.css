@@ -332,8 +332,8 @@
     flex-direction: column;
   }
   .product-description{
-    margin-top: var(--outer-margin);
-    margin-bottom: var(--outer-margin);
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
   }
   .product-variants{
     margin-bottom: var(--outer-margin);
