@@ -8,13 +8,9 @@
 }
 
 .page-content {
-  margin-top: ;
   max-width: 550px;
 }
 
-.page-content h1 {
-  font-size: 1.5rem;
-}
 
 .page-content h1,
 .page-content h2,
@@ -22,11 +18,9 @@
 .page-content h4,
 .page-content h5,
 .page-content h6 {
-
   text-transform: uppercase;
   font-weight: normal;
 }
-
 @media screen and (max-width: 749px) {
   .page {
     margin-top: var(--margin);

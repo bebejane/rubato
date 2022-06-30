@@ -1,6 +1,9 @@
 {{ 'section-menu.css' | asset_url | stylesheet_tag }}
-
-<div id="menu">
+{% assign opaque_menu = false %}
+{% if request.path contains '/products' or request.path contains '/collections' or request.path == '/' %}
+  {% assign opaque_menu = true %}
+{% endif %}
+<div id="menu" class="{%if opaque_menu == true %}menu-opaque{% endif %}">  
   <div class="logo">
     <a href="/">
       <img src="{{ 'rubato.svg' | asset_url }}" width="48" height="48">
@@ -17,7 +20,7 @@
       {%- for link in section.settings.menu.links -%}  
         <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
           <li>
-            {{ link.title | escape }}      
+            <h2>{{ link.title | escape }}</h2>
           </li>
         </a>
       {%- endfor -%}
@@ -26,7 +29,7 @@
       {%- for link in section.settings.menu-footer.links -%}  
         <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
           <li>
-            {{ link.title | escape }}
+            <h2>{{ link.title | escape }}</h2>
           </li>
         </a>
       {%- endfor -%}
@@ -53,6 +56,8 @@
   document.addEventListener("shopify:section:load", initMenu);
 
 {% endjavascript %}
+
+
 
 {% schema %}
 {

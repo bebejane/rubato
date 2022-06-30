@@ -1,15 +1,16 @@
 {% style %}
-.collections {
-  width:auto;
-  margin:var(--outer-margin);
-  margin-top:0;
+  .collections {
+    width:auto;
+    
+    margin-top:0;
+  }
+  .collections ul {
+    list-style:none;
+    text-align:center;
+    margin:var(--outer-margin);
 }
-.collections ul {
-  list-style:none;
-  text-align:center;
-}
-
 {% endstyle %}
+
 <div class="collections">
   <ul>
     {% for collection in collections %}

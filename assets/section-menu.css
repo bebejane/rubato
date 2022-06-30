@@ -12,7 +12,7 @@
   overflow-y: auto;
   scrollbar-width: none;
   transition: max-height 0.2s ease-in-out;
-  font-family: "Mars Extended" !important;
+  font-family: "Mars Extended Web Regular" !important;
 }
 
 #menu::-webkit-scrollbar { 
@@ -37,6 +37,9 @@
 #menu * > li {
   margin:0
 }
+#menu * > h2{
+  margin-bottom: 0;
+}
 
 #menu-toggle {
   position: fixed;
@@ -51,12 +54,12 @@
   max-width: var(--navbar-logo-size);
   padding: var(--outer-margin);
   cursor: pointer;
-  transform: rotate(45deg);
+  transform: rotate(45deg) scale(0.7);
   transition: transform .3s ease;
 }
 
 .menu--toggle-active{
-  transform: rotate(90deg) !important;
+  transform: rotate(90deg) scale(1) !important;
 }
 .logo{
   display: flex;

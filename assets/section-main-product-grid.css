@@ -28,7 +28,7 @@
   padding: 0 !important;
   height: 2rem !important;
   text-transform: none !important;
-  font-family: "Mars Extended";
+  font-family: "Mars Extended Web Regular";
 }
 .product-grid-search-input::placeholder, .product-grid-search-input::-moz-placeholder{
   color:#000;
@@ -81,15 +81,16 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top:1rem;
 }
 
 .product-grid-caption-title {
   flex: 1 1 auto;
-  font-family: "Mars Extended";
+  font-family: "Mars Extended Web Regular";
 }
 
 .product-grid-caption-price {
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   text-align: right;
 }
 

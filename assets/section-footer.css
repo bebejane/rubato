@@ -3,19 +3,27 @@
   flex-direction: column;
   border-top: 1px solid #000;
   margin-top: -1px;
-  
-}
 
+}
+.footer * > h2{
+  margin-bottom: 0;
+}
 .footer>section {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #000;
-  
+  padding-top: var(--margin);
+  padding-bottom: var(--margin);
+
   text-align: center;
   width: 100%;
 }
-.footer-header, .footer-about, .footer-links, .footer-newsletter-signup, .footer-copyright{
-  font-family: "Mars Extended";
+
+.footer-header,
+.footer-links,
+.footer-newsletter-signup,
+.footer-copyright {
+  font-family: "Mars Extended Web Regular";
 }
 
 .footer>section:last-child {
@@ -24,57 +32,62 @@
 
 .footer-about {
   text-align: center;
-  padding-top: var(--margin);
-  padding-bottom: var(--margin);
-  
 }
 
 .footer-header {
   font-weight: bold;
-  
+
+}
+
+.footer-logo-wrap {
+  display: flex;
+  align-items: center;
+  line-height: 0;
 }
 
 .footer-logo {
-  padding-top: var(--margin);
-  padding-bottom: var(--margin);
+  height: calc(100% - calc(var(--outer-margin) * 2));
 }
-.footer-logo, .footer-text{
+
+.footer-logo,
+.footer-text {
   margin-left: var(--margin);
   margin-right: var(--margin);
   width: auto;
-  max-height: 300px;
 }
-.footer-text-wrap{
+
+.footer-text-wrap {
   display: flex;
   justify-content: center;
   width: 100%;
   text-align: center;
-  
+
 }
+
 .footer-text {
-   max-width: 800px;
-   
+  max-width: 800px;
+
 }
 
 .footer-newsletter {
   display: flex;
   flex-direction: column;
-  padding-top: var(--margin) !important;
-  padding-bottom: var(--margin) !important;
 }
 
 .footer-newsletter-signup {
   font-weight: bold;
   text-transform: uppercase;
 }
-.footer-newsletter > form{
+
+.footer-newsletter>form {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1 1 auto;
-  min-height: 300px;
+
 }
+
 .footer-newsletter-email {
   position: relative;
   display: flex;
@@ -92,21 +105,22 @@
 .footer-newsletter-email label {
   flex: 0 0;
   margin-right: 0.5rem;
-  
+
 }
 
 .footer-newsletter-circle {
   position: absolute;
   z-index: 1;
-  top:0.5rem;
-  right:0;
+  top: 0.5rem;
+  right: 0;
   min-height: 1.5rem;
   min-width: 1.5rem;
   border: 1px solid #000;
   border-radius: .75rem;
-  
+
 }
-.footer-newsletter-email > input {
+
+.footer-newsletter-email>input {
   appearance: none;
   background-color: transparent;
   color: #000;
@@ -120,12 +134,12 @@
   border: 0 !important;
 }
 
-.footer-newsletter-email > input:focus {
+.footer-newsletter-email>input:focus {
   outline: none !important;
 }
 
 .footer-newsletter-button {
-  
+
   min-width: 300px;
   display: inline-block;
 
@@ -153,120 +167,144 @@
   margin-bottom: 0;
 }
 
-.footer-links ul li:last-child {
-  
-}
+.footer-links ul li:last-child {}
 
 .footer-copyright {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   height: 100%;
-  padding-top: calc(var(--margin) * 2) !important;
-  padding-bottom: var(--outer-margin) !important;
+  
 }
 
 @media screen and (max-width: 749px) {
-  .footer-links{
+  .footer-logo-wrap{
+    justify-content: center;
+    padding-top: var(--outer-margin);
+    padding-bottom: var(--outer-margin);
+  }
+  .footer-logo{
+    max-height: 200px;
+  }
+  .footer-newsletter{
+    min-height: 400px;
+  }
+  .footer-links {
     border-bottom: 0 !important;
   }
+  .footer-copyright {
+    
+    justify-content: flex-end !important;
+    padding-top: calc(var(--margin) *2) !important;
+    padding-bottom: var(--outer-margin) !important;
+    
+    
+  }
 }
+
 @media screen and (min-width: 750px) {
-  .footer{
+  .footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .footer-about{
+
+  .footer-about {
     display: flex;
     flex-direction: column;
     flex: 0 0 50%;
     margin-left: -1px;
-    
-    border-right: 1px solid #000; 
-    
-    padding-bottom: var(--outer-margin) !important;
-    padding-top: var(--outer-margin) !important;
+    border-right: 1px solid #000;
     padding-left: 0 !important;
     padding-right: 0 !important;
+
   }
-  .footer-line{
+
+  .footer-line {
     display: block;
   }
-  .footer-header{
+  .footer-about,.footer-newsletter{
+    min-height: 600px;
+    
+  }
+  .footer-header,
+  .footer-newsletter-signup {
     flex: 0 0 10%;
   }
-  .footer-logo {
-    flex: 1 1 70%;
-    padding-top: var(--margin);
-    padding-bottom: var(--margin);
-    
+
+  .footer-logo-wrap,
+  .footer-newsletter>form {
+    justify-content: center;
+    flex: 0 0 70%;
   }
-  .footer-logo, .footer-text{
+
+  .footer-text-wrap,
+  .footer-newsletter-button-wrap {
+    align-items: center;
+    flex: 1 1 auto;
+  }
+  .footer-logo{
     max-height: 300px;
   }
-  .footer-text-wrap{
-    flex: 0 0 20%;
-    align-items:center;
-    
-  }
-  .footer-newsletter{
-    
+  .footer-newsletter {
+
     display: flex;
     flex-direction: column;
     flex: 0 0 calc(50%);
     justify-content: space-between;
-    padding-bottom: var(--outer-margin) !important;
-    padding-top: var(--outer-margin) !important;
-    
+
   }
-  .footer-newsletter-signup{
-    flex: 0 0 10%;
+
+  .footer-newsletter>form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
-  .footer-newsletter-email-wrap{
+
+  .footer-newsletter-email-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 70%;
-    padding: var(--margin);
-    
+    width: 100%;
   }
-  .footer-newsletter-email{
+
+  .footer-newsletter-email {
     width: 100%;
     margin-left: calc(var(--margin) * 1);
     margin-right: calc(var(--margin) * 1);
-    
+
   }
 
   .footer-newsletter-button-wrap {
     display: flex;
-    flex: 0 0 20%;
-    align-items: center;
     justify-content: center;
   }
+
   .footer-newsletter-button {
     width: auto;
     margin-left: var(--margin);
     margin-right: var(--margin);
-  
     display: inline-block;
-    
   }
 
-  .footer-links ul{
+  .footer-links ul {
     display: flex;
     flex-direction: row !important;
     flex: 0 0 100%;
   }
-  .footer-links ul li{
+
+  .footer-links ul li {
     padding-top: var(--margin);
     padding-bottom: var(--margin);
     flex: 1 1 25%;
-    margin:0;
+    margin: 0;
     border-bottom: 0px;
     border-right: 1px solid #000;
   }
-  .footer-links ul li:last-child{
-    border-right: 1px solid transparent;    
+
+  .footer-links ul li:last-child {
+    border-right: 1px solid transparent;
   }
-  
+
 }

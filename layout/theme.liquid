@@ -38,7 +38,7 @@
       }
 
       @font-face {
-        font-family: "Mars Extended";
+        font-family: "Mars Extended Web Regular";
         src: url({{ 'Mars Extended Web Regular.woff2' | asset_url}}) format("woff2");
       }
 
@@ -47,7 +47,7 @@
         --outer-margin: 2rem;
         --margin: 6rem;
         --small-margin: 2rem;
-        --navbar-logo-size: 15px;
+        --navbar-logo-size: 25px;
         --navbar-height: calc((var(--outer-margin) * 2 ) +  var(--navbar-logo-size));
         --content-margin: calc( var(--navbar-height));
       }
@@ -55,7 +55,7 @@
       @media screen and (min-width: 750px) {
         :root {
           --outer-margin: 2.5rem;
-          --navbar-logo-size: 24px;
+          --navbar-logo-size: 34px;
           --margin: 7rem;
           --small-margin: 2.5rem;
           --navbar-height: calc((var(--outer-margin) * 2 ) + var(--navbar-logo-size));
@@ -72,6 +72,7 @@
 
     {{ 'normalize.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    
 
   </head>
   <body>
@@ -82,7 +83,6 @@
     </main>
     {% section 'footer' %}
     
-
     <script>
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
