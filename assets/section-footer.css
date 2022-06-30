@@ -223,8 +223,8 @@
     display: block;
   }
   .footer-about,.footer-newsletter{
-    min-height: 600px;
     
+    min-height: 600px;
   }
   .footer-header,
   .footer-newsletter-signup {
@@ -234,13 +234,16 @@
   .footer-logo-wrap,
   .footer-newsletter>form {
     justify-content: center;
-    flex: 0 0 70%;
+    flex: 1 1 auto;
   }
 
   .footer-text-wrap,
   .footer-newsletter-button-wrap {
     align-items: center;
-    flex: 1 1 auto;
+    flex: 0 1 60px;
+  }
+  .footer-text{
+    max-width: 400px;
   }
   .footer-logo{
     max-height: 300px;
