@@ -40,9 +40,9 @@
         
         {%- if block.settings.product != blank -%}
           <div class="collage-block-caption" style="{{caption_style}}"">
-            <div class="collage-block-caption-title">
+            <h2 class="collage-block-caption-title">
               {{ block.settings.product.title }}
-            </div>
+            </h2>
             <div class="collage-block-caption-price">
               {{ block.settings.product.price | money_without_currency }} {{ cart.currency.iso_code }}
             </div>

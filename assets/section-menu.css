@@ -12,7 +12,7 @@
   overflow-y: auto;
   scrollbar-width: none;
   transition: max-height 0.2s ease-in-out;
-  font-family: "Mars Extended Web Regular" !important;
+  font-family: "Mars Extended Web Regular";
 }
 
 #menu::-webkit-scrollbar { 
@@ -26,7 +26,10 @@
 }
 #menu.menu-opaque {
   background-color: var(--background-color) !important;
-  border-bottom: 1px solid #000;
+  border-bottom: var(--line);
+}
+#menu.menu-home{
+  border-bottom: 0px;
 }
 #menu.menu-active > nav {
   max-height: calc(100vh - var(--navbar-height));
@@ -54,12 +57,12 @@
   max-width: var(--navbar-logo-size);
   padding: var(--outer-margin);
   cursor: pointer;
-  transform: rotate(45deg) scale(0.7);
+  transform: rotate(45deg) scale(0.5);
   transition: transform .3s ease;
 }
 
 .menu--toggle-active{
-  transform: rotate(90deg) scale(1) !important;
+  transform: rotate(90deg) scale(0.5) !important;
 }
 .logo{
   display: flex;
@@ -82,12 +85,18 @@
   flex: 1 1 100%;
   width: 100%;
   text-transform: uppercase;
-  /*transition: max-height .3s ease;*/
   max-height: 0px;
-  overflow: hidden;
+  overflow: hidden;  
 }
-
-  
+.navbar-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: calc(var(--outer-margin) *-1);
+  width: 100%;
+  flex: 1 1 auto;
+}
 .navbar, .navbar-footer {
   display: flex;
   align-items: center;
@@ -97,8 +106,13 @@
   width: 100%;
   margin:0;
   margin-bottom:0;
-}
 
+}
+.navbar{
+  height: auto;
+  margin-top:var(--margin);
+  margin-bottom:var(--margin);
+}
 .navbar a, .navbar-footer a {
   display: flex;
   align-items: center;
@@ -107,18 +121,21 @@
   width: 100%;
   padding-top: var(--outer-margin);
   padding-bottom: var(--outer-margin);
-  flex:1 1 auto;
+  flex:1 1 auto; 
 }
-
+.navbar a{ 
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .navbar{
-  flex: 0 1 80%;
-  border-bottom: 1px solid #000;
+  flex: 1 1 auto;
+  
 }
 
 .navbar-footer{
-  margin-top: var(--outer-margin);
-  margin-bottom: var(--outer-margin);
-  flex: 0 0 20%;
+  border-top: var(--line);
+  font-family: "Bembo Book";
+  font-size: var(--medium-font);
 }
 
 @media screen and (max-width: 749px) {
@@ -131,17 +148,26 @@
   #nav{
     height: 100%;
   }
+  .navbar a:first-child{
+    padding-top:0;
+  }
+  .navbar-footer{
+    padding-top: var(--outer-margin);
+  padding-bottom: var(--outer-margin);
+  
+  }
+  
 }
 
 @media screen and (min-width: 750px) {
   .navbar-footer{
     flex-direction: row;
-    border-bottom: 1px solid #000;
+    border-bottom: var(--line);
     justify-content: space-between;
   }
   .navbar{
-    padding-top: var(--outer-margin);
-    padding-bottom: var(--outer-margin);
+    
+    
   }
   .navbar a { 
     width: auto;

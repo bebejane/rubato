@@ -1,7 +1,35 @@
+:root {
+  --small-font: 10px;
+  --medium-font: 11px;
+  --big-font: 13px;
+  --line: 0.8px solid #000;
+  --background-color: #F8F7F0;
+  --outer-margin: 2rem;
+  --margin: 5rem;
+  --small-margin: 3rem;
+  --navbar-logo-size: 24px;
+  --navbar-height: calc((var(--outer-margin) * 2 ) +  var(--navbar-logo-size));
+  --content-margin: calc( var(--navbar-height));
+}
+
+@media screen and (min-width: 750px) {
+  :root {
+    --small-font: 11px;
+    --medium-font: 12px;
+    --big-font: 16px;
+    --navbar-logo-size: 38px;
+    --outer-margin: 2.5rem;
+    --small-margin: 4.5rem;
+    --margin: 7rem;
+    --navbar-height: calc((var(--outer-margin) * 2 ) + var(--navbar-logo-size));
+    --content-margin: calc(var(--navbar-height)); 
+  }
+}
+
 html {
   font-size: 62.5%; }
 body {
-  font-size: 12px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: var(--medium-font); /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.3;
   font-weight: 400;
   font-family: "Bembo Book", serif;
@@ -45,18 +73,18 @@ input{
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  font-size: 13px;
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 300; 
+  font-weight: 300;
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
-h1 { font-size: 1.0rem; line-height: 1.3;  letter-spacing: .1rem;}
-h2 { font-size: 1.0rem; line-height: 1.3; letter-spacing: .1rem; }
-h3 { font-size: 1.0rem; line-height: 1.4;  letter-spacing: .1rem; }
-h4 { font-size: 1.0rem; line-height: 1.45; letter-spacing: .1rem; }
-h5 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: .1rem; }
-h6 { font-size: 1.0rem; line-height: 1.7;  letter-spacing: 0; }
+h1 {  line-height: 1.3;  letter-spacing: .1rem; font-size: var(--big-font)}
+h2 { line-height: 1.3; letter-spacing: .1rem; font-size: var(--medium-font)}
+h3 {  line-height: 1.4;  letter-spacing: .1rem; font-size: var(--small-font)}
+h4 {  line-height: 1.45; letter-spacing: .1rem; font-size: var(--small-font)}
+h5 {  line-height: 1.6;  letter-spacing: .1rem; font-size: var(--small-font)}
+h6 {  line-height: 1.7;  letter-spacing: 0; }
 p+h4, p+h1, p+h2, p+h3, p+h4, p+h5, p+h6{
   margin-top:2rem;
 }
@@ -65,9 +93,10 @@ button, input{
   appearance: none;
   border-radius: 0px;
   background-color: transparent;
-  border: 1px solid #000;
+  border: var(--line);
   padding: 0.5rem 1rem 0.5rem 1rem;
   min-height: 30px;
+  font-size: 15px;
 }
 button{
   text-transform: uppercase;
@@ -95,4 +124,13 @@ input[type=number]{
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 749px) {
+  
+}
+
+@media only screen and (min-width: 750px) {
+  
 }

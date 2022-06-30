@@ -20,8 +20,6 @@
   flex-direction: column;
   position: relative;
   border: calc(var(--outer-margin) /2) solid transparent;
-  
- 
 }
 .collage-block a {
   display:flex;
@@ -42,10 +40,12 @@
 }
 .collage-block-caption-title{
   flex: 1 1 auto;
+  font-size: var(--small-font);
 }
 .collage-block-caption-price{
   flex: 0 0 100px;
   text-align: right;
+  font-size: calc(var(--medium-font) + 1px);
 }
 
 @media only screen and (max-width: 749px) {
@@ -54,7 +54,7 @@
   }
   .collage-block{
     margin: 0 !important;
-    margin-bottom: var(--outer-margin) !important;
+    margin-bottom: calc(var(--outer-margin) * 2) !important;
     flex: 1 1 auto !important;
   }
   .collage-block:last-child{

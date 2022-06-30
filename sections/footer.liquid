@@ -6,9 +6,9 @@
 
 <footer class="footer">
   <section class="footer-about">
-    <h2 class="footer-header">
+    <div class="footer-header">
       {{ section.settings.headline | newline_to_br }}
-    </h2>
+    </div>
     <div class="footer-logo-wrap">
       <img 
         src="{{ 'rubato-outline.svg' | asset_url }}" 
@@ -26,14 +26,13 @@
   </section>
   <div class="footer-line"></div>
   <section class="footer-newsletter">
-    <h2 class="footer-newsletter-signup">{{ section.settings.signup }}</h2>
+    <div class="footer-newsletter-signup">{{ section.settings.signup }}</div>
 
     {% form 'customer' %}
       <div class="footer-newsletter-email-wrap">
         <div class="footer-newsletter-email">
           <label for="email">E-mail:</label>
           <input type="email" name="contact[email]" />
-          <div class="footer-newsletter-circle"></div>
         </div>
       </div>
     {% endform %}
@@ -47,7 +46,7 @@
       {%- for link in section.settings.menu.links -%}  
         <li>
           <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
-            <h2>{{ link.title | escape }}</h2>
+            {{ link.title | escape }}
           </a>
         </li>
       {%- endfor -%}
