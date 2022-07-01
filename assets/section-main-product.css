@@ -45,7 +45,7 @@
   flex-direction: row;
   border-top: var(--line);
   padding: var(--outer-margin);
-  
+  line-height: 1;
 }
 
 .product-attributes-key{
@@ -55,6 +55,7 @@
   flex: 0 1;
   text-align: right;
   white-space: pre;
+  font-family: 'Bembo Book';
   
 }
 .product-info{

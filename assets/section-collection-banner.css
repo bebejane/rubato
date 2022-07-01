@@ -7,13 +7,11 @@
   min-width: 100%;
   max-height: 30vh;
   object-fit: cover;
+  object-position: top center;
 }
 
-
 @media only screen and (max-width: 749px) {
-
   .collection-banner{
     display: none;
   }
-
 }

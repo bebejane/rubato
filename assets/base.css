@@ -41,7 +41,8 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+}
 input,
 textarea,
 select,
@@ -103,6 +104,13 @@ button{
   padding-left: 2rem;
   padding-right: 2rem;
   margin:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0rem;
+}
+button.button-capitalized{
+  padding-top:8px;
 }
 input{
   text-transform: normal;

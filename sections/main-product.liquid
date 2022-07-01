@@ -99,10 +99,10 @@
             {% endfor %}
           </select>
           <div class="product-form-buttons">
-            <button name="add" id="add" value="Add to Cart" class="product-form-submit">
+            <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
               Add to cart {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
             </button>
-            <button onclick="location.href='/cart'" class="product-form-view-cart">
+            <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
             </button>
           </div>

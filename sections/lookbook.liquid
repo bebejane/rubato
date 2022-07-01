@@ -1,0 +1,25 @@
+{{ 'section-lookbook.css' | asset_url | stylesheet_tag }}
+{% render 'log' object: page.content %}
+
+{% assign arr = page.content | split: '<img src=\"' | split: '"' %}
+{% assign images = '' %}
+
+{% for str in arr %}
+  {% if str contains 'https' %}
+    {%- capture url -%}{{ str | remove: '\' }}{%- endcapture -%}
+    {% assign images = images | append: url | append: ',' %}
+  {% endif %}
+{% endfor %}
+
+{% assign images = images | split: ',' %}
+
+<div class="lookbook">
+  <h1>{{page.title}}</h1>
+  <div class="lookbook-content">
+    {%for url in images %}
+      <div class="lookbook-image-wrap">
+        <img src="{{url}}"/>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -35,7 +35,6 @@
 }
 
 .footer-header {
-  font-weight: bold;
 
 }
 
@@ -67,7 +66,6 @@
 
 .footer-text {
   max-width: 800px;
-
 }
 
 .footer-newsletter {
@@ -76,7 +74,6 @@
 }
 
 .footer-newsletter-signup {
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -144,7 +141,7 @@
   min-width: 300px;
   display: inline-block;
 
-
+  
 }
 
 .footer-links {

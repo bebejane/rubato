@@ -54,6 +54,23 @@
   </div>
 {% endif %}
 
+{% javascript %}
+
+  function initCollage(){
+    var images = document.querySelectorAll('.collage-block * > img')
+    return
+    images.forEach(function(img){
+      img.addEventListener('mouseenter', function(){
+        console.log(this.closest('.collage-block-caption'))
+      })
+    })
+  }
+
+  document.addEventListener("DOMContentLoaded", initCollage);
+  document.addEventListener("shopify:section:load", initCollage);
+
+{% endjavascript %}
+
 {% schema %}
 {
   "name": "Collage",
