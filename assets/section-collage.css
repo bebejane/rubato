@@ -29,15 +29,16 @@
   display: flex;
   align-items: flex-start;
 }
-.collage-block:hover > a > .collage-block-caption {
-  visibility: visible;
-}
+
 .collage-block-caption{
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-top: .5rem;
   
+}
+.collage-block-caption-show{
+  visibility: visible !important;
 }
 .collage-block-caption-title{
   flex: 1 1 auto;

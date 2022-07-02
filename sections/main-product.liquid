@@ -63,7 +63,7 @@
         <div class="swiper-wrapper">
           {% for image in product.images %}
             <div class="swiper-slide">
-              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%' %}
+              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
             </div>
           {% endfor %}
         </div>
@@ -138,7 +138,8 @@
       direction: 'horizontal',
       loop: true,
       centerSlides:true,
-      
+      loadPrevNext:true,
+      loadPrevNextAmount:3,
       spaceBetween:0,
       pagination: {
         el: '.swiper-pagination',

@@ -12,6 +12,7 @@
   opacity: 1;
   animation:fadeoutbanner 2s ease forwards;
   animation-delay: 2s;
+  pointer-events: none;
 }
 @keyframes fadeoutbanner {
   to {

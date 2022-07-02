@@ -12,7 +12,7 @@
     srcset="{{ image | image_url: width: 1500 }}" 
     alt="{{ image.alt | escape }}" 
     typeof="foaf:Image" 
-    loading="lazy" 
+    loading="{%- if loading != blank -%}{{loading}}{%- else -%}lazy{%- endif -%}"
     {%- if style -%} style="{{ style }}"{%- endif -%}
     {%- if class -%} class="{{ class }}"{%- endif -%}
 ></picture>

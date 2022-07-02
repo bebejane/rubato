@@ -57,11 +57,18 @@
 {% javascript %}
 
   function initCollage(){
+
+    // Toggle caption on hover
     var images = document.querySelectorAll('.collage-block * > img')
-    return
+    
     images.forEach(function(img){
-      img.addEventListener('mouseenter', function(){
-        console.log(this.closest('.collage-block-caption'))
+      img.addEventListener('mouseenter', function(e){
+        var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
+        caption.classList.add('collage-block-caption-show')
+      })
+      img.addEventListener('mouseleave', function(e){
+        var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
+        caption.classList.remove('collage-block-caption-show')
       })
     })
   }
