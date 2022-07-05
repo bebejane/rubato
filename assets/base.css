@@ -34,8 +34,14 @@ body {
   font-weight: 400;
   font-family: "Bembo Book", serif;
   background-color: #F8F7F0;
-  color: #222; }
+  color: #222;
+}
 
+body {
+  width: 100%; 
+  max-width: 1440px; 
+  margin: 0 auto;
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -142,3 +148,5 @@ input[type=number]{
 @media only screen and (min-width: 750px) {
   
 }
+
+

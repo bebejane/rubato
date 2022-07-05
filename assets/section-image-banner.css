@@ -10,11 +10,28 @@
   max-height: 100vh;
   z-index: 101;
   opacity: 1;
+  cursor: pointer;
+}
+.banner-fadeout{
   animation:fadeoutbanner 2s ease forwards;
-  animation-delay: 2s;
-  pointer-events: none;
+  animation-delay: 0s;
+}
+.main-intro{
+  padding-top:100vh;
+}
+.main-slideup{
+  transition: padding-top 1s ease-in-out;
+  padding-top:0vh;
+}
+.banner-slideup{
+  transition: transform 1s ease-in-out;
+  transform: translateY(-100vh);
 }
 @keyframes fadeoutbanner {
+  from{
+    opacity: 1;
+    z-index: 10000;
+  }
   to {
     opacity: 0;
     z-index: -1;

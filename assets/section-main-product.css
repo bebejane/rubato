@@ -135,11 +135,12 @@
   
 }
 .product-form-submit{
-  background-color: transparent;
+  background-color: #fff;
   border-bottom: var(--line) !important;
 }
 .product-form-view-cart{
-  background-color: #fff;
+  
+  background-color: transparent;
   color: #000;
 }
 

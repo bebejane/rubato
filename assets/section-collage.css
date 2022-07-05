@@ -35,10 +35,18 @@
   flex-direction: row;
   width: 100%;
   margin-top: .5rem;
+  transition: opacity 0.5s ease;
+  
+}
+.collage-block-caption-wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  opacity: 1;
   
 }
 .collage-block-caption-show{
-  visibility: visible !important;
+  opacity: 1 !important;
 }
 .collage-block-caption-title{
   flex: 1 1 auto;
@@ -70,6 +78,10 @@
     left: 0;
     transform: translateY(calc(100% + .3rem));
     z-index: 20;
+    justify-content: flex-start !important;
+  }
+  .collage-block-caption-wrap{
+    max-width: 100% !important;
   }
   .collage picture img {
     max-width: 100% !important;
@@ -88,7 +100,8 @@
     flex-wrap: wrap;
   }
   .collage-block-caption{
-    visibility: hidden;
+    width: 100%;
+    opacity: 0;
   }
   .collage picture img {
     max-width: 100%;

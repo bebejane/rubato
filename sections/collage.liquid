@@ -26,10 +26,14 @@
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
+      {% capture caption_block_style %}
+        justify-content: {{block.settings.align}};
+      {% endcapture %}
+
       {% capture caption_style %}
         max-width: calc({{ block.settings.width}}%);
       {% endcapture %}
-
+      
       {% capture a_style %}
         align-items: {{block.settings.align}};
       {% endcapture %}
@@ -39,13 +43,19 @@
           {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
         
         {%- if block.settings.product != blank -%}
-          <div class="collage-block-caption" style="{{caption_style}}"">
-            <h2 class="collage-block-caption-title">
-              {{ block.settings.product.title }}
-            </h2>
-            <div class="collage-block-caption-price">
-              {{ block.settings.product.price | money_without_currency }} {{ cart.currency.iso_code }}
+          <div class="collage-block-caption" style="{{caption_block_style}}"">
+            <div class="collage-block-caption-wrap" style="{{caption_style}}"">
+              <h2 class="collage-block-caption-title">
+                {{ block.settings.product.title }}
+              </h2>
+              <div class="collage-block-caption-price">
+                {{ block.settings.product.price | money_without_currency }} {{ cart.currency.iso_code }}
+              </div>
             </div>
+          </div>
+        {%- elsif block.settings.caption != blank -%}
+          <div class="collage-block-caption" style="{{caption_block_style}}"" >
+            <h2 class="collage-block-caption-title" style="{{caption_style}}"">{{block.settings.caption}}</h2>
           </div>
         {%- endif -%}
         {%- if block.settings.product -%}</a>{%- endif -%}
@@ -64,15 +74,16 @@
     images.forEach(function(img){
       img.addEventListener('mouseenter', function(e){
         var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
-        caption.classList.add('collage-block-caption-show')
+        if(caption)
+          caption.classList.add('collage-block-caption-show')
       })
       img.addEventListener('mouseleave', function(e){
         var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
-        caption.classList.remove('collage-block-caption-show')
+        if(caption)
+          caption.classList.remove('collage-block-caption-show')
       })
     })
   }
-
   document.addEventListener("DOMContentLoaded", initCollage);
   document.addEventListener("shopify:section:load", initCollage);
 
@@ -129,6 +140,11 @@
           }
         ],
         "default": "flex-start"
+      },
+      {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption"
       },
       {
         "type": "product",

@@ -10,7 +10,7 @@
     margin:var(--outer-margin);
 }
 {% endstyle %}
-
+{% render 'log' object:collections %}
 <div class="collections">
   <ul>
     {% for collection in collections %}

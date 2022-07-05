@@ -36,7 +36,15 @@
   min-height: calc(100vh - var(--navbar-height));
   overflow: unset !important;
 }
-
+#menu.menu-hidden{
+  
+  opacity: 0;
+}
+#menu.menu-show{
+  transition: opacity 1s ease;
+  transition-delay: 1s;
+  opacity: 1;
+}
 #menu * > li {
   margin:0
 }
