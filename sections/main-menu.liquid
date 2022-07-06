@@ -12,20 +12,13 @@
       <img src="{{ 'rubato.svg' | asset_url }}" width="48" height="48">
     </a>
   </div>
-  <img 
-    id="menu-toggle" 
-    src="{{ 'close.svg' | asset_url }}" 
-    width="20" 
-    height="20"
-  >
+  <img id="menu-toggle" src="{{ 'close.svg' | asset_url }}" width="20" height="20">
   <nav id="nav">
     <div class="navbar-wrap">
       <ul class="navbar">
         {%- for link in section.settings.menu.links -%}  
           <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
-            <li>
-              <h2>{{ link.title | escape }}</h2>
-            </li>
+            <li><h2>{{ link.title | escape }}</h2></li>
           </a>
         {%- endfor -%}
       </ul>
@@ -33,9 +26,7 @@
     <ul class="navbar-footer">
       {%- for link in section.settings.menu-footer.links -%}  
         <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
-          <li>
-            {{ link.title | escape }}
-          </li>
+          <li>{{ link.title | escape }}</li>
         </a>
       {%- endfor -%}
     </ul>
@@ -45,7 +36,7 @@
 {% javascript %}
 
   function initMenu(){
-    console.log(Shopify.designMode)
+    
     var menu = document.getElementById('menu')
     var menuToggle = document.getElementById('menu-toggle')
     

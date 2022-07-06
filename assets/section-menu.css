@@ -171,7 +171,7 @@
   .navbar-footer{
     flex-direction: row;
     border-bottom: var(--line);
-    justify-content: space-between;
+    
   }
   .navbar{
     
