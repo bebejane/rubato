@@ -59,7 +59,7 @@
 .banner-box-logo{
   position: absolute;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   left: 0px;
   top: 0px;
@@ -73,11 +73,7 @@
 .banner-box-logo-hide{
   opacity: 0;
 }
-.banner-box-logo-image{
-  
-  width: 100%;
-  height: 100%;
-}
+
 
 @media only screen and (max-width: 749px) {
   .image-banner-left{
@@ -90,18 +86,16 @@
     object-position: center right;
   }
   .banner-box-logo-image{
-    
-    max-height: calc(100% -  (var(--outer-margin) * 4));
-    max-width: calc(100% - (var(--outer-margin) * 4));
-    
+    width: calc(172px / 1.5);
+    height: auto;
+    margin-bottom: 30px;
   }
 }
 
 @media only screen and (min-width: 750px) {
   .banner-box-logo-image{
-    object-position: center center !important;
-    max-height: calc(100% - (var(--margin) * 2 ) - (var(--outer-margin) * 2));
-    max-width: calc(100% - (var(--margin) * 2 ) - (var(--outer-margin) * 2));
-    
+    width: 172px;
+    height: auto;
+    margin-bottom: 50px;
   }
 }

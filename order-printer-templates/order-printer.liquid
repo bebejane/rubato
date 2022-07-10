@@ -54,9 +54,9 @@
       }
       @media screen {
         .printer-preview-content {
-          padding: 20px 0;
+          padding-top: 10px !important;
+          padding-bottom: 0px !important;
           min-height: 800px;
-          /* background-image: url(http://basehold.it/i/20) */
         }
         .printer-preview-content .printer-preview-content {
           margin-right: auto;
@@ -497,14 +497,14 @@
       /* ### DESIGN SPECIFIC - ORDER DETAILS ### */
       .printer-preview-content .t75753 .order-details-title {
         display: inline-block;
-        font-weight: bold;
+        font-weight: normal;
         color: {{ primary_font_color }};
       }
       .printer-preview-content .t75753 .order-details li:first-of-type {
         margin-bottom: 10px;
         padding-top: 20px;
-        border-bottom: 3px solid {{ theme_color }};
-        padding-bottom:16px;
+        border-bottom: 1px solid {{ theme_color }};
+        padding-bottom:4px;
         font-weight: bold;
         color: {{ primary_font_color }};
         font-family: '{{ secondary_font }}';
@@ -534,8 +534,8 @@
         padding-left: 4px;
         padding-right: 4px;
         padding-top: 20px;
-        border-bottom: 3px solid {{ theme_color }};
-        padding-bottom:16px;
+        border-bottom: 1px solid {{ theme_color }};
+        padding-bottom:4px;
         font-weight: bold;
         color: {{ primary_font_color }};
         font-family: '{{ secondary_font }}';
@@ -576,8 +576,8 @@
     
       /* ### DESIGN SPECIFIC - PRICING TABLE SPECIFIC ### */
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row td {
-        border-top: 3px solid {{ theme_color }};
-        padding-top: 16px;
+        border-top: 1px solid {{ theme_color }};
+        padding-top: 4px;
       }
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row .pricing-table-title,
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row .pricing-table-title span,
@@ -679,6 +679,7 @@
       font-family:'Bembo Book';
       text-transform: uppercase;
       margin-bottom: -2rem;
+      line-height: 1 !important;
     }
     .footer div{
       flex: 1 1 auto;
@@ -778,7 +779,7 @@
                         <span class="order-details-text">{{ order_name }}</span>
                     </li>
                     <li class="order-details-date">
-                        <span class="order-details-title editable" data-key="date">Order Date</span>
+                        <span class="order-details-title editable" data-key="date">Order Date:</span>
                         <span class="order-details-text">{{ created_at | date: "%d/%m/%Y" }}</span>
                     </li>
                     {% assign transaction_text = "" %}
@@ -801,13 +802,13 @@
                     {% endfor %}
                     {% if transaction_text != blank and transaction_text != "manual" %}
                         <li class="order-details-payment">
-                            <span class="order-details-title editable" data-key="payment_method">Payment</span>
+                            <span class="order-details-title editable" data-key="payment_method">Payment:</span>
                             <span class="order-details-text">{{ transaction_text }}</span>
                         </li>
                     {% endif %}
                     {% if shipping_method.title != blank %}
                         <li class="order-details-shipping">
-                            <span class="order-details-title editable" data-key="shipping_method">Shipping</span>
+                            <span class="order-details-title editable" data-key="shipping_method">Shipping:</span>
                             <span class="order-details-text">{{ shipping_method.title }}</span>
                         </li>
                     {% endif %}
@@ -916,21 +917,6 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-right col-no-margin">
-                <div class="terms-text full-editable" data-key="terms_and_conditions">
-                    <p>
-                        <p>If you have any questions, please do get in contact:</p>
-                    </p>
-                </div>
-                <div class="thanks-text full-editable" data-key="thanks">
-                    <p>
-                        <p>info@atemporubato.com</p>
-                    </p>
-                </div>
             </div>
             <div class="clear-fix"></div>
         </div>
