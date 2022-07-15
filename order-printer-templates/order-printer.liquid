@@ -10,6 +10,7 @@
 {% assign secondary_font_url = 'https://cdn.shopify.com/s/files/1/0089/9058/8991/t/13/assets/Mars%20Extended%20Web%20Regular.woff2?v=147000470178114163041656157511' %}
 {% assign theme_color = "#949494"%}
 {% assign logo_url = 'https://cdn.shopify.com/s/files/1/0089/9058/8991/t/13/assets/rubato.svg?v=173931527945695427741655966433' %}
+{% assign wordmark_url = 'https://cdn.shopify.com/s/files/1/0089/9058/8991/t/13/assets/rubato-wordmark.svg?v=25637509884222648831657455376'%}
 
 <script>
     $(function () {
@@ -48,7 +49,7 @@
           padding-left: 15px;
           padding-right: 15px;
           box-sizing: border-box;
-          min-height: 247mm;
+          min-height: 251mm;
         }
         
       }
@@ -388,7 +389,7 @@
       padding: 2% 0;
       width: 86%;
       height: 20%;
-      border-top: 1px solid {{ theme_color }};
+      border-top: 1px solid #000;
       }
       .printer-preview-content .t75753 #header-row .integrated-label-address-block .shop-address-name {
       padding-top: 15%;
@@ -503,20 +504,19 @@
       .printer-preview-content .t75753 .order-details li:first-of-type {
         margin-bottom: 10px;
         padding-top: 20px;
-        border-bottom: 1px solid {{ theme_color }};
-        padding-bottom:4px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 2px;
         font-weight: bold;
         color: {{ primary_font_color }};
-        font-family: '{{ secondary_font }}';
         text-transform: uppercase;
         font-size: {{secondary_font_size}};
       }
       .printer-preview-content .t75753 .order-details li:first-of-type * {
         font-weight: bold;
         color: {{ primary_font_color }};
-        font-family: '{{ secondary_font }}';
         text-transform: uppercase;
-        font-size: {{secondary_font_size}};
+        font-family: "{{ secondary_font }}";
+        font-size: {{ secondary_font_size }};
       }
     
       /* ### DESIGN SPECIFIC - BILL TO AND SHIP TO ADDRESS ### */
@@ -534,7 +534,7 @@
         padding-left: 4px;
         padding-right: 4px;
         padding-top: 20px;
-        border-bottom: 1px solid {{ theme_color }};
+        border-bottom: 1px solid #000;
         padding-bottom:4px;
         font-weight: bold;
         color: {{ primary_font_color }};
@@ -555,13 +555,12 @@
       /* ### DESIGN SPECIFIC - ORDER TABLE SPECIFIC ### */
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description,
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-qty {
-        font-weight: bold;
         color: {{ primary_font_color }};  
       }
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description a,
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description p{
         font-size: 11px;
-        font-family: "{{ secondary_font }}";
+        font-family: "{{ primary_font }}";
       }
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description p.line-item-sku {
         font-weight: normal;
@@ -576,7 +575,7 @@
     
       /* ### DESIGN SPECIFIC - PRICING TABLE SPECIFIC ### */
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row td {
-        border-top: 1px solid {{ theme_color }};
+        border-top: 1px solid #000;
         padding-top: 4px;
       }
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row .pricing-table-title,
@@ -586,7 +585,7 @@
         color: {{ primary_font_color }};
         font-family: '{{ primary_font }}';
         text-transform: uppercase;
-        font-size: {{secondary_font_size}};
+        font-size: {{primary_font_size}};
       }
       .printer-preview-content .t75753 .pricing-table tbody > tr.pricing-table-total-row .pricing-table-title span{
         font-family: '{{ secondary_font }}';
@@ -683,8 +682,9 @@
       max-height:16px;
     }
     .footer div{
-      flex: 1 1 auto;
+      flex: 0 0 33.33333%;
       font-family:'Bembo Book';
+      margin-top:2px;
     }
     .footer-url, .footer-email {
       font-size: 11px;
@@ -692,10 +692,14 @@
     .footer-email{
       text-align:right;
     }
-    .footer-store{
-      font-size:18px;
-      font-weight:bold;
-      text-align:center;
+    .footer-store img{
+      height: {{ primary_font_size }};
+      min-height: {{ primary_font_size }};
+      max-height: {{ primary_font_size }};
+      width:auto;
+      margin-top:-2px;
+      margin-left:auto;
+      margin-right:auto;
     }
 
 </style>
@@ -925,6 +929,6 @@
 </div>
 <div class="row footer">
   <div class="col footer-url">www.atemporubato.com</div>
-  <div class="col footer-store">RUBATO</div>
+  <div class="col footer-store"><img src="{{ wordmark_url }}" alt="Rubato"/></div>
   <div class="col footer-email">info@atemporubato.com</div>
 </div>
