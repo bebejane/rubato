@@ -49,13 +49,13 @@
           padding-left: 15px;
           padding-right: 15px;
           box-sizing: border-box;
-          min-height: 251mm;
+          min-height: 268mm;
         }
         
       }
       @media screen {
         .printer-preview-content {
-          padding-top: 10px !important;
+          padding-top: 0px !important;
           padding-bottom: 0px !important;
           min-height: 800px;
         }
@@ -502,14 +502,15 @@
         color: {{ primary_font_color }};
       }
       .printer-preview-content .t75753 .order-details li:first-of-type {
-        margin-bottom: 10px;
+        margin-bottom:0px;
         padding-top: 20px;
-        border-bottom: 1px solid #000;
-        padding-bottom: 2px;
+        padding-bottom: 4px;
         font-weight: bold;
         color: {{ primary_font_color }};
         text-transform: uppercase;
         font-size: {{secondary_font_size}};
+        border-bottom: 0px;
+        max-height: 20px;
       }
       .printer-preview-content .t75753 .order-details li:first-of-type * {
         font-weight: bold;
@@ -518,7 +519,11 @@
         font-family: "{{ secondary_font }}";
         font-size: {{ secondary_font_size }};
       }
-    
+      .printer-preview-content .t75753 .order-details .order-details-date {
+        padding-top: 10px;
+        border-top: 1px solid #000;
+      }
+      
       /* ### DESIGN SPECIFIC - BILL TO AND SHIP TO ADDRESS ### */
       .printer-preview-content .t75753 .address-title {
         font-weight: bold;
@@ -555,12 +560,14 @@
       /* ### DESIGN SPECIFIC - ORDER TABLE SPECIFIC ### */
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description,
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-qty {
-        color: {{ primary_font_color }};  
+        color: {{ primary_font_color }};
+        font-weight: normal !important;
       }
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description a,
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description p{
-        font-size: 11px;
+        font-size: 13px;
         font-family: "{{ primary_font }}";
+        font-weight: normal !important;
       }
       .printer-preview-content .t75753 .order-table tbody > tr > td.line-item-description p.line-item-sku {
         font-weight: normal;
@@ -857,7 +864,7 @@
                             <!-- END Bold Product Options Snippet 2 -->
                             <tr>
                                 <td class="line-item-description">
-                                    <p style="font-weight: 700;"><a href="https://{{ shop.domain }}/products/{{ line_item.product.handle }}" style="font-weight: 700;color: inherit;" target="_blank">
+                                    <p><a href="https://{{ shop.domain }}/products/{{ line_item.product.handle }}" style="color: inherit;" target="_blank">
                                             {{ line_item.title | replace: " - Default Title", "" }}</a></p>
                                     {% assign refunded_quantity = 0 %}
                                     {% for refund in refunds %}
