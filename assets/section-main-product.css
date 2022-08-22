@@ -328,7 +328,8 @@
   }
   .product-description-wrap{
     border-right: var(--line);
-    padding: calc(var(--margin)); 
+    padding: calc(var(--margin));
+    flex: 1 1 50%;   
   }
   .product-order-wrap{
     display: flex;
