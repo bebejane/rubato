@@ -39,7 +39,6 @@ body {
 
 body {
   width: 100%; 
-  max-width: 1440px; 
   margin: 0 auto;
 }
 
@@ -75,6 +74,7 @@ a, a:hover, a:visited{
 
 input{ 
   outline:none;
+  background-color: transparent;
 }
 
 /* Typography
@@ -150,3 +150,47 @@ input[type=number]{
 }
 
 
+.shopify-challenge__container{
+  margin-bottom: var(--outer-margin); 
+  min-height: 50vh;
+}
+.shopify-challenge__button{
+  margin-top: var(--outer-margin) !important; 
+}
+
+
+.page {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.page-content {
+  max-width: 1000px;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media screen and (max-width: 749px) {
+  .page {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .page {
+    margin-top: calc(var(--margin) * 2);
+    margin-bottom: calc(var(--margin) * 2);
+  }
+}

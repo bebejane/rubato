@@ -21,6 +21,7 @@
             <li><h2>{{ link.title | escape }}</h2></li>
           </a>
         {%- endfor -%}
+        
       </ul>
     </div>
     <ul class="navbar-footer">
@@ -29,6 +30,9 @@
           <li>{{ link.title | escape }}</li>
         </a>
       {%- endfor -%}
+        <a href="/account/login" >
+          <li>Login</li>
+        </a>
     </ul>
   </nav>
 </div>

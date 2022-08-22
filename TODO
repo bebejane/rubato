@@ -1,6 +1,16 @@
-* Blurry mobile splash
+¨Lookbook¨ sida
+Här har vi tagit fram ny design, se bifogad XD-fil i slutet av mejlet. Är detta möjligt att göra? Texten som är skissad med under bild är meningen att fungera som texten på startsidan dvs kommer fram när man hovrar.
 
+Övriga ändringar/korr
+- vi ska ju som utlovat lösa zoom effekten. Ska fungera på samma sätt som nuvarande sida.
+- ex VAT pris adderas till alla produkter, se XD-fil för hur vi tänker att det ska se ut. 
+- "Login" har lagts till i footer och dropdownmeny
+X när man previewar sidan på en större skärm än 13'' så blir det tomma ytor på sidorna. Går det att anpassa sidans bredd så gridden och allting hänger med även på större skärmar?
 
-Korr 1 juli
------------------
+- loggan ska bli mindre på splashpage, se fil
+- View cart har lagts till i headern. Är det möjligt att dölja den på start? se fil
+-  behöver också göras större avstånd mellan logotyp och kollaget på startsidan. Så dom det är i designfilen
+-  linjerna på hemsidan har blivit tjockare. Det kanske blev så av misstag när vi ökade tjockleken på den outlinade loggan i sidfoten?
 
+Kvitto
+Jag har sett att ni har pysslat med det under sommaren men att vi fortfarande inte är hemma. Jag och Eleonore har luskat i det och vi får samma problem som kund och det går inte att lösa i skrivarinställningarna. Jag vet inte om det beror på att vi är i dev-miljö men deras nuvarande kvitto ser annorlund ut när man ska skriva ut det jämfört med det nya. På den nya som vi utvecklar så följer det med en massa info i sidhuvud/fot som inte kommer med på den nuvarande. Se våra skärmdumpar för skillnaden. 

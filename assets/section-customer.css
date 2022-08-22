@@ -1,0 +1,86 @@
+.hide {
+  display: none !important;
+}
+
+.form-vertical form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message {}
+
+.form-message--success {}
+
+#CustomerLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+#CustomerLoginForm form{
+  display: flex;
+  flex-direction: column;
+}
+#LoginHeading {}
+
+.form-message {}
+
+.form-message--error {}
+
+#CustomerEmail {}
+
+#CustomerPassword {}
+
+#RecoverPassword {}
+
+
+#RecoverPasswordForm {}
+
+#RecoverEmail {}
+
+#RecoverEmail-email-error {}
+
+#HideRecoverPasswordLink {}
+
+
+
+
+#login-page{
+  
+}
+#login-page-form-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+#login-page-form-wrap form{
+  display: flex;
+  flex-direction: column;
+}
+
+#reset-password-page{
+
+}
+#reset-password-page-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+#account-page{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-vertical{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.form-message--error{
+  color:red;
+}
+.input--error{
+  border: 1px solid red;
+}
+.input-error-message{
+  color:red;
+}
