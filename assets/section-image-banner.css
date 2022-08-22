@@ -86,16 +86,18 @@
     object-position: center right;
   }
   .banner-box-logo-image{
-    width: calc(172px / 1.5);
-    height: auto;
+    width: auto;
+    min-height: 13px;
+    max-height: 13px;
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (min-width: 750px) {
   .banner-box-logo-image{
-    width: 172px;
-    height: auto;
+    width: auto;
+    min-height: 15px;
+    max-height: 15px;
     margin-bottom: 50px;
   }
 }

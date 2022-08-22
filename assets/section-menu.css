@@ -37,7 +37,6 @@
   overflow: unset !important;
 }
 #menu.menu-hidden{
-  
   opacity: 0;
 }
 #menu.menu-show{
@@ -71,6 +70,19 @@
 
 .menu--toggle-active{
   transform: rotate(90deg) scale(0.5) !important;
+}
+.cartlink{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-left: var(--outer-margin);
+  top:0;
+  left:0;
+  height: var(--navbar-height);
+}
+.cartlink a {
+  font-family: "Bembo Book" !important;
 }
 .logo{
   display: flex;

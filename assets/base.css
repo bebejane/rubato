@@ -2,7 +2,7 @@
   --small-font: 10px;
   --medium-font: 11px;
   --big-font: 13px;
-  --line: 0.8px solid #000;
+  --line: 0.5px solid #000;
   --background-color: #F8F7F0;
   --outer-margin: 2rem;
   --margin: 5rem;
@@ -158,19 +158,26 @@ input[type=number]{
   margin-top: var(--outer-margin) !important; 
 }
 
-
 .page {
   width: auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
 .page-content {
+  max-width: 550px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.page.cart-page > .page-content {
   max-width: 1000px;
 }
+
 
 .page-content h1,
 .page-content h2,
@@ -193,4 +200,16 @@ input[type=number]{
     margin-top: calc(var(--margin) * 2);
     margin-bottom: calc(var(--margin) * 2);
   }
+}
+
+main {
+
+}
+
+main div {
+  position: relative;
+}
+
+.text-center{
+  text-align:center;
 }

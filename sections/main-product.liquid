@@ -58,16 +58,32 @@
         </div>
       </div> 
     </div>
-    <div class="product-gallery">
+    <div id="gallery" class="product-gallery">
       <div class="swiper">
         <div class="swiper-wrapper">
           {% for image in product.images %}
             <div class="swiper-slide">
               {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
             </div>
-          {% endfor %}
+          {% endfor %}          
         </div>
         <div class="swiper-pagination"></div>
+      </div>
+      <div id="zoom-wrap" class="product-gallery-zoom-wrap">
+        {% for image in product.images %}    
+          <img 
+            data-index="{{forloop.index}}"
+            class="product-gallery-zoom"
+            width="100"
+            height="100"
+            src="{{ image | image_url }}" 
+            alt="{{ image.alt | escape }}" 
+            loading="lazy"
+          >
+        {% endfor %}
+      </div>
+      <div id="zoom-toggle" class="product-gallery-zoom-toggle">
+        <img src="{{ 'zoom.svg' | asset_url }}" width="36" height="36">
       </div>
     </div>
   </div>
@@ -100,7 +116,7 @@
           </select>
           <div class="product-form-buttons">
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
-              Add to cart {{ product.price | money_without_currency }} {{ cart.currency.iso_code }}
+              Add to cart&nbsp;-&nbsp;{{ product.price | money}}
             </button>
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
@@ -124,17 +140,18 @@
   
 {% javascript %}
 
+  var swiper;
+
   function init(){
     initForm()
     initSwiper()
-
+    initZoom()
     var menu = document.getElementById('menu')
     menu.classList.add('menu-opaque')
-
   }
 
   function initSwiper(){
-    var swiper = new Swiper('.swiper', {
+    swiper = new Swiper('.swiper', {
       direction: 'horizontal',
       loop: true,
       centerSlides:true,
@@ -146,7 +163,7 @@
         clickable:true,
       },
     });
-
+    
     var swiperEl = document.querySelector('.swiper')
     swiperEl.addEventListener('click', function(){ swiper.slideNext() })
   }
@@ -170,6 +187,47 @@
     })
   }
 
+  function initZoom(){
+
+    var gallery = document.getElementById('gallery')
+    var toggle = document.getElementById('zoom-toggle')
+    var zImage = document.querySelector('#zoom-wrap :nth-child(1)')
+    var idx = 0
+    var enabled = false
+
+    swiper.on('slideChange', function(e){
+      zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex+1) +')')
+      idx = e.realIndex
+      console.log(e.realIndex)
+    })
+
+    gallery.addEventListener('mousemove', function(e){
+      if(!enabled) return
+      var w = gallery.clientWidth
+      var h = gallery.clientHeight
+      var left = (-((e.offsetX/w)) * (zImage.clientWidth-w))
+      var top = (-((e.offsetY/h)) * (zImage.clientHeight-h))
+      zImage.style.opacity = 1
+      zImage.style.marginLeft = left + 'px'
+      zImage.style.marginTop = top + 'px'
+      console.log(zImage.dataset.index)
+    })
+
+    toggle.addEventListener('click', function(e){
+      toggle.setAttribute('active', toggle.getAttribute('active') === 'true' ? 'false' : 'true')
+      enabled = toggle.getAttribute('active') === 'true'
+      zImage.style.opacity = !enabled  ?  0 : 1
+      
+    })
+    gallery.addEventListener('mouseenter', function(e){
+      if(enabled)
+        zImage.style.opacity = 1
+    })
+    gallery.addEventListener('mouseleave', function(e){
+      zImage.style.opacity = 0
+    })
+  }
+  
   document.addEventListener("DOMContentLoaded", init);
   document.addEventListener("shopify:section:load", init);
   

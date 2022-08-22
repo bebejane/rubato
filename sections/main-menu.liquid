@@ -1,12 +1,21 @@
 {{ 'section-menu.css' | asset_url | stylesheet_tag }}
 
+{% assign is_home = false %}
 {% assign opaque_menu = false %}
 {% assign borderless_menu = false %}
 
+{% if request.path == '/' %} {% assign is_home = true %}{% endif %}
 {% if request.path == '/' or request.path contains '/pages' %} {% assign borderless_menu = true %}{% endif %}
 {% if request.path contains '/products' or request.path contains '/collections' or request.path contains '/pages' or request.path == '/' %} {% assign opaque_menu = true %}{% endif %}
 
 <div id="menu" class="{%if opaque_menu == true %}menu-opaque{% endif %} {%if borderless_menu == true %}menu-home{% endif %}">  
+  {%- if is_home == false %}
+    <div class="cartlink">
+      <a href="/cart">
+        View cart ({{cart.items.size }})
+      </a>
+    </div>
+  {%- endif -%}
   <div class="logo">
     <a href="/">
       <img src="{{ 'rubato.svg' | asset_url }}" width="48" height="48">
