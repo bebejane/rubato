@@ -83,7 +83,8 @@
         {% endfor %}
       </div>
       <div id="zoom-toggle" class="product-gallery-zoom-toggle">
-        <img src="{{ 'zoom.svg' | asset_url }}" width="36" height="36">
+        <img id="zoom-out" src="{{ 'zoom-out.svg' | asset_url }}" width="20" height="20">
+        <img id="zoom-in"  src="{{ 'zoom-in.svg' | asset_url }}" width="20" height="20">
       </div>
     </div>
   </div>
@@ -190,7 +191,8 @@
   function initZoom(){
 
     var gallery = document.getElementById('gallery')
-    var toggle = document.getElementById('zoom-toggle')
+    var zoomIn = document.getElementById('zoom-in')
+    var zoomOut = document.getElementById('zoom-out')
     var zImage = document.querySelector('#zoom-wrap :nth-child(1)')
     var idx = 0
     var enabled = false
@@ -213,12 +215,14 @@
       console.log(zImage.dataset.index)
     })
 
-    toggle.addEventListener('click', function(e){
-      toggle.setAttribute('active', toggle.getAttribute('active') === 'true' ? 'false' : 'true')
-      enabled = toggle.getAttribute('active') === 'true'
+    function handleToggle(e){
+      enabled = e.target.id === 'zoom-in'
       zImage.style.opacity = !enabled  ?  0 : 1
-      
-    })
+    }
+
+    zoomIn.addEventListener('click', handleToggle)
+    zoomOut.addEventListener('click', handleToggle)
+
     gallery.addEventListener('mouseenter', function(e){
       if(enabled)
         zImage.style.opacity = 1

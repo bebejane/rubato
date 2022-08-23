@@ -1,25 +1,102 @@
 {{ 'section-lookbook.css' | asset_url | stylesheet_tag }}
-{% render 'log' object: page.content %}
-
-{% assign arr = page.content | split: '<img src=\"' | split: '"' %}
-{% assign images = '' %}
-
-{% for str in arr %}
-  {% if str contains 'https' %}
-    {%- capture url -%}{{ str | remove: '\' }}{%- endcapture -%}
-    {% assign images = images | append: url | append: ',' %}
-  {% endif %}
-{% endfor %}
-
-{% assign images = images | split: ',' %}
 
 <div class="lookbook">
   <h1>{{page.title}}</h1>
   <div class="lookbook-content">
-    {%for url in images %}
-      <div class="lookbook-image-wrap">
-        <img src="{{url}}"/>
-      </div>
+    
+    {% for block in section.blocks %}
+      {% if block.settings.image != blank or block.settings.image2 != blank %}
+        <div class="lookbook-row">
+          {% if block.settings.image %}
+            <div class="lookbook-col {% if block.settings.image2 == blank%}lookbook-col-full{% endif %}">
+              <a class="lookbook-image-wrap" {%- if block.settings.product.url -%} href="{{block.settings.product.url}}"{%- endif -%}>
+                {% render 'image-responsive', image: block.settings.image, class:'lookbook-image-one', loading: 'eager' %}
+                <div class="lookbook-image-caption">{{block.settings.caption}}</div>
+              </a>
+            </div>
+          {% endif %}
+          {% if block.settings.image2 %}
+            <div class="lookbook-col">
+              <a class="lookbook-image-wrap" {%- if block.settings.product2.url -%} href="{{block.settings.product2.url}}"{%- endif -%}>
+                {% render 'image-responsive', image:block.settings.image2, class:'lookbook-image-two', loading: 'eager' %}
+                <div class="lookbook-image-caption">{{block.settings.caption2}}</div>
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
+
+{% javascript %}
+  
+  function initLookbook(){
+
+    // Toggle caption on hover
+    var images = document.querySelectorAll('.lookbook-image-wrap * > img')
+    
+    images.forEach(function(img){
+      img.addEventListener('mouseenter', function(e){
+        
+        var caption = e.target.closest('.lookbook-image-wrap').querySelector('.lookbook-image-caption')
+        if(caption)
+          caption.classList.add('lookbook-image-caption-show')
+      })
+      img.addEventListener('mouseleave', function(e){
+        var caption = e.target.closest('.lookbook-image-wrap').querySelector('.lookbook-image-caption')
+        
+        if(caption)
+          caption.classList.remove('lookbook-image-caption-show')
+      })
+    })
+  }
+  document.addEventListener("DOMContentLoaded", initLookbook);
+  document.addEventListener("shopify:section:load", initLookbook);
+  
+
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Images",
+  "tag": "section",
+  "class": "section",
+  "blocks": [{
+    "type": "image",
+    "name": "Row",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image "
+      },
+      {
+        "type": "textarea",
+        "id": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Link product"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Image 2"
+      },
+      {
+        "type": "textarea",
+        "id": "caption2",
+        "label": "Caption 2"
+      },
+      {
+        "type": "product",
+        "id": "product2",
+        "label": "Link product 2"
+      }  
+    ]
+  }]
+}
+{% endschema %}

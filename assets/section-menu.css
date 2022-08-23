@@ -76,7 +76,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  margin-left: var(--outer-margin);
+  margin-left: 43px;
   top:0;
   left:0;
   height: var(--navbar-height);

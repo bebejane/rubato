@@ -115,7 +115,7 @@ button{
   justify-content: center;
   margin-bottom: 0rem;
 }
-button.button-capitalized{
+button.button-capitalized, input[type='submit'].button-capitalized{
   padding-top:8px;
 }
 input{

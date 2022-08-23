@@ -1,7 +1,6 @@
 .customer-page{
   text-align: center;
   margin-bottom: 0;
-
 }
 #login-page{
 
@@ -58,16 +57,18 @@
   width: 100%;
   margin: 0;
   padding-left: 0;
-  
+  font-size: var(--medium-font) !important;
 }
 .input-wrap > input:-webkit-autofill,
 .input-wrap > input:-webkit-autofill:hover,
 .input-wrap > input:-webkit-autofill:focus,
 .input-wrap > input:-webkit-autofill:active {
+  font-size: var(--medium-font) !important;
   transition: background-color 5000s ease-in-out 0s;
 }
 .input-wrap > input::placeholder{
   color:#000;
+  font-size: var(--medium-font) !important;
 }
 .input-wrap > label{
   display: none; 
@@ -77,6 +78,7 @@
   width:100%;
   padding-bottom: 10px;
   border-bottom: var(--line);
+  font-size: var(--medium-font);
 }
 
 #LoginHeading {

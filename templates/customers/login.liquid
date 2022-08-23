@@ -48,11 +48,10 @@
           </div>
         {% endif %}
         <div class="text-center">
-          <input type="submit" class="btn" value="LOG IN">
+          <input type="submit" class="button-capitalized" value="LOG IN">
           {% if form.password_needed %}
             <p><a href="#recover" id="RecoverPassword">{{ 'customer.login.forgot_password' | t }}</a></p>
           {% endif %}
-
           <p>
             {{ 'layout.customer.create_account' | t | customer_register_link }}
           </p>
@@ -60,13 +59,10 @@
       {% endform %}
     </div>
     <div id="RecoverPasswordForm" class="login-form form-vertical hide">
-
       <div class="text-center">
         <h2 id="RecoverHeading">{{ 'customer.recover_password.title' | t }}</h2>
         <p>{{ 'customer.recover_password.subtext' | t }}</p>
       </div>
-  
-      
         {% form 'recover_customer_password' %}
   
           {% comment %}
