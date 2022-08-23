@@ -1,7 +1,6 @@
 .product{
   display: flex;
   flex-direction: column;
-  
 }
 .product-wrap{
   display: flex;
@@ -319,9 +318,7 @@
     margin-top: 0;
     flex: 0 0 50%;
     padding: 0;
-    width: 100%;
-    
-    
+    width: 100%; 
   }
   .product-info{
     border-top: var(--line);
