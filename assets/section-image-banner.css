@@ -21,7 +21,7 @@
 }
 .main-slideup{
   transition: padding-top 1s ease-in-out;
-  padding-top:0vh;
+  padding-top: 0px;
 }
 .banner-slideup{
   transition: transform 1s ease-in-out;

@@ -38,8 +38,16 @@
         align-items: {{block.settings.align}};
       {% endcapture %}
 
+      {% capture a_href %}
+        {%- if block.settings.collection != blank -%}
+          {{block.settings.collection.url}}
+        {%- elsif block.settings.product != blank -%}
+          {{block.settings.product.url}}
+        {%- endif -%}
+      {% endcapture %}
+      
       <div id="collage-block-{{ block.id }}" class="collage-block" style="{{ style }}">
-        {%- if block.settings.product.url -%}<a href="{{block.settings.product.url}}" style="{{ a_style }}">{%- endif -%}
+        {%- if a_href != blank -%}<a href="{{a_href}}" style="{{ a_style }}">{%- endif -%}
           {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
         
         {%- if block.settings.product != blank -%}
@@ -49,7 +57,7 @@
                 {{ block.settings.product.title }}
               </h2>
               <div class="collage-block-caption-price">
-                {{ block.settings.product.price | money_without_currency }} {{ cart.currency.iso_code }}
+                {{ block.settings.product.price | money }}
               </div>
             </div>
           </div>
@@ -58,7 +66,7 @@
             <h2 class="collage-block-caption-title" style="{{caption_style}}"">{{block.settings.caption}}</h2>
           </div>
         {%- endif -%}
-        {%- if block.settings.product -%}</a>{%- endif -%}
+        {%- if a_href != blank -%}</a>{%- endif -%}
       </div>
     {% endfor %}
   </div>
@@ -151,6 +159,11 @@
         "type": "product",
         "id": "product",
         "label": "Link product"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Link collection"
       }  
     ]
   }]

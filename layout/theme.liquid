@@ -29,6 +29,9 @@
 
     {% render 'meta-tags' %}
     {{ content_for_header }}
+    
+    {{ 'normalize.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {% style %}
     
@@ -41,18 +44,14 @@
         font-family: "Mars Extended Web Regular";
         src: url({{ 'Mars Extended Web Regular.woff2' | asset_url}}) format("woff2");
       }
+      
       main{
-        padding-top: var(--content-margin);
+        padding-top: var(--navbar-height) !important;
       }
       .nomargin { 
-        margin-top: calc((var(--content-margin) * -1));
+        margin-top: calc((var(--navbar-height) * -1));
       }
     {% endstyle %}
-
-
-    {{ 'normalize.css' | asset_url | stylesheet_tag }}
-    {{ 'base.css' | asset_url | stylesheet_tag }}
-    
 
   </head>
   <!-- Begin Exemptify messages -->
@@ -64,8 +63,7 @@
   <script async src="//www.modules4u.biz/shopify/exemptify/js/fix_prices_v1.js.php?shop=atemporubato.myshopify.com{{ shop.metafields['exemptify']['price_qs'] }}&tax_included={{ cart.taxes_included }}&shop_currency={{ shop.currency }}&actual_currency={{ cart.currency.iso_code }}&num_currencies={{ shop.enabled_currencies | size }}&customer_exempt={{ customer.tax_exempt }}&current_country={{ localization.country.iso_code }}"></script>
   <!-- End Exemptify price display -->
   <body>
-    
-    {% section 'main-menu' %}
+    {%- section 'main-menu' -%}
     <main id="MainContent" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>

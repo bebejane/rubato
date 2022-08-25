@@ -182,3 +182,70 @@
     width: 90%;
   }
 }
+
+.hide{
+  display: none;
+}
+.button-active{
+  background-color: #000;
+  color:#fff;
+}
+#page-addresses{
+
+}
+
+.page-addresses-form-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  text-align: center;
+}
+
+#AddressNewForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  text-align: center;
+}
+.page-addresses-form-wrap > h2{
+  margin-top: 2rem;
+}
+.page-addresses-form-wrap > form > .row{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+.page-addresses-form-wrap * > label{
+  display: block;
+  text-align: left;
+}
+.page-addresses-form-wrap * > .col{
+  flex: 0 0 100%;
+  text-align: left !important;
+}
+.page-addresses-form-wrap * > input:not([type='checkbox']), #AddressNewForm * > select{
+  width: calc(100%);
+}
+.page-addresses-form-wrap * > input[type='checkbox']{
+
+}
+.page-addresses-form-wrap * > .col-half{
+  flex: 0 0 50% !important;
+}
+.page-addresses-address{
+
+}
+.page-addresses-address > h2{
+  margin-top: 2rem;
+}
+.page-addresses-edit-toggles{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+.page-addresses-edit-toggles button{
+  margin-right: 5px;
+}

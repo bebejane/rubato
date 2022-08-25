@@ -21,7 +21,7 @@
     --outer-margin: 2.5rem;
     --small-margin: 4.5rem;
     --margin: 7rem;
-    --navbar-height: calc((var(--outer-margin) * 2 ) + var(--navbar-logo-size));
+    --navbar-height: calc((var(--outer-margin) * 2 ) +  var(--navbar-logo-size));
     --content-margin: calc(var(--navbar-height)); 
   }
 }
@@ -96,7 +96,7 @@ p+h4, p+h1, p+h2, p+h3, p+h4, p+h5, p+h6{
   margin-top:2rem;
 }
 
-button, input{
+button, select, input:not([type='checkbox']){
   appearance: none;
   border-radius: 0px;
   background-color: transparent;
@@ -104,6 +104,9 @@ button, input{
   padding: 0.5rem 1rem 0.5rem 1rem;
   min-height: 30px;
   font-size: 15px;
+}
+select{
+  min-height: 40px;
 }
 button{
   text-transform: uppercase;
@@ -125,7 +128,9 @@ input[type=number]{
   padding: 2px;
   text-align: center;
 }
-
+input[type='checkbox']{
+  background-color: transparent;
+}
 .fadein{
   transition: opacity 1s ease;
   opacity: 1;

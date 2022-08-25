@@ -5,13 +5,11 @@
   flex-direction: row;
   justify-content: flex-start;
   position: relative;
-  
   margin-bottom: calc(var(--margin) * 1);
   margin-left: calc(var(--outer-margin) / 2);
   overflow: hidden;
   justify-content: flex-start;
-  width: calc(100% - calc(var(--outer-margin) / 1));
-  
+  width: calc(100% - calc(var(--outer-margin) / 1)); 
 }
 
 .collage-block{
@@ -37,6 +35,7 @@
   margin-top: .5rem;
   transition: opacity 0.5s ease;
   
+  
 }
 .collage-block-caption-wrap{
   display: flex;
@@ -54,24 +53,22 @@
   margin-bottom: 0;
 }
 .collage-block-caption-price{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   flex: 0 0 100px;
   text-align: right;
+  white-space: pre;
   font-size: calc(var(--medium-font) + 1px);
 }
 
 @media only screen and (max-width: 749px) {
   .collage {
     flex-direction: column;
-    margin-top: calc(var(--margin) * 3);
+    padding-top: calc(128px - var(--navbar-height));
     padding-bottom: var(--outer-margin);
   }
-  @media not all and (min-resolution:.001dpcm) { 
-    @supports (-webkit-appearance:none) { 
-      .collage {
-        margin-top: 114px;
-      }
-    }
-  }
+ 
   .collage-block{
     margin: 0 !important;
     margin-bottom: calc(var(--outer-margin) * 3) !important;
@@ -106,15 +103,9 @@
   .collage {
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: calc(var(--margin) * 4);
+    padding-top: calc(280px - calc(var(--navbar-height) * 2));
   }
-  @media not all and (min-resolution:.001dpcm) { 
-    @supports (-webkit-appearance:none) { 
-      .collage {
-        margin-top: calc(var(--margin) * 3);
-      }
-    }
-  }
+ 
   .collage-block-caption{
     width: 100%;
     opacity: 0;

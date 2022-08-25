@@ -124,189 +124,172 @@
 
 <script>
 
-
-var selectors = {
-  //RecoverHeading: document.getElementById('RecoverHeading')
-  //RecoverEmail: document.getElementById('RecoverEmail'),
-  //LoginHeading: document.getElementById('LoginHeading'),
-  //document.getElementById('RecoverPassword')
-  //document.getElementById('HideRecoverPasswordLink')
-  //document.getElementById('RecoverPasswordForm')
-};
-
-function initEventListeners() {
-  //this.$RecoverHeading = $(selectors.RecoverHeading);
-  //this.$RecoverEmail = $(selectors.RecoverEmail);
-  //this.$LoginHeading = $(selectors.LoginHeading);
-
-  // Show reset password form
-  document.getElementById('RecoverPassword').addEventListener(
-    'click',
-    function(evt) {
-      console.log('hej')
-      evt.preventDefault();
-      showRecoverPasswordForm();
-      document.getElementById('RecoverHeading').getAttribute('tabindex', '-1').focus();
-    }.bind(this)
-  );
-
-  // Hide reset password form
-  document.getElementById('HideRecoverPasswordLink').addEventListener(
-    'click',
-    function(evt) {
-      evt.preventDefault();
-      hideRecoverPasswordForm();
-      document.getElementById('LoginHeading').getAttribute('tabindex', '-1').focus();
-    }.bind(this)
-  );
-
-  document.getElementById('RecoverHeading').addEventListener('blur', function() {
-    $(this).removeAttr('tabindex');
-  });
-
-  document.getElementById('LoginHeading').addEventListener('blur', function() {
-    $(this).removeAttr('tabindex');
-  });
-}
-
-/**
- *
- *  Show/Hide recover password form
- *
- */
-
-function showRecoverPasswordForm() {
-  document.getElementById('RecoverPasswordForm').classList.remove('hide');
-  document.getElementById('CustomerLoginForm').classList.add('hide');
-
-  if (document.getElementById('RecoverEmail').getAttribute('aria-invalid') === 'true') {
-    document.getElementById('RecoverEmail').focus();
-  }
-}
-
-function hideRecoverPasswordForm() {
-  document.getElementById('RecoverPasswordForm').classList.add('hide');
-  document.getElementById('CustomerLoginForm').classList.remove('hide');
-}
-
-/**
- *
- *  Show reset password success message
- *
- */
-function resetPasswordSuccess() {
-  var $formState = document.querySelectorAll('.reset-password-success');
-
-  // check if reset password form was successfully submited.
-  if (!$formState.length) {
-    return;
-  }
-
-  // show success message
-  document.getElementById('ResetSuccess').classList.remove('hide')
-  document.getElementById('ResetSuccess').focus();
-}
-
-/**
- *
- *  Show/hide customer address forms
- *
- */
-function customerAddressForm() {
-  return
-  var $newAddressForm = document.getElementById('AddressNewForm');
-  var $newAddressFormButton = document.getElementById('AddressNewButton');
-
-  if (!$newAddressForm.length) {
-    return;
-  }
-
-  // Initialize observers on address selectors, defined in shopify_common.js
-  if (Shopify) {
-    // eslint-disable-next-line no-new
-    new Shopify.CountryProvinceSelector(
-      'AddressCountryNew',
-      'AddressProvinceNew',
-      {
-        hideElement: 'AddressProvinceContainerNew'
-      }
+  function initEventListeners() {
+    
+    document.getElementById('RecoverPassword').addEventListener(
+      'click',
+      function(evt) {
+        evt.preventDefault();
+        showRecoverPasswordForm();
+        document.getElementById('RecoverHeading').getAttribute('tabindex', '-1').focus();
+      }.bind(this)
     );
-  }
 
-  // Initialize each edit form's country/province selector
-  document.querySelectorAll('.address-country-option').each(function() {
-    var formId = $(this).data('form-id');
-    var countrySelector = 'AddressCountry_' + formId;
-    var provinceSelector = 'AddressProvince_' + formId;
-    var containerSelector = 'AddressProvinceContainer_' + formId;
+    // Hide reset password form
+    document.getElementById('HideRecoverPasswordLink').addEventListener(
+      'click',
+      function(evt) {
+        evt.preventDefault();
+        hideRecoverPasswordForm();
+        document.getElementById('LoginHeading').getAttribute('tabindex', '-1').focus();
+      }.bind(this)
+    );
 
-    // eslint-disable-next-line no-new
-    new Shopify.CountryProvinceSelector(countrySelector, provinceSelector, {
-      hideElement: containerSelector
+    document.getElementById('RecoverHeading').addEventListener('blur', function() {
+      $(this).removeAttr('tabindex');
     });
-  });
 
-  // Toggle new/edit address forms
-  document.querySelectorAll('.address-new-toggle').addEventListener('click', function() {
-    var isExpanded = $newAddressFormButton.getAttribute('aria-expanded') === 'true';
-
-    $newAddressForm.toggleClass('hide');
-    $newAddressFormButton.getAttribute('aria-expanded', !isExpanded).focus();
-  });
-
-  document.querySelectorAll('.address-edit-toggle').addEventListener('click', function() {
-    var formId = $(this).data('form-id');
-    var $editButton = document.getElementById('EditFormButton_' + formId);
-    var $editAddress = document.getElementById('EditAddress_' + formId);
-    var isExpanded = $editButton.getAttribute('aria-expanded') === 'true';
-
-    $editAddress.toggleClass('hide');
-    $editButton.getAttribute('aria-expanded', !isExpanded).focus();
-  });
-
-  document.querySelectorAll('.address-delete').addEventListener('click', function() {
-    var $el = $(this);
-    var formId = $el.data('form-id');
-    var confirmMessage = $el.data('confirm-message');
-
-    // eslint-disable-next-line no-alert
-    if (
-      confirm(
-        confirmMessage || 'Are you sure you wish to delete this address?'
-      )
-    ) {
-      Shopify.postLink('/account/addresses/' + formId, {
-        parameters: { _method: 'delete' }
-      });
-    }
-  });
-}
-
-/**
- *
- *  Check URL for reset password hash
- *
- */
-function checkUrlHash() {
-  var hash = window.location.hash;
-
-  // Allow deep linking to recover password form
-  if (hash === '#recover') {
-    showRecoverPasswordForm.bind(this)();
+    document.getElementById('LoginHeading').addEventListener('blur', function() {
+      $(this).removeAttr('tabindex');
+    });
   }
-}
 
-function initLogin(){
-  console.log('init login')
-  initEventListeners();
-  checkUrlHash();
-  resetPasswordSuccess();
-  customerAddressForm();
-}
+  /**
+  *
+  *  Show/Hide recover password form
+  *
+  */
 
-document.addEventListener("DOMContentLoaded", initLogin);
-document.addEventListener("shopify:section:load", initLogin);
+  function showRecoverPasswordForm() {
+    document.getElementById('RecoverPasswordForm').classList.remove('hide');
+    document.getElementById('CustomerLoginForm').classList.add('hide');
 
+    if (document.getElementById('RecoverEmail').getAttribute('aria-invalid') === 'true') {
+      document.getElementById('RecoverEmail').focus();
+    }
+  }
 
+  function hideRecoverPasswordForm() {
+    document.getElementById('RecoverPasswordForm').classList.add('hide');
+    document.getElementById('CustomerLoginForm').classList.remove('hide');
+  }
+
+  /**
+  *
+  *  Show reset password success message
+  *
+  */
+  function resetPasswordSuccess() {
+    var $formState = document.querySelectorAll('.reset-password-success');
+
+    // check if reset password form was successfully submited.
+    if (!$formState.length) {
+      return;
+    }
+
+    // show success message
+    document.getElementById('ResetSuccess').classList.remove('hide')
+    document.getElementById('ResetSuccess').focus();
+  }
+
+  /**
+  *
+  *  Show/hide customer address forms
+  *
+  */
+  function customerAddressForm() {
+    return
+    var $newAddressForm = document.getElementById('AddressNewForm');
+    var $newAddressFormButton = document.getElementById('AddressNewButton');
+
+    if (!$newAddressForm.length) {
+      return;
+    }
+
+    // Initialize observers on address selectors, defined in shopify_common.js
+    if (Shopify) {
+      // eslint-disable-next-line no-new
+      new Shopify.CountryProvinceSelector(
+        'AddressCountryNew',
+        'AddressProvinceNew',
+        {
+          hideElement: 'AddressProvinceContainerNew'
+        }
+      );
+    }
+
+    // Initialize each edit form's country/province selector
+    document.querySelectorAll('.address-country-option').each(function() {
+      var formId = $(this).data('form-id');
+      var countrySelector = 'AddressCountry_' + formId;
+      var provinceSelector = 'AddressProvince_' + formId;
+      var containerSelector = 'AddressProvinceContainer_' + formId;
+
+      // eslint-disable-next-line no-new
+      new Shopify.CountryProvinceSelector(countrySelector, provinceSelector, {
+        hideElement: containerSelector
+      });
+    });
+
+    // Toggle new/edit address forms
+    document.querySelectorAll('.address-new-toggle').addEventListener('click', function() {
+      var isExpanded = $newAddressFormButton.getAttribute('aria-expanded') === 'true';
+
+      $newAddressForm.toggleClass('hide');
+      $newAddressFormButton.getAttribute('aria-expanded', !isExpanded).focus();
+    });
+
+    document.querySelectorAll('.address-edit-toggle').addEventListener('click', function() {
+      var formId = $(this).data('form-id');
+      var $editButton = document.getElementById('EditFormButton_' + formId);
+      var $editAddress = document.getElementById('EditAddress_' + formId);
+      var isExpanded = $editButton.getAttribute('aria-expanded') === 'true';
+
+      $editAddress.toggleClass('hide');
+      $editButton.getAttribute('aria-expanded', !isExpanded).focus();
+    });
+
+    document.querySelectorAll('.address-delete').addEventListener('click', function() {
+      var $el = $(this);
+      var formId = $el.data('form-id');
+      var confirmMessage = $el.data('confirm-message');
+
+      // eslint-disable-next-line no-alert
+      if (
+        confirm(
+          confirmMessage || 'Are you sure you wish to delete this address?'
+        )
+      ) {
+        Shopify.postLink('/account/addresses/' + formId, {
+          parameters: { _method: 'delete' }
+        });
+      }
+    });
+  }
+
+  /**
+  *
+  *  Check URL for reset password hash
+  *
+  */
+  function checkUrlHash() {
+    var hash = window.location.hash;
+
+    // Allow deep linking to recover password form
+    if (hash === '#recover') {
+      showRecoverPasswordForm.bind(this)();
+    }
+  }
+
+  function initLogin(){
+    console.log('init login')
+    initEventListeners();
+    checkUrlHash();
+    resetPasswordSuccess();
+    customerAddressForm();
+  }
+
+  document.addEventListener("DOMContentLoaded", initLogin);
+  document.addEventListener("shopify:section:load", initLogin);
 
 </script>

@@ -1,18 +1,24 @@
-#menu {
+#shopify-section-main-menu{
+  
   position: fixed;
   z-index: 100;
   top:0;
   left:0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 100%;
+  width: 100%;
   background-color: transparent;
-  max-height: var(--navbar-height);
+  
   overflow-y: auto;
   scrollbar-width: none;
   transition: max-height 0.2s ease-in-out;
   font-family: "Mars Extended Web Regular";
+}
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  
 }
 
 #menu::-webkit-scrollbar { 
@@ -173,8 +179,11 @@
   }
   .navbar-footer{
     padding-top: var(--outer-margin);
-  padding-bottom: var(--outer-margin);
+    padding-bottom: var(--outer-margin);
   
+  }
+  .cartlink{
+    margin-left: var(--outer-margin) !important;
   }
   
 }
