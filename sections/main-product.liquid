@@ -181,7 +181,7 @@
     var sizeSelect = document.getElementById('product-variant')
     var sizeSelector = document.querySelector('ul.product-variants')
     var form = document.getElementById('product-form')
-    var formButtons = document.querySelector('.product-form-buttons')
+    var formButtons = document.querySelectorAll('.product-form-buttons > button')
     var formButtonsUnavailable = document.getElementById('product-unavailable')
     
 
@@ -190,7 +190,8 @@
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
       console.log(available,formButtonsUnavailable)
-      //formButtons.classList.toggle('hide', available)
+      
+      formButtons.classList.toggle('hide', available)
       formButtonsUnavailable.classList.toggle('hide', !available)
       sizeSelect.value = id
 
