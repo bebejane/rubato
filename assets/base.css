@@ -217,6 +217,9 @@ main div {
   text-align:center;
 }
 
+#omgrfq_button_action{
+  margin-top: var(--navbar-height);
+}
 #omgrfq_button_action button{
   color:#000;
   background-color: #fff;
