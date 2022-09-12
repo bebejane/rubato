@@ -9,4 +9,42 @@
   "order": [
     "main"
   ]
+}{
+  "sections": {
+    "main": {
+      "type": "lookbook",
+      "blocks": {
+        "1798e1b4-2667-41d5-85e5-b132ffe2cee4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
+            "caption": "",
+            "product": "",
+            "image2": "shopify:\/\/shop_images\/Rubato-V-Camel-1_1024x1024_2x_78b591e1-5259-4196-840a-6fc23d5be51a.jpg",
+            "caption2": "",
+            "product2": ""
+          }
+        },
+        "fc3f5d74-af74-4c0f-821d-e4779f5ba0f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DP-19311-002.jpg",
+            "caption": "",
+            "product": "",
+            "caption2": "",
+            "product2": ""
+          }
+        }
+      },
+      "block_order": [
+        "1798e1b4-2667-41d5-85e5-b132ffe2cee4",
+        "fc3f5d74-af74-4c0f-821d-e4779f5ba0f3"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
