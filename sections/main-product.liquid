@@ -122,12 +122,14 @@
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
             </button>
+            
+          </div>
+          <div class="product-form-buttons">
             <a id="product-unavailable" href="#" class="BIS_trigger" data-product-data="{{ product | json | escape }}">
               <button class="product-form-submit button-capitalized">Sold out</button>
               <button class="product-form-view-cart button-capitalized">Email when available</button>
             </a>
-          </div>
-          
+          <div>
         </form> 
       </div>
     </div>
