@@ -102,7 +102,7 @@
       <div class="product-form-wrap">
         <ul class="product-variants">
           {% for variant in product.variants %}
-              <li data-id="{{variant.id}}" {% if variant == selected_variant %}selected="selected"{% endif %}>
+              <li data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant.selected_or_first_available_variant == selected_variant %}selected="selected"{% endif %} {% if variant == selected_variant %}selected="selected"{% endif %}>
                 {{ variant.title }}
               </li>
           {% endfor %}
@@ -184,6 +184,8 @@
       //if(e.target.hasAttribute('disabled')) return
       
       var id = e.target.dataset.id;
+      var available = e.target.dataset.available
+      console.log(available)
 
       sizeSelect.value = id
       sizes.forEach(function(el){
