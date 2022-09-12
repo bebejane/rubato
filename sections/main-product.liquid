@@ -191,7 +191,7 @@
       var available = e.target.dataset.available === 'true'
       console.log(available)
       
-      formButtons.forEach(function(b){ b.classList.toggle('hide', available) }
+      formButtons.each(function(b){ b.classList.toggle('hide', available) }
       formButtonsUnavailable.classList.toggle('hide', !available)
       sizeSelect.value = id
 
