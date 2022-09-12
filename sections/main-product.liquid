@@ -122,12 +122,10 @@
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
             </button>
-            <div id="product-unavailable">
-              SOLD OUT<br/>
-              <a href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
-                Email me when available
-              </a>
-            </div>
+            <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
+              Product is sold out
+              Email when available
+            </a>
           </div>
           
         </form> 
@@ -194,6 +192,7 @@
       var available = e.target.dataset.available === 'true'
         //formButtons.forEach(function(el){ el.classList.toggle('hide', available)})
       formButtonsUnavailable.classList.toggle('hide', !available)
+
       sizeSelect.value = id
 
       sizes.forEach(function(el){
