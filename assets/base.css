@@ -216,3 +216,8 @@ main div {
 .text-center{
   text-align:center;
 }
+
+#omgrfq_button_action button{
+  color:#000;
+  background-color: #fff;
+}
