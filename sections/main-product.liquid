@@ -183,7 +183,6 @@
     var formButtons = document.querySelectorAll('.product-form-buttons > button')
     var formButtonsUnavailable = document.getElementById('product-unavailable')
     
-
     sizeSelector.addEventListener('click', function(e){
       
       var id = e.target.dataset.id;
@@ -195,7 +194,7 @@
         else
           el.removeAttribute('disabled')
       })
-      
+
       formButtonsUnavailable.classList.toggle('hide', !available)
 
       sizeSelect.value = id
