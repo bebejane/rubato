@@ -143,7 +143,13 @@
 }
 
 #product-unavailable{
-  border: var(--line) !important;
+  text-transform: uppercase;
+  border-radius: 0px;
+  background-color: transparent;
+  border: var(--line);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  min-height: 30px;
+  font-size: 15px;
 }
 .product-gallery{
   position: relative;
