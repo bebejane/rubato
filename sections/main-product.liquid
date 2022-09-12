@@ -102,7 +102,7 @@
       <div class="product-form-wrap">
         <ul class="product-variants">
           {% for variant in product.variants %}
-              <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
+              <li data-id="{{variant.id}}" {% if variant == selected_variant %}selected="selected"{% endif %}>
                 {{ variant.title }}
               </li>
           {% endfor %}
@@ -183,6 +183,7 @@
   
     sizeSelector.addEventListener('click', function(e){
       //if(e.target.hasAttribute('disabled')) return
+      
       var id = e.target.dataset.id;
       sizeSelect.value = id
       sizes.forEach(function(el){
