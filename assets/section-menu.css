@@ -87,6 +87,9 @@
   left:0;
   height: var(--navbar-height);
 }
+.cartlink.home{
+  opacity: 0;
+}
 .cartlink a {
   font-family: "Bembo Book" !important;
 }
