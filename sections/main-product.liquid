@@ -180,13 +180,18 @@
     var sizeSelect = document.getElementById('product-variant')
     var sizeSelector = document.querySelector('ul.product-variants')
     var form = document.getElementById('product-form')
+    var formButtons = document.querySelector('product-form-buttons')
+    var formButtonsUnavailable = document.getElementById('product-unavailable')
+    
   
     sizeSelector.addEventListener('click', function(e){
       //if(e.target.hasAttribute('disabled')) return
       
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-      if(!available)
+      
+      formButtons.classList.toggle('hide', available)
+      formButtonsUnavailable.classList.toggle('hide', !available)
 
 
       sizeSelect.value = id
