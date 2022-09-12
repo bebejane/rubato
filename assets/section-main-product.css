@@ -142,6 +142,9 @@
   color: #000;
 }
 
+#product-unavailable{
+  border: var(--line) !important;
+}
 .product-gallery{
   position: relative;
   background-color: #fff;
@@ -415,9 +418,3 @@
   }
 }
 
-#product-unavailable{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 10px;
-}
