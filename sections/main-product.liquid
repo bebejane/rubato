@@ -184,13 +184,15 @@
     var formButtonsUnavailable = document.getElementById('product-unavailable')
     
     console.log('init')
+    
     sizeSelector.addEventListener('click', function(e){
-      console.log(e)
+      
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
       
       formButtons.classList.toggle('hide', available)
       formButtonsUnavailable.classList.toggle('hide', !available)
+
       sizeSelect.value = id
 
       console.log(available)
