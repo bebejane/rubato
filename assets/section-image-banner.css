@@ -11,6 +11,7 @@
   z-index: 101;
   opacity: 1;
   cursor: pointer;
+  background-color: #f8f7f0;
 }
 .banner-fadeout{
   animation:fadeoutbanner 2s ease forwards;
