@@ -3,3 +3,4 @@ config.yml
 /.vscode/**/*
 .vscode/**/*
 .vscode
+/.vscode/settings.json

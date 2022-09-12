@@ -2,17 +2,6 @@
   "sections": {
     "main": {
       "type": "lookbook",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}{
-  "sections": {
-    "main": {
-      "type": "lookbook",
       "blocks": {
         "1798e1b4-2667-41d5-85e5-b132ffe2cee4": {
           "type": "image",
