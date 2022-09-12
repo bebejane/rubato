@@ -190,9 +190,9 @@
       
       formButtons.classList.toggle('hide', available)
       formButtonsUnavailable.classList.toggle('hide', !available)
-
-
       sizeSelect.value = id
+
+      console.log(available)
 
       sizes.forEach(function(el){
         el.removeAttribute('selected')
