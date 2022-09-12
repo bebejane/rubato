@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/R1-08345-0010.jpg"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

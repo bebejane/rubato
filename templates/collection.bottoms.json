@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920x500px_4.jpg"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}
