@@ -55,6 +55,7 @@
     menuToggle.addEventListener('click', function(e){
       menuToggle.classList.toggle('menu--toggle-active')
       menu.classList.toggle('menu-active')
+      console.log(cartlink.classList.contains('home'))
       if(cartlink.classList.contains('home'))
         cartlink.classList.toggle('home-visible')
     })
