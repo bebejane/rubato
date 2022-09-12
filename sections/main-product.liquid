@@ -185,11 +185,9 @@
     
   
     sizeSelector.addEventListener('click', function(e){
-      //if(e.target.hasAttribute('disabled')) return
-      
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-      console.log(available)
+      
       formButtons.classList.toggle('hide', available)
       formButtonsUnavailable.classList.toggle('hide', !available)
 
