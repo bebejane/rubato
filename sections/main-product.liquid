@@ -189,13 +189,14 @@
       console.log('click')
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
+      console.log(available)
       
       formButtons.classList.toggle('hide', available)
       //formButtonsUnavailable.classList.toggle('hide', !available)
 
       sizeSelect.value = id
 
-      console.log(available)
+      
 
       sizes.forEach(function(el){
         el.removeAttribute('selected')
