@@ -1,5 +1,3 @@
-git/*
+.git/*
 .gitignore
 package.json
-#config/*.json
-#templates/*.json
