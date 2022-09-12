@@ -122,11 +122,11 @@
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
             </button>
-            <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
-              Sold out - Email me when available
-            </a>  
+            
           </div>
-          
+          <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
+            Sold out - Email me when available
+          </a>  
         </form> 
       </div>
     </div>
