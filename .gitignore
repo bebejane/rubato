@@ -2,3 +2,4 @@ config.yml
 .DS_store
 /.vscode
 .vscode/**/*
+.vscode
