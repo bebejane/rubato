@@ -185,6 +185,9 @@
       //if(e.target.hasAttribute('disabled')) return
       
       var id = e.target.dataset.id;
+
+      return location.href = location.href + '?variant=' + id
+
       sizeSelect.value = id
       sizes.forEach(function(el){
         el.removeAttribute('selected')
