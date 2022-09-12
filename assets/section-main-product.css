@@ -132,6 +132,10 @@
   width: 100%;
   
 }
+.product-form-buttons button[disabled]{
+  pointer-events: none;
+  opacity: 0.6;
+}
 .product-form-submit{
   background-color: #fff;
   border-bottom: var(--line) !important;
@@ -149,6 +153,7 @@
   text-align: center;
   text-transform:uppercase;
 }
+
 .product-gallery{
   position: relative;
   background-color: #fff;
