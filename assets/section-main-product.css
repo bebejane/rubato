@@ -415,5 +415,9 @@
   }
 }
 
-
-
+#product-unavailable{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: var(--small-margin);
+}
