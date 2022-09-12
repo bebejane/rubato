@@ -27,7 +27,8 @@
 }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%; 
+}
 body {
   font-size: var(--medium-font); /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.3;
