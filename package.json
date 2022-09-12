@@ -4,7 +4,7 @@
   "description": "Rubato starter",
   "main": "index.js",
   "scripts": {
-    "dev": "shopify theme serve --theme=121759400070",
+    "dev": "shopify theme serve --theme-editor-sync --theme=121759400070",
     "deploy": "shopify theme push --theme=121759400070",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
