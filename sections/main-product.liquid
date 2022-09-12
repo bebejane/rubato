@@ -186,12 +186,12 @@
     
 
     sizeSelector.addEventListener('click', function(e){
-      console.log('click', e)
+      
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-      console.log(available)
+      console.log(available, id)
 
-      formButtons.classList.toggle('hide', available)
+      //formButtons.classList.toggle('hide', available)
       //formButtonsUnavailable.classList.toggle('hide', !available)
 
       sizeSelect.value = id
