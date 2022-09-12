@@ -123,10 +123,12 @@
               View cart
             </button>
           </div>
-          <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
+          <div id="product-unavailable">
             SOLD OUT<br/>
-            Email when available
-          </a>
+            <a href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
+              <button type="button">Email when available</button>
+            </a>
+          </div>
         </form> 
       </div>
     </div>
