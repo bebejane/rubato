@@ -224,3 +224,7 @@ main div {
   color:#000;
   background-color: #fff;
 }
+
+.hide{
+  display: none;
+}
