@@ -122,12 +122,13 @@
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
             </button>
+          </div>
+          <div class="product-form-buttons-unavailable">
             <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
               <button class="product-form-submit button-capitalized">Sold out</button>
               <button class="product-form-view-cart button-capitalized">Email when available</button>
             </a>
-          </div>
-          
+          <div>
         </form> 
       </div>
     </div>
@@ -182,7 +183,7 @@
     var sizeSelector = document.querySelector('ul.product-variants')
     var form = document.getElementById('product-form')
     var formButtons = document.querySelector('.product-form-buttons')
-    var formButtonsUnavailable = document.getElementById('product-unavailable')
+    var formButtonsUnavailable = document.getElementById('.product-form-buttons-unavailable')
     
 
     sizeSelector.addEventListener('click', function(e){
