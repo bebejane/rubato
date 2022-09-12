@@ -29,7 +29,7 @@
   height: 2rem !important;
   text-transform: none !important;
   font-family: "Mars Extended Web Regular";
-  font-size: var(--small-font);
+  font-size: var(--small-font) !important;
 }
 .product-grid-search-input::-webkit-input-placeholder{
   color:#000 !important;
