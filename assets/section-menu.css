@@ -91,7 +91,7 @@
   opacity: 0;
 }
 .cartlink.home-visible{
-  
+  opacity: 1;
 }
 .cartlink a {
   font-family: "Bembo Book" !important;
