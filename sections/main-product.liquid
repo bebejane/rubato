@@ -175,6 +175,7 @@
   }
 
   function initForm(){
+    console.log('init2')
 
     var sizes = document.querySelectorAll('ul.product-variants li')
     var sizeSelect = document.getElementById('product-variant')
@@ -183,7 +184,6 @@
     var formButtons = document.querySelector('product-form-buttons')
     var formButtonsUnavailable = document.getElementById('product-unavailable')
     
-    console.log('init2')
 
     sizeSelector.addEventListener('click', function(e){
       console.log('click')
