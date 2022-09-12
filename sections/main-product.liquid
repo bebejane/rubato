@@ -192,7 +192,7 @@
       var available = e.target.dataset.available === 'true'
       console.log(available, 'now')
       try{
-        formButtons.forEach(function(el){ el.classList.toggle('hide', available) }
+        //formButtons.forEach(function(el){ el.classList.toggle('hide', available) }
         formButtonsUnavailable.classList.toggle('hide', !available)
       }catch(err){
         console.error(err)
