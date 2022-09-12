@@ -11,12 +11,77 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "headline": "",
-          "description": "",
-          "signup": "",
-          "signup-button": "",
-          "copyright": "",
-          "menu": ""
+          "headline": "EASY ELEGANCE",
+          "description": "The Rubato philosophy is to create wearable, contemporary garments full of character by looking to the past.",
+          "signup": "Sign up for our newsletter",
+          "signup-button": "Sign up",
+          "copyright": "© RUBATO 2022",
+          "menu": "rubato-menu-footer"
+        }
+      },
+      "lookbook": {
+        "type": "lookbook",
+        "blocks": {
+          "fc7fbd22-ca63-4fa3-84a1-41ff0bd2ee19": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Flat-Look-book-9.jpg",
+              "caption": "NONPAREL CREW NECK IN TOSCANA CREMA, \nDRAB LINEN SHORTS BROWN HATCH GRAIN BELT",
+              "product": "rubato-brown-suede-belt",
+              "image2": "shopify:\/\/shop_images\/Flat-Look-book-1.jpg",
+              "caption2": "DRAB LINEN SHORTS BROWN HATCH GRAIN BELT",
+              "product2": "rubato-cashmere-scarf-in-mole"
+            }
+          },
+          "e8908527-d8c8-4637-a09b-43ecb7bd8c6c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/back_2a98788b-b5e4-45b7-8533-cb45979185fb.jpg",
+              "caption": "ROBERT CAPA ’SAILING RACE’ HANKO, NORWAY, 1951",
+              "product": "",
+              "caption2": "",
+              "product2": ""
+            }
+          },
+          "770d451e-21ee-41cc-837f-86bfdb48c61e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DP-19311-002.jpg",
+              "caption": "caption",
+              "product": "",
+              "image2": "shopify:\/\/shop_images\/1949.518_-_Composition_No._1_Gray-Red.jpg",
+              "caption2": "",
+              "product2": "brown-hatch-grain-belt"
+            }
+          },
+          "91deffa6-ac3a-4e78-b2ef-853643b240b8": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1996.446_-_Thistles.jpg",
+              "caption": "",
+              "product": "",
+              "caption2": "",
+              "product2": ""
+            }
+          },
+          "b86cea99-1dcc-4b39-902f-2eb1f304985b": {
+            "type": "image",
+            "settings": {
+              "caption": "",
+              "product": "",
+              "caption2": "",
+              "product2": ""
+            }
+          }
+        },
+        "block_order": [
+          "fc7fbd22-ca63-4fa3-84a1-41ff0bd2ee19",
+          "e8908527-d8c8-4637-a09b-43ecb7bd8c6c",
+          "770d451e-21ee-41cc-837f-86bfdb48c61e",
+          "91deffa6-ac3a-4e78-b2ef-853643b240b8",
+          "b86cea99-1dcc-4b39-902f-2eb1f304985b"
+        ],
+        "settings": {
         }
       }
     },
