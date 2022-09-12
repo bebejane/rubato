@@ -189,7 +189,7 @@
       
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-      
+      console.log(available,formButtonsUnavailable)
       //formButtons.classList.toggle('hide', available)
       formButtonsUnavailable.classList.toggle('hide', !available)
       sizeSelect.value = id
