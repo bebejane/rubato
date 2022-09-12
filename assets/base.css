@@ -30,7 +30,7 @@ html {
   font-size: 62.5%; 
 }
 body {
-  font-size: var(--medium-font); /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: var(--medium-font);
   line-height: 1.3;
   font-weight: 400;
   font-family: "Bembo Book", serif;
