@@ -147,7 +147,7 @@
   margin-top: 20px;
   width: 100%;
   text-align: center;
-  
+  text-transform:uppercase;
 }
 .product-gallery{
   position: relative;
