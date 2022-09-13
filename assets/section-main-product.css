@@ -223,6 +223,9 @@
   height: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23a8a0c (fix)
   width: 100%;
   min-height: 100%;
   
@@ -230,11 +233,14 @@
   width: calc(100% - var(--margin));
   margin-left: calc(var(--margin) / 2);
 >>>>>>> 70bbfdd (fix)
+<<<<<<< HEAD
 =======
   width: 100%;
   min-height: 100%;
   
 >>>>>>> 900b7c7 (stuff)
+=======
+>>>>>>> 23a8a0c (fix)
   object-fit: cover;
   object-position: center center;
 
