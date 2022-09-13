@@ -176,7 +176,7 @@
     
     function toggleUnavailable(available){
       //console.log(available)
-      formButtonsUnavailable.classList.toggle('hide', available)
+      formButtonsUnavailable.classList.toggle('hide', !available)
       formButtons.forEach(function(el){   
         if(available)
           el.setAttribute('disabled', true)
