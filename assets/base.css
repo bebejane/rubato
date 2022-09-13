@@ -224,7 +224,9 @@ main div {
   color:#000;
   background-color: #fff;
 }
-
+#submitOMGRFQForm{
+  margin-left:24px;
+}
 .hide{
   display: none !important;
 }
