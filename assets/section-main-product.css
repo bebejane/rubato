@@ -134,7 +134,7 @@
 }
 .product-form-buttons button[disabled]{
   pointer-events: none;
-  opacity: 0.6;
+  color: gray;
 }
 .product-form-submit{
   background-color: #fff;
