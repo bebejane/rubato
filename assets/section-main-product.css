@@ -298,7 +298,7 @@
   .product-gallery {
     flex: 0 0 50%;
     min-width: 50%;
-    padding-top: var(--margin);
+    
   }
   .product-details{
     align-items: center;
