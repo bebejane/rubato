@@ -360,8 +360,7 @@
     margin-top:var(--outer-margin);
   }
   .product-gallery-image{
-    min-height: calc(80vh - var(--navbar-height));
-    max-height: calc(80vh - var(--navbar-height));
+    
   }
 }
 
