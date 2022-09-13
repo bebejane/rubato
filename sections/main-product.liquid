@@ -189,7 +189,7 @@
       var available = e.target.dataset.available === 'true'
 
       formButtons.forEach(function(el){   
-        if(!available)
+        if(available)
           el.setAttribute('disabled', true)
         else
           el.removeAttribute('disabled')
