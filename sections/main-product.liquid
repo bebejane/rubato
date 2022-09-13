@@ -208,9 +208,10 @@
           el.setAttribute('selected', true)
       })
     })
+    
     var selectedVariant = sizeSelect.options[sizeSelect.selectedIndex]
-    console.log(selectedVariant)
-    toggleUnavailable(selectedVariant.dataset.available)
+    var isDefaultAvailable = selectedVariant.dataset.available == 'true'
+    toggleUnavailable(isDefaultAvailable)
   }
 
   function initZoom(){
