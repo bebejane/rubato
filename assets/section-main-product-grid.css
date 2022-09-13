@@ -8,7 +8,7 @@
   width: auto;
   margin-left: var(--outer-margin);
   margin-right: var(--outer-margin);
-  margin-top: calc(var(--outer-margin) + var(--navbar-height));
+  margin-top: calc(var(--outer-margin) + var(--navbar-height) - 20px);
 }
 
 .product-grid-search-form{
