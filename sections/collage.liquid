@@ -39,7 +39,9 @@
       {% endcapture %}
 
       {% capture a_href %}
-        {%- if block.settings.collection != blank -%}
+        {%- if block.settings.page != blank -%}
+          {{ block.settings.page.url }}
+        {%- elsif block.settings.collection != blank -%}
           {{block.settings.collection.url}}
         {%- elsif block.settings.product != blank -%}
           {{block.settings.product.url}}
