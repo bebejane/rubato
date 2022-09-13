@@ -227,6 +227,9 @@ main div {
 #submitOMGRFQForm{
   margin-left:24px !important;
 }
+#close_omgrfq_popup{
+  background-color: #fff;
+}
 .hide{
   display: none !important;
 }
