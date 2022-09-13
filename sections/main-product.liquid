@@ -2,7 +2,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-
+{% render 'log', object: product %}
 <!-- Parse sizes table -->
 {% assign html = product.description %}
 {% if html contains '<table' %}
