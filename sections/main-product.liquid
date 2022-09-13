@@ -110,7 +110,7 @@
         <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
           <select id="product-variant" class="product-variants-select" name="id" data-variant-selector>
             {% for variant in product.variants %}
-                <option value="{{variant.id}}" data-id="{{variant.id}}" data-available="{{ variant.available }}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
+                <option value="{{variant.id}}" data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant.available == false %} disabled {% endif %} {% if variant == selected_variant %}selected="selected"{% endif %}>
                   {{ variant.title }}
                 </option>
             {% endfor %}
@@ -213,7 +213,7 @@
     var isDefaultAvailable = selectedVariant.dataset.available == 'true'
     console.log(isDefaultAvailable)
     console.log(selectedVariant)
-    
+
     toggleUnavailable(isDefaultAvailable)
   }
 
