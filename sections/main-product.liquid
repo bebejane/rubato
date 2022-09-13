@@ -209,7 +209,7 @@
       })
     })
     var selectedVariant = sizeSelect.options[sizeSelect.selectedIndex]
-    console.log(selectedVariant.dataset.available)
+    toggleUnavailable(selectedVariant.dataset.available)
   }
 
   function initZoom(){
