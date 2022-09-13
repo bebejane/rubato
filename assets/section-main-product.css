@@ -221,9 +221,95 @@
 
 .product-gallery-image{
   height: auto;
+<<<<<<< HEAD
   width: 100%;
   min-height: 100%;
   
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb1cf44 (stuff)
+=======
+>>>>>>> 137b074 (fix)
+=======
+>>>>>>> 23a8a0c (fix)
+=======
+>>>>>>> 6236c8d (stuff)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 137b074 (fix)
+=======
+=======
+>>>>>>> 23a8a0c (fix)
+>>>>>>> efeab5a (fix)
+<<<<<<< HEAD
+=======
+>>>>>>> eb1cf44 (stuff)
+=======
+>>>>>>> 137b074 (fix)
+  width: 100%;
+  min-height: 100%;
+  
+=======
+  width: calc(100% - var(--margin));
+  margin-left: calc(var(--margin) / 2);
+>>>>>>> 70bbfdd (fix)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 137b074 (fix)
+=======
+>>>>>>> 6236c8d (stuff)
+=======
+>>>>>>> efeab5a (fix)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6236c8d (stuff)
+>>>>>>> eb1cf44 (stuff)
+=======
+=======
+>>>>>>> 137b074 (fix)
+  width: 100%;
+  min-height: 100%;
+  
+>>>>>>> 900b7c7 (stuff)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb1cf44 (stuff)
+=======
+>>>>>>> 137b074 (fix)
+=======
+>>>>>>> 23a8a0c (fix)
+=======
+>>>>>>> 6236c8d (stuff)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 137b074 (fix)
+=======
+=======
+>>>>>>> 23a8a0c (fix)
+>>>>>>> efeab5a (fix)
+<<<<<<< HEAD
+=======
+>>>>>>> eb1cf44 (stuff)
+=======
+>>>>>>> 137b074 (fix)
+>>>>>>> b3bec0e (fix)
   object-fit: cover;
   object-position: center center;
 
