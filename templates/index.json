@@ -39,13 +39,13 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen3_81167626-2efc-4c80-a88f-b90bfaf9dcd3.jpg",
+            "image": "shopify:\/\/shop_images\/Haga25.jpg",
             "columns": 2,
             "width": 76,
             "align": "flex-start",
-            "caption": "",
-            "product": "work-shirt-in-light-blue-chambray",
-            "collection": ""
+            "caption": "Knitwear",
+            "product": "",
+            "collection": "knitwear"
           }
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
@@ -115,9 +115,9 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF2891.jpg",
+            "image": "shopify:\/\/shop_images\/Object-Story-1.jpg",
             "columns": 3,
-            "width": 50,
+            "width": 69,
             "align": "flex-end",
             "caption": "rubato Objects",
             "product": "",
@@ -203,13 +203,13 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Q24.jpg",
+            "image": "shopify:\/\/shop_images\/Haga85.jpg",
             "columns": 2,
             "width": 75,
             "align": "center",
-            "caption": "knitwear",
+            "caption": "Jeans",
             "product": "",
-            "collection": "knitwear"
+            "collection": "denim"
           }
         },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
