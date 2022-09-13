@@ -53,6 +53,8 @@
       }
     {% endstyle %}
 
+    {% capture cur %}{% render "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
+
   </head>
   <!-- Begin Exemptify messages -->
   <script>  
@@ -62,6 +64,8 @@
   <!-- End Exemptify messages --><!-- Begin Exemptify price display -->
   <script async src="//www.modules4u.biz/shopify/exemptify/js/fix_prices_v1.js.php?shop=atemporubato.myshopify.com{{ shop.metafields['exemptify']['price_qs'] }}&tax_included={{ cart.taxes_included }}&shop_currency={{ shop.currency }}&actual_currency={{ cart.currency.iso_code }}&num_currencies={{ shop.enabled_currencies | size }}&customer_exempt={{ customer.tax_exempt }}&current_country={{ localization.country.iso_code }}"></script>
   <!-- End Exemptify price display -->
+  
+
   <body>
     {%- section 'main-menu' -%}
     <main id="MainContent" role="main" tabindex="-1">
