@@ -208,7 +208,8 @@
           el.setAttribute('selected', true)
       })
     })
-    console.log(sizeSelect.options[sizeSelect.selectedIndex].dataset.available)
+    var selectedVariant = sizeSelect.options[sizeSelect.selectedIndex]
+    console.log(selectedVariant)
   }
 
   function initZoom(){
