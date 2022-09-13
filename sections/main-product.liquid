@@ -208,7 +208,7 @@
           el.setAttribute('selected', true)
       })
     })
-    console.log(sizeSelect.disabled)
+    console.log(sizeSelect.options[sizeSelect.selectedIndex].dataset.available)
   }
 
   function initZoom(){
