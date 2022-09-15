@@ -71,7 +71,7 @@
   opacity: 1;
   transition: opacity 1s ease;
 }
-.banner-box-logo > svg > * > path {
+.banner-box-logo > svg > * path {
   fill: #000 !important;
 }
 .banner-box-logo-hide{
