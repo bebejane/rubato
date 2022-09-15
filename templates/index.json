@@ -151,13 +151,13 @@
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga55.jpg",
+            "image": "shopify:\/\/shop_images\/Haga25.jpg",
             "columns": 2,
             "width": 75,
             "align": "flex-start",
-            "caption": "",
+            "caption": "NEWs coming soon",
             "product": "",
-            "collection": "knitwear",
+            "collection": "",
             "page": ""
           }
         },
