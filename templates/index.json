@@ -4,7 +4,8 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
-        "focal": 80
+        "focal": 80,
+        "invert-logo": true
       }
     },
     "collage": {
