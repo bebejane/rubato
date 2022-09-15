@@ -232,9 +232,11 @@ main div {
 }
 
 .bacurr-cur-bloc{
+  
+}
+.baDropdownStyle{
   z-index: 100 !important;
 }
-
 .hide{
   display: none !important;
 }
