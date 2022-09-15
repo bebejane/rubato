@@ -124,9 +124,9 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JH2.jpg",
+            "image": "shopify:\/\/shop_images\/Bruno2.jpg",
             "columns": 3,
-            "width": 47,
+            "width": 57,
             "align": "flex-end",
             "caption": "rubato Objects",
             "product": "",
@@ -153,7 +153,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga55.jpg",
             "columns": 2,
-            "width": 67,
+            "width": 75,
             "align": "flex-start",
             "caption": "",
             "product": "",
