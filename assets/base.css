@@ -230,6 +230,11 @@ main div {
 #close_omgrfq_popup{
   background-color: #fff;
 }
+
+.bacurr-cur-bloc{
+  z-index: 100 !important;
+}
+
 .hide{
   display: none !important;
 }
