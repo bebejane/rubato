@@ -164,12 +164,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/FREDDIE.jpg",
-            "columns": 1,
+            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
+            "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "",
-            "product": "nonpareil-fairbanks-polo-in-porto-cervo",
+            "caption": "House of George Nakahima",
+            "product": "",
             "collection": "",
             "page": ""
           }
