@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
         "focal": 80,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
