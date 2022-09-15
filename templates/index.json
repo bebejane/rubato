@@ -2,9 +2,8 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Backgroujnd2.jpg",
+        "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
         "focal": 80
       }
     },
