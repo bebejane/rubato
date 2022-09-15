@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
         "focal": 80,
@@ -188,7 +189,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
-            "columns": 4,
+            "columns": 3,
             "width": 53,
             "align": "flex-end",
             "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
