@@ -189,9 +189,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
-            "columns": 3,
-            "width": 53,
-            "align": "flex-end",
+            "columns": 4,
+            "width": 74,
+            "align": "center",
             "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
             "product": "",
             "collection": "",
