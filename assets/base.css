@@ -235,7 +235,7 @@ main div {
   
 }
 .baDropdownStyle{
-  z-index: 100 !important;
+  z-index: 99 !important;
 }
 .hide{
   display: none !important;
