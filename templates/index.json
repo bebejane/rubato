@@ -45,9 +45,9 @@
             "columns": 2,
             "width": 76,
             "align": "flex-start",
-            "caption": "Knitwear",
+            "caption": "news coming soon",
             "product": "",
-            "collection": "knitwear",
+            "collection": "",
             "page": ""
           }
         },
@@ -123,7 +123,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Object-Story-1.jpg",
+            "image": "shopify:\/\/shop_images\/JH2.jpg",
             "columns": 3,
             "width": 47,
             "align": "flex-end",
@@ -150,13 +150,13 @@
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2020AW-42.jpg",
+            "image": "shopify:\/\/shop_images\/Haga55.jpg",
             "columns": 3,
             "width": 53,
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": "",
+            "collection": "knitwear",
             "page": ""
           }
         },
