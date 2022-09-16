@@ -51,8 +51,7 @@
       .nomargin { 
         margin-top: calc((var(--navbar-height) * -1));
       }
- 
-  {% endstyle %}
+    {% endstyle %}
 
     {% capture cur %}{% render "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
 
