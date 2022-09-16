@@ -19,11 +19,12 @@
   // Hide splash when coming from other url on site
   function initHomePage(){
     var currencyConverter = document.querySelector('.bacurr-cur-block');
+    console.log(currencyConverter)
     var banner = document.querySelector('.banner')
     var main = document.querySelector('main')
     var menu = document.getElementById('menu')
     
-    console.log(currencyConverter)
+    
     if(currencyConverter)
       currencyConverter.style.display = 'none'
 
