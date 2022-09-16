@@ -232,7 +232,7 @@ main div {
 }
 
 .bacurr-cur-bloc{
-  
+  z-index: 99 !important; 
 }
 
 @media (max-width: 768px){
