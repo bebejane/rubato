@@ -100,9 +100,9 @@
         "disabled": false,
         "settings": {
           "omg_product_per_page": 12,
-          "omg_feature_collection": "",
-          "omg_feature_product_per_page": 20,
-          "omg_search_product_per_page": 20
+          "omg_feature_collection": "objects",
+          "omg_feature_product_per_page": 12,
+          "omg_search_product_per_page": 12
         }
       }
     }
