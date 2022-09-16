@@ -426,7 +426,7 @@
     margin-bottom: var(--outer-margin);
   }
   .product-form-buttons{
-    margin-bottom: var(--margin);
+    margin-bottom: var(--outer-margin);
   }
   #product-unavailable{
     margin-top: 0px;
