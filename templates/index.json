@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
-        "focal": 80,
+        "focal": 25,
         "invert-logo": true
       }
     },
