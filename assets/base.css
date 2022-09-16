@@ -179,6 +179,8 @@ input[type='checkbox']{
   margin-left:auto;
   margin-right:auto;
   text-align: center;
+  padding-left: var(--outer-margin);
+  padding-right: var(--outer-margin);
 }
 
 .page.cart-page > .page-content {
