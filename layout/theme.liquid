@@ -51,12 +51,8 @@
       .nomargin { 
         margin-top: calc((var(--navbar-height) * -1));
       }
-      @media (max-width: 768px){
-        .baDropdownStyle.mobile_bottom_left:not(.hideOnMobile){
-          z-index: 99 !important;  
-        }
-      }
-    {% endstyle %}
+ 
+  {% endstyle %}
 
     {% capture cur %}{% render "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
 
