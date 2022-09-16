@@ -122,7 +122,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2258-normal.jpg",
             "columns": 4,
-            "width": 55,
+            "width": 100,
             "align": "center",
             "caption": "House of George Nakashima",
             "product": "",
