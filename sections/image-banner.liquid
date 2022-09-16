@@ -18,16 +18,12 @@
 
   // Hide splash when coming from other url on site
   function initHomePage(){
-    var currencyConverter = document.querySelector('.bacurr-cur-block');
-    console.log(currencyConverter)
     var banner = document.querySelector('.banner')
     var main = document.querySelector('main')
     var menu = document.getElementById('menu')
     
     
-    if(currencyConverter)
-      currencyConverter.style.display = 'none'
-
+   
     if(document.referrer && performance.navigation.type !== performance.navigation.TYPE_RELOAD){
       banner.style.display = 'none'
     }else{
@@ -39,7 +35,6 @@
         main.classList.add('main-slideup');
         banner.classList.add('banner-slideup');
         menu.classList.add('menu-show'); 
-        currencyConverter.style.display = 'flex'
       })
     }
   }
