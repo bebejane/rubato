@@ -23,6 +23,7 @@
       {% endcapture %}
 
       {% capture picture_style %}
+        min-width: calc({{ block.settings.width}}%);
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
@@ -67,7 +68,7 @@
           <div class="collage-block-caption" style="{{caption_block_style}}"" >
             <h2 class="collage-block-caption-title" style="{{caption_style}}"">{{block.settings.caption}}</h2>
           </div>
-        {%- endif -%}
+        {%- endif -%} 
         {%- if a_href != blank -%}</a>{%- endif -%}
       </div>
     {% endfor %}
