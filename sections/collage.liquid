@@ -24,7 +24,8 @@
       {% endcapture %}
 
       {% capture picture_style %}
-        min-width: calc({{ block.settings.width}}%);
+        flex: 0 0 {{ block.settings.width }}%;
+        
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
