@@ -231,8 +231,8 @@ main div {
   background-color: #fff;
 }
 
-.bacurr-cur-bloc{
-  z-index: 99 !important; 
+.bacurr-cur-bloc * {
+  z-index: 99 !important;
 }
 
 @media (max-width: 768px){
