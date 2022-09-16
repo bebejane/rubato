@@ -24,7 +24,8 @@
       {% endcapture %}
 
       {% capture picture_style %}
-        flex: 0 0 calc({{ block.settings.columns }} * 25%);
+        min-width: calc({{ block.settings.columns }} * 25%);
+        max-width: calc({{ block.settings.columns }} * 25%);
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
