@@ -19,8 +19,8 @@
       {% endcapture %}
 
       {% capture image_style %}
-        min-width: calc({{ block.settings.width}}%);
-        max-width: calc({{ block.settings.width}}%);
+        min-width: 100%;
+        max-width: 100%;
       {% endcapture %}
 
       {% capture picture_style %}
@@ -33,7 +33,7 @@
       {% endcapture %}
 
       {% capture caption_style %}
-        max-width: calc({{ block.settings.width}}%);
+        max-width: calc({{ block.settings.width}}% );
       {% endcapture %}
       
       {% capture a_style %}
