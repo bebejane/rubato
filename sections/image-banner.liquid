@@ -6,9 +6,6 @@
       {% capture style %}
         object-position: {{ section.settings.focal }}% center;
       {% endcapture %}
-      {% comment %}
-      {% render 'image-responsive', image: section.settings.image, style: style class:'banner-box-image' %}
-      {% endcomment %}
       <img src="{{ section.settings.image | image_url }}" class="banner-box-image" style="{{style}}"/>
       <div id="banner-box-logo" class="banner-box-logo {% if section.settings.invert-logo == true %} invert{% endif %}">
         <img class="banner-box-logo-image" src="{{ 'rubato-wordmark.svg' | asset_url }}" width="100" height="15" loading="eager"/>
@@ -21,10 +18,14 @@
 
   // Hide splash when coming from other url on site
   function initHomePage(){
+    var currencyConverter = document.querySelector('.bacurr-cur-block');
     var banner = document.querySelector('.banner')
     var main = document.querySelector('main')
     var menu = document.getElementById('menu')
     
+    if(currencyConverter)
+      currencyConverter.style.display = 'none'
+
     if(document.referrer && performance.navigation.type !== performance.navigation.TYPE_RELOAD){
       banner.style.display = 'none'
     }else{
@@ -36,6 +37,7 @@
         main.classList.add('main-slideup');
         banner.classList.add('banner-slideup');
         menu.classList.add('menu-show'); 
+        currencyConverter.style.display = 'flex'
       })
     }
   }
