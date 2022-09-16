@@ -234,11 +234,12 @@ main div {
 .bacurr-cur-bloc{
   
 }
-@media (max-width: 768px){
-  .baDropdownStyle.mobile_bottom_left:not(.hideOnMobile){
-    z-index: 99 !important;  
-  }
+
+
+.baDropdownStyle.mobile_bottom_left:not(.hideOnMobile){
+  z-index: 99 !important;  
 }
+
 
 .baDropdownStyle{
   z-index: 99 !important;
