@@ -2,7 +2,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-{% render 'log', object: product %}
+
 <!-- Parse sizes table -->
 {% assign html = product.description %}
 {% if html contains '<table' %}
@@ -102,7 +102,7 @@
       <div class="product-form-wrap">
         <ul class="product-variants">
           {% for variant in product.variants %}
-              <li data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant == selected_variant %}selected="selected"{% endif %}>
+              <li data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
                 {{ variant.title }}
               </li>
           {% endfor %}
@@ -110,7 +110,7 @@
         <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
           <select id="product-variant" class="product-variants-select" name="id" data-variant-selector>
             {% for variant in product.variants %}
-                <option value="{{variant.id}}" data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant.available == false %} disabled {% endif %} {% if variant == selected_variant %}selected="selected"{% endif %}>
+                <option value="{{variant.id}}" data-id="{{variant.id}}" {%- if variant.available == false -%}disabled{%- endif -%} {% if variant == selected_variant %}selected="selected"{% endif %}>
                   {{ variant.title }}
                 </option>
             {% endfor %}
@@ -123,9 +123,6 @@
               View cart
             </button>
           </div>
-          <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
-            Sold out - Email me when available
-          </a>  
         </form> 
       </div>
     </div>
@@ -173,45 +170,22 @@
   }
 
   function initForm(){
-    
-    function toggleUnavailable(available){
-      
-      formButtonsUnavailable.classList.toggle('hide', available)
-      formButtons.forEach(function(el){   
-        if(!available)
-          el.setAttribute('disabled', true)
-        else
-          el.removeAttribute('disabled')
-      })
-    }
 
     var sizes = document.querySelectorAll('ul.product-variants li')
     var sizeSelect = document.getElementById('product-variant')
     var sizeSelector = document.querySelector('ul.product-variants')
     var form = document.getElementById('product-form')
-    var formButtons = document.querySelectorAll('.product-form-buttons > button')
-    var formButtonsUnavailable = document.getElementById('product-unavailable')
-    
+  
     sizeSelector.addEventListener('click', function(e){
-      
+      if(e.target.hasAttribute('disabled')) return
       var id = e.target.dataset.id;
-      var available = e.target.dataset.available === 'true'
-
-      toggleUnavailable(available)
-      
-      if(available)
-        sizeSelect.value = id
-
+      sizeSelect.value = id
       sizes.forEach(function(el){
         el.removeAttribute('selected')
         if(el.dataset.id === id)
           el.setAttribute('selected', true)
       })
     })
-    
-    var selectedVariant = sizeSelect.options[sizeSelect.selectedIndex]
-    var isDefaultAvailable = selectedVariant.dataset.available == 'true'
-    toggleUnavailable(isDefaultAvailable)
   }
 
   function initZoom(){

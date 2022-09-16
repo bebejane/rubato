@@ -9,7 +9,7 @@
 {% if request.path contains '/products' or request.path contains '/collections' or request.path contains '/pages' or request.path == '/' %} {% assign opaque_menu = true %}{% endif %}
 
 <div id="menu" class="{%if opaque_menu == true %}menu-opaque{% endif %} {%if borderless_menu == true %}menu-home{% endif %}">  
-  <div id="cartlink" class="cartlink {%if is_home == true %}home{% endif %}">
+  <div class="cartlink">
     <a href="/cart">
       View cart ({{ cart.items.size }})
     </a>
@@ -49,15 +49,11 @@
   function initMenu(){
     
     var menu = document.getElementById('menu')
-    var cartlink = document.getElementById('cartlink')
     var menuToggle = document.getElementById('menu-toggle')
     
     menuToggle.addEventListener('click', function(e){
       menuToggle.classList.toggle('menu--toggle-active')
       menu.classList.toggle('menu-active')
-      console.log(cartlink.classList.contains('home'))
-      if(cartlink.classList.contains('home'))
-        cartlink.classList.toggle('home-visible')
     })
 
     var bar = document.getElementById('preview-bar-iframe')
