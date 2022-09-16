@@ -82,7 +82,7 @@
 
 
 @media only screen and (max-width: 749px) {
-  .banner{
+  .banner, .banner-box{
     min-height: -webkit-fill-available !important;
     height: calc(100vh - calc(100vh - 100%));
   }
