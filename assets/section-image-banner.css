@@ -82,6 +82,11 @@
 
 
 @media only screen and (max-width: 749px) {
+  .banner{
+    min-height: -webkit-fill-available !important;
+    height: calc(100vh - calc(100vh - 100%));
+  }
+
   .image-banner-left{
     object-position: center left;
   }
