@@ -19,6 +19,7 @@
       {% endcapture %}
 
       {% capture image_style %}
+        min-width: calc({{ block.settings.width}}%);
         max-width: calc({{ block.settings.width}}%);
       {% endcapture %}
 
