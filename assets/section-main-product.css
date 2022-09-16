@@ -334,6 +334,9 @@
     padding: 0;
     width: 100%; 
   }
+  .product-description > ul {
+    list-style: none;
+  }
   .product-info{
     border-top: var(--line);
   }

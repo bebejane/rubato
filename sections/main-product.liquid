@@ -100,7 +100,7 @@
     </div>
     <div class="product-order-wrap">
       <div class="product-form-wrap">
-        <ul class="product-variants">
+        <ul class="product-variants {%if product.variants.size == 1 %} hide{% endif %}">
           {% for variant in product.variants %}
               <li data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant == selected_variant %}selected="selected"{% endif %}>
                 {{ variant.title }}
