@@ -234,6 +234,13 @@ main div {
 .bacurr-cur-bloc{
   
 }
+
+@media (max-width: 768px){
+  .baDropdownStyle, .bacurr-cur-bloc{
+    z-index: 99 !important;  
+  }
+}
+
 .baDropdownStyle{
   z-index: 99 !important;
 }
