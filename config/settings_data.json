@@ -89,12 +89,6 @@
 
     ],
     "blocks": {
-      "17530695623102652971": {
-        "type": "shopify:\/\/apps\/exemptify\/blocks\/ExemptifyApp\/53648040-92ea-472b-92a5-eb781e92b01b",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "14082181514032464150": {
         "type": "shopify:\/\/apps\/request-a-quote-hide-price\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
         "disabled": false,
@@ -103,6 +97,12 @@
           "omg_feature_collection": "",
           "omg_feature_product_per_page": 20,
           "omg_search_product_per_page": 20
+        }
+      },
+      "17530695623102652971": {
+        "type": "shopify:\/\/apps\/exemptify\/blocks\/ExemptifyApp\/53648040-92ea-472b-92a5-eb781e92b01b",
+        "disabled": false,
+        "settings": {
         }
       }
     }
