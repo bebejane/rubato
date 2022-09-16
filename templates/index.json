@@ -3,13 +3,27 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/R1-08568-015A.jpg",
-        "focal": 80
+        "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
+        "focal": 80,
+        "invert-logo": true
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
+        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gettyimages-553038717-2048x2048_953fafa9-a8ea-4495-91dc-b699ceca6a3d.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-end",
+            "caption": "Franz Kline's studio at 242 West 14th Street, New York, April 7, 1961. Photo by Fred W. McDarrah.",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "disabled": true,
@@ -20,7 +34,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "standard-turtleneck-in-stone",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "000b7fe8-2100-4fc1-b753-d253dda7ea78": {
@@ -33,19 +48,112 @@
             "align": "flex-end",
             "caption": "",
             "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen3_81167626-2efc-4c80-a88f-b90bfaf9dcd3.jpg",
+            "image": "shopify:\/\/shop_images\/Haga55.jpg",
             "columns": 2,
             "width": 76,
-            "align": "flex-start",
+            "align": "flex-end",
+            "caption": "Knitwear",
+            "product": "",
+            "collection": "knitwear",
+            "page": ""
+          }
+        },
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Haga85.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "center",
+            "caption": "RUBATO DENIM",
+            "product": "",
+            "collection": "denim",
+            "page": ""
+          }
+        },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bruno2.jpg",
+            "columns": 2,
+            "width": 60,
+            "align": "flex-end",
+            "caption": "Bruno mathsson Lounge Chair",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PX4z7NFsfZna46rtHnbu02N7XxwnL4GCgbcu7XGf_60f98884-a97b-42d1-9560-5264d8215a04.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-end",
+            "caption": "On Kawara - 'I Got Up' Series 1968 - 197. Courtesy of Museum Boijmans Van Beuningen.",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "33893355-d256-4e1c-a9cf-b852382ded3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-end",
             "caption": "",
-            "product": "work-shirt-in-light-blue-chambray",
-            "collection": ""
+            "product": "sports-sweater-in-vintage-white",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
+            "columns": 4,
+            "width": 55,
+            "align": "center",
+            "caption": "House of George Nakashima",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Haga25.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "NEWs coming soon",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "04353ef3-3733-41da-bab9-dfcc58778ed4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Galerie-North-4.jpg",
+            "columns": 2,
+            "width": 69,
+            "align": "flex-end",
+            "caption": "Galerie North shot by Rubato",
+            "product": "",
+            "collection": "",
+            "page": ""
           }
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
@@ -58,7 +166,8 @@
             "align": "center",
             "caption": "",
             "product": "lot-nr-1-denim-white",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
@@ -71,19 +180,21 @@
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
-        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gettyimages-553038717-2048x2048_953fafa9-a8ea-4495-91dc-b699ceca6a3d.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "Franz Kline's studio at 242 West 14th Street, New York, April 7, 1961. Photo by Fred W. McDarrah.",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
+            "columns": 4,
+            "width": 50,
+            "align": "center",
+            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
             "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "39a07fa7-7955-4546-bdc6-7edcdf922f90": {
@@ -96,7 +207,8 @@
             "align": "center",
             "caption": "",
             "product": "nonpareil-fairbanks-polo-in-porto-cervo",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "fca140e1-e64a-4aec-98d1-cea4f8a46734": {
@@ -109,19 +221,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "work-shirt-in-cream-denim",
-            "collection": ""
-          }
-        },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF2891.jpg",
-            "columns": 3,
-            "width": 50,
-            "align": "flex-end",
-            "caption": "rubato Objects",
-            "product": "",
-            "collection": "objects"
+            "collection": "",
+            "page": ""
           }
         },
         "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123": {
@@ -134,44 +235,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": ""
-          }
-        },
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020AW-42.jpg",
-            "columns": 3,
-            "width": 53,
-            "align": "flex-start",
-            "caption": "",
-            "product": "rubato-officers-chino-ivory",
-            "collection": ""
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FREDDIE.jpg",
-            "columns": 1,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "",
-            "product": "nonpareil-fairbanks-polo-in-porto-cervo",
-            "collection": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
-            "columns": 4,
-            "width": 58,
-            "align": "center",
-            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
-            "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "47338339-a384-49b2-b00d-441a7b71efa2": {
@@ -184,7 +249,8 @@
             "align": "flex-end",
             "caption": "",
             "product": "country-club-shorts-in-drab-linen",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c": {
@@ -197,31 +263,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": ""
-          }
-        },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Q24.jpg",
-            "columns": 2,
-            "width": 75,
-            "align": "center",
-            "caption": "knitwear",
-            "product": "",
-            "collection": "knitwear"
-          }
-        },
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PX4z7NFsfZna46rtHnbu02N7XxwnL4GCgbcu7XGf_60f98884-a97b-42d1-9560-5264d8215a04.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "On Kawara - 'I Got Up' Series 1968 - 197. Courtesy of Museum Boijmans Van Beuningen.",
-            "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "0df765c7-a05b-4475-9689-d9b99d419e6b": {
@@ -234,19 +277,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "officers-chino-in-dark-khaki",
-            "collection": ""
-          }
-        },
-        "33893355-d256-4e1c-a9cf-b852382ded3b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "flex-end",
-            "caption": "",
-            "product": "sports-sweater-in-vintage-white",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "16d16ca3-b71c-44fb-983e-bf4913980eef": {
@@ -259,19 +291,8 @@
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": ""
-          }
-        },
-        "04353ef3-3733-41da-bab9-dfcc58778ed4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Galerie-North-4.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "Galerie North shot by Rubato",
-            "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         },
         "d14738c6-2cc3-42d3-883f-b5653cec03e0": {
@@ -282,32 +303,33 @@
             "align": "flex-start",
             "caption": "",
             "product": "",
-            "collection": ""
+            "collection": "",
+            "page": ""
           }
         }
       },
       "block_order": [
+        "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
+        "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+        "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
+        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
+        "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "a6ec6d9f-da48-496a-b369-d447b2686e22",
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
         "fca140e1-e64a-4aec-98d1-cea4f8a46734",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "47338339-a384-49b2-b00d-441a7b71efa2",
         "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "0df765c7-a05b-4475-9689-d9b99d419e6b",
-        "33893355-d256-4e1c-a9cf-b852382ded3b",
         "16d16ca3-b71c-44fb-983e-bf4913980eef",
-        "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "d14738c6-2cc3-42d3-883f-b5653cec03e0"
       ],
       "settings": {
