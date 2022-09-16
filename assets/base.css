@@ -235,11 +235,11 @@ main div {
   
 }
 
-
-.baDropdownStyle.mobile_bottom_left:not(.hideOnMobile){
-  z-index: 99 !important;  
+@media (max-width: 768px){
+  .baDropdownStyle{
+    z-index: 99 !important;  
+  }
 }
-
 
 .baDropdownStyle{
   z-index: 99 !important;
