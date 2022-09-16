@@ -235,6 +235,9 @@ main div {
   
 }
 
+.bacurr-checkoutNotice{
+  display: none !important;
+}
 @media (max-width: 768px){
   .baDropdownStyle, .bacurr-cur-bloc{
     z-index: 99 !important;  
