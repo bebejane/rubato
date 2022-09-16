@@ -19,13 +19,11 @@
       {% endcapture %}
 
       {% capture image_style %}
-        min-width: 100%;
-        max-width: 100%;
+        max-width: calc({{ block.settings.width}}%);
       {% endcapture %}
 
       {% capture picture_style %}
-        flex: 0 0 {{ block.settings.width }}%;
-        
+        max-width: calc({{ block.settings.width}}%);
         justify-content: {{block.settings.align}};
       {% endcapture %}
 
@@ -34,7 +32,7 @@
       {% endcapture %}
 
       {% capture caption_style %}
-        max-width: calc({{ block.settings.width}}% );
+        max-width: calc({{ block.settings.width}}%);
       {% endcapture %}
       
       {% capture a_style %}
