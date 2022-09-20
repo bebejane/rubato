@@ -27,7 +27,33 @@
             </div>
             <div class="product-grid-caption-price">
               {{ product.price | money }}
-              <div class="omgrfq-collection-button" data-product-id="{{ product.id }}" ></div>
+      
+                <div class="omgrfq-collection-button" data-product-id="{{ product.id }}"></div>
+  <script type="text/javascript">
+      window.omgrfqListTags = [];
+      {% for tag in product.tags %}
+      window.omgrfqListTags.push('{{ tag | escape }}');
+      {% endfor %}
+      var productOfCollection = {};
+      productOfCollection.id = {{ product.id }};
+      productOfCollection.created_at = "{{ product.created_at }}";
+      productOfCollection.handle = "{{ product.handle }}";
+      productOfCollection.image = "{{ product.featured_image | image_url }}";
+      productOfCollection.published_at = "{{ product.published_at }}";
+      productOfCollection.tags = window.omgrfqListTags;
+      productOfCollection.title = "{{ product.title | escape}}";
+      productOfCollection.type = "{{ product.type }}";
+      productOfCollection.variants = {{ product.variants | json }};
+      productOfCollection.vendor = "{{ product.vendor }}";
+      productOfCollection.collection = [];
+      {% for collection in product.collections %}
+      if (typeof productOfCollection.collection === 'undefined') productOfCollection.collection = [];
+      productOfCollection.collection.push("{{ collection.title | escape }}");
+      {% endfor %}
+  
+      omgrfq_productCollection[{{ product.id }}] = productOfCollection;
+  </script>
+
             </div>
             
           </div>
