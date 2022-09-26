@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
         "focal": 25,
@@ -28,13 +29,13 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/2020AW-42.jpg",
+            "image": "shopify:\/\/shop_images\/Haga29.jpg",
             "columns": 2,
-            "width": 55,
-            "align": "flex-start",
-            "caption": "",
-            "product": "standard-turtleneck-in-stone",
-            "collection": "",
+            "width": 79,
+            "align": "flex-end",
+            "caption": "new arrivals",
+            "product": "",
+            "collection": "all-products",
             "page": ""
           }
         },
