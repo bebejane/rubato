@@ -107,14 +107,15 @@
         },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "",
-            "product": "sports-sweater-in-vintage-white",
-            "collection": "",
+            "caption": "knitwear",
+            "product": "",
+            "collection": "knitwear",
             "page": ""
           }
         },
