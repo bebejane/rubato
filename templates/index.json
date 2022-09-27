@@ -81,9 +81,9 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bruno2.jpg",
+            "image": "shopify:\/\/shop_images\/Bruno1.jpg",
             "columns": 2,
-            "width": 60,
+            "width": 70,
             "align": "flex-end",
             "caption": "Objects",
             "product": "",
