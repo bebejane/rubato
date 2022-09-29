@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
-        "focal": 25,
+        "image": "shopify:\/\/shop_images\/Haga85.jpg",
+        "focal": 70,
         "invert-logo": false
       }
     },
