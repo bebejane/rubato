@@ -26,7 +26,6 @@
         },
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga29.jpg",
             "columns": 2,
@@ -54,6 +53,7 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga55.jpg",
             "columns": 2,
@@ -106,7 +106,6 @@
         },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
             "columns": 2,
