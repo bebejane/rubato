@@ -104,6 +104,19 @@
             "page": ""
           }
         },
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POST1-NYC.jpg",
+            "columns": 2,
+            "width": 85,
+            "align": "center",
+            "caption": "NEW YORK POP UP COMING SOON",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
@@ -117,14 +130,14 @@
             "page": ""
           }
         },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
             "columns": 4,
-            "width": 40,
+            "width": 50,
             "align": "center",
-            "caption": "House of George Nakashima",
+            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
             "product": "",
             "collection": "",
             "page": ""
@@ -156,14 +169,14 @@
             "page": ""
           }
         },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POST1-NYC.jpg",
-            "columns": 3,
-            "width": 71,
+            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
+            "columns": 4,
+            "width": 40,
             "align": "center",
-            "caption": "NEW YORK POP UP COMING SOON",
+            "caption": "House of George Nakashima",
             "product": "",
             "collection": "",
             "page": ""
@@ -178,19 +191,6 @@
             "width": 100,
             "align": "flex-start",
             "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "center",
-            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
             "product": "",
             "collection": "",
             "page": ""
@@ -315,13 +315,13 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
         "fca140e1-e64a-4aec-98d1-cea4f8a46734",
         "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
