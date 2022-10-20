@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Haga85.jpg",
-        "focal": 70,
+        "image": "shopify:\/\/shop_images\/Haga52.jpg",
+        "focal": 50,
         "invert-logo": false
       }
     },
@@ -81,7 +81,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bruno1.jpg",
+            "image": "shopify:\/\/shop_images\/Gunnarnylund1.jpg",
             "columns": 2,
             "width": 70,
             "align": "flex-end",
