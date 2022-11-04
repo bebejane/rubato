@@ -2,11 +2,10 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Haga39.jpg",
+        "image": "shopify:\/\/shop_images\/story10.jpg",
         "focal": 50,
-        "invert-logo": false
+        "invert-logo": true
       }
     },
     "collage": {
