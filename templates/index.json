@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Haga39.jpg",
         "focal": 50,
@@ -14,11 +15,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ignant-architecture-eirik-johnson-glasshouse-09-2048x1600.jpg",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2022-11-04_kl._15.43.46.png",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Interior shot of philip johnson's glass house in new canaan connecticut by eirik johnson",
+            "caption": "franz kline 'cross town' 1955 from the macklowe collection",
             "product": "",
             "collection": "",
             "page": ""
@@ -27,9 +28,9 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga69.jpg",
+            "image": "shopify:\/\/shop_images\/R4_0751ded2-0daf-4af5-be7e-47bbae6f8bcf.jpg",
             "columns": 2,
-            "width": 79,
+            "width": 89,
             "align": "flex-end",
             "caption": "new arrivals",
             "product": "",
@@ -68,9 +69,9 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga85.jpg",
+            "image": "shopify:\/\/shop_images\/RubDen2_c249a309-a871-4802-86db-7d3d49e016f9.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 86,
             "align": "center",
             "caption": "RUBATO DENIM",
             "product": "",
@@ -94,11 +95,11 @@
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PX4z7NFsfZna46rtHnbu02N7XxwnL4GCgbcu7XGf_60f98884-a97b-42d1-9560-5264d8215a04.jpg",
+            "image": "shopify:\/\/shop_images\/Saul-Leiter-Interview-poster.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "On Kawara - 'I Got Up' Series 1968 - 197. Courtesy of Museum Boijmans Van Beuningen.",
+            "caption": "Part of saul leiters 'snow' 1960",
             "product": "",
             "collection": "",
             "page": ""
@@ -106,6 +107,7 @@
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/POST1-NYC.jpg",
             "columns": 2,
@@ -120,9 +122,9 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
+            "image": "shopify:\/\/shop_images\/Haga92.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 86,
             "align": "flex-end",
             "caption": "knitwear",
             "product": "",
@@ -133,11 +135,11 @@
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
+            "image": "shopify:\/\/shop_images\/1500px__Robert_Capa_Spectators_at_Longchamp_Racecourse_Paris_1952_Estate_stamped_archival_pigment_print_80x120cm_Edition_of_5._Courtesy_of_Magnum_Photos.jpg",
             "columns": 4,
             "width": 50,
             "align": "center",
-            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
+            "caption": "robert capa 'spectators at longchamp racecourse' paris 1952",
             "product": "",
             "collection": "",
             "page": ""
@@ -146,7 +148,7 @@
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
+            "image": "shopify:\/\/shop_images\/RubDen15_727e25ce-4f25-431e-a81d-1c176ce3076e.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -159,12 +161,12 @@
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Galerie-North-4.jpg",
+            "image": "shopify:\/\/shop_images\/Fred7.jpg",
             "columns": 2,
             "width": 69,
             "align": "flex-end",
-            "caption": "Galerie North shot by Rubato",
-            "product": "",
+            "caption": "fred nieddu of taillour; wears work shirt in light blue chambray",
+            "product": "work-shirt-in-light-blue-chambray",
             "collection": "",
             "page": ""
           }
@@ -172,11 +174,11 @@
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
+            "image": "shopify:\/\/shop_images\/tumblr_bee4e1ed01d302462f5778589b426778_964aee6e_540.jpg",
             "columns": 4,
-            "width": 40,
+            "width": 53,
             "align": "center",
-            "caption": "House of George Nakashima",
+            "caption": "art blakey by francis wolff",
             "product": "",
             "collection": "",
             "page": ""
