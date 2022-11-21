@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/story10.jpg",
+        "image": "shopify:\/\/shop_images\/Cash2.jpg",
         "focal": 50,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
