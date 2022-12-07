@@ -9,8 +9,8 @@
   --margin: 5rem;
   --small-margin: 3rem;
   --navbar-logo-size: 24px;
-  --navbar-height: calc((var(--outer-margin) * 2 ) +  var(--navbar-logo-size));
-  --content-margin: calc( var(--navbar-height));
+  --navbar-height: calc((var(--outer-margin) * 2) + var(--navbar-logo-size));
+  --content-margin: calc(var(--navbar-height));
 }
 
 @media screen and (min-width: 750px) {
@@ -22,13 +22,13 @@
     --outer-margin: 2.5rem;
     --small-margin: 4.5rem;
     --margin: 7rem;
-    --navbar-height: calc((var(--outer-margin) * 2 ) +  var(--navbar-logo-size));
-    --content-margin: calc(var(--navbar-height)); 
+    --navbar-height: calc((var(--outer-margin) * 2) + var(--navbar-logo-size));
+    --content-margin: calc(var(--navbar-height));
   }
 }
 
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 }
 
 body {
-  width: 100%; 
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -49,57 +49,107 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
+
 input,
 textarea,
 select,
 fieldset {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+}
+
 pre,
 blockquote,
 dl,
 figure,
 table,
 p,
-ol{
-  margin-bottom: 1rem; }
-
-ul, li {
-  margin:0;
-  padding:0;
+ol {
+  margin-bottom: 1rem;
 }
 
-a, a:hover, a:visited{
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:visited {
   text-decoration: none;
   color: #000;
 }
 
-input{ 
-  outline:none;
+input {
+  outline: none;
   background-color: transparent;
 }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
-h1 {  line-height: 1.3;  letter-spacing: .1rem; font-size: var(--big-font)}
-h2 { line-height: 1.3; letter-spacing: .1rem; font-size: var(--medium-font)}
-h3 {  line-height: 1.4;  letter-spacing: .1rem; font-size: var(--small-font)}
-h4 {  line-height: 1.45; letter-spacing: .1rem; font-size: var(--small-font)}
-h5 {  line-height: 1.6;  letter-spacing: .1rem; font-size: var(--small-font)}
-h6 {  line-height: 1.7;  letter-spacing: 0; }
-p+h4, p+h1, p+h2, p+h3, p+h4, p+h5, p+h6{
-  margin-top:2rem;
+
+h1 {
+  line-height: 1.3;
+  letter-spacing: .1rem;
+  font-size: var(--big-font)
 }
 
-button, select, input:not([type='checkbox']){
+h2 {
+  line-height: 1.3;
+  letter-spacing: .1rem;
+  font-size: var(--medium-font)
+}
+
+h3 {
+  line-height: 1.4;
+  letter-spacing: .1rem;
+  font-size: var(--small-font)
+}
+
+h4 {
+  line-height: 1.45;
+  letter-spacing: .1rem;
+  font-size: var(--small-font)
+}
+
+h5 {
+  line-height: 1.6;
+  letter-spacing: .1rem;
+  font-size: var(--small-font)
+}
+
+h6 {
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+p+h4,
+p+h1,
+p+h2,
+p+h3,
+p+h4,
+p+h5,
+p+h6 {
+  margin-top: 2rem;
+}
+
+button,
+select,
+input:not([type='checkbox']) {
   appearance: none;
   border-radius: 0px;
   background-color: transparent;
@@ -108,62 +158,73 @@ button, select, input:not([type='checkbox']){
   min-height: 30px;
   font-size: 15px;
 }
-select{
+
+select {
   min-height: 40px;
 }
-button{
+
+button {
   text-transform: uppercase;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin:0;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0rem;
 }
-button.button-capitalized, input[type='submit'].button-capitalized{
-  padding-top:8px;
+
+button.button-capitalized,
+input[type='submit'].button-capitalized {
+  padding-top: 8px;
 }
-input{
+
+input {
   text-transform: normal;
 }
-input[type=number]{
+
+input[type=number] {
   padding: 2px;
   text-align: center;
 }
-input[type='checkbox']{
+
+input[type='checkbox'] {
   background-color: transparent;
 }
-.fadein{
+
+.fadein {
   transition: opacity 1s ease;
   opacity: 1;
 }
-.fadeout{
+
+.fadeout {
   transition: opacity 1s ease !important;
   opacity: 0 !important;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
-@media only screen and (max-width: 749px) {
-  
-}
+@media only screen and (max-width: 749px) {}
 
-@media only screen and (min-width: 750px) {
-  
-}
+@media only screen and (min-width: 750px) {}
 
 
-.shopify-challenge__container{
-  margin-bottom: var(--outer-margin); 
+.shopify-challenge__container {
+  margin-bottom: var(--outer-margin);
   min-height: 50vh;
 }
-.shopify-challenge__button{
-  margin-top: var(--outer-margin) !important; 
+
+.shopify-challenge__button {
+  margin-top: var(--outer-margin) !important;
 }
 
 .page {
@@ -177,14 +238,14 @@ input[type='checkbox']{
 
 .page-content {
   max-width: 550px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding-left: var(--outer-margin);
   padding-right: var(--outer-margin);
 }
 
-.page.cart-page > .page-content {
+.page.cart-page>.page-content {
   max-width: 1000px;
 }
 
@@ -198,6 +259,7 @@ input[type='checkbox']{
   text-transform: uppercase;
   font-weight: normal;
 }
+
 @media screen and (max-width: 749px) {
   .page {
     margin-top: var(--margin);
@@ -216,37 +278,70 @@ main div {
   position: relative;
 }
 
-.text-center{
-  text-align:center;
+.text-center {
+  text-align: center;
 }
 
-#omgrfq_button_action{
+#omgrfq_button_action {
   margin-top: var(--navbar-height);
 }
-#omgrfq_button_action button{
-  color:#000;
-  background-color: #fff;
-}
-#submitOMGRFQForm{
-  margin-left:24px !important;
-}
-#close_omgrfq_popup{
+
+#omgrfq_button_action button {
+  color: #000;
   background-color: #fff;
 }
 
-.bacurr-cur-bloc{
-  
+#submitOMGRFQForm {
+  margin-left: 24px !important;
 }
 
-@media (max-width: 768px){
-  .baDropdownStyle, .bacurr-cur-bloc{
-    z-index: 99 !important;  
+#close_omgrfq_popup {
+  background-color: #fff;
+}
+
+.bacurr-cur-bloc {}
+
+@media (max-width: 768px) {
+
+  .baDropdownStyle,
+  .bacurr-cur-bloc {
+    z-index: 99 !important;
   }
 }
 
-.baDropdownStyle{
+.baDropdownStyle {
   z-index: 99 !important;
 }
-.hide{
+
+.hide {
   display: none !important;
+}
+
+.paginate {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  list-style: none;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--outer-margin);
+  padding-bottom: var(--outer-margin);
+
+}
+
+.paginate-empty {
+  max-height: 0px;
+  display: none;
+
+}
+
+.paginate li {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.paginate-current {
+  font-weight: normal !important;
 }
