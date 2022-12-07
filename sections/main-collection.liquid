@@ -2,25 +2,19 @@
 {% assign limit = 20 %}
 {% render 'product-grid', products: collection.products %}
 {% paginate collection.products by limit %}
-{% render 'pagination', pagination: paginate %}
-{% endpaginate %}
-
-
-
-<ul class="paginate {% if pagination.pages == 1 %} paginate-empty{% endif %}">
-  
-    {% for part in paginate.parts %}
-      {%if paginate.current_page == forloop.index %}
-        <li class="paginate-current">{{ forloop.index }}</li>
-      {% else %} 
-        <li>{{ part.title | link_to: part.url}}</li>
-      {% endif %}
-    {% endfor %}
-    {%if paginate.current_page == paginate.pages %}
-      <li class="paginate-current">NEXT</li>
+<ul class="paginate {% if paginate.pages == 1 %} paginate-empty{% endif %}">
+  {% for part in paginate.parts %}
+    {%if paginate.current_page == forloop.index %}
+      <li class="paginate-current">{{ forloop.index }}</li>
     {% else %} 
-      <li class="paginate-current"><a href="{{paginate.next.url}}">NEXT</a></li>
+      <li>{{ part.title | link_to: part.url}}</li>
     {% endif %}
-  
+  {% endfor %}
+  {%if paginate.current_page == paginate.pages %}
+    <li class="paginate-current">NEXT</li>
+  {% else %} 
+    <li class="paginate-current"><a href="{{paginate.next.url}}">NEXT</a></li>
   {% endif %}
 </ul>
+{% endpaginate %}
+
