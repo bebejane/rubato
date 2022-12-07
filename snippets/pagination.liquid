@@ -34,7 +34,7 @@
       {%if pagination.current_page == forloop.index %}
         <li class="paginate-current">{{ forloop.index }}</li>
       {% else %} 
-        <li><a href="{{part.url}}">{{ forloop.index }}</a></li>
+        <li>{{ part.title | link_to: part.url}}</li>
       {% endif %}
     {% endfor %}
     {%if pagination.current_page == pagination.pages %}
