@@ -30,11 +30,11 @@
 <ul class="paginate {% if pagination.pages == 1 %} paginate-empty{% endif %}">
   {% if pagination.pages > 1 %}
     {% for part in pagination.parts %}
-      {%if pagination.current_page == forloop.index %}
-        <li class="paginate-current">{{ forloop.index }}</li>
-      {% else %} 
+      {% if part.is_link -%}
         <li>{{ part.title | link_to: part.url}}</li>
-      {% endif %}
+      {%- else -%}
+        <li>{{ part.title }}</li>
+      {% endif %}     
     {% endfor %}
     {%if pagination.current_page == pagination.pages %}
       <li class="paginate-current">NEXT</li>
