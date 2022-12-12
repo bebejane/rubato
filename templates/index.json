@@ -14,11 +14,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ed-Ruscha.jpg",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2022-12-12_kl._11.35.05.png",
             "columns": 2,
             "width": 100,
-            "align": "flex-end",
-            "caption": "ED RUSCHA AT FERUS GALLERY 1947-1966",
+            "align": "flex-start",
+            "caption": "philip guston 'entrance' 1979",
             "product": "",
             "collection": "",
             "page": ""
@@ -68,9 +68,9 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen2_c249a309-a871-4802-86db-7d3d49e016f9.jpg",
+            "image": "shopify:\/\/shop_images\/RubDen3_9aa67bb7-8091-4f71-ac7b-b839e1f3ef55.jpg",
             "columns": 2,
-            "width": 86,
+            "width": 81,
             "align": "center",
             "caption": "RUBATO DENIM",
             "product": "",
@@ -81,9 +81,9 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gunnarnylund1.jpg",
+            "image": "shopify:\/\/shop_images\/Jazz1.jpg",
             "columns": 2,
-            "width": 70,
+            "width": 80,
             "align": "flex-end",
             "caption": "Objects",
             "product": "",
