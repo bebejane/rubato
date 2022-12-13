@@ -123,8 +123,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga67.jpg",
-            "columns": 2,
-            "width": 100,
+            "columns": 4,
+            "width": 52,
             "align": "flex-end",
             "caption": "knitwear",
             "product": "",
