@@ -79,7 +79,7 @@
   justify-content: center;
   border: var(--line);
   background-color: #fff;
-
+  min-width: 100%;
 }
 
 .product-grid-item>a>picture {
@@ -89,7 +89,6 @@
 .product-grid-item-image {
   max-width: 100%;
   min-width: 100%;
-
   object-fit: cover
 }
 
@@ -152,10 +151,10 @@
     text-align: left;
   }
 
+  .product-grid-item a,
   .product-grid-item-image {
     max-height: 30vh;
     min-height: 30vh;
-
   }
 }
 
