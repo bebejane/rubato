@@ -79,12 +79,17 @@
   justify-content: center;
   border: var(--line);
   background-color: #fff;
+
+}
+
+.product-grid-item>a>picture {
+  line-height: 0;
 }
 
 .product-grid-item-image {
   max-width: 100%;
   min-width: 100%;
-  line-height: 0;
+
   object-fit: cover
 }
 
