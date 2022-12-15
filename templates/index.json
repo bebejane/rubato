@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/R1-00324-0017.jpg",
-        "focal": 50,
+        "image": "shopify:\/\/shop_images\/Alp6-liggande.jpg",
+        "focal": 20,
         "invert-logo": false
       }
     },
