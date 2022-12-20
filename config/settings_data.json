@@ -1,5 +1,17 @@
 {
   "current": {
+    "colors_background_1": "#efebd5",
+    "colors_background_2": "#efebd5",
+    "type_header_font": "libre_baskerville_n4",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#efebd5",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#efebd5",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_button_color": "#1878b9",
     "sections": {
       "main-menu": {
         "type": "main-menu",
