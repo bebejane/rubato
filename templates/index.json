@@ -14,11 +14,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2022-12-12_kl._11.35.05.png",
+            "image": "shopify:\/\/shop_images\/Foreword-Ruth-Asawa-1956-small_d0530995-ea72-4efb-ba7c-27759cb7f934.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
-            "caption": "philip guston 'entrance' 1979",
+            "caption": "portrait of ruth asawa",
             "product": "",
             "collection": "",
             "page": ""
@@ -27,7 +27,7 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alp5post.jpg",
+            "image": "shopify:\/\/shop_images\/Alp7-post_3b4f6a6d-67ec-4df4-aa10-5990013dde6b.jpg",
             "columns": 2,
             "width": 89,
             "align": "flex-end",
@@ -68,7 +68,7 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen3_9aa67bb7-8091-4f71-ac7b-b839e1f3ef55.jpg",
+            "image": "shopify:\/\/shop_images\/RubDen2_3138da66-d259-45f3-be55-545a67ccf0fe.jpg",
             "columns": 2,
             "width": 81,
             "align": "center",
@@ -81,7 +81,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jazz1.jpg",
+            "image": "shopify:\/\/shop_images\/Monkey5.jpg",
             "columns": 2,
             "width": 80,
             "align": "flex-end",
@@ -122,7 +122,7 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga67.jpg",
+            "image": "shopify:\/\/shop_images\/Haga69_0852dca0-2ca1-488e-b644-3aad56d83404.jpg",
             "columns": 4,
             "width": 52,
             "align": "flex-end",
@@ -135,11 +135,11 @@
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1500px__Robert_Capa_Spectators_at_Longchamp_Racecourse_Paris_1952_Estate_stamped_archival_pigment_print_80x120cm_Edition_of_5._Courtesy_of_Magnum_Photos.jpg",
+            "image": "shopify:\/\/shop_images\/Portrait-by-No-Way-Out-billboard.jpg",
             "columns": 4,
             "width": 50,
             "align": "center",
-            "caption": "robert capa 'spectators at longchamp racecourse' paris 1952",
+            "caption": "paul rand in front of his poster design for 'no way out'",
             "product": "",
             "collection": "",
             "page": ""
@@ -148,7 +148,7 @@
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/R1_af8dd8c7-b17c-4d88-bff8-249d9427cf50.jpg",
+            "image": "shopify:\/\/shop_images\/Rubato-Officers-Chino-1.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -161,18 +161,19 @@
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fred7.jpg",
+            "image": "shopify:\/\/shop_images\/A6.jpg",
             "columns": 2,
-            "width": 69,
+            "width": 100,
             "align": "flex-end",
-            "caption": "fred nieddu of taillour; wears work shirt in light blue chambray",
-            "product": "work-shirt-in-light-blue-chambray",
+            "caption": "tools of the trade. alexander helander, artist, b.1987",
+            "product": "",
             "collection": "",
             "page": ""
           }
         },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/stringio.jpg",
             "columns": 4,
