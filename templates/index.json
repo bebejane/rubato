@@ -122,8 +122,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga69_0852dca0-2ca1-488e-b644-3aad56d83404.jpg",
-            "columns": 4,
-            "width": 52,
+            "columns": 2,
+            "width": 81,
             "align": "flex-end",
             "caption": "knitwear",
             "product": "",
@@ -135,8 +135,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Portrait-by-No-Way-Out-billboard.jpg",
-            "columns": 4,
-            "width": 50,
+            "columns": 2,
+            "width": 100,
             "align": "center",
             "caption": "paul rand in front of his poster design for 'no way out'",
             "product": "",
