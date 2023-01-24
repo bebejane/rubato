@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Haga85_f8b150e0-3141-412d-a189-dcbe784e1cce.jpg",
-        "focal": 40,
+        "image": "shopify:\/\/shop_images\/Job_0027-splash.jpg",
+        "focal": 85,
         "invert-logo": false
       }
     },
