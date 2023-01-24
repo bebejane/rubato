@@ -107,15 +107,14 @@
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/POST1-NYC.jpg",
-            "columns": 2,
-            "width": 85,
+            "image": "shopify:\/\/shop_images\/2022-12-12-Rubato-075-web.jpg",
+            "columns": 4,
+            "width": 48,
             "align": "center",
-            "caption": "NEW YORK POP UP COMING SOON",
+            "caption": "accessories",
             "product": "",
-            "collection": "",
+            "collection": "accessories",
             "page": ""
           }
         },
