@@ -172,13 +172,12 @@
         },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/stringio.jpg",
+            "image": "shopify:\/\/shop_images\/fi9.jpg",
             "columns": 4,
             "width": 53,
             "align": "center",
-            "caption": "St Marks Church by Sigurd Lewerentz built between 1958 - 1963 in Björkhagen, stockholm.",
+            "caption": "Florence, Italy, at dusk",
             "product": "",
             "collection": "",
             "page": ""
