@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Job_0027-splash.jpg",
         "focal": 85,
@@ -28,7 +27,7 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alp7-post_3b4f6a6d-67ec-4df4-aa10-5990013dde6b.jpg",
+            "image": "shopify:\/\/shop_images\/Vintage-White-1.jpg",
             "columns": 2,
             "width": 89,
             "align": "flex-end",
