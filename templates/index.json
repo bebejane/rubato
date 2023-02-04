@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/fi8_2fb2a563-3e37-47e8-9ba5-b9a6e838ade0.jpg",
         "focal": 0,
@@ -27,7 +28,7 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vintage-White-1.jpg",
+            "image": "shopify:\/\/shop_images\/Riviera-IG.jpg",
             "columns": 2,
             "width": 89,
             "align": "flex-end",
