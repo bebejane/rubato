@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/fi8_2fb2a563-3e37-47e8-9ba5-b9a6e838ade0.jpg",
         "focal": 0,
@@ -15,11 +14,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-01-17_kl._16.09.01.png",
+            "image": "shopify:\/\/shop_images\/90025.jpg",
             "columns": 2,
             "width": 70,
             "align": "flex-start",
-            "caption": "A photograph of Ruth Asawa taken by Imogen Cunningham circa 1957",
+            "caption": "Promotional card for Ed Ruscha, Paintings, at the Gagosian Gallery, 2002",
             "product": "",
             "collection": "",
             "page": ""
