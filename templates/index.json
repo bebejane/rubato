@@ -16,8 +16,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Riviera-IG.jpg",
             "columns": 2,
-            "width": 80,
-            "align": "flex-end",
+            "width": 85,
+            "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
             "collection": "all-products",
