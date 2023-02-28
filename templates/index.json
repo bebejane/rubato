@@ -65,6 +65,19 @@
             "page": ""
           }
         },
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022-12-12-Rubato-075-web.jpg",
+            "columns": 4,
+            "width": 48,
+            "align": "center",
+            "caption": "accessories",
+            "product": "",
+            "collection": "accessories",
+            "page": ""
+          }
+        },
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
@@ -102,19 +115,6 @@
             "caption": "Part of saul leiters 'snow' 1960",
             "product": "",
             "collection": "",
-            "page": ""
-          }
-        },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2022-12-12-Rubato-075-web.jpg",
-            "columns": 4,
-            "width": 48,
-            "align": "center",
-            "caption": "accessories",
-            "product": "",
-            "collection": "accessories",
             "page": ""
           }
         },
@@ -313,10 +313,10 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
