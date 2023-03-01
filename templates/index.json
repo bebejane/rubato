@@ -14,7 +14,7 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Riviera-IG.jpg",
+            "image": "shopify:\/\/shop_images\/Cardi16.jpg",
             "columns": 2,
             "width": 85,
             "align": "flex-start",
@@ -121,7 +121,7 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cash1.jpg",
+            "image": "shopify:\/\/shop_images\/Cardi1.jpg",
             "columns": 2,
             "width": 81,
             "align": "flex-end",
