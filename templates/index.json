@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cardi-Coming-Soon-Background.jpg",
-        "focal": 60,
+        "image": "shopify:\/\/shop_images\/Background_a86b0763-d8de-4a6e-8a80-2c0a3febd74e.jpg",
+        "focal": 50,
         "invert-logo": false
       }
     },
