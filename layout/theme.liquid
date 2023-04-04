@@ -68,7 +68,8 @@ document.head.appendChild(style);
                                      });
   </script>
 
-  </head>
+  {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
+</head>
   <!-- Begin Exemptify messages 
   <script>  
     var m4u_ptxt = "{{ shop.metafields['exemptify']['inc_display_text'] }}";
