@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Uniform-Insta-Story-3.jpg",
-        "focal": 50,
+        "image": "shopify:\/\/shop_images\/Back1_9f91429f-2701-4666-89b6-44c880741876.jpg",
+        "focal": 60,
         "invert-logo": false
       }
     },
