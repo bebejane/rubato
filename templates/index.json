@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/News_60cc3a65-c06d-40ee-ae3a-6ceff8c0fe87.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 83,
             "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
