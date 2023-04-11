@@ -2,9 +2,8 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Back1_9f91429f-2701-4666-89b6-44c880741876.jpg",
+        "image": "shopify:\/\/shop_images\/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
         "focal": 75,
         "invert-logo": false
       }
