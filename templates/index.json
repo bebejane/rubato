@@ -135,9 +135,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/tumblr_1e1351e0b363676aeffd199c8e01afb0_9d23ba80_1280.jpg",
-            "columns": 2,
+            "columns": 1,
             "width": 100,
-            "align": "center",
+            "align": "flex-start",
             "caption": "spectators at a golf contest in pebble beach 1961",
             "product": "",
             "collection": "",
@@ -150,7 +150,7 @@
             "image": "shopify:\/\/shop_images\/Cardi21.jpg",
             "columns": 2,
             "width": 100,
-            "align": "flex-start",
+            "align": "flex-end",
             "caption": "TROUSERS",
             "product": "",
             "collection": "trousers",
@@ -159,6 +159,7 @@
         },
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/A6.jpg",
             "columns": 2,
