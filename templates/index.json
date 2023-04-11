@@ -91,19 +91,6 @@
             "page": ""
           }
         },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Jazz5.jpg",
-            "columns": 2,
-            "width": 80,
-            "align": "flex-end",
-            "caption": "Objects",
-            "product": "",
-            "collection": "objects",
-            "page": ""
-          }
-        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "disabled": true,
@@ -135,7 +122,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/tumblr_1e1351e0b363676aeffd199c8e01afb0_9d23ba80_1280.jpg",
-            "columns": 1,
+            "columns": 2,
             "width": 100,
             "align": "flex-start",
             "caption": "spectators at a golf contest in pebble beach 1961",
@@ -154,6 +141,19 @@
             "caption": "TROUSERS",
             "product": "",
             "collection": "trousers",
+            "page": ""
+          }
+        },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jazz5.jpg",
+            "columns": 2,
+            "width": 80,
+            "align": "flex-end",
+            "caption": "Objects",
+            "product": "",
+            "collection": "objects",
             "page": ""
           }
         },
@@ -316,11 +316,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
+        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
