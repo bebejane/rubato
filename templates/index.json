@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Back1_9f91429f-2701-4666-89b6-44c880741876.jpg",
         "focal": 75,
@@ -27,11 +28,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/13twombly8-superJumbo.webp",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-04-11_kl._14.39.09.png",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Cy Twombly’s “Untitled,” from 1954",
+            "caption": "Donald Judd's \"Spaces\" Published by Judd Foundation",
             "product": "",
             "collection": "",
             "page": ""
