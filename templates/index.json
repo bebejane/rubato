@@ -148,8 +148,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cardi21.jpg",
-            "columns": 2,
-            "width": 100,
+            "columns": 4,
+            "width": 50,
             "align": "flex-end",
             "caption": "TROUSERS",
             "product": "",
