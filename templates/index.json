@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
-        "focal": 75,
+        "focal": 0,
         "invert-logo": false
       }
     },
@@ -31,7 +31,7 @@
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Donald Judd's \"Spaces\" Published by Judd Foundation",
+            "caption": "Donald Judd \"Spaces\" Published by Judd Foundation",
             "product": "",
             "collection": "",
             "page": ""
