@@ -66,16 +66,15 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga55.jpg",
+            "image": "shopify:\/\/shop_images\/Vintage-Jeans.jpg",
             "columns": 2,
-            "width": 76,
-            "align": "flex-end",
-            "caption": "Knitwear",
+            "width": 100,
+            "align": "center",
+            "caption": "Journal - make it yours",
             "product": "",
-            "collection": "knitwear",
-            "page": ""
+            "collection": "",
+            "page": "journal"
           }
         },
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
