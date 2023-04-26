@@ -14,9 +14,9 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/News_60cc3a65-c06d-40ee-ae3a-6ceff8c0fe87.jpg",
+            "image": "shopify:\/\/shop_images\/Homepage.jpg",
             "columns": 2,
-            "width": 83,
+            "width": 100,
             "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
