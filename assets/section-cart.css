@@ -233,15 +233,13 @@
   margin-left: 0 !important;
 }
 
-.productbox .image img {
-  border: var(--line) !important;
-
-}
+.productbox .image img {}
 
 .productbox .image {
 
   border: var(--line) !important;
   padding: 20px !important;
+  background-color: #fff !important;
 }
 
 .productbox .details {
