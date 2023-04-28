@@ -263,6 +263,7 @@
   .owl-nav button {
     height: auto !important;
     top: 0 !important;
+    margin-top: 100px;
   }
 
   #kartify_upsell_product_wrapper .owl-prev {
@@ -270,7 +271,7 @@
   }
 
   #kartify_upsell_product_wrapper .owl-next {
-    margin-right: 10px !important;
+    margin-right: 15px !important;
   }
 }
 
