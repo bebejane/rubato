@@ -217,7 +217,7 @@
 }
 
 
-.kartify_upsell_wrapper {
+#kartify_upsell_wrapper {
   margin-bottom: var(--small-margin) !important;
 }
 
