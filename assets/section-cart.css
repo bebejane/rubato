@@ -265,12 +265,11 @@
     top: 0 !important;
   }
 
-  .owl-prev {
+  #kartify_upsell_product_wrapper .owl-prev {
     margin-left: 10px !important;
-
   }
 
-  .owl-next {
+  #kartify_upsell_product_wrapper .owl-next {
     margin-right: 10px !important;
   }
 }
