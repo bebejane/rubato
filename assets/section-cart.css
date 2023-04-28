@@ -150,7 +150,7 @@
 .additional-checkout-buttons {
   display: flex;
   justify-content: center;
-  margin-top: calc(var(--margin) *1);
+  margin-top: var(--margin);
   padding-bottom: var(--outer-margin);
 }
 
