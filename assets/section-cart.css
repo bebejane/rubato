@@ -69,6 +69,7 @@
 .cart__image-wrapper,
 .cart__image {
   max-width: 200px;
+  border: var(--line);
 }
 
 .list-view-item__title {}
