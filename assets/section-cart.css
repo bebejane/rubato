@@ -230,5 +230,10 @@
 }
 
 .productbox .details {
+  min-height: auto;
   justify-content: center;
+}
+
+.productbox .details button {
+  margin-top: var(--small-margin);
 }
