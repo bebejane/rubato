@@ -119,6 +119,10 @@
 
 .order-discount--cart-total {}
 
+.cart__footer {
+  margin-top: var(--outer-margin);
+}
+
 .cart-subtotal,
 .cart-subtotal__price,
 .cart__shipping {
