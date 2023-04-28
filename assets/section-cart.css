@@ -239,9 +239,6 @@
 }
 
 .productbox .image {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
 
   border: var(--line) !important;
   padding: 20px !important;
