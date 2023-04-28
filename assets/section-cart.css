@@ -224,9 +224,6 @@
 #kartify_upsell_product_wrapper {}
 
 .productbox {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
   padding: 0 !important;
   width: calc(33.333% - 1rem) !important;
   margin-left: 1rem !important;
@@ -242,6 +239,10 @@
 }
 
 .productbox .image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
   border: var(--line) !important;
   padding: 20px !important;
 }
