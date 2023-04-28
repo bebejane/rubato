@@ -222,10 +222,13 @@
 #kartify_upsell_product_wrapper {}
 
 .productbox {
-  padding: 0;
+  padding: 0 !important;
 }
 
-.productbox .image img,
+.productbox .image img {
+  border: var(--line) !important;
+}
+
 .productbox .image {
   border: var(--line) !important;
 }
