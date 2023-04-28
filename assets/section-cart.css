@@ -251,6 +251,10 @@
     margin-right: 0rem !important;
   }
 
+  .productbox .details button {
+    margin-bottom: var(--small-margin) !important;
+  }
+
 }
 
 @media only screen and (min-width: 750px) {
