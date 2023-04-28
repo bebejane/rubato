@@ -222,12 +222,15 @@
 #kartify_upsell_product_wrapper {}
 
 .productbox {
-  padding: 0;
+  padding: 0 !important;
 }
 
-.productbox .image img,
+.productbox .image img {
+  border: var(--line) !important;
+}
+
 .productbox .image {
-  border: var(--line);
+  border: var(--line) !important;
 }
 
 .productbox .details {
@@ -240,4 +243,5 @@
   background-color: transparent !important;
   font-weight: normal !important;
   color: #000 !important;
+  border: var(--line) !important;
 }
