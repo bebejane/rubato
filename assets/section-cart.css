@@ -25,6 +25,7 @@
 
 .cart-header {
   text-align: center;
+  margin-bottom: var(--small-margin);
 }
 
 .cart-form {
