@@ -226,11 +226,11 @@
 .productbox {
   padding: 0 !important;
   width: calc(33.333% - 1rem) !important;
-  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .productbox:nth-child(3n+3) {
-  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .productbox .image img {}
