@@ -1,13 +1,13 @@
 {
-  "name": "rubato-starter",
-  "version": "1.0.0",
-  "description": "Rubato starter",
-  "main": "index.js",
-  "scripts": {
-    "live": "shopify theme serve --theme-editor-sync --theme=121759400070",
-    "dev": "shopify theme serve --theme-editor-sync --theme=121813237894",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "rubato-starter",
+	"version": "1.0.0",
+	"description": "Rubato starter",
+	"main": "index.js",
+	"scripts": {
+		"live": "shopify theme dev --theme-editor-sync --theme=121759400070",
+		"dev": "shopify theme dev --theme-editor-sync --theme=121813237894 --store=https://atemporubato.myshopify.com",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
 }

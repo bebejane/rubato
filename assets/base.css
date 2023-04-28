@@ -184,7 +184,7 @@ input {
 }
 
 input[type=number] {
-  padding: 2px;
+  padding: 0px;
   text-align: center;
 }
 
