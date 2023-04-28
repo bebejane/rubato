@@ -1,5 +1,4 @@
 {% style %}
-
   .paginate{
     display: flex;
     flex: 1 1 auto;
@@ -31,11 +30,11 @@
 <ul class="paginate {% if pagination.pages == 1 %} paginate-empty{% endif %}">
   {% if pagination.pages > 1 %}
     {% for part in pagination.parts %}
-      {%if pagination.current_page == forloop.index %}
-        <li class="paginate-current">{{ forloop.index }}</li>
-      {% else %} 
-        <li><a href="{{part.url}}">{{ forloop.index }}</a></li>
-      {% endif %}
+      {% if part.is_link -%}
+        <li>{{ part.title | link_to: part.url}}</li>
+      {%- else -%}
+        <li>{{ part.title }}</li>
+      {% endif %}     
     {% endfor %}
     {%if pagination.current_page == pagination.pages %}
       <li class="paginate-current">NEXT</li>

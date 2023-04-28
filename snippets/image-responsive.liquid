@@ -1,5 +1,4 @@
-<picture {% if picture_style %} style="{{ picture_style }}"{% endif %}>
-  {%- if image.width >= 375 -%}<source srcset="{{ image | image_url: width: 375 }} 1x" media="all and (max-width: 375px)">{%- endif -%}
+<picture {% if picture_style %} style="{{ picture_style }}"{% endif %}>{%- if image.width >= 375 -%}<source srcset="{{ image | image_url: width: 375 }} 1x" media="all and (max-width: 375px)">{%- endif -%}
   {%- if image.width >= 550 -%}<source srcset="{{ image | image_url: width: 550 }} 1x" media="all and (max-width: 550px)">{%- endif -%}
   {%- if image.width >= 750 -%}<source srcset="{{ image | image_url: width: 750 }} 1x" media="all and (max-width: 750px)">{%- endif -%}
   {%- if image.width >= 1100 -%}<source srcset="{{ image | image_url: width: 1100 }} 1x" media="all and (max-width: 1100px)">{%- endif -%}
@@ -7,12 +6,10 @@
   {%- if image.width >= 1780 -%}<source srcset="{{ image | image_url: width: 1780 }} 1x" media="all and (max-width: 1780px)">{%- endif -%}
   {%- if image.width >= 2000 -%}<source srcset="{{ image | image_url: width: 2000 }} 1x" media="all and (max-width: 2000px)">{%- endif -%}
   {%- if image.width >= 3000 -%}<source srcset="{{ image | image_url: width: 3000 }} 1x" media="all and (max-width: 3000px)">{%- endif -%}
-  {%- if image.width >= 3840 -%}<source srcset="{{ image | image_url: width: 3840 }} 1x" media="all and (max-width: 3840px)">{%- endif -%}
-  <img 
+  {%- if image.width >= 3840 -%}<source srcset="{{ image | image_url: width: 3840 }} 1x" media="all and (max-width: 3840px)">{%- endif -%}<img 
     srcset="{{ image | image_url: width: 1500 }}" 
     alt="{{ image.alt | escape }}" 
     typeof="foaf:Image" 
     loading="{%- if loading != blank -%}{{loading}}{%- else -%}lazy{%- endif -%}"
     {%- if style -%} style="{{ style }}"{%- endif -%}
-    {%- if class -%} class="{{ class }}"{%- endif -%}
-></picture>
+    {%- if class -%} class="{{ class }}"{%- endif -%}></picture>
