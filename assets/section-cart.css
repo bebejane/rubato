@@ -235,11 +235,12 @@
 
 .productbox .image img {
   border: var(--line) !important;
-  padding: 20px !important;
+
 }
 
 .productbox .image {
   border: var(--line) !important;
+  padding: 20px !important;
 }
 
 .productbox .details {
