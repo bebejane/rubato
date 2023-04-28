@@ -227,7 +227,7 @@
 
 .productbox .image img,
 .productbox .image {
-  border: var(--line);
+  border: var(--line) !important;
 }
 
 .productbox .details {
@@ -240,4 +240,5 @@
   background-color: transparent !important;
   font-weight: normal !important;
   color: #000 !important;
+  border: var(--line) !important;
 }
