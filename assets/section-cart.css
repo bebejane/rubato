@@ -275,7 +275,7 @@
   }
 
   #kartify_upsell_product_wrapper .owl-dots {
-    display: none;
+    display: none !important;
   }
 }
 
