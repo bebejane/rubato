@@ -223,6 +223,7 @@
 
 .productbox {
   padding: 0 !important;
+  width: calc(33.333% - 1rem) !important;
 }
 
 .productbox .image img {
