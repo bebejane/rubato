@@ -152,7 +152,12 @@
   justify-content: center;
   margin-top: var(--outer-margin);
   padding-bottom: var(--outer-margin);
+}
 
+.additional-checkout-buttons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .cart-empty {
