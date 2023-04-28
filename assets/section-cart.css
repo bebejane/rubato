@@ -215,3 +215,25 @@
     display: none;
   }
 }
+
+
+.kartify_upsell_wrapper {}
+
+#kartify_upsell_product_wrapper {}
+
+.productbox {
+  padding: 0;
+}
+
+.productbox .image {
+  border: var(--line);
+}
+
+.productbox .details {
+  min-height: auto;
+  justify-content: center;
+}
+
+.productbox .details button {
+  margin-top: var(--small-margin);
+}
