@@ -194,6 +194,10 @@
   .cart__shipping {
     text-align: center;
   }
+
+  .cart__submit-controls {
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 750px) {
