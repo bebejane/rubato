@@ -225,7 +225,8 @@
   padding: 0;
 }
 
-.productbox .image img {
+.productbox .image img,
+.productbox .image {
   border: var(--line);
 }
 
