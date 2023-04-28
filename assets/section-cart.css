@@ -235,7 +235,7 @@
 
 .productbox .image img {
   border: var(--line) !important;
-  margin: 20px !important;
+  padding: 20px !important;
 }
 
 .productbox .image {
