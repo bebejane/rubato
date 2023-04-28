@@ -55,17 +55,15 @@
 
     {% capture cur %}{% render "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
 
-        <script>
-  const omgCheckScript = setInterval(() => {
-                                     if (document.getElementById('omgrfq-script')) {
-    const style = document.createElement('style');
-style.innerHTML = `
-      .money {display: none;}
-    `;
-document.head.appendChild(style);
-  clearInterval(omgCheckScript);
-  }
-                                     });
+   <script>
+      const omgCheckScript = setInterval(() => {
+      if (document.getElementById('omgrfq-script')) {
+        const style = document.createElement('style');
+        style.innerHTML = `.money {display: none;}`;
+        document.head.appendChild(style);
+        clearInterval(omgCheckScript);
+      }
+  });
   </script>
 
   {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
