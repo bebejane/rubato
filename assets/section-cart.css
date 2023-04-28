@@ -217,7 +217,9 @@
 }
 
 
-.kartify_upsell_wrapper {}
+.kartify_upsell_wrapper {
+  margin-bottom: var(--small-margin) !important;
+}
 
 #kartify_upsell_product_wrapper {}
 
