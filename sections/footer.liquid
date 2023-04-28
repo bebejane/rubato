@@ -1,8 +1,17 @@
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{% assign is_cart = false %}
+
+{% if request.path == '/cart' %} {% assign is_cart = true %}{% endif %}
+
+{% if additional_checkout_buttons and is_cart %}
+  <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
+{% endif %}
+
 {% comment %}
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
 {% endcomment %}
+
 
 <footer class="footer">
   <section class="footer-about">
