@@ -149,6 +149,7 @@ p+h6 {
 
 button,
 select,
+.btn,
 input:not([type='checkbox']) {
   appearance: none;
   border-radius: 0px;
