@@ -225,15 +225,15 @@
   padding: 0;
 }
 
-.productbox .image {
+.productbox .image img {
   border: var(--line);
 }
 
 .productbox .details {
-  min-height: auto;
-  justify-content: center;
+  min-height: auto !important;
+  justify-content: center !important;
 }
 
 .productbox .details button {
-  margin-top: var(--small-margin);
+  margin-top: 1rem;
 }
