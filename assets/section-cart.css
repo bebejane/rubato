@@ -217,7 +217,9 @@
 }
 
 
-.kartify_upsell_wrapper {}
+.kartify_upsell_wrapper {
+  margin-bottom: var(--small-margin) !important;
+}
 
 #kartify_upsell_product_wrapper {}
 
@@ -233,7 +235,7 @@
 
 .productbox .image img {
   border: var(--line) !important;
-  margin: 20px !important;
+  padding: 20px !important;
 }
 
 .productbox .image {
