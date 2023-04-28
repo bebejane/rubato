@@ -218,7 +218,7 @@
 
 
 #kartify_upsell_wrapper {
-  margin-bottom: var(--small-margin) !important;
+  margin-bottom: var(--margin) !important;
 }
 
 #kartify_upsell_product_wrapper {}
@@ -248,7 +248,7 @@
 }
 
 .productbox .details button {
-  margin-top: 1rem !important;
+  margin-top: 2rem !important;
   background-color: transparent !important;
   font-weight: normal !important;
   color: #000 !important;
