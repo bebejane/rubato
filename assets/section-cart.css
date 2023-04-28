@@ -65,11 +65,11 @@
 .cart__price-wrapper {}
 
 .cart__image-wrapper {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .cart__image {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .list-view-item__title {}
