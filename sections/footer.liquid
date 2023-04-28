@@ -4,6 +4,10 @@
 <noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
 {% endcomment %}
 
+{% if additional_checkout_buttons %}
+  <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
+{% endif %}
+
 <footer class="footer">
   <section class="footer-about">
     <div class="footer-header">
