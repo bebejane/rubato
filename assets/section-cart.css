@@ -229,4 +229,6 @@
   border: var(--line);
 }
 
-.productbox .details {}
+.productbox .details {
+  justify-content: center;
+}
