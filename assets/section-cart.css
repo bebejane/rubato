@@ -221,8 +221,12 @@
 
 #kartify_upsell_product_wrapper {}
 
-.productbox {}
+.productbox {
+  padding: 0;
+}
 
-.productbox .image {}
+.productbox .image {
+  border: var(--line);
+}
 
 .productbox .details {}
