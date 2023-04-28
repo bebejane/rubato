@@ -230,8 +230,8 @@
 }
 
 .productbox .details {
-  min-height: auto;
-  justify-content: center;
+  min-height: auto !important;
+  justify-content: center !important;
 }
 
 .productbox .details button {
