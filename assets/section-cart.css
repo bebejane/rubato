@@ -148,6 +148,8 @@
 }
 
 .additional-checkout-buttons {
+  display: flex;
+  justify-content: center;
   margin-top: var(--outer-margin);
   padding-bottom: var(--outer-margin);
 
