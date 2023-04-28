@@ -225,7 +225,7 @@
   padding: 0;
 }
 
-.productbox .image {
+.productbox .image img {
   border: var(--line);
 }
 
@@ -235,5 +235,5 @@
 }
 
 .productbox .details button {
-  margin-top: var(--small-margin);
+  margin-top: 1rem;
 }
