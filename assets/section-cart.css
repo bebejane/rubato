@@ -251,6 +251,14 @@
     margin-right: 0rem !important;
   }
 
+  .productbox .details button {
+    margin-bottom: var(--small-margin) !important;
+  }
+
+  .productbox .details button:last-child {
+    margin-bottom: 0 !important;
+  }
+
 }
 
 @media only screen and (min-width: 750px) {
