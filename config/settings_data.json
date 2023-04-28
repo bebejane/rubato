@@ -1,5 +1,17 @@
 {
   "current": {
+    "colors_background_1": "#efebd5",
+    "colors_background_2": "#efebd5",
+    "type_header_font": "libre_baskerville_n4",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#efebd5",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#efebd5",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_button_color": "#1878b9",
     "sections": {
       "main-menu": {
         "type": "main-menu",
@@ -11,11 +23,11 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "headline": "EASY ELEGANCE",
-          "description": "The Rubato philosophy is to create wearable, contemporary garments full of character by looking to the past.",
+          "headline": "BOUNDLESS POSSIBILITIES FOR THE MODERN MAN",
+          "description": "Rubato creates wearable, contemporary garments full of character by looking to the past.",
           "signup": "Sign up for our newsletter",
           "signup-button": "Sign up",
-          "copyright": "© RUBATO 2022",
+          "copyright": "© RUBATO 2023",
           "menu": "rubato-menu-footer"
         }
       },
@@ -81,6 +93,11 @@
           "91deffa6-ac3a-4e78-b2ef-853643b240b8",
           "b86cea99-1dcc-4b39-902f-2eb1f304985b"
         ],
+        "settings": {
+        }
+      },
+      "cart": {
+        "type": "cart",
         "settings": {
         }
       }
