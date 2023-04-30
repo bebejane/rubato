@@ -68,13 +68,13 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen2_3138da66-d259-45f3-be55-545a67ccf0fe.jpg",
+            "image": "shopify:\/\/shop_images\/mindre.jpg",
             "columns": 2,
             "width": 100,
             "align": "center",
-            "caption": "DENIM",
+            "caption": "firemans jacket",
             "product": "",
-            "collection": "denim",
+            "collection": "outerwear",
             "page": ""
           }
         },
