@@ -225,6 +225,12 @@
   border: var(--line) !important;
 }
 
+.launchtipsellupform select {
+
+  margin-bottom: 0;
+
+}
+
 @media only screen and (max-width: 749px) {
 
   .small--hide {
