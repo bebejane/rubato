@@ -6,7 +6,7 @@
 
 {% if request.path == '/' %} {% assign is_home = true %}{% endif %}
 {% if request.path == '/' or request.path contains '/pages' %} {% assign borderless_menu = true %}{% endif %}
-{% if request.path contains '/products' or request.path contains '/collections' or request.path contains '/pages' or request.path == '/' %} {% assign opaque_menu = true %}{% endif %}
+{% if request.path contains '/products' or request.path contains '/collections' or request.path contains '/pages' or request.path == '/' or request.path == '/cart' %} {% assign opaque_menu = true %}{% endif %}
 
 <div id="menu" class="{%if opaque_menu == true %}menu-opaque{% endif %} {%if borderless_menu == true %}menu-home{% endif %}">  
   <div id="cartlink" class="cartlink {%if is_home == true %}home{% endif %}">
