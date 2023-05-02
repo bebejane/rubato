@@ -222,7 +222,7 @@
   width: auto !important;
   margin-left: auto;
   margin-right: auto;
-  border: var(--line);
+  border: var(--line) !important;
 }
 
 @media only screen and (max-width: 749px) {
