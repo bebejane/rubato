@@ -1,344 +1,340 @@
 {
-  "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Backgroujnd.jpg",
-        "focal": 25,
-        "invert-logo": false
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gettyimages-553038717-2048x2048_953fafa9-a8ea-4495-91dc-b699ceca6a3d.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "Franz Kline's studio at 242 West 14th Street, New York, April 7, 1961. Photo by Fred W. McDarrah.",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020AW-42.jpg",
-            "columns": 2,
-            "width": 55,
-            "align": "flex-start",
-            "caption": "",
-            "product": "standard-turtleneck-in-stone",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "000b7fe8-2100-4fc1-b753-d253dda7ea78": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Background.jpg",
-            "columns": 2,
-            "width": 71,
-            "align": "flex-end",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "e021c317-f484-42f4-a72d-ad8756aaab59": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Haga55.jpg",
-            "columns": 2,
-            "width": 76,
-            "align": "flex-end",
-            "caption": "Knitwear",
-            "product": "",
-            "collection": "knitwear",
-            "page": ""
-          }
-        },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Haga85.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "center",
-            "caption": "RUBATO DENIM",
-            "product": "",
-            "collection": "denim",
-            "page": ""
-          }
-        },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bruno2.jpg",
-            "columns": 2,
-            "width": 60,
-            "align": "flex-end",
-            "caption": "Bruno mathsson Lounge Chair",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PX4z7NFsfZna46rtHnbu02N7XxwnL4GCgbcu7XGf_60f98884-a97b-42d1-9560-5264d8215a04.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "On Kawara - 'I Got Up' Series 1968 - 197. Courtesy of Museum Boijmans Van Beuningen.",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "33893355-d256-4e1c-a9cf-b852382ded3b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/G13_e840f2a4-8327-484c-bda1-8b39169860e4.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-end",
-            "caption": "",
-            "product": "sports-sweater-in-vintage-white",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2258-normal.jpg",
-            "columns": 4,
-            "width": 55,
-            "align": "center",
-            "caption": "House of George Nakashima",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "TROUSERS",
-            "product": "",
-            "collection": "trousers",
-            "page": ""
-          }
-        },
-        "04353ef3-3733-41da-bab9-dfcc58778ed4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Galerie-North-4.jpg",
-            "columns": 2,
-            "width": 69,
-            "align": "flex-end",
-            "caption": "Galerie North shot by Rubato",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen18.jpg",
-            "columns": 1,
-            "width": 100,
-            "align": "center",
-            "caption": "",
-            "product": "lot-nr-1-denim-white",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen14.jpg",
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_c4c3de06-ffb7-4a54-a83f-ce8e62117906.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "center",
-            "caption": "robert capa 'Sailing race' Hanko, Norway, 1951",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "39a07fa7-7955-4546-bdc6-7edcdf922f90": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/back_3d7d0ca4-391e-4774-b2fa-a9480658455f.jpg",
-            "columns": 2,
-            "width": 72,
-            "align": "center",
-            "caption": "",
-            "product": "nonpareil-fairbanks-polo-in-porto-cervo",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "fca140e1-e64a-4aec-98d1-cea4f8a46734": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen16.jpg",
-            "columns": 2,
-            "width": 53,
-            "align": "flex-start",
-            "caption": "",
-            "product": "work-shirt-in-cream-denim",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web3_01969615-81c2-4609-8b1f-c2750e1231de.jpg",
-            "columns": 2,
-            "width": 47,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "47338339-a384-49b2-b00d-441a7b71efa2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Flat-Look-NP-1-BACKGROUND-3.jpg",
-            "columns": 2,
-            "width": 96,
-            "align": "flex-end",
-            "caption": "",
-            "product": "country-club-shorts-in-drab-linen",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/201109-sartoism-banner.png",
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "0df765c7-a05b-4475-9689-d9b99d419e6b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/201109-sartoism-a-tempo-rubato-lookbook-9_600x600_93ef57c3-4860-43e8-b93f-50fec8bef8c0.jpg",
-            "columns": 2,
-            "width": 66,
-            "align": "flex-start",
-            "caption": "",
-            "product": "officers-chino-in-dark-khaki",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "16d16ca3-b71c-44fb-983e-bf4913980eef": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rubato-V-Camel-1_1024x1024_2x_78b591e1-5259-4196-840a-6fc23d5be51a.jpg",
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "d14738c6-2cc3-42d3-883f-b5653cec03e0": {
-          "type": "image",
-          "settings": {
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "a6ec6d9f-da48-496a-b369-d447b2686e22",
-        "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
-        "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "e021c317-f484-42f4-a72d-ad8756aaab59",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
-        "33893355-d256-4e1c-a9cf-b852382ded3b",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
-        "04353ef3-3733-41da-bab9-dfcc58778ed4",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
-        "39a07fa7-7955-4546-bdc6-7edcdf922f90",
-        "fca140e1-e64a-4aec-98d1-cea4f8a46734",
-        "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
-        "47338339-a384-49b2-b00d-441a7b71efa2",
-        "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c",
-        "0df765c7-a05b-4475-9689-d9b99d419e6b",
-        "16d16ca3-b71c-44fb-983e-bf4913980eef",
-        "d14738c6-2cc3-42d3-883f-b5653cec03e0"
-      ],
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "image_banner",
-    "collage"
-  ]
+	"sections": {
+		"image_banner": {
+			"type": "image-banner",
+			"settings": {
+				"image": "shopify://shop_images/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
+				"focal": 25,
+				"invert-logo": false
+			}
+		},
+		"collage": {
+			"type": "collage",
+			"blocks": {
+				"a6ec6d9f-da48-496a-b369-d447b2686e22": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Homepage.jpg",
+						"columns": 2,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "new arrivals",
+						"product": "",
+						"collection": "all-products",
+						"page": ""
+					}
+				},
+				"0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/2020AW-42.jpg",
+						"columns": 2,
+						"width": 55,
+						"align": "flex-start",
+						"caption": "",
+						"product": "standard-turtleneck-in-stone",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"000b7fe8-2100-4fc1-b753-d253dda7ea78": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/Background.jpg",
+						"columns": 2,
+						"width": 71,
+						"align": "flex-end",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"e021c317-f484-42f4-a72d-ad8756aaab59": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/57.10_Kline_F_cropped.jpg",
+						"columns": 2,
+						"width": 100,
+						"align": "flex-end",
+						"caption": "Franz kline 'Mahoning' 1956",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/mindre.jpg",
+						"columns": 2,
+						"width": 100,
+						"align": "center",
+						"caption": "firemans jacket",
+						"product": "",
+						"collection": "outerwear",
+						"page": ""
+					}
+				},
+				"36a27471-04fc-4043-b320-2e8bc5c150b2": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Vintage-Jeans.jpg",
+						"columns": 2,
+						"width": 91,
+						"align": "flex-end",
+						"caption": "Make it yours",
+						"product": "",
+						"collection": "",
+						"page": "journal"
+					}
+				},
+				"8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Uniform-Insta-Story-3.jpg",
+						"columns": 4,
+						"width": 55,
+						"align": "center",
+						"caption": "uniform shirt",
+						"product": "uniform-shirt-in-khaki",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Haga54.jpg",
+						"columns": 2,
+						"width": 77,
+						"align": "flex-end",
+						"caption": "trousers",
+						"product": "",
+						"collection": "trousers",
+						"page": ""
+					}
+				},
+				"33893355-d256-4e1c-a9cf-b852382ded3b": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Cardi13.jpg",
+						"columns": 2,
+						"width": 100,
+						"align": "flex-end",
+						"caption": "knitwear",
+						"product": "",
+						"collection": "knitwear",
+						"page": ""
+					}
+				},
+				"8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/Haga25.jpg",
+						"columns": 2,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "TROUSERS",
+						"product": "",
+						"collection": "trousers",
+						"page": ""
+					}
+				},
+				"04353ef3-3733-41da-bab9-dfcc58778ed4": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Black-Woven-Belt-3.jpg",
+						"columns": 2,
+						"width": 69,
+						"align": "flex-end",
+						"caption": "accessories",
+						"product": "",
+						"collection": "accessories",
+						"page": ""
+					}
+				},
+				"3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/RubDen18.jpg",
+						"columns": 1,
+						"width": 100,
+						"align": "center",
+						"caption": "",
+						"product": "lot-nr-1-denim-white",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"68521fa5-38c3-491c-abd7-b51bab83ac0f": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/RubDen14.jpg",
+						"columns": 1,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
+						"columns": 4,
+						"width": 50,
+						"align": "center",
+						"caption": "see our fits here",
+						"product": "",
+						"collection": "",
+						"page": "our-fits"
+					}
+				},
+				"39a07fa7-7955-4546-bdc6-7edcdf922f90": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/back_3d7d0ca4-391e-4774-b2fa-a9480658455f.jpg",
+						"columns": 2,
+						"width": 72,
+						"align": "center",
+						"caption": "",
+						"product": "nonpareil-fairbanks-polo-in-porto-cervo",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"fca140e1-e64a-4aec-98d1-cea4f8a46734": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/RubDen16.jpg",
+						"columns": 2,
+						"width": 53,
+						"align": "flex-start",
+						"caption": "",
+						"product": "work-shirt-in-cream-denim",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"732f07cb-2bd9-4ff3-bf7f-de49f6bfa123": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/web3_01969615-81c2-4609-8b1f-c2750e1231de.jpg",
+						"columns": 2,
+						"width": 47,
+						"align": "flex-start",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"47338339-a384-49b2-b00d-441a7b71efa2": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/Flat-Look-NP-1-BACKGROUND-3.jpg",
+						"columns": 2,
+						"width": 96,
+						"align": "flex-end",
+						"caption": "",
+						"product": "country-club-shorts-in-drab-linen",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"cc4b8d79-211e-4cd0-bd9f-01e2cefa998c": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/201109-sartoism-banner.png",
+						"columns": 1,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"0df765c7-a05b-4475-9689-d9b99d419e6b": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/201109-sartoism-a-tempo-rubato-lookbook-9_600x600_93ef57c3-4860-43e8-b93f-50fec8bef8c0.jpg",
+						"columns": 2,
+						"width": 66,
+						"align": "flex-start",
+						"caption": "",
+						"product": "officers-chino-in-dark-khaki",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"16d16ca3-b71c-44fb-983e-bf4913980eef": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/Rubato-V-Camel-1_1024x1024_2x_78b591e1-5259-4196-840a-6fc23d5be51a.jpg",
+						"columns": 1,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"d14738c6-2cc3-42d3-883f-b5653cec03e0": {
+					"type": "image",
+					"settings": {
+						"columns": 1,
+						"width": 100,
+						"align": "flex-start",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				}
+			},
+			"block_order": [
+				"a6ec6d9f-da48-496a-b369-d447b2686e22",
+				"0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
+				"000b7fe8-2100-4fc1-b753-d253dda7ea78",
+				"e021c317-f484-42f4-a72d-ad8756aaab59",
+				"29388188-1d36-45c5-ae8d-ebe1eb58e97b",
+				"36a27471-04fc-4043-b320-2e8bc5c150b2",
+				"8888a774-2eff-4c59-84fc-1f8f2038dc99",
+				"cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+				"33893355-d256-4e1c-a9cf-b852382ded3b",
+				"8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
+				"04353ef3-3733-41da-bab9-dfcc58778ed4",
+				"3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
+				"68521fa5-38c3-491c-abd7-b51bab83ac0f",
+				"bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
+				"39a07fa7-7955-4546-bdc6-7edcdf922f90",
+				"fca140e1-e64a-4aec-98d1-cea4f8a46734",
+				"732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
+				"47338339-a384-49b2-b00d-441a7b71efa2",
+				"cc4b8d79-211e-4cd0-bd9f-01e2cefa998c",
+				"0df765c7-a05b-4475-9689-d9b99d419e6b",
+				"16d16ca3-b71c-44fb-983e-bf4913980eef",
+				"d14738c6-2cc3-42d3-883f-b5653cec03e0"
+			],
+			"settings": {}
+		}
+	},
+	"order": ["image_banner", "collage"]
 }
