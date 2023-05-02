@@ -212,6 +212,9 @@
   border: var(--line) !important;
 }
 
+.lbimg img {
+  border: var(--line);
+}
 
 .launchtipsellupform button {
   background-color: transparent !important;
