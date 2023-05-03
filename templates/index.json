@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/RW-Background.jpg",
-        "focal": 25,
+        "focal": 70,
         "invert-logo": false
       }
     },
