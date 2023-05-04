@@ -70,7 +70,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mindre.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 73,
             "align": "center",
             "caption": "firemans jacket",
             "product": "",
@@ -96,7 +96,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Uniform-Insta-Story-3.jpg",
             "columns": 4,
-            "width": 55,
+            "width": 40,
             "align": "center",
             "caption": "uniform shirt",
             "product": "uniform-shirt-in-khaki",
