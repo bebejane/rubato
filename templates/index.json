@@ -53,6 +53,7 @@
         },
         "000b7fe8-2100-4fc1-b753-d253dda7ea78": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Doek2.jpg",
             "columns": 2,
