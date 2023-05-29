@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rw1.jpg",
+            "image": "shopify:\/\/shop_images\/Doek3_5b865188-6b73-4008-a156-ef4d23499adf.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -41,11 +41,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/57.10_Kline_F_cropped.jpg",
+            "image": "shopify:\/\/shop_images\/cytwombly.webp",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Franz kline 'Mahoning' 1956",
+            "caption": "Cy Twombly 'Untitled' 1964",
             "product": "",
             "collection": "",
             "page": ""
