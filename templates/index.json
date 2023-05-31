@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Doek3.jpg",
-        "focal": 70,
+        "image": "shopify:\/\/shop_images\/Tease2.jpg",
+        "focal": 50,
         "invert-logo": false
       }
     },
@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Doek3_5b865188-6b73-4008-a156-ef4d23499adf.jpg",
+            "image": "shopify:\/\/shop_images\/SS28.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
