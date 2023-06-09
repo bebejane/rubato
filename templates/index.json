@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tease2.jpg",
+        "image": "shopify:\/\/shop_images\/SS18.jpg",
         "focal": 50,
         "invert-logo": false
       }
