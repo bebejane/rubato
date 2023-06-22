@@ -132,16 +132,15 @@
         },
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "TROUSERS",
+            "image": "shopify:\/\/shop_images\/SS13.jpg",
+            "columns": 4,
+            "width": 65,
+            "align": "center",
+            "caption": "LOOKBOOK SPRING\/SUMMER",
             "product": "",
-            "collection": "trousers",
-            "page": ""
+            "collection": "",
+            "page": "lookbook-summer"
           }
         },
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
