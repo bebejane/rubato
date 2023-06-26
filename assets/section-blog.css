@@ -1,0 +1,120 @@
+.collage {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: calc(var(--margin) * 1);
+  margin-left: calc(var(--outer-margin) / 2);
+  overflow: hidden;
+  justify-content: flex-start;
+  width: calc(100% - calc(var(--outer-margin) / 1)); 
+}
+
+.collage-block{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  border: calc(var(--outer-margin) /2) solid transparent;
+}
+.collage-block a {
+  display:flex;
+  flex-direction:column;      
+}
+.collage-block picture{
+  display: flex;
+  align-items: flex-start;
+}
+
+.collage-block-caption{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: .5rem;
+  transition: opacity 0.5s ease;
+  
+  
+}
+.collage-block-caption-wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  opacity: 1;
+  
+}
+.collage-block-caption-show{
+  opacity: 1 !important;
+}
+.collage-block-caption-title{
+  flex: 1 1 auto;
+  font-size: var(--small-font);
+  margin-bottom: 0;
+}
+.collage-block-caption-price{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 0 0 100px;
+  text-align: right;
+  white-space: pre;
+  font-size: calc(var(--medium-font) + 1px);
+}
+
+@media only screen and (max-width: 749px) {
+  .collage {
+    flex-direction: column;
+    padding-top: calc(128px - var(--navbar-height));
+    padding-bottom: var(--outer-margin);
+  }
+ 
+  .collage-block{
+    margin: 0 !important;
+    margin-bottom: calc(var(--outer-margin) * 3) !important;
+    flex: 1 1 auto !important;
+  }
+  .collage-block:last-child{
+    margin-bottom: 0 !important;
+  }
+  .collage-block-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(calc(100% + .3rem));
+    z-index: 20;
+    justify-content: flex-start !important;
+  }
+  .collage-block-caption-wrap{
+    max-width: 100% !important;
+  }
+  .collage picture img {
+    max-width: 100% !important;
+    object-fit: contain;
+    margin: 0 !important;
+  }
+  .collage-block-caption{
+    max-width: 100% !important;
+  }
+
+}
+
+@media only screen and (min-width: 750px) {
+  .collage {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: calc(280px - calc(var(--navbar-height) * 2));
+  }
+ 
+  .collage-block-caption{
+    width: 100%;
+    opacity: 0;
+  }
+  .collage picture img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .collage-block{
+    
+  }
+}
