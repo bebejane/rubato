@@ -34,12 +34,16 @@
 }
 
 .blog-post-read-more {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-top: var(--line);
   text-align: center;
   font-family: Vogue;
   font-size: 40px;
   width: 100%;
+  line-height: 1;
+
 }
 
 @media only screen and (max-width: 749px) {}
