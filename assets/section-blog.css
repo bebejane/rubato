@@ -43,7 +43,7 @@
 
 .blog-post-content {
   margin: 0;
-  margin-bottom: var(--outer-margin);
+  padding-bottom: var(--outer-margin);
 }
 
 .blog-post-read-more {
