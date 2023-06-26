@@ -2,7 +2,7 @@
 
 .blog-header {
   font-family: Vogue;
-  font-size: calc(100vw / 5);
+  font-size: clamp(20rem, calc(100vw / 5), 1rem);
   text-align: center;
 }
 
