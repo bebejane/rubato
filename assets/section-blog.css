@@ -34,11 +34,12 @@
 }
 
 .blog-post-read-more {
+  display: block;
   border-top: var(--line);
   text-align: center;
   font-family: Vogue;
   font-size: 40px;
-  margin-left: -2rem;
+
   margin-right: -2rem;
   width: 100%;
 }
