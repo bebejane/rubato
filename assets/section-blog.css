@@ -21,7 +21,8 @@
 .blog-post-image {
   object-fit: cover;
   width: calc(100% - var(--outer-margin) * 2);
-  margin: var(--outer-margin) height: 70vh;
+  margin: var(--outer-margin);
+  height: 70vh;
 
 }
 
