@@ -18,9 +18,7 @@
   font-size: 22px;
 }
 
-.blog-post-title {
-  margin-bottom: 1em;
-}
+.blog-post-title {}
 
 .blog-post-image {
   object-fit: cover;
@@ -71,7 +69,7 @@
     flex: 0 0 100%;
   }
 
-  .blog-post-item h2 {
+  .blog-post-title {
     text-align: center;
   }
 
