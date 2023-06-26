@@ -67,6 +67,10 @@
     flex: 0 0 100%;
   }
 
+  .blog-post-item h2 {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 750px) {}
