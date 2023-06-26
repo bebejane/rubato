@@ -39,8 +39,6 @@
   text-align: center;
   font-family: Vogue;
   font-size: 40px;
-  margin-left: calc(-1 * var(--outer-margin));
-  margin-right: -0rem;
   width: 100%;
 }
 
