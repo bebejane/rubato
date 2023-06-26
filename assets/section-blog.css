@@ -14,9 +14,7 @@
 }
 
 .blog-post {
-  flex: 1 1 50%;
-  margin: 1rem;
-  padding: 1rem;
+  flex: 0 0 50%;
   background-color: pink;
 }
 
