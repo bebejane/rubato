@@ -1,0 +1,180 @@
+
+{{ 'section-blog.css' | asset_url | stylesheet_tag }}
+{% assign max_columns = 4 %}
+{% assign column = 0 %}
+{% assign column_width = 0 %}
+
+{% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
+  <div id="collage-{{ section.id }}" class="collage">
+    
+    {% for block in section.blocks %}
+      
+      {% assign column = column | plus: block.settings.columns %}
+      {% if column > max_columns %}
+        {% assign column = block.settings.columns %}
+      {% endif %}
+      
+      {% capture style %}
+        flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - calc(var(--outer-margin)));
+      {% endcapture %}
+
+      {% capture image_style %}
+        max-width: calc({{ block.settings.width}}%);
+        min-width: calc({{ block.settings.width}}%);
+      {% endcapture %}
+
+      {% capture picture_style %}
+        min-width: 100%;
+        justify-content: {{block.settings.align}};
+      {% endcapture %}
+
+      {% capture caption_block_style %}
+        justify-content: {{block.settings.align}};
+      {% endcapture %}
+
+      {% capture caption_style %}
+        max-width: calc({{ block.settings.width}}%);
+      {% endcapture %}
+      
+      {% capture a_style %}
+        align-items: {{block.settings.align}};
+      {% endcapture %}
+
+      {% capture a_href %}
+        {%- if block.settings.page != blank -%}
+          {{ block.settings.page.url }}
+        {%- elsif block.settings.collection != blank -%}
+          {{block.settings.collection.url}}
+        {%- elsif block.settings.product != blank -%}
+          {{block.settings.product.url}}
+        {%- endif -%}
+      {% endcapture %}
+      
+      <div id="collage-block-{{ block.id }}" class="collage-block" style="{{ style }}">
+        {%- if a_href != blank -%}<a href="{{a_href}}" style="{{ a_style }}">{%- endif -%}
+          {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
+        
+        {%- if block.settings.product != blank -%}
+          <div class="collage-block-caption" style="{{caption_block_style}}"">
+            <div class="collage-block-caption-wrap" style="{{caption_style}}"">
+              <h2 class="collage-block-caption-title">
+                {{ block.settings.product.title }}
+              </h2>
+              <div class="collage-block-caption-price">
+                {{ block.settings.product.price | money }}
+              </div>
+            </div>
+          </div>
+        {%- elsif block.settings.caption != blank -%}
+          <div class="collage-block-caption" style="{{caption_block_style}}"" >
+            <h2 class="collage-block-caption-title" style="{{caption_style}}"">{{block.settings.caption}}</h2>
+          </div>
+        {%- endif -%} 
+        {%- if a_href != blank -%}</a>{%- endif -%}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% javascript %}
+  
+  function initCollage(){
+
+    // Toggle caption on hover
+    var images = document.querySelectorAll('.collage-block * > img')
+    
+    images.forEach(function(img){
+      img.addEventListener('mouseenter', function(e){
+        var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
+        if(caption)
+          caption.classList.add('collage-block-caption-show')
+      })
+      img.addEventListener('mouseleave', function(e){
+        var caption = e.target.closest('.collage-block').querySelector('.collage-block-caption')
+        if(caption)
+          caption.classList.remove('collage-block-caption-show')
+      })
+    })
+  }
+  document.addEventListener("DOMContentLoaded", initCollage);
+  document.addEventListener("shopify:section:load", initCollage);
+  
+
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Collage",
+  "tag": "section",
+  "class": "section",
+  "blocks": [{
+    "type": "image",
+    "name": "Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "columns",
+        "default": 1,
+        "max":4,
+        "min":1,
+        "step":1,
+        "label": "Columns"
+      },
+      {
+        "type": "range",
+        "id": "width",
+        "default": 100,
+        "max":100,
+        "min":1,
+        "step":1,
+        "label": "Width %"
+      },
+      {
+        "type": "select",
+        "id": "align",
+        "label": "Align",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ],
+        "default": "flex-start"
+      },
+      {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Link product"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Link collection"
+      },
+      {
+        "type": "page",
+        "id": "page",
+        "label": "Link page"
+      }  
+    ]
+  }]
+}
+{% endschema %}
