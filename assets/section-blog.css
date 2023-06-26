@@ -25,7 +25,8 @@
 }
 
 .blog-post-wrap {
-  padding: 1rem;
+  padding: 2rem;
+  border-top: var(--line);
 }
 
 .blog-post-item:nth-child(odd)>.blog-post-wrap {
