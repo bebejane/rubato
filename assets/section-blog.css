@@ -36,6 +36,8 @@
 .blog-post-read-more {
   border-top: var(--line);
   text-align: center;
+  font-family: Vogue;
+  font-size: 40px;
 
 }
 
