@@ -13,10 +13,11 @@
           <p class="blog-post-body">
             {{article.content | strip_html | truncatewords: 50}}
           </p>
+          <a href="{{article.url}}" class="blog-post-read-more">
+            Read more
+          </a>
         </div>
-        <a href="{{article.url}}" class="blog-post-read-more">
-          Read more
-        </a>
+        
       </div>
     {% endfor %}
   </div>
