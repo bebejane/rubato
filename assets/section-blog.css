@@ -18,6 +18,10 @@
   font-size: 22px;
 }
 
+.blog-post-title {
+  margin-bottom: 1em;
+}
+
 .blog-post-image {
   object-fit: cover;
   width: calc(100% - var(--outer-margin) * 2);
