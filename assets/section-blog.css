@@ -42,9 +42,7 @@
   font-family: Vogue;
   font-size: 40px;
   width: 100%;
-  line-height: 0;
-  height: 40px;
-
+  padding: var(--outer-margin);
 }
 
 @media only screen and (max-width: 749px) {}
