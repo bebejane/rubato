@@ -20,6 +20,7 @@
 
 .blog-post-wrap {
   padding: 1rem;
+  border-right: var(--line);
 }
 
 @media only screen and (max-width: 749px) {}
