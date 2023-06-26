@@ -22,6 +22,7 @@
   object-fit: cover;
   width: 100%;
   height: 70vh;
+  margin: var(--outer-margin);
 }
 
 .blog-post-wrap {
@@ -33,8 +34,7 @@
 }
 
 .blog-post-title,
-.blog-post-content,
-.blog-post-image {
+.blog-post-content {
   padding: var(--outer-margin);
 }
 
