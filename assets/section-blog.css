@@ -45,8 +45,8 @@
   margin: 0;
   padding-bottom: var(--outer-margin);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
