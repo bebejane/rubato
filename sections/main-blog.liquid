@@ -6,7 +6,9 @@
     {% for article in blog.articles %}
       <div class="blog-post-item">
         <div class="blog-post-wrap">
-          <div class="blog-post-image"></div>
+          <div class="blog-post-image">
+            {% render 'image-responsive', image:article.image %}
+          </div>
           <h2 class="blog-post-title">{{article.title}}</h2>
           <p class="blog-post-body">
             {{article.content | strip_html | truncatewords: 50}}
