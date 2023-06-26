@@ -53,6 +53,17 @@
   padding-bottom: calc(var(--outer-margin) - 5px);
 }
 
-@media only screen and (max-width: 749px) {}
+@media only screen and (max-width: 749px) {
+  .blog-posts {
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+  }
+
+  .blog-post-item {
+    flex: 0 0 100%;
+  }
+
+}
 
 @media only screen and (min-width: 750px) {}
