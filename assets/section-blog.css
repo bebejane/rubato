@@ -18,6 +18,11 @@
   background-color: pink;
 }
 
+.blog-post-image {
+  object-fit: cover;
+  width: 100%;
+}
+
 .blog-post-wrap {
   padding: 1rem;
 }
