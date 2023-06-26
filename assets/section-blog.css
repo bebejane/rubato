@@ -32,7 +32,8 @@
   padding-bottom: var(--outer-margin);
 }
 
-.blog-post-item:nth-child(odd)>.blog-post-wrap {
+.blog-post-item:nth-child(odd)>.blog-post-wrap,
+.blog-post-item:nth-child(odd)>.blog-post-read-more {
   border-right: var(--line);
 }
 
