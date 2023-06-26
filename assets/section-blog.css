@@ -22,7 +22,7 @@
   padding: 1rem;
 }
 
-.blog-post-wrap:nth-child(even) {
+.blog-post-item:nth-child(even)>.blog-post-wrap {
   border-right: var(--line);
 }
 
