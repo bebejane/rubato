@@ -54,10 +54,13 @@
 }
 
 @media only screen and (max-width: 749px) {
+  .blog-header {
+    font-size: 8rem;
+  }
+
   .blog-posts {
     flex-direction: column;
     flex-wrap: nowrap;
-
   }
 
   .blog-post-item {
