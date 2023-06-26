@@ -1,5 +1,5 @@
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
-{% render 'log' blog %}
+{% render 'log', object:blog %}
 <div class="blog">
   <h1 class="blog-header">{{blog.title}}</h1>
   <div class="blog-posts">
