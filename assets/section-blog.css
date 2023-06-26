@@ -13,9 +13,10 @@
   justify-content: center;
 }
 
-.blog-posts-item {
+.blog-post-item {
   flex: 0 0 50%;
   background-color: pink;
+  padding: 1em;
 }
 
 
