@@ -42,6 +42,7 @@
   font-family: Vogue;
   font-size: 40px;
   width: 100%;
+  line-height: 0.75;
   padding: var(--outer-margin);
 }
 
