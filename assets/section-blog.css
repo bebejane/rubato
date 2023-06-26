@@ -33,6 +33,12 @@
   border-right: var(--line);
 }
 
+.blog-post-read-more {
+  border-top: var(--line);
+  text-align: center;
+
+}
+
 @media only screen and (max-width: 749px) {}
 
 @media only screen and (min-width: 750px) {}
