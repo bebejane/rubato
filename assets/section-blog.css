@@ -20,6 +20,9 @@
 
 .blog-post-wrap {
   padding: 1rem;
+}
+
+.blog-post-wrap:nth-child(even) {
   border-right: var(--line);
 }
 
