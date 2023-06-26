@@ -4,9 +4,8 @@
   <h1 class="blog-header">{{blog.title}}</h1>
   <div class="blog-posts">
     {% for article in blog.articles %}
-      <div class="blog-post">
-        <div class="blog-post-image">
-        </div>
+      <div class="blog-post-item">
+        <div class="blog-post-image"></div>
         <h2 class="blog-post-title">{{article.title}}</h2>
         <p class="blog-post-body">
           {{article.body}}
