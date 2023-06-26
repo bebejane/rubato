@@ -32,6 +32,11 @@
   border-right: var(--line);
 }
 
+.blog-post-title,
+.blog-post-content {
+  padding: var(--outer-margin);
+}
+
 .blog-post-read-more {
   display: flex;
   align-items: center;

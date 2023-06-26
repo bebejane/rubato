@@ -10,7 +10,7 @@
             {% render 'image-responsive', image:article.image, class:'blog-post-image' %}
           </a>
           <h2 class="blog-post-title">{{article.title}}</h2>
-          <p class="blog-post-body">
+          <p class="blog-post-content">
             {{article.content | strip_html | truncatewords: 50}}
           </p>
           <a href="{{article.url}}" class="blog-post-read-more">
