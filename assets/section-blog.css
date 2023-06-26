@@ -33,7 +33,8 @@
 }
 
 .blog-post-title,
-.blog-post-content {
+.blog-post-content,
+.blog-post-image {
   padding: var(--outer-margin);
 }
 
