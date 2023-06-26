@@ -33,6 +33,10 @@
   border-right: var(--line);
 }
 
+.blog-post-item:nth-child(odd)>.blog-post-read-more {
+  border-right: var(--line);
+}
+
 .blog-post-read-more {
   display: flex;
   align-items: center;
