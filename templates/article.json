@@ -39,11 +39,22 @@
             "collection": "",
             "page": ""
           }
+        },
+        "773ffeea-f787-42a9-929c-2f1d550a1d06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ed-Ruscha-cheese-mold-crop.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "331c0d4c-2d29-434b-8e4b-cc1f3d79f815",
-        "884a7b39-3fa2-4628-af23-ef271ff572fe"
+        "884a7b39-3fa2-4628-af23-ef271ff572fe",
+        "773ffeea-f787-42a9-929c-2f1d550a1d06"
       ],
       "settings": {
       }
