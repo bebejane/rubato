@@ -172,6 +172,7 @@
   .article-section-gallery-image {
     justify-content: center;
     align-items: center;
+    max-height: unset;
   }
 
   .article-section-gallery-image img {
