@@ -2,10 +2,24 @@
   "sections": {
     "main": {
       "type": "main-article",
-      "settings": {}
+      "settings": {
+      }
+    },
+    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511": {
+      "type": "article-section-gallery",
+      "settings": {
+      }
+    },
+    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511",
+    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11"
   ]
 }
