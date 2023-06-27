@@ -5,28 +5,28 @@
       "settings": {
       }
     },
-    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511": {
-      "type": "article-section-gallery",
-      "settings": {
-      }
-    },
-    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
-      "type": "article-section-quote",
-      "settings": {
-        "quote": "quote"
-      }
-    },
     "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb": {
       "type": "article-section-text",
       "settings": {
         "text": "hej text"
       }
+    },
+    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "“…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned.”"
+      }
+    },
+    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511": {
+      "type": "article-section-gallery",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511",
+    "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb",
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
-    "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb"
+    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511"
   ]
 }
