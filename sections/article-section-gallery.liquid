@@ -1,5 +1,5 @@
 <div class="article-section-gallery-wrap">
-  
+
   {% if section.blocks.size == 0 or section.blocks[0].settings.image %}
     Add images...
   {% else %}
@@ -14,9 +14,9 @@
           {{block.settings.product.url}}
         {%- endif -%}
       {% endcapture %}
-      
-      {% render 'image-responsive', image: block.settings.image %}
-
+      <div class="article-section-gallery-image">
+        {% render 'image-responsive', image: block.settings.image %}
+      </div>
     {% endfor %}
   
   {% endif %}
