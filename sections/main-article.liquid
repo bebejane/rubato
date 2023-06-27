@@ -1,6 +1,6 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
-{% render 'log', object: article %}
+{% render 'log', object: article.blocks %}
 
 <div id="blog-article-{{ section.id }}" class="blog-article">
   <h1 class="blog-article-header">{{ article.title }}</h1>
