@@ -1,5 +1,7 @@
 <div>
-  gallery
+  {% if section.blocks.size == 0  %}
+    No images...
+  {% endif %}
 
   {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
 
@@ -19,8 +21,6 @@
   
   {% endif %}
 
-</div>
-
 {% schema %}
 {
   "name": "Image Gallery",
@@ -35,15 +35,6 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
-      },
-      {
-        "type": "range",
-        "id": "columns",
-        "default": 1,
-        "max":4,
-        "min":1,
-        "step":1,
-        "label": "Columns"
       },
       {
         "type": "text",
