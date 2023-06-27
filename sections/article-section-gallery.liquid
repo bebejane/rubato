@@ -1,10 +1,8 @@
 <div>
-  {% if section.blocks.size == 0 and section.blocks[0].settings.image %}
+  {% if section.blocks.size == 0 or section.blocks[0].settings.image %}
     Add images...
-  {% elsif section.blocks[0].settings.image %}
-
+  {% else %}
     {% for block in section.blocks %}
-
       {% capture a_href %}
         {%- if block.settings.page != blank -%}
           {{ block.settings.page.url }}
