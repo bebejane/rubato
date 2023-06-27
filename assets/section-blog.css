@@ -105,12 +105,12 @@
 
 .article-section-gallery-image {
   flex: 0 0 50%;
-  height: 20vh;
+  max-height: 40vh;
   margin: var(--outer-margin);
 }
 
 .article-section-gallery-image img {
-  max-height: 20vh;
+  max-height: 40vh;
 }
 
 @media only screen and (max-width: 749px) {
