@@ -157,6 +157,10 @@
     font-size: 4rem;
   }
 
+  .article-section-quote {
+    font-size: 2em;
+  }
+
   .article-section-gallery-wrap {
 
     flex-direction: column;
