@@ -5,33 +5,7 @@
   <div id="blog-post-{{ section.id }}" class="blog-post">
     
     {% for block in section.blocks %}
-      
-      
-      {% capture style %}
-        flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - calc(var(--outer-margin)));
-      {% endcapture %}
-
-      {% capture image_style %}
-        max-width: calc({{ block.settings.width}}%);
-        min-width: calc({{ block.settings.width}}%);
-      {% endcapture %}
-
-      {% capture picture_style %}
-        min-width: 100%;
-        justify-content: {{block.settings.align}};
-      {% endcapture %}
-
-      {% capture caption_block_style %}
-        justify-content: {{block.settings.align}};
-      {% endcapture %}
-
-      {% capture caption_style %}
-        max-width: calc({{ block.settings.width}}%);
-      {% endcapture %}
-      
-      {% capture a_style %}
-        align-items: {{block.settings.align}};
-      {% endcapture %}
+     
 
       {% capture a_href %}
         {%- if block.settings.page != blank -%}
