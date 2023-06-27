@@ -97,6 +97,11 @@
 
 .blog-article-section-gallery {}
 
+.blog-article-section-gallery-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
