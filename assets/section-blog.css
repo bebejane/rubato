@@ -85,7 +85,10 @@
   border-top: var(--line);
   padding: var(--content-margin);
   font-size: 22px;
+  text-align: center;
 }
+
+.blog-article section.text {}
 
 @media only screen and (max-width: 749px) {
   .blog-header {
