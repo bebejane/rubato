@@ -14,8 +14,7 @@
         {%- endif -%}
       {% endcapture %}
       
-      
-      {% render 'image-responsive', image: block.settings.image, style: image_style, picture_style: picture_style %}
+      {% render 'image-responsive', image: block.settings.image %}
 
     {% endfor %}
   
