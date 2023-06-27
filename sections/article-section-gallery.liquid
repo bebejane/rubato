@@ -1,4 +1,5 @@
 <div class="article-section-gallery-wrap">
+  
   {% if section.blocks.size == 0 or section.blocks[0].settings.image %}
     Add images...
   {% else %}
@@ -19,6 +20,7 @@
     {% endfor %}
   
   {% endif %}
+
 </div>
 {% schema %}
 {
