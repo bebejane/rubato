@@ -13,13 +13,13 @@
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
       "type": "article-section-quote",
       "settings": {
-        "quote": ""
+        "quote": "quote"
       }
     },
     "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb": {
       "type": "article-section-text",
       "settings": {
-        "text": "hej"
+        "text": "hej text"
       }
     }
   },
