@@ -4,7 +4,7 @@
 <div id="blog-article-{{ section.id }}" class="blog-article">
   <h1 class="blog-article-header">{{ article.title }}</h1>
   {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
-    
+
     {% for block in section.blocks %}
 
       {% capture a_href %}
@@ -20,7 +20,9 @@
     {% endfor %}
   
   {% endif %}
-
+  <section>
+    {{ article.content }}
+  </section>
 
 </div>
 
