@@ -118,6 +118,11 @@
   max-width: 25vw;
 }
 
+.article-section-gallery-image figcaption {
+  font-size: 13px;
+
+}
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
