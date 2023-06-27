@@ -6,10 +6,6 @@
     
     {% for block in section.blocks %}
       
-      {% assign column = column | plus: block.settings.columns %}
-      {% if column > max_columns %}
-        {% assign column = block.settings.columns %}
-      {% endif %}
       
       {% capture style %}
         flex: 0 0 calc({{ block.settings.columns | times: 100 | divided_by: max_columns }}% - calc(var(--outer-margin)));
