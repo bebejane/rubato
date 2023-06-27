@@ -116,6 +116,10 @@
   margin: var(--outer-margin);
 }
 
+.article-section-gallery-image picture {
+  line-height: 0;
+}
+
 .article-section-gallery-image img {
   max-height: 40vh;
 }
