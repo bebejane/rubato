@@ -81,7 +81,8 @@
   text-align: center;
 }
 
-.blog-article section {
+.blog-article section,
+.blog-article-section {
   border-top: var(--line);
   padding: var(--content-margin);
   font-size: 22px;
