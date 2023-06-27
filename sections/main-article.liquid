@@ -1,9 +1,9 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
-{% render 'log', object: content_for_layout %}
 
 <div id="blog-article-{{ section.id }}" class="blog-article">
   <h1 class="blog-article-header">{{ article.title }}</h1>
+  {{ content_for_layout }}
   {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
 
     {% for block in section.blocks %}
