@@ -119,7 +119,7 @@
 }
 
 .article-section-gallery-image figcaption {
-  font-size: 13px;
+  font-size: var(--medium-font);
 
 }
 
