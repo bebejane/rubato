@@ -91,7 +91,9 @@
 
 .blog-article-section-text {}
 
-.blog-article-section-quote {}
+.blog-article-section-quote {
+  font-size: 2em;
+}
 
 .blog-article-section-gallery {}
 
