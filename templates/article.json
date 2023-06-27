@@ -19,6 +19,21 @@
     },
     "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511": {
       "type": "article-section-gallery",
+      "blocks": {
+        "331c0d4c-2d29-434b-8e4b-cc1f3d79f815": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/38_edruscha.jpg",
+            "caption": "Caption text",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "331c0d4c-2d29-434b-8e4b-cc1f3d79f815"
+      ],
       "settings": {
       }
     }
