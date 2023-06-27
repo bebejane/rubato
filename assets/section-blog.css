@@ -88,13 +88,13 @@
   text-align: center;
 }
 
-.blog-article section.text {}
+.blog-article section.text-section {}
 
-.blog-article section.quote {
+.blog-article section.quote-section {
   font-size: 40px;
 }
 
-.blog-article section.image {}
+.blog-article section.gallery-section {}
 
 @media only screen and (max-width: 749px) {
   .blog-header {
