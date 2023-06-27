@@ -109,6 +109,9 @@
   margin: var(--outer-margin);
 }
 
+.article-section-gallery-image img {
+  max-height: 20vh;
+}
 
 @media only screen and (max-width: 749px) {
   .blog-header {
