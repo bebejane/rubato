@@ -89,15 +89,11 @@
   text-align: center;
 }
 
-.blog-article-section-text {
-  background-color: aqua;
-}
+.blog-article-section-text {}
 
-.blog-article section.quote-section {
-  font-size: 40px;
-}
+.blog-article-section-quote {}
 
-.blog-article section.gallery-section {}
+.blog-article-section-gallery {}
 
 @media only screen and (max-width: 749px) {
   .blog-header {
