@@ -148,6 +148,11 @@
     font-size: 26px;
   }
 
+  .article section,
+  .article-section {
+    padding: var(--outer-margin);
+  }
+
   .article-header {
     font-size: 4rem;
   }
