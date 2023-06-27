@@ -76,6 +76,13 @@
   padding-right: var(--outer-margin);
 }
 
+.blog-article-header {
+  font-family: Vogue;
+  font-size: calc(100vw / 10);
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
