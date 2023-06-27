@@ -1,0 +1,128 @@
+.blog {}
+
+.blog-header {
+  font-family: Vogue;
+  font-size: calc(100vw / 5);
+  text-align: center;
+  margin-top: var(--content-margin);
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.blog-post-item {
+  flex: 0 0 calc(50% - var(--line-width));
+  font-size: 22px;
+}
+
+.blog-post-image {
+  object-fit: cover;
+  width: calc(100% - var(--outer-margin) * 2);
+  margin: var(--outer-margin);
+  height: 70vh;
+
+}
+
+.blog-post-wrap {
+  border-top: var(--line);
+  padding-bottom: var(--outer-margin);
+}
+
+.blog-post-item:nth-child(odd)>.blog-post-wrap,
+.blog-post-item:nth-child(odd)>.blog-post-read-more {
+  border-right: var(--line);
+}
+
+.blog-post-title,
+.blog-post-content {
+  padding-left: var(--outer-margin);
+  padding-right: var(--outer-margin);
+}
+
+.blog-post-content {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.blog-post-read-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: var(--line);
+  text-align: center;
+  font-family: Vogue;
+  font-size: 40px;
+  line-height: 1;
+  padding-top: var(--outer-margin);
+  padding-bottom: calc(var(--outer-margin) - 5px);
+  max-height: 40px;
+}
+
+
+
+.blog-article {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--content-margin);
+
+}
+
+.blog-article-header {
+  font-family: Vogue;
+  font-size: calc(100vw / 10);
+  text-align: center;
+}
+
+.blog-article section {
+  border-top: var(--line);
+  padding: var(--content-margin);
+  font-size: 22px;
+  text-align: center;
+}
+
+.blog-article section.text {}
+
+.blog-article section.quote {
+  font-size: 40px;
+}
+
+.blog-article section.image {}
+
+@media only screen and (max-width: 749px) {
+  .blog-header {
+    font-size: 6rem;
+  }
+
+  .blog-posts {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .blog-post-item {
+    flex: 0 0 100%;
+    font-size: 16px;
+  }
+
+  .blog-post-title {
+    text-align: center;
+  }
+
+  .blog-post-read-more {
+    font-size: 26px;
+  }
+
+  .blog-article-header {
+    font-size: 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 750px) {}
