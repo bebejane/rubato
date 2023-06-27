@@ -89,7 +89,9 @@
   text-align: center;
 }
 
-.blog-article section.text-section {}
+.blog-article-section .blog-article-section-text {
+  background-color: aqua;
+}
 
 .blog-article section.quote-section {
   font-size: 40px;
