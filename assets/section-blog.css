@@ -157,6 +157,7 @@
   .article section,
   .article-section {
     padding: var(--outer-margin);
+    font-size: var(--medium-font);
   }
 
   .article-header {
