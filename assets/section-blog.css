@@ -83,6 +83,7 @@
 }
 
 .blog-article section {
+  border-top: var(--line);
   padding-top: var(--outer-margin);
   padding-bottom: var(--outer-margin);
 }
