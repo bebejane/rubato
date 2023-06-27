@@ -1,11 +1,8 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
-{% assign max_columns = 4 %}
-{% assign column = 0 %}
-{% assign column_width = 0 %}
 
 {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
-  <div id="collage-{{ section.id }}" class="collage">
+  <div id="blog-post-{{ section.id }}" class="blog-post">
     
     {% for block in section.blocks %}
       
