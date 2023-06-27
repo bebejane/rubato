@@ -102,6 +102,14 @@
   flex-direction: row;
 }
 
+.blog-article-section-gallery-image {
+  flex: 0 0 50%;
+  object-fit: cover;
+  height: 50vh;
+  margin: var(--outer-margin);
+}
+
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
