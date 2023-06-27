@@ -175,7 +175,7 @@
 
   .article-section-gallery-image {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     max-height: unset;
     margin-left: 0;
     margin-right: 0;
