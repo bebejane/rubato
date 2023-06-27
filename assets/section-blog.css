@@ -105,8 +105,8 @@
 
 .article-section-gallery-image {
   flex: 0 0 50%;
-  object-fit: cover;
-  height: 50vh;
+  object-fit: contain;
+  height: 20vh;
   margin: var(--outer-margin);
 }
 
