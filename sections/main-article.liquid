@@ -1,7 +1,7 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
 
-<div id="blog-post-{{ section.id }}" class="blog-post">
+<div id="blog-article-{{ section.id }}" class="blog-article">
 
 {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
 
