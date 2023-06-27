@@ -68,41 +68,41 @@
 
 
 
-.blog-article {
+.article {
   display: flex;
   flex-direction: column;
   margin-top: var(--content-margin);
 
 }
 
-.blog-article-header {
+.article-header {
   font-family: Vogue;
   font-size: calc(100vw / 10);
   text-align: center;
 }
 
-.blog-article section,
-.blog-article-section {
+.article section,
+.article-section {
   border-top: var(--line);
   padding: var(--content-margin);
   font-size: 22px;
   text-align: center;
 }
 
-.blog-article-section-text {}
+.article-section-text {}
 
-.blog-article-section-quote {
+.article-section-quote {
   font-size: 4em;
 }
 
-.blog-article-section-gallery {}
+.article-section-gallery {}
 
-.blog-article-section-gallery-wrap {
+.article-section-gallery-wrap {
   display: flex;
   flex-direction: row;
 }
 
-.blog-article-section-gallery-image {
+.article-section-gallery-image {
   flex: 0 0 50%;
   object-fit: cover;
   height: 50vh;
@@ -133,7 +133,7 @@
     font-size: 26px;
   }
 
-  .blog-article-header {
+  .article-header {
     font-size: 4rem;
   }
 
