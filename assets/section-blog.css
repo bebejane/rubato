@@ -84,7 +84,7 @@
 .blog-article section {
   border-top: var(--line);
   padding: var(--content-margin);
-
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 749px) {
