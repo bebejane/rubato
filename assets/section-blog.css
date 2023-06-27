@@ -175,7 +175,7 @@
   }
 
   .article-section-gallery-image img {
-    max-height: 100vh !important;
+    max-height: unset;
     width: 100%;
   }
 
