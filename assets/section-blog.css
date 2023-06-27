@@ -92,6 +92,7 @@
 .article-section-text {}
 
 .article-section-quote {
+  font-style: italic;
   font-size: 4em;
 }
 
