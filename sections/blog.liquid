@@ -78,8 +78,8 @@
 
 {% javascript %}
   
-  function initCollage(){
-
+  function initBlogPost(){
+    return console.log('init blog post')
     // Toggle caption on hover
     var images = document.querySelectorAll('.collage-block * > img')
     
@@ -96,8 +96,8 @@
       })
     })
   }
-  document.addEventListener("DOMContentLoaded", initCollage);
-  document.addEventListener("shopify:section:load", initCollage);
+  document.addEventListener("DOMContentLoaded", initBlogPost);
+  document.addEventListener("shopify:section:load", initBlogPost);
   
 
 {% endjavascript %}
