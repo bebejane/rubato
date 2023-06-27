@@ -1,9 +1,7 @@
 <div>
-  {% if section.blocks.size == 0  %}
+  {% if section.blocks.size == 0 %}
     Add images...
-  {% endif %}
-
-  {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
+  {% elsif section.blocks[0].settings.image %}
 
     {% for block in section.blocks %}
 
