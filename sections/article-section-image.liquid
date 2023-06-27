@@ -1,0 +1,107 @@
+<div>
+  image
+
+  {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
+
+    {% for block in section.blocks %}
+
+      {% capture a_href %}
+        {%- if block.settings.page != blank -%}
+          {{ block.settings.page.url }}
+        {%- elsif block.settings.collection != blank -%}
+          {{block.settings.collection.url}}
+        {%- elsif block.settings.product != blank -%}
+          {{block.settings.product.url}}
+        {%- endif -%}
+      {% endcapture %}
+      
+    {% endfor %}
+  
+  {% endif %}
+
+</div>
+
+{% schema %}
+{
+  "name": "Image Gallery",
+  "tag": "section",
+  "class": "blog-article-section blog-article-section-gallery",
+  "blocks": [{
+    "type": "image",
+    "name": "Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "columns",
+        "default": 1,
+        "max":4,
+        "min":1,
+        "step":1,
+        "label": "Columns"
+      },
+      {
+        "type": "range",
+        "id": "width",
+        "default": 100,
+        "max":100,
+        "min":1,
+        "step":1,
+        "label": "Width %"
+      },
+      {
+        "type": "select",
+        "id": "align",
+        "label": "Align",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ],
+        "default": "flex-start"
+      },
+      {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Link product"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Link collection"
+      },
+      {
+        "type": "page",
+        "id": "page",
+        "label": "Link page"
+      }
+    ]
+  }],
+  "presets": [
+    {
+      "name": "Image Gallery"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["article"]
+  }
+}
+{% endschema %}
