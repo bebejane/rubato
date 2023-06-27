@@ -93,7 +93,9 @@
 
 .article-section-quote {
   font-style: italic;
+  font-weight: bold;
   font-size: 4em;
+
 }
 
 .article-section-gallery {}
