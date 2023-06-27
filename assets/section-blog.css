@@ -65,6 +65,14 @@
   max-height: 40px;
 }
 
+
+
+.blog-post {
+  background-color: pink;
+}
+
+
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
