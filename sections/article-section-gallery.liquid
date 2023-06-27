@@ -14,9 +14,10 @@
           {{block.settings.product.url}}
         {%- endif -%}
       {% endcapture %}
-      <div class="article-section-gallery-image">
+      <figure class="article-section-gallery-image">
         {% render 'image-responsive', image: block.settings.image %}
-      </div>
+        <figcaption>caption</figcaption>
+      </figure>
     {% endfor %}
   
   {% endif %}
