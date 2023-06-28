@@ -69,12 +69,23 @@
       ],
       "settings": {
       }
+    },
+    "4b63a3ff-22fb-4d58-8ff7-d90a21adce62": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jasper-Johns-1973.jpg",
+        "caption": "hejsan",
+        "product": "",
+        "collection": "cashmere",
+        "page": ""
+      }
     }
   },
   "order": [
     "main",
     "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb",
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
-    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511"
+    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511",
+    "4b63a3ff-22fb-4d58-8ff7-d90a21adce62"
   ]
 }
