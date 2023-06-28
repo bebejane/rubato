@@ -32,6 +32,7 @@
         },
         "884a7b39-3fa2-4628-af23-ef271ff572fe": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/GUSTON-PHILIP.jpg",
             "caption": "",
@@ -42,6 +43,7 @@
         },
         "773ffeea-f787-42a9-929c-2f1d550a1d06": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Ed-Ruscha-cheese-mold-crop.jpg",
             "caption": "",
