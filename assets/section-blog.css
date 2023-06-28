@@ -212,7 +212,7 @@
     justify-content: center;
     align-items: flex-start;
     max-height: unset;
-    width: 100%;
+    width: auto;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: var(--outer-margin);
