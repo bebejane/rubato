@@ -116,19 +116,19 @@
 }
 
 .article-section-gallery-col-1 {
-  max-width: calc(100vw - calc(var(--content-margin) * 2));
+  max-width: calc(100vw);
 }
 
 .article-section-gallery-col-2 {
-  max-width: calc(50vw - calc(var(--content-margin) * 2));
+  max-width: calc(50vw);
 }
 
 .article-section-gallery-col-3 {
-  max-width: calc(33.3333vw - calc(var(--content-margin) * 2));
+  max-width: calc(33.3333vw);
 }
 
 .article-section-gallery-col-4 {
-  max-width: calc(25vw - calc(var(--content-margin) * 2));
+  max-width: calc(25vw);
 }
 
 
