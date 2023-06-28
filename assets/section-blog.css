@@ -165,6 +165,8 @@
   justify-content: center;
 }
 
+.article-section-image {}
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
