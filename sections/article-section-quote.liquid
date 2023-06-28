@@ -1,4 +1,9 @@
-{{ section.settings.quote }}
+{% if section.settings.quote == blank %}
+  Select images...
+{% else %}
+  {{ section.settings.quote }}
+{% endif %}
+
 {% schema %}
 {
   "name": "Quote",
