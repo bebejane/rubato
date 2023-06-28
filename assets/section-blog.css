@@ -141,7 +141,8 @@
 }
 
 
-.article-section-gallery-image picture {
+.article-section-gallery-image picture,
+.article-section-gallery-image a {
   line-height: 0;
 }
 
