@@ -1,11 +1,25 @@
 {
-  "sections": {
-    "main": {
-      "type": "main-article",
-      "settings": {}
-    }
-  },
-  "order": [
-    "main"
-  ]
+	"sections": {
+		"main": {
+			"type": "main-article",
+			"settings": {}
+		},
+		"gallery": {
+			"type": "article-section-gallery",
+			"settings": {}
+		},
+		"text": {
+			"type": "article-section-text",
+			"settings": {}
+		},
+		"quote": {
+			"type": "article-section-quote",
+			"settings": {}
+		},
+		"image": {
+			"type": "article-section-image",
+			"settings": {}
+		}
+	},
+	"order": ["main", "gallery", "text", "quote", "image"]
 }

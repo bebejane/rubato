@@ -2,7 +2,6 @@
   "files.exclude": {
     "config": false,
     "locales": false,
-    ".vscode": false,
     "package.json": false,
     "README.md": false,
     "config.yml": false,
@@ -30,7 +29,6 @@
     "assets/swiper-bundle.min.js": false,
     "sections/announcement-bar.liquid": false,
     "sections/main-404.liquid": false,
-    "sections/main-article.liquid": false,
     "sections/main-blog.liquid": false,
     "sections/main-cart-footer.liquid": false,
     "sections/main-cart-items.liquid": false,

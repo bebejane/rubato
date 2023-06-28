@@ -1,0 +1,21 @@
+{{ section.settings.quote }}
+{% schema %}
+{
+  "name": "Quote",
+  "tag": "section",
+  "class": "article-section article-section-quote",
+  "settings":[{
+    "id":"quote",
+    "label": "Quote",
+    "type": "textarea"
+  }],
+  "presets": [
+    {
+      "name": "Quote"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["article"]
+  }
+}
+{% endschema %}

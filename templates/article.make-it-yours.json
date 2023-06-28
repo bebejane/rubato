@@ -1,0 +1,78 @@
+{
+	"sections": {
+		"main": {
+			"type": "main-article",
+			"settings": {}
+		},
+		"480119a6-1753-4278-90aa-790031ab0f79": {
+			"type": "article-section-gallery",
+			"blocks": {
+				"09a14c82-12ed-4091-961f-695ad81af3cb": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/38_edruscha.jpg",
+						"caption": "Caption text...",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/Larry-Poons.jpg",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				},
+				"de6225c1-883a-4894-b31e-eb16db6ffbeb": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/GUSTON-PHILIP.jpg",
+						"caption": "",
+						"product": "",
+						"collection": "",
+						"page": ""
+					}
+				}
+			},
+			"block_order": [
+				"09a14c82-12ed-4091-961f-695ad81af3cb",
+				"dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6",
+				"de6225c1-883a-4894-b31e-eb16db6ffbeb"
+			],
+			"settings": {}
+		},
+		"71c2ba4b-3b9e-4184-9b04-adecb04b371b": {
+			"type": "article-section-text",
+			"settings": {
+				"text": "We strive to make the go-to pieces makes you feel slightly special without being able to point out why that becomes a trusted companion and only gets better with age. To do that we make our garments from high quality materials, with great attention to detail, and without any pre-distressing or excessive washing to make them feel ‘pre-loved’ straight out of the box.\n\nOur firm belief is that a piece of clothing is nothing without its wearer. You need to make it yours. You must wear it, wash it and experience things in it before it can become that trusted friend. In the"
+			}
+		},
+		"2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
+			"type": "article-section-quote",
+			"settings": {
+				"quote": "\"…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned.\""
+			}
+		},
+		"786f5ea3-f5db-477c-ab66-67d8b25ec71f": {
+			"type": "article-section-image",
+			"settings": {
+				"image": "shopify://shop_images/Fire5.jpg",
+				"caption": "Firemans Jacket looks good",
+				"product": "firemans-jacket-beige",
+				"collection": "",
+				"page": ""
+			}
+		}
+	},
+	"order": [
+		"main",
+		"480119a6-1753-4278-90aa-790031ab0f79",
+		"71c2ba4b-3b9e-4184-9b04-adecb04b371b",
+		"2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
+		"786f5ea3-f5db-477c-ab66-67d8b25ec71f"
+	]
+}

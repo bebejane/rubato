@@ -68,33 +68,102 @@
 
 
 
-.blog-article {
+.article {
   display: flex;
   flex-direction: column;
   margin-top: var(--content-margin);
 
 }
 
-.blog-article-header {
+.article-header {
   font-family: Vogue;
   font-size: calc(100vw / 10);
   text-align: center;
 }
 
-.blog-article section {
+.article section,
+.article-section {
   border-top: var(--line);
   padding: var(--content-margin);
   font-size: 22px;
   text-align: center;
 }
 
-.blog-article section.text {}
+.article-section-text {}
 
-.blog-article section.quote {
-  font-size: 40px;
+.article-section-quote {
+  font-weight: bold;
+  font-size: 4em;
+
 }
 
-.blog-article section.image {}
+.article-section-gallery {}
+
+.article-section-gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.article-section-gallery-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: calc(100vh - var(--content-margin));
+  margin: 0;
+  margin-right: var(--outer-margin);
+}
+
+.article-section-gallery-image,
+.article-section-gallery-image img {
+  max-height: calc(100vh - calc(var(--content-margin) *2));
+}
+
+.article-section-gallery-image:last-child {
+  margin-right: 0;
+}
+
+.article-section-gallery-col-1 {
+  width: calc(100vw);
+}
+
+.article-section-gallery-col-2 {
+  max-width: calc(50vw);
+}
+
+.article-section-gallery-col-3 {
+  width: calc(33.3333vw - var(--outer-margin));
+}
+
+.article-section-gallery-col-4 {
+  width: calc(25vw);
+}
+
+.article-section-gallery-image picture,
+.article-section-gallery-image a {
+  line-height: 0;
+}
+
+
+.article-section-gallery-image figcaption {
+  margin-top: 1em;
+  font-size: var(--medium-font);
+  font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.article-section-gallery-image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.article-section-image-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 749px) {
   .blog-header {
@@ -119,8 +188,43 @@
     font-size: 26px;
   }
 
-  .blog-article-header {
+  .article section,
+  .article-section {
+    padding: var(--outer-margin);
+    font-size: 16px;
+  }
+
+  .article-header {
     font-size: 4rem;
+  }
+
+  .article-section-quote {
+    font-size: 2em;
+  }
+
+  .article-section-gallery-wrap {
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .article-section-gallery-image {
+    justify-content: center;
+    align-items: flex-start;
+    max-height: unset;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: var(--outer-margin);
+  }
+
+  .article-section-gallery-image:last-child {
+    margin-bottom: 0;
+  }
+
+  .article-section-gallery-image img {
+    max-height: unset;
+    width: 100%;
   }
 
 }

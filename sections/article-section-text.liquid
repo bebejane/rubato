@@ -1,0 +1,22 @@
+{{ section.settings.text | newline_to_br }}
+
+{% schema %}
+{
+  "name": "Text",
+  "tag": "section",
+  "class": "article-section article-section-text",
+  "settings":[{
+    "id":"text",
+    "label": "Text",
+    "type": "textarea"
+  }],
+  "presets": [
+    {
+      "name": "Text"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["article"]
+  }
+}
+{% endschema %}
