@@ -1,22 +1,24 @@
-<div>
-  image
-
-  {% if section.blocks.size > 0 and  section.blocks[0].settings.image %}
-
-    {% for block in section.blocks %}
-
+<div class="article-section-gallery-wrap">
+  {% if section.settings.image == blank %}
+    No image...
+  {% else %}
+    
       {% capture a_href %}
-        {%- if block.settings.page != blank -%}
-          {{ block.settings.page.url }}
-        {%- elsif block.settings.collection != blank -%}
-          {{block.settings.collection.url}}
-        {%- elsif block.settings.product != blank -%}
-          {{block.settings.product.url}}
+        {%- if section.settings.page != blank -%}
+          {{ section.settings.page.url }}
+        {%- elsif section.settings.collection != blank -%}
+          {{section.settings.collection.url}}
+        {%- elsif section.settings.product != blank -%}
+          {{section.settings.product.url}}
         {%- endif -%}
       {% endcapture %}
-      
-    {% endfor %}
-  
+
+      <figure class="article-section-gallery-image article-section-gallery-col-1">
+        {%- if a_href != blank -%}<a href="{{a_href}}">{%- endif -%}
+          {% render 'image-responsive', image: section.settings.image %}
+        {%- if a_href != blank -%}</a>{%- endif -%}
+        <figcaption>{{ section.settings.caption }}</figcaption>
+      </figure>  
   {% endif %}
 
 </div>
