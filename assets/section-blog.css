@@ -120,15 +120,15 @@
 }
 
 .article-section-gallery-col-2 {
-  flex: 0 0 50%;
+  flex: 0 1 50%;
 }
 
 .article-section-gallery-col-3 {
-  flex: 0 0 33.333%;
+  flex: 0 1 33.333%;
 }
 
 .article-section-gallery-col-4 {
-  flex: 0 0 25%;
+  flex: 0 1 25%;
 }
 
 .article-section-gallery-image picture {
