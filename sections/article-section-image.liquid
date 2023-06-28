@@ -1,4 +1,4 @@
-<div class="article-section-gallery-wrap">
+<div class="article-section-image-wrap">
   {% if section.settings.image == blank %}
     No image...
   {% else %}
@@ -13,7 +13,7 @@
         {%- endif -%}
       {% endcapture %}
 
-      <figure class="article-section-gallery-image article-section-gallery-col-1">
+      <figure class="article-section-gallery-image">
         {%- if a_href != blank -%}<a href="{{a_href}}">{%- endif -%}
           {% render 'image-responsive', image: section.settings.image %}
         {%- if a_href != blank -%}</a>{%- endif -%}
