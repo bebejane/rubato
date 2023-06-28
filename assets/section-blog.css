@@ -111,7 +111,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  max-height: 50vh;
+
   margin: 0;
   margin-right: var(--outer-margin);
 }
@@ -148,7 +148,7 @@
 }
 
 .article-section-gallery-image img {
-  max-height: 40vh;
+
   width: 100%;
   object-fit: contain;
 }
