@@ -23,10 +23,21 @@
             "collection": "",
             "page": ""
           }
+        },
+        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Larry-Poons.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "09a14c82-12ed-4091-961f-695ad81af3cb"
+        "09a14c82-12ed-4091-961f-695ad81af3cb",
+        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6"
       ],
       "settings": {
       }
