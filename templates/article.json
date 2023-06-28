@@ -33,11 +33,22 @@
             "collection": "",
             "page": ""
           }
+        },
+        "de6225c1-883a-4894-b31e-eb16db6ffbeb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GUSTON-PHILIP.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "09a14c82-12ed-4091-961f-695ad81af3cb",
-        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6"
+        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6",
+        "de6225c1-883a-4894-b31e-eb16db6ffbeb"
       ],
       "settings": {
       }
