@@ -119,15 +119,31 @@
   line-height: 0;
 }
 
-.article-section-gallery-image img {
-  max-height: 40vh;
-}
 
 .article-section-gallery-image figcaption {
   font-size: var(--medium-font);
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+}
 
+.article-section-gallery-image img {
+  max-height: 40vh;
+}
+
+.article-section-gallery-col-1 {
+  max-width: 100%;
+}
+
+.article-section-gallery-col-2 {
+  max-width: 50%;
+}
+
+.article-section-gallery-col-3 {
+  max-width: 33.33%;
+}
+
+.article-section-gallery-col-4 {
+  max-width: 25%;
 }
 
 @media only screen and (max-width: 749px) {
