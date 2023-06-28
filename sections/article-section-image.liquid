@@ -13,7 +13,7 @@
         {%- endif -%}
       {% endcapture %}
 
-      <figure class="article-section-image">
+      <figure class="article-section-gallery-image article-section-image">
         {%- if a_href != blank -%}<a href="{{a_href}}">{%- endif -%}
           {% render 'image-responsive', image: section.settings.image %}
         {%- if a_href != blank -%}</a>{%- endif -%}
