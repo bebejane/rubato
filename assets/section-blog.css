@@ -144,6 +144,7 @@
 
 .article-section-gallery-image img {
   max-height: 40vh;
+  width: 100%;
 }
 
 
