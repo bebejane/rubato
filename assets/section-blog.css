@@ -110,8 +110,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
-  max-height: 80vh;
+  max-height: calc(100vh - var(--content-margin));
   margin: 0;
   margin-right: var(--outer-margin);
 }
@@ -149,7 +148,7 @@
 
 .article-section-gallery-image img {
   width: 100%;
-  max-height: 80vh;
+  max-height: calc(100vh - calc(var(--content-margin) *2));
   object-fit: contain;
 }
 
