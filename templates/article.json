@@ -11,81 +11,30 @@
         "quote": "…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned."
       }
     },
-    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511": {
+    "480119a6-1753-4278-90aa-790031ab0f79": {
       "type": "article-section-gallery",
       "blocks": {
-        "331c0d4c-2d29-434b-8e4b-cc1f3d79f815": {
+        "09a14c82-12ed-4091-961f-695ad81af3cb": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/38_edruscha.jpg",
-            "caption": "Caption text",
-            "product": "r-shirt-in-sage",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "884a7b39-3fa2-4628-af23-ef271ff572fe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GUSTON-PHILIP.jpg",
-            "caption": "",
+            "caption": "Caption text...",
             "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "773ffeea-f787-42a9-929c-2f1d550a1d06": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ed-Ruscha-cheese-mold-crop.jpg",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "4da1c4fb-3694-47ce-8bea-81210688ee9e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brown-Hatch.jpg",
-            "caption": "Nice belt",
-            "product": "rubato-brown-suede-belt",
             "collection": "",
             "page": ""
           }
         }
       },
       "block_order": [
-        "331c0d4c-2d29-434b-8e4b-cc1f3d79f815",
-        "884a7b39-3fa2-4628-af23-ef271ff572fe",
-        "773ffeea-f787-42a9-929c-2f1d550a1d06",
-        "4da1c4fb-3694-47ce-8bea-81210688ee9e"
+        "09a14c82-12ed-4091-961f-695ad81af3cb"
       ],
       "settings": {
-      }
-    },
-    "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "From time to time we receive emails from customers asking about a garment that has been damaged or become worn in particular ways. Questions range from how to minimize pilling on knitwear to how chinos and jeans should fade. We learn a lot from these questions, but our main takeaway is that there is a common concern about ageing in garments. We therefore thought it might be a good idea to talk a little about our point of view and the thinking that goes into a rubato garment."
-      }
-    },
-    "4b63a3ff-22fb-4d58-8ff7-d90a21adce62": {
-      "type": "article-section-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Jasper-Johns-1973.jpg",
-        "caption": "hejsan",
-        "product": "",
-        "collection": "",
-        "page": ""
       }
     }
   },
   "order": [
     "main",
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
-    "f7da446b-c3a6-4a37-9b5a-ce57c6a7a511",
-    "c8dc7185-5635-4ec8-b1f1-47b1d3212cdb",
-    "4b63a3ff-22fb-4d58-8ff7-d90a21adce62"
+    "480119a6-1753-4278-90aa-790031ab0f79"
   ]
 }
