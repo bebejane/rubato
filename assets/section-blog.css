@@ -115,6 +115,11 @@
   margin-right: var(--outer-margin);
 }
 
+.article-section-gallery-image,
+.article-section-gallery-image img {
+  max-height: calc(100vh - calc(var(--content-margin) *2));
+}
+
 .article-section-gallery-image:last-child {
   margin-right: 0;
 }
@@ -148,7 +153,6 @@
 
 .article-section-gallery-image img {
   width: 100%;
-  max-height: calc(100vh - calc(var(--content-margin) *2));
   object-fit: contain;
 }
 
