@@ -1,4 +1,8 @@
-{{ section.settings.text | newline_to_br }}
+{% if section.settings.text == blank %}
+  Enter text...
+{% else %}
+  {{ section.settings.text | newline_to_br }}
+{% endif %}
 
 {% schema %}
 {
