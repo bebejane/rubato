@@ -111,7 +111,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex: 1 1 auto;
-  max-height: 40vh;
+  max-height: 50vh;
   margin: var(--outer-margin);
 }
 
