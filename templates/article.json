@@ -5,12 +5,6 @@
       "settings": {
       }
     },
-    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
-      "type": "article-section-quote",
-      "settings": {
-        "quote": "…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned."
-      }
-    },
     "480119a6-1753-4278-90aa-790031ab0f79": {
       "type": "article-section-gallery",
       "blocks": {
@@ -58,12 +52,29 @@
       "settings": {
         "text": "We strive to make the go-to pieces makes you feel slightly special without being able to point out why that becomes a trusted companion and only gets better with age. To do that we make our garments from high quality materials, with great attention \nto detail, and without any pre-distressing or excessive washing to make them feel ‘pre-loved’ \nstraight out of the box.\n\nOur firm belief is that a piece of clothing is nothing without its wearer. You need to make it yours. You must wear it, wash it and experience things in it before it can become that trusted friend. In the"
       }
+    },
+    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned."
+      }
+    },
+    "786f5ea3-f5db-477c-ab66-67d8b25ec71f": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Fire5.jpg",
+        "caption": "Firemans Jacket looks good",
+        "product": "firemans-jacket-beige",
+        "collection": "",
+        "page": ""
+      }
     }
   },
   "order": [
     "main",
-    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
     "480119a6-1753-4278-90aa-790031ab0f79",
-    "71c2ba4b-3b9e-4184-9b04-adecb04b371b"
+    "71c2ba4b-3b9e-4184-9b04-adecb04b371b",
+    "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
+    "786f5ea3-f5db-477c-ab66-67d8b25ec71f"
   ]
 }
