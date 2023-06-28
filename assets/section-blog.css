@@ -129,7 +129,7 @@
 }
 
 .article-section-gallery-col-3 {
-  max-width: calc(33.3333vw - var(--outer-margin));
+  width: calc(33.3333vw - var(--outer-margin));
 }
 
 .article-section-gallery-col-4 {
