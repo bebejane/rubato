@@ -115,21 +115,13 @@
   margin: var(--outer-margin);
 }
 
-.article-section-gallery-col-1 {
-  flex: 0 0 100%;
-}
+.article-section-gallery-col-1 {}
 
-.article-section-gallery-col-2 {
-  flex: 0 0 50%;
-}
+.article-section-gallery-col-2 {}
 
-.article-section-gallery-col-3 {
-  flex: 0 0 33.333%;
-}
+.article-section-gallery-col-3 {}
 
-.article-section-gallery-col-4 {
-  flex: 0 0 25%;
-}
+.article-section-gallery-col-4 {}
 
 .article-section-gallery-image picture {
   line-height: 0;
