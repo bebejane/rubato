@@ -116,6 +116,10 @@
   margin-right: var(--outer-margin);
 }
 
+.article-section-gallery-image:last-child {
+  margin-right: 0;
+}
+
 .article-section-gallery-col-1 {
   max-width: calc(100vw);
 }
