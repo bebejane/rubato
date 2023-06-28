@@ -172,6 +172,13 @@
   max-height: calc(100vh - calc(var(--content-margin) * 2));
 }
 
+.article-section-image figcaption {
+  margin-top: 1em;
+  font-size: var(--medium-font);
+  font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 749px) {
   .blog-header {
     font-size: 6rem;
