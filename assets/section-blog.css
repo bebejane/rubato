@@ -166,6 +166,11 @@
 }
 
 .article-section-image {
+  justify-content: center;
+  flex: 0 0;
+  margin: 0;
+
+
   max-height: calc(100vh - calc(var(--content-margin) * 2));
 }
 
