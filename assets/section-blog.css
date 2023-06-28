@@ -110,7 +110,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  flex: 1 1 auto;
+
   max-height: 50vh;
   margin: 0;
   margin-right: var(--outer-margin);
