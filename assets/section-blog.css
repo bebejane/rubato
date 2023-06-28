@@ -146,6 +146,10 @@
   line-height: 0;
 }
 
+.article-section-gallery-image a {
+  padding-top: 1em;
+}
+
 .article-section-gallery-image figcaption {
   font-size: var(--medium-font);
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
