@@ -110,25 +110,25 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   max-height: 40vh;
   margin: var(--outer-margin);
 }
 
 .article-section-gallery-col-1 {
-  width: calc(100vw - calc(var(--content-margin) * 2));
+  max-width: calc(100vw - calc(var(--content-margin) * 2));
 }
 
 .article-section-gallery-col-2 {
-  width: calc(50vw - calc(var(--content-margin) * 2));
+  max-width: calc(50vw - calc(var(--content-margin) * 2));
 }
 
 .article-section-gallery-col-3 {
-  width: calc(33.3333vw - calc(var(--content-margin) * 2));
+  max-width: calc(33.3333vw - calc(var(--content-margin) * 2));
 }
 
 .article-section-gallery-col-4 {
-  width: calc(25vw - calc(var(--content-margin) * 2));
+  max-width: calc(25vw - calc(var(--content-margin) * 2));
 }
 
 
