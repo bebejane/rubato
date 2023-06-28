@@ -215,7 +215,11 @@
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: var(--outer-margin);
+    margin-bottom: var(--space);
+  }
+
+  .article-section-gallery-image:last-child {
+    margin-bottom: 0;
   }
 
   .article-section-gallery-image img {
