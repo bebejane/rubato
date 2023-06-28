@@ -112,7 +112,7 @@
   align-items: flex-start;
   flex: 1 1 auto;
   max-height: 50vh;
-  margin: var(--outer-margin);
+  margin-right: var(--outer-margin);
 }
 
 .article-section-gallery-col-1 {
