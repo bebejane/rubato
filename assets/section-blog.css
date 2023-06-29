@@ -56,7 +56,7 @@
   justify-content: center;
   text-align: center;
   font-family: Vogue;
-  font-size: 40px;
+  font-size: var(--big-font);
   line-height: 1;
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
