@@ -264,14 +264,11 @@
     flex-direction: column;
     justify-content: flex-start;
     flex: 1 1 auto;
-
-
   }
 
   .article-section-image img {
     max-height: unset;
     width: 100%;
-
   }
 }
 
