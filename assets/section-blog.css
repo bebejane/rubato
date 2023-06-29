@@ -58,7 +58,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: var(--line);
   text-align: center;
   font-family: Vogue;
   font-size: 40px;
@@ -66,6 +65,7 @@
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
+  border-top: var(--line);
   border-bottom: var(--line);
   margin-bottom: var(--line-width);
 }
@@ -201,6 +201,7 @@
   .blog-post-item {
     flex: 0 0 100%;
     font-size: 16px;
+    border-bottom: 0 !important;
   }
 
   .blog-post-item:nth-last-child(-n+2) {
@@ -217,6 +218,7 @@
 
   .blog-post-read-more {
     font-size: 26px;
+
   }
 
   .article section,
