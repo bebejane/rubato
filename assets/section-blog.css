@@ -215,9 +215,7 @@
     font-size: 26px;
   }
 
-  .blog-post-read-more:last-child {
-    border-bottom: none;
-  }
+  .blog-post-read-more:last-child {}
 
   .article section,
   .article-section {
