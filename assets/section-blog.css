@@ -21,6 +21,10 @@
   border-bottom: var(--line);
 }
 
+.blog-pos-item:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
 .blog-post-image {
   object-fit: cover;
   width: calc(100% - var(--outer-margin) * 2);
