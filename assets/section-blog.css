@@ -207,6 +207,10 @@
     border-bottom: none;
   }
 
+  .blog-post-item:last-child>.blog-post-read-more {
+    border-bottom: none;
+  }
+
   .blog-post-title {
     text-align: center;
   }
@@ -215,9 +219,6 @@
     font-size: 26px;
   }
 
-  .blog-post-read-more:last-of-type {
-    border-bottom: none;
-  }
 
   .article section,
   .article-section {
