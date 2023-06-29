@@ -258,7 +258,7 @@
     width: 100%;
   }
 
-  .article-section-image {
+  .article-section-image-wrap {
     padding: var(--outer-margin);
   }
 
