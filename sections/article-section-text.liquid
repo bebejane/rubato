@@ -1,8 +1,8 @@
-<div class="article-section-text-wrap">
-{% if section.settings.text == blank %}
-  Enter text...
-{% else %}
-  {{ section.settings.text | newline_to_br }}
+<div class="article-section-wrap">
+  {% if section.settings.text == blank %}
+    Enter text...
+  {% else %}
+    {{ section.settings.text | newline_to_br }}
 {% endif %}
 </div>
 
