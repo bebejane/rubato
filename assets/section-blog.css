@@ -17,20 +17,16 @@
 
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
-  font-size: 22px;
 }
-
 
 .blog-post-image {
   object-fit: cover;
   width: calc(100% - var(--outer-margin) * 2);
   margin: var(--outer-margin);
   height: 70vh;
-
 }
 
 .blog-post-wrap {
-
   padding-bottom: var(--outer-margin);
 }
 
@@ -60,43 +56,55 @@
   justify-content: center;
   text-align: center;
   font-family: Vogue;
-  font-size: 40px;
+  font-size: var(--big-font);
   line-height: 1;
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
   border-top: var(--line);
   border-bottom: var(--line);
-  margin-bottom: var(--line-width);
 }
 
 .article {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-top: var(--content-margin);
-
 }
 
 .article-header {
   font-family: Vogue;
   font-size: calc(100vw / 10);
   text-align: center;
+  margin-top: var(--navbar-height);
 }
 
-.article section,
+.article,
 .article-section {
   border-top: var(--line);
   padding: var(--content-margin);
-  font-size: 22px;
   text-align: center;
 }
 
-.article-section-text {}
+.article-section-text {
+  display: flex;
+  justify-content: center;
+}
+
+.article-section-content-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .article-section-quote {
+  font-family: Vogue;
   font-weight: bold;
   font-size: 4em;
-
 }
 
 .article-section-gallery {}
@@ -200,7 +208,6 @@
 
   .blog-post-item {
     flex: 0 0 100%;
-    font-size: 16px;
     border-bottom: 0 !important;
   }
 
@@ -212,16 +219,18 @@
     border-bottom: none;
   }
 
+  .blog-post-item:last-child>.blog-post-read-more {
+    border-bottom: none;
+  }
+
   .blog-post-title {
     text-align: center;
   }
 
-  .blog-post-read-more {
-    font-size: 26px;
+  .blog-post-read-more {}
 
-  }
 
-  .article section,
+  .article,
   .article-section {
     padding: var(--outer-margin);
     font-size: 16px;
