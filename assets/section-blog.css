@@ -258,8 +258,12 @@
     width: 100%;
   }
 
+  .article-section-image {}
+
   .article-section-image img {
     max-height: unset;
+    margin: var(--outer-margin);
+
   }
 }
 
