@@ -210,6 +210,10 @@
     border-bottom: var(--line);
   }
 
+  .blog-post-item:last-child {
+    border-bottom: none;
+  }
+
   .blog-post-title {
     text-align: center;
   }
