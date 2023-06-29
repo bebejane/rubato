@@ -91,8 +91,8 @@
   justify-content: center;
 }
 
-.article-section-text-wrap {
-  max-width: 800px;
+.article-section-wrap {
+  max-width: var(--max-content-width);
 }
 
 .article-section-quote {
