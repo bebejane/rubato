@@ -178,6 +178,8 @@
 
 .article-section-image img {
   max-height: calc(100vh - calc(var(--content-margin) * 2));
+  width: 100%;
+  object-fit: contain;
 }
 
 .article-section-image figcaption {
