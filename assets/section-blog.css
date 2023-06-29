@@ -21,7 +21,7 @@
   border-bottom: var(--line);
 }
 
-.blog-pos-item:nth-last-child(-n+2) {
+.blog-post-item:nth-last-child(-n+2) {
   border-bottom: none;
 }
 
