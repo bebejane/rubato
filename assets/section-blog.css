@@ -173,7 +173,7 @@
   justify-content: flex-start;
   flex: 0 0 auto;
   margin: 0;
-  max-height: calc(100vh - calc(var(--content-margin) * 2));
+
 }
 
 .article-section-image img {
@@ -183,6 +183,7 @@
 .article-section-image figcaption {
   margin-top: 1em;
   font-size: var(--medium-font);
+  text-align: left;
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -257,6 +258,18 @@
     width: 100%;
   }
 
+
+  .article-section-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+  }
+
+  .article-section-image img {
+    max-height: unset;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 750px) {}
