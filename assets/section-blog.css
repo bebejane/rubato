@@ -65,8 +65,8 @@
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
   border-top: var(--line);
-
-  margin-bottom: var(--line-width);
+  border-bottom: var(--line);
+  margin-bottom: calc(1 * var(--line-width));
 }
 
 .article {
