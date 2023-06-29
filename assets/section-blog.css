@@ -86,7 +86,14 @@
   text-align: center;
 }
 
-.article-section-text {}
+.article-section-text {
+  display: flex;
+  justify-content: center;
+}
+
+.article-section-text-wrap {
+  max-width: 800px;
+}
 
 .article-section-quote {
   font-weight: bold;
