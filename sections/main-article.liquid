@@ -1,15 +1,15 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
 
-<div id="article-{{ section.id }}" class="article">
+
   <h1 class="article-header">{{ article.title }}</h1>
-  <section>
+  <section id="article-{{ section.id }}" class="article">
     <div class="article-section-content-wrap">
       {{ article.content }}
     </div>
   </section>
   {{ content_for_layout }}
-</div>
+
 
 {% javascript %}
   
