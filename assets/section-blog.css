@@ -86,7 +86,9 @@
   text-align: center;
 }
 
-.article-section-text {}
+.article-section-text {
+  max-width: 50%;
+}
 
 .article-section-quote {
   font-weight: bold;
