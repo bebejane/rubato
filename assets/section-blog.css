@@ -173,7 +173,7 @@
   justify-content: flex-start;
   flex: 0 0 auto;
   margin: 0;
-  max-height: calc(100vh - calc(var(--content-margin) * 2));
+
 }
 
 .article-section-image img {
