@@ -1,9 +1,11 @@
 <div class="article-section-content-wrap">
+  <div>
   {% if section.settings.quote == blank %}
     Enter text...
   {% else %}
     {{ section.settings.quote }}
   {% endif %}
+</div>
 </div>
 
 {% schema %}
