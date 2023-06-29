@@ -82,6 +82,8 @@
 
 .article,
 .article-section {
+  display: flex;
+  justify-content: center;
   border-top: var(--line);
   padding: var(--content-margin);
   font-size: 22px;
