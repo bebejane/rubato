@@ -258,6 +258,9 @@
     width: 100%;
   }
 
+  .article-section-image img {
+    max-height: unset;
+  }
 }
 
 @media only screen and (min-width: 750px) {}
