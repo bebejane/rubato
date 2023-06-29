@@ -5,6 +5,7 @@
   font-size: calc(100vw / 5);
   text-align: center;
   margin-top: var(--content-margin);
+  border-bottom: var(--line);
 }
 
 .blog-posts {
