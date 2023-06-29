@@ -21,7 +21,9 @@
   border-bottom: var(--line);
 }
 
-.blog-post-item:nth-last-child(-n+2) {}
+.blog-post-item:nth-last-child(-n+2) {
+  border-bottom: none;
+}
 
 .blog-post-image {
   object-fit: cover;
@@ -202,6 +204,10 @@
   .blog-post-item {
     flex: 0 0 100%;
     font-size: 16px;
+  }
+
+  .blog-post-item:nth-last-child(-n+2) {
+    border-bottom: var(--line);
   }
 
   .blog-post-title {
