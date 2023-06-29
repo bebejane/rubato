@@ -18,12 +18,8 @@
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
   font-size: 22px;
-
 }
 
-.blog-post-item:nth-last-child(-n+2) {
-  border-bottom: none;
-}
 
 .blog-post-image {
   object-fit: cover;
