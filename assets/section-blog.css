@@ -21,7 +21,7 @@
 
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
-  font-size: var(--big-font);
+
 }
 
 .blog-post-image {
@@ -53,6 +53,7 @@
   line-clamp: 4;
   overflow: hidden;
   -webkit-box-orient: vertical;
+  font-size: var(--big-font);
 }
 
 .blog-post-read-more {
@@ -113,7 +114,7 @@
 
 .article-section-quote {
   font-family: Vogue;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 2em;
 }
 
