@@ -5,7 +5,7 @@
   font-size: calc(100vw / 10);
   line-height: 1;
   text-align: center;
-  margin-top: var(--small-margin);
+  margin-top: calc(var(--small-margin) /2);
   margin-bottom: 0;
   border-bottom: var(--line);
 
