@@ -77,7 +77,7 @@
   font-family: Vogue;
   font-size: calc(100vw / 10);
   text-align: center;
-  margin-top: var(--small-margin);
+  margin-top: var(--navbar-height);
 }
 
 .article,
