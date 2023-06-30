@@ -63,7 +63,7 @@
   text-align: center;
   font-family: Vogue;
   font-weight: 300;
-  font-size: var(--big-font);
+  font-size: 20px;
   line-height: 1;
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
@@ -240,8 +240,9 @@
     text-align: center;
   }
 
-  .blog-post-read-more {}
-
+  .blog-post-read-more {
+    font-size: var(--big-font);
+  }
 
   .article,
   .article-section {
