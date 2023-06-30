@@ -65,6 +65,7 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 18px;
+  vertical-align: middle;
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
