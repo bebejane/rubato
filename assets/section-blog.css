@@ -67,8 +67,13 @@
   max-height: 40px;
   border-top: var(--line);
   border-bottom: var(--line);
-
 }
+
+.blog-post-items-odd {
+  border-bottom: 0;
+}
+
+
 
 .article {
   display: flex;
