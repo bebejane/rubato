@@ -84,8 +84,8 @@
 .article-section {
   border-top: var(--line);
   padding: var(--content-margin);
-  padding-top: var(--margin);
-  padding-bottom: var(--margin);
+  padding-top: var(--small-margin);
+  padding-bottom: var(--small-margin);
   text-align: center;
 }
 
