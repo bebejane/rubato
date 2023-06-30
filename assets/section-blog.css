@@ -78,6 +78,7 @@
 
 .article-header {
   border-bottom: none;
+  padding-bottom: var(--small-margin);
 }
 
 .article,
