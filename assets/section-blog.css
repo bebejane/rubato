@@ -250,7 +250,7 @@
   }
 
   .article-section-quote {
-    font-size: 2em;
+    font-size: 2em !important;
   }
 
   .article-section-gallery-wrap {
