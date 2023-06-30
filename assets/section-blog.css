@@ -10,6 +10,7 @@
   margin-bottom: 0;
   border-bottom: var(--line);
   padding-top: var(--small-margin);
+  padding-bottom: var(--small-margin);
 }
 
 .blog-posts {
@@ -82,7 +83,7 @@
 
 .article-header {
   border-bottom: none;
-  padding-bottom: var(--small-margin);
+
 }
 
 .article,
