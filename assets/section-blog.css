@@ -113,7 +113,7 @@
 .article-section-quote {
   font-family: Vogue;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 4em !important;
 }
 
 .article-section-gallery {}
@@ -242,7 +242,6 @@
   .article,
   .article-section {
     padding: var(--outer-margin);
-    font-size: var(--big-font);
   }
 
   .article-header {
