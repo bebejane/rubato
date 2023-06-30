@@ -20,7 +20,7 @@
 
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
-  border-bottom: var(--line);
+
 }
 
 .blog-post-image {
