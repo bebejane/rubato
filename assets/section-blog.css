@@ -62,6 +62,7 @@
   justify-content: center;
   text-align: center;
   font-family: Vogue;
+  font-weight: 300;
   font-size: var(--big-font);
   line-height: 1;
   padding-top: var(--outer-margin);
