@@ -69,7 +69,7 @@
   border-bottom: var(--line);
 }
 
-.blog-post-items-odd {
+.blog-post-items-odd>.blog-post-read-more {
   border-bottom: 0;
 }
 
