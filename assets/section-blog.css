@@ -65,9 +65,9 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 0;
-
+  height: 20px;
   padding-top: var(--outer-margin);
-  padding-bottom: calc(var(--outer-margin) - 5px);
+  padding-bottom: var(--outer-margin);
   max-height: 40px;
   border-top: var(--line);
   border-bottom: var(--line);
