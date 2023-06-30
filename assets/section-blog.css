@@ -64,7 +64,7 @@
   font-family: Vogue;
   font-weight: 300;
   font-size: 20px;
-  line-height: 1;
+  line-height: 20px;
   padding-top: var(--outer-margin);
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
