@@ -70,7 +70,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: var(--content-margin);
+  margin-top: var(--small-margin);
 }
 
 .article-header {
