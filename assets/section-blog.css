@@ -20,6 +20,7 @@
 
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
+  margin-bottom: var(--line-width);
 }
 
 .blog-post-image {
@@ -65,7 +66,7 @@
   padding-bottom: calc(var(--outer-margin) - 5px);
   max-height: 40px;
   border-top: var(--line);
-
+  border-bottom: var(--line);
 }
 
 .article {
