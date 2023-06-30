@@ -2,7 +2,7 @@
 
 .blog-header {
   font-family: Vogue;
-  font-size: calc(100vw / 10);
+  font-size: calc(100vw / 8);
   text-align: center;
   margin-top: var(--content-margin);
   margin-bottom: 0;
