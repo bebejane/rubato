@@ -1,6 +1,7 @@
 .blog {}
 
-.blog-header {
+.blog-header,
+.article-header {
   font-family: Vogue;
   font-size: calc(100vw / 10);
   line-height: 1;
@@ -76,11 +77,7 @@
 }
 
 .article-header {
-  font-family: Vogue;
-  font-size: calc(100vw / 10);
-  text-align: center;
-  margin-top: var(--navbar-height);
-
+  border-bottom: none;
 }
 
 .article,
