@@ -1,12 +1,15 @@
 .blog {}
 
-.blog-header {
+.blog-header,
+.article-header {
   font-family: Vogue;
-  font-size: calc(100vw / 5);
+  font-size: calc(100vw / 10);
+  line-height: 1;
   text-align: center;
-  margin-top: var(--content-margin);
+  margin-top: calc(var(--small-margin) /2);
   margin-bottom: 0;
   border-bottom: var(--line);
+  padding-top: var(--small-margin);
 }
 
 .blog-posts {
@@ -70,20 +73,20 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: var(--content-margin);
+
 }
 
 .article-header {
-  font-family: Vogue;
-  font-size: calc(100vw / 10);
-  text-align: center;
-  margin-top: var(--navbar-height);
+  border-bottom: none;
+  padding-bottom: var(--small-margin);
 }
 
 .article,
 .article-section {
   border-top: var(--line);
   padding: var(--content-margin);
+  padding-top: var(--small-margin);
+  padding-bottom: var(--small-margin);
   text-align: center;
 }
 
