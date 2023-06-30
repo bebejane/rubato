@@ -8,7 +8,7 @@
   margin-top: calc(var(--small-margin) /2);
   margin-bottom: 0;
   border-bottom: var(--line);
-
+  padding-top: var(--small-margin);
 }
 
 .blog-posts {
