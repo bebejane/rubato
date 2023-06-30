@@ -20,6 +20,7 @@
 
 .blog-post-item {
   flex: 0 0 calc(50% - var(--line-width));
+
 }
 
 .blog-post-image {
@@ -66,6 +67,10 @@
   max-height: 40px;
   border-top: var(--line);
   border-bottom: var(--line);
+}
+
+.blog-posts-odd .blog-post-item:nth-last-child(-n+1)>.blog-post-read-more {
+  border-bottom: none !important;
 }
 
 .article {

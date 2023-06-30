@@ -1,8 +1,10 @@
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
 
+{% assign mod = blog.articles.size | modulo: 2 %}
+
 <div class="blog">
   <h1 class="blog-header">{{ blog.title }}</h1>
-  <div class="blog-posts">
+  <div class="blog-posts {% if mod != 0 %}blog-posts-odd{% endif %}">
     {% for article in blog.articles %}
       <div class="blog-post-item">
         <div class="blog-post-wrap">
