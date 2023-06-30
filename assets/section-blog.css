@@ -243,6 +243,9 @@
 
   .blog-post-read-more {
     font-size: var(--big-font);
+    height: var(--big-font);
+    padding-top: calc(var(--outer-margin) + 4px);
+    padding-bottom: var(--outer-margin);
   }
 
   .article,
