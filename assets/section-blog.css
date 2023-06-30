@@ -69,11 +69,9 @@
   border-bottom: var(--line);
 }
 
-.blog-post-items-odd>.blog-post-read-more {
+.blog-posts-odd .blog-post-read-more {
   border-bottom: 0;
 }
-
-
 
 .article {
   display: flex;
