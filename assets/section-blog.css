@@ -69,7 +69,7 @@
   border-bottom: var(--line);
 }
 
-.blog-posts-odd>.blog-post-read-more:nth-last-child(-n + 1) {
+.blog-posts-odd .blog-post-read-more:nth-last-child(-n + 1) {
   border-bottom: 0;
 }
 
