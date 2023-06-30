@@ -1,7 +1,7 @@
 
 {{ 'section-blog.css' | asset_url | stylesheet_tag }}
 
-<h1 class="blog-header">{{ article.title }}</h1>
+<h1 class="article-header">{{ article.title }}</h1>
 <section id="article-{{ section.id }}" class="article">
   <div class="article-section-content-wrap">
     {{ article.content }}
