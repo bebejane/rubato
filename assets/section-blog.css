@@ -4,7 +4,7 @@
   font-family: Vogue;
   font-size: calc(100vw / 8);
   text-align: center;
-  margin-top: var(--content-margin);
+  margin-top: var(--small-margin);
   margin-bottom: 0;
   border-bottom: var(--line);
 }
