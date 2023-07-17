@@ -5,52 +5,30 @@
       "settings": {
       }
     },
-    "480119a6-1753-4278-90aa-790031ab0f79": {
-      "type": "article-section-gallery",
-      "blocks": {
-        "09a14c82-12ed-4091-961f-695ad81af3cb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/38_edruscha.jpg",
-            "caption": "Caption text...",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Larry-Poons.jpg",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "de6225c1-883a-4894-b31e-eb16db6ffbeb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GUSTON-PHILIP.jpg",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "09a14c82-12ed-4091-961f-695ad81af3cb",
-        "dcd5e3e4-7580-4d5f-a088-f5e5b4ef19e6",
-        "de6225c1-883a-4894-b31e-eb16db6ffbeb"
-      ],
+    "90d6279d-7fef-4e0b-9516-6d4dd8cfd8a4": {
+      "type": "article-section-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Vintage-Jeans.jpg",
+        "caption": "Lot Nr. 1 denim in Dark Blue rinse after 2 years",
+        "product": "lot-nr-1-denim-dark-blue-rinse",
+        "collection": "",
+        "page": ""
       }
     },
     "71c2ba4b-3b9e-4184-9b04-adecb04b371b": {
       "type": "article-section-text",
       "settings": {
-        "text": "We strive to make the go-to pieces makes you feel slightly special without being able to point out why that becomes a trusted companion and only gets better with age. To do that we make our garments from high quality materials, with great attention to detail, and without any pre-distressing or excessive washing to make them feel ‘pre-loved’ straight out of the box.\n\nOur firm belief is that a piece of clothing is nothing without its wearer. You need to make it yours. You must wear it, wash it and experience things in it before it can become that trusted friend. In the"
+        "text": "We strive to make the go-to pieces that you reach for every day. The stuff that makes you feel slightly special without being able to point out why; that becomes a trusted companion and only gets better with age. To do that we make our garments from high quality materials, with great attention to detail, and without any pre-distressing or excessive washing to make them feel ‘pre-loved’ straight out of the box. \n\nOur firm belief is that a piece of clothing is nothing without its wearer. You need to make it yours. You must wear it, wash it and experience things in it before it can become that trusted friend. In the process the piece of clothing is going to develop a patina. A sweater is going to wear at the elbows, no matter how high the quality. A pair of chinos is going to start to fade and wrinkle, no matter how strong the fabric. But in this lies the beauty. The garment becomes an extension of its wearer, starts to develop that ‘fingerprint’ that is unique to every person. It is transformed. Garments are like people – they’re a little more interesting when they’ve seen and experienced things."
+      }
+    },
+    "725407c2-4860-4489-ba66-178868c205e7": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vintage-Belt.jpg",
+        "caption": "Brown suede belt after 4 years",
+        "product": "rubato-brown-suede-belt",
+        "collection": "",
+        "page": ""
       }
     },
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11": {
@@ -59,12 +37,18 @@
         "quote": "\"…embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned.\""
       }
     },
+    "071de72e-591b-4861-ba9e-2db29be18514": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "This way every garment tells a story of who wore it. This is especially evident when you look at vintage garments from the first half of the last century, when the quality and character of clothing was such that you only had to buy a few things, and they could be worn for a long time. The thicker and more robust fabrics made it possible for them to develop a deep patina, unlike the flimsy low-quality fabric that is often used today, which never has time to develop before it falls apart. \n \nOur suggestion is this: embrace your fades, wrinkles and creases. Enjoy the fact that you wore your sweater so much that you got holes in the elbows and have it patched or darned. Wear your chinos to bits and enjoy the fading of the fabric, the fraying of hems and pocket edges. Take care of your clothing - have it cleaned, pressed and mended when needed - and you will have a friend, if not for life then for many years to come."
+      }
+    },
     "786f5ea3-f5db-477c-ab66-67d8b25ec71f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Fire5.jpg",
-        "caption": "Firemans Jacket lookin fine",
-        "product": "firemans-jacket-beige",
+        "image": "shopify:\/\/shop_images\/Vintage-Cap.jpg",
+        "caption": "\"R\" Cap in Navy after 4 years",
+        "product": "r-cap-blue",
         "collection": "",
         "page": ""
       }
@@ -72,9 +56,11 @@
   },
   "order": [
     "main",
-    "480119a6-1753-4278-90aa-790031ab0f79",
+    "90d6279d-7fef-4e0b-9516-6d4dd8cfd8a4",
     "71c2ba4b-3b9e-4184-9b04-adecb04b371b",
+    "725407c2-4860-4489-ba66-178868c205e7",
     "2671a7d1-36b4-41ee-b7d1-db1511ae8c11",
+    "071de72e-591b-4861-ba9e-2db29be18514",
     "786f5ea3-f5db-477c-ab66-67d8b25ec71f"
   ]
 }
