@@ -81,7 +81,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vintage-Jeans.jpg",
+            "image": "shopify:\/\/shop_images\/Vintage-Cap.jpg",
             "columns": 2,
             "width": 91,
             "align": "flex-end",
@@ -96,7 +96,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Haga69_0852dca0-2ca1-488e-b644-3aad56d83404.jpg",
             "columns": 4,
-            "width": 62,
+            "width": 44,
             "align": "center",
             "caption": "knitwear",
             "product": "",
@@ -173,14 +173,13 @@
         },
         "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen14.jpg",
-            "columns": 1,
-            "width": 100,
+            "image": "shopify:\/\/shop_images\/Doek3.jpg",
+            "columns": 2,
+            "width": 78,
             "align": "flex-start",
             "caption": "",
-            "product": "",
+            "product": "rubato-x-doek-oxford",
             "collection": "",
             "page": ""
           }
