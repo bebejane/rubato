@@ -174,7 +174,6 @@
 .article-section-gallery-image figcaption {
   margin-top: 1em;
   text-align: center;
-  width: 100%;
   font-size: var(--medium-font);
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -208,7 +207,7 @@
 .article-section-image figcaption {
   margin-top: 1em;
   font-size: var(--medium-font);
-  text-align: left;
+  text-align: center;
   font-family: "Mars Extended Web Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
