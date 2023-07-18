@@ -41,7 +41,9 @@
       {% endcapture %}
 
       {% capture a_href %}
-        {%- if block.settings.page != blank -%}
+        {%- if block.settings.article != blank -%}
+          {{ block.settings.article.url }}
+        {%- elsif block.settings.page != blank -%}
           {{ block.settings.page.url }}
         {%- elsif block.settings.collection != blank -%}
           {{block.settings.collection.url}}
@@ -176,7 +178,7 @@
       },
       {
         "type": "article",
-        "id": "blog",
+        "id": "article",
         "label": "Link blog post"
       }  
     ]
