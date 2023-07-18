@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "ae5039bc-2ee7-48c9-b0aa-b47742fa1912": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GUSTON-PHILIP_cf3d0ccd-0fbd-4518-bcfa-2f4288202425.jpg",
+        "caption": "Philip Guston by Frank Lloyd 1969",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "text": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "As much as certain works of art can feel right there are certain garments that can give you the same feeling. They feel right in terms of balance, cut, details and proportions. When talking about clothing, this type of simplicity usually comes with the removing of unnecessary details and additions made in the first place. Things added to make the shirt “more” in the hope of making it relevant."
+      }
+    },
+    "image": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jasper-Johns-1973_4cd2cc75-57bb-482b-b1d1-839507d88b24.jpg",
+        "caption": "Jasper Johns by Nancy Crampton 1973",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "quote": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "\"Not to mention they also looked damn cool which meant they knew a thing or two about style...\""
+      }
+    },
+    "694dd4fe-4f18-4d91-b8dc-81a77882ce1d": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "When we started discussing the perfect day-to-day shirt, we looked to people that we’re inspired by. Often times these people were artists or worked within the creative industries and had practical needs. Not to mention they also looked damn cool which meant they knew a thing or two about style. They needed their clothes to be hard wearing as well as comfortable. \n\nAnd so the “R” Shirt was born, inspired by artists and everyday life. With a well-balanced collar, a comfortable but flattering silhouette and two pockets to keep your trinkets in it is not only good looking but comfortable and easy to wear. A shirt that just is what it is and cannot be this and that and that and that. The shirt you reach for every day."
+      }
+    },
+    "078d169a-26f0-474d-8c8a-7321ec4b3ac4": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "368782ed-b667-419b-8def-39038758edcc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Larry-Poons_d3836348-9691-4791-bb98-9efb5d6f6676.jpg",
+            "caption": "Larry Poons by Fred W. McDarrah 1965",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "8b26102e-36cf-4454-8ce0-1a80f3fadfc5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/38_edruscha_7d3a4d43-a58c-4188-b739-cda88decc1ff.jpg",
+            "caption": "Ed Ruscha by Jerry McMillan 1970",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "368782ed-b667-419b-8def-39038758edcc",
+        "8b26102e-36cf-4454-8ce0-1a80f3fadfc5"
+      ],
+      "settings": {
+      }
+    },
+    "e934343d-3126-4a20-9b1f-1a91366faf49": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "EXPLORE THE \"R\" SHIRT BELOW"
+      }
+    },
+    "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "73b75631-bf30-4cdd-827b-18c4235b8453": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sky-Pinstripe-Journal.jpg",
+            "caption": "",
+            "product": "r-shirt-in-sky-pinstripe",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "f5ea5c82-f7f8-4b3f-b5c1-8639afdd3e4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sage-Journal.jpg",
+            "caption": "",
+            "product": "r-shirt-in-sage",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "a8383d83-a651-4e72-9a0d-956bec20f57e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vintage-Stripe-NEWS.jpg",
+            "caption": "",
+            "product": "r-shirt-in-vintage-stripe",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "cb853cd6-1975-4528-84dd-1dcd0abbdb44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marfa-Journal.jpg",
+            "caption": "",
+            "product": "r-shirt-in-marfa",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "73b75631-bf30-4cdd-827b-18c4235b8453",
+        "f5ea5c82-f7f8-4b3f-b5c1-8639afdd3e4d",
+        "a8383d83-a651-4e72-9a0d-956bec20f57e",
+        "cb853cd6-1975-4528-84dd-1dcd0abbdb44"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ae5039bc-2ee7-48c9-b0aa-b47742fa1912",
+    "text",
+    "image",
+    "quote",
+    "694dd4fe-4f18-4d91-b8dc-81a77882ce1d",
+    "078d169a-26f0-474d-8c8a-7321ec4b3ac4",
+    "e934343d-3126-4a20-9b1f-1a91366faf49",
+    "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee"
+  ]
+}
