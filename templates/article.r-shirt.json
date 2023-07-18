@@ -37,41 +37,30 @@
         "quote": "\"Not to mention they also looked damn cool which meant they knew a thing or two about style...\""
       }
     },
+    "32d50976-5a4b-47d6-8335-097bade98641": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Larry-Poons_d3836348-9691-4791-bb98-9efb5d6f6676.jpg",
+        "caption": "Larry Poons by Fred W. McDarrah 1965",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
     "694dd4fe-4f18-4d91-b8dc-81a77882ce1d": {
       "type": "article-section-text",
       "settings": {
         "text": "When we started discussing the perfect day-to-day shirt, we looked to people that we’re inspired by. Often times these people were artists or worked within the creative industries and had practical needs. Not to mention they also looked damn cool which meant they knew a thing or two about style. They needed their clothes to be hard wearing as well as comfortable. \n\nAnd so the “R” Shirt was born, inspired by artists and everyday life. With a well-balanced collar, a comfortable but flattering silhouette and two pockets to keep your trinkets in it is not only good looking but comfortable and easy to wear. A shirt that just is what it is and cannot be this and that and that and that. The shirt you reach for every day."
       }
     },
-    "078d169a-26f0-474d-8c8a-7321ec4b3ac4": {
-      "type": "article-section-gallery",
-      "blocks": {
-        "368782ed-b667-419b-8def-39038758edcc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Larry-Poons_d3836348-9691-4791-bb98-9efb5d6f6676.jpg",
-            "caption": "Larry Poons by Fred W. McDarrah 1965",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "8b26102e-36cf-4454-8ce0-1a80f3fadfc5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/38_edruscha_7d3a4d43-a58c-4188-b739-cda88decc1ff.jpg",
-            "caption": "Ed Ruscha by Jerry McMillan 1970",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "368782ed-b667-419b-8def-39038758edcc",
-        "8b26102e-36cf-4454-8ce0-1a80f3fadfc5"
-      ],
+    "6f549b0d-3d41-44cf-bb3b-c96c63c82f31": {
+      "type": "article-section-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/38_edruscha_7d3a4d43-a58c-4188-b739-cda88decc1ff.jpg",
+        "caption": "Ed Ruscha by Jerry McMillan in 1970",
+        "product": "",
+        "collection": "",
+        "page": ""
       }
     },
     "e934343d-3126-4a20-9b1f-1a91366faf49": {
@@ -140,8 +129,9 @@
     "text",
     "image",
     "quote",
+    "32d50976-5a4b-47d6-8335-097bade98641",
     "694dd4fe-4f18-4d91-b8dc-81a77882ce1d",
-    "078d169a-26f0-474d-8c8a-7321ec4b3ac4",
+    "6f549b0d-3d41-44cf-bb3b-c96c63c82f31",
     "e934343d-3126-4a20-9b1f-1a91366faf49",
     "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee"
   ]
