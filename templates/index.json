@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Skarmavbild_2019-06-25_kl._10.53.45_ea566bf8-490b-4b07-b801-e1642c1ccd7b.jpg",
+        "image": "shopify:\/\/shop_images\/Rub-Back.jpg",
         "focal": 50,
-        "invert-logo": false
+        "invert-logo": true
       }
     },
     "collage": {
