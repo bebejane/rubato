@@ -304,7 +304,8 @@
     width: 100%;
   }
 
-  .article-section-gallery-col {
+  .article-section-gallery-col-3,
+  .article-section-gallery-col-4 {
     max-width: calc(100vw) !important;
     width: 100%;
   }
