@@ -150,6 +150,8 @@
   margin-right: 0;
 }
 
+.article-section-gallery-col {}
+
 .article-section-gallery-col-1 {
   width: calc(100vw);
 }
@@ -302,9 +304,11 @@
     width: 100%;
   }
 
-  .article-section-gallery-col-2 {
-    max-width: calc(100vw);
+  .article-section-gallery-col {
+    max-width: calc(100vw) !important;
+    width: 100%;
   }
+
 }
 
 @media only screen and (min-width: 750px) {
