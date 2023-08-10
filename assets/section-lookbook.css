@@ -3,11 +3,13 @@
   width: 100%;
   text-align: center;
 }
+
 .lookbook h1 {
-  margin-top:calc(var(--margin) * 2);
+  margin-top: calc(var(--margin) * 2);
   font-size: var(--medium-font) !important;
   margin-bottom: 1rem;
 }
+
 .lookbook-content {
   display: flex;
   flex-direction: column;
@@ -16,36 +18,42 @@
   width: 100%;
   border-top: var(--line);
 }
-.lookbook-row{
+
+.lookbook-row {
   display: flex;
   flex-direction: row;
   flex: 1 1 100%;
   border-bottom: var(--line);
 }
-.lookbook-row:last-child{
+
+.lookbook-row:last-child {
   border-bottom: 0;
 }
-.lookbook-col{
+
+.lookbook-col {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 0 0 50%;
   border-right: var(--line);
 }
-.lookbook-col-full{
+
+.lookbook-col-full {
   flex: 0 0 100% !important;
   border-right: 0;
 }
 
-.lookbook-image-wrap{
+.lookbook-image-wrap {
   display: flex;
   flex-direction: column;
   max-width: 70% !important;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.lookbook-image-caption{
-  
+
+
+.lookbook-image-caption {
+
   opacity: 0;
   transition: all .4s ease;
   text-align: left;
@@ -53,26 +61,30 @@
   font-family: "Mars Extended Web Regular";
   text-transform: uppercase;
 }
-.lookbook-image-caption-show{
+
+.lookbook-image-caption-show {
   transition: all .4s ease;
   opacity: 1;
 }
 
-.lookbook-image-one, .lookbook-image-two{
+.lookbook-image-one,
+.lookbook-image-two {
   max-width: 100% !important;
 }
 
 
 @media screen and (max-width: 749px) {
-  .lookbook-col{
+  .lookbook-col {
     flex: 0 0 100% !important;
   }
-  .lookbook-image-wrap{
-    
+
+  .lookbook-image-wrap {
+
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .lookbook-image-caption{
+
+  .lookbook-image-caption {
     opacity: 1;
   }
 }
