@@ -5,12 +5,6 @@
       "settings": {
       }
     },
-    "acf28ed9-1b5c-493f-af02-963c30781389": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "Shot by Alex Natt"
-      }
-    },
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
@@ -137,7 +131,6 @@
   },
   "order": [
     "main",
-    "acf28ed9-1b5c-493f-af02-963c30781389",
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
     "text",
     "8863a9b6-2499-473f-93af-d1567cd16286",
