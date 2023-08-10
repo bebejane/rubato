@@ -266,10 +266,7 @@
     font-size: 1.5em;
   }
 
-  .article-section-gallery-wrap {
-    flex-direction: row;
-
-  }
+  .article-section-gallery-wrap {}
 
   .article-section-gallery-image {
     justify-content: center;
