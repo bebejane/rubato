@@ -272,6 +272,10 @@
     margin-right: 1em !important;
   }
 
+  .article-section-gallery-col:last-child {
+    margin-right: 0 !important;
+  }
+
   .article-section-gallery-image {
     justify-content: center;
     align-items: flex-start;
