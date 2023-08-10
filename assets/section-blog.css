@@ -278,9 +278,7 @@
     margin-bottom: var(--outer-margin);
   }
 
-  .article-section-gallery-image:last-child {
-    margin-bottom: 0;
-  }
+  .article-section-gallery-image:last-child {}
 
   .article-section-gallery-image img {
     max-height: unset;
