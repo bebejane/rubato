@@ -54,7 +54,7 @@
   overflow: hidden;
   -webkit-box-orient: vertical;
   font-size: var(--big-font);
-  min-height: 4em;
+  min-height: 8em;
 }
 
 .blog-post-read-more {
