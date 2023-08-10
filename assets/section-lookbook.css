@@ -51,9 +51,6 @@
   margin-bottom: 100px;
 }
 
-.lookbook-col-full>.lookbook-image-wrap {
-  max-width: 100% !important;
-}
 
 .lookbook-image-caption {
 
@@ -90,4 +87,11 @@
   .lookbook-image-caption {
     opacity: 1;
   }
+}
+
+@media screen and (min-width: 750px) {
+  .lookbook-col-full>.lookbook-image-wrap {
+    max-width: 100% !important;
+  }
+
 }
