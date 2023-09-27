@@ -157,7 +157,7 @@
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Caps-trio.jpg",
+            "image": "shopify:\/\/shop_images\/Acc.jpg",
             "columns": 2,
             "width": 79,
             "align": "flex-end",
@@ -185,7 +185,7 @@
         "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Doek3.jpg",
+            "image": "shopify:\/\/shop_images\/Doek7.jpg",
             "columns": 2,
             "width": 64,
             "align": "flex-start",
