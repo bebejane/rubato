@@ -43,11 +43,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ed-ruscha--clarence-jones.jpg",
+            "image": "shopify:\/\/shop_images\/TOKO-1.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "ed ruscha 'CLARENCE JONES' 2001",
+            "caption": "'Sound' circa 1990 by Toko Shinoda. Limited edition numbered 29 of 30.",
             "product": "",
             "collection": "",
             "page": "",
@@ -83,6 +83,20 @@
             "article": "journal\/what-gets-cedric-bardawil-going"
           }
         },
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/57.jpg",
+            "columns": 2,
+            "width": 78,
+            "align": "center",
+            "caption": "uniform shirt",
+            "product": "uniform-shirt-in-khaki",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
@@ -100,7 +114,7 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga69_0852dca0-2ca1-488e-b644-3aad56d83404.jpg",
+            "image": "shopify:\/\/shop_images\/CardiEarth2.jpg",
             "columns": 4,
             "width": 44,
             "align": "center",
@@ -114,27 +128,13 @@
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
+            "image": "shopify:\/\/shop_images\/48.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
-            "page": "",
-            "article": ""
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Uniform-Insta-1.jpg",
-            "columns": 2,
-            "width": 78,
-            "align": "center",
-            "caption": "uniform shirt",
-            "product": "uniform-shirt-in-khaki",
-            "collection": "",
             "page": "",
             "article": ""
           }
@@ -158,8 +158,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Caps-trio.jpg",
-            "columns": 4,
-            "width": 53,
+            "columns": 2,
+            "width": 79,
             "align": "flex-end",
             "caption": "accessories",
             "product": "",
@@ -170,14 +170,13 @@
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen18.jpg",
-            "columns": 1,
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-09-27_kl._13.26.13.png",
+            "columns": 2,
             "width": 100,
             "align": "center",
-            "caption": "",
-            "product": "lot-nr-1-denim-white",
+            "caption": "Picture of Donald judd featured in his book 'DONALD JUDD'S FURNITURE RETROSPECTIVE' from 1993",
+            "product": "",
             "collection": "",
             "page": "",
             "article": ""
@@ -188,7 +187,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Doek3.jpg",
             "columns": 2,
-            "width": 78,
+            "width": 64,
             "align": "flex-start",
             "caption": "",
             "product": "rubato-x-doek-oxford",
@@ -336,10 +335,10 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
