@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fire5.jpg",
+            "image": "shopify:\/\/shop_images\/15.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -114,7 +114,7 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CardiEarth2.jpg",
+            "image": "shopify:\/\/shop_images\/21.jpg",
             "columns": 4,
             "width": 44,
             "align": "center",
