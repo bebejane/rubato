@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Background-Prefall-23.jpg",
+        "image": "shopify:\/\/shop_images\/Background-fall-1.jpg",
         "focal": 50,
         "invert-logo": false
       }
