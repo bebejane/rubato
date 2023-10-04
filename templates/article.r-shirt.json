@@ -72,22 +72,12 @@
     "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee": {
       "type": "article-section-gallery",
       "blocks": {
-        "73b75631-bf30-4cdd-827b-18c4235b8453": {
+        "13d95929-2f3e-4d7b-86ad-5e40d9bce24a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sky-Pinstripe-Journal.jpg",
+            "image": "shopify:\/\/shop_images\/R-Shirt-Chambray-1-Journal.jpg",
             "caption": "",
-            "product": "r-shirt-in-sky-pinstripe",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "f5ea5c82-f7f8-4b3f-b5c1-8639afdd3e4d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sage-Journal.jpg",
-            "caption": "",
-            "product": "r-shirt-in-sage",
+            "product": "r-shirt-in-classic-chambray",
             "collection": "",
             "page": ""
           }
@@ -101,23 +91,11 @@
             "collection": "",
             "page": ""
           }
-        },
-        "cb853cd6-1975-4528-84dd-1dcd0abbdb44": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Marfa-Journal.jpg",
-            "caption": "",
-            "product": "r-shirt-in-marfa",
-            "collection": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "73b75631-bf30-4cdd-827b-18c4235b8453",
-        "f5ea5c82-f7f8-4b3f-b5c1-8639afdd3e4d",
-        "a8383d83-a651-4e72-9a0d-956bec20f57e",
-        "cb853cd6-1975-4528-84dd-1dcd0abbdb44"
+        "13d95929-2f3e-4d7b-86ad-5e40d9bce24a",
+        "a8383d83-a651-4e72-9a0d-956bec20f57e"
       ],
       "settings": {
       }
