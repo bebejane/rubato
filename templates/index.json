@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/37.jpg",
-        "focal": 85,
+        "image": "shopify:\/\/shop_images\/Journal-Splash.jpg",
+        "focal": 50,
         "invert-logo": false
       }
     },
