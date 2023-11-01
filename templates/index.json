@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/42.jpg",
+            "image": "shopify:\/\/shop_images\/27.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -43,11 +43,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOKO-1.jpg",
+            "image": "shopify:\/\/shop_images\/preview.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "'Sound' circa 1990 by Toko Shinoda. Limited edition numbered 29 of 30.",
+            "caption": "'White Flag' By jasper johns 1955. 78 5\/16 in. × 10 ft. 3\/4 in. (198.9 × 306.7 cm)",
             "product": "",
             "collection": "",
             "page": "",
