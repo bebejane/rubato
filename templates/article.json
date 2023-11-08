@@ -83,16 +83,6 @@
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
       "type": "article-section-gallery",
       "blocks": {
-        "95219f82-3001-43ef-aa90-7cf628920a48": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vintage-Stripe-NEWS_c321eb36-85d2-4164-9d2d-b3648f2de615.jpg",
-            "caption": "",
-            "product": "r-shirt-in-vintage-stripe",
-            "collection": "",
-            "page": ""
-          }
-        },
         "896c030b-d286-4cec-8a98-543463912f84": {
           "type": "image",
           "settings": {
@@ -115,7 +105,6 @@
         }
       },
       "block_order": [
-        "95219f82-3001-43ef-aa90-7cf628920a48",
         "896c030b-d286-4cec-8a98-543463912f84",
         "5de407b7-2f0b-4ed4-8908-1a10093eb47d"
       ],
