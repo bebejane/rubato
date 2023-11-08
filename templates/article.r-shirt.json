@@ -69,35 +69,14 @@
         "text": "EXPLORE THE \"R\" SHIRT BELOW"
       }
     },
-    "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee": {
-      "type": "article-section-gallery",
-      "blocks": {
-        "13d95929-2f3e-4d7b-86ad-5e40d9bce24a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/R-Shirt-Chambray-1-Journal.jpg",
-            "caption": "",
-            "product": "r-shirt-in-classic-chambray",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "a8383d83-a651-4e72-9a0d-956bec20f57e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vintage-Stripe-NEWS.jpg",
-            "caption": "",
-            "product": "r-shirt-in-vintage-stripe",
-            "collection": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "13d95929-2f3e-4d7b-86ad-5e40d9bce24a",
-        "a8383d83-a651-4e72-9a0d-956bec20f57e"
-      ],
+    "a2308bad-792a-46fb-b1ea-6f5060faac3f": {
+      "type": "article-section-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/R-Shirt-Chambray-1-Journal.jpg",
+        "caption": "",
+        "product": "r-shirt-in-classic-chambray",
+        "collection": "",
+        "page": ""
       }
     }
   },
@@ -111,6 +90,6 @@
     "694dd4fe-4f18-4d91-b8dc-81a77882ce1d",
     "6f549b0d-3d41-44cf-bb3b-c96c63c82f31",
     "e934343d-3126-4a20-9b1f-1a91366faf49",
-    "e07d0d43-0bf5-4dca-9e24-65630e9bf3ee"
+    "a2308bad-792a-46fb-b1ea-6f5060faac3f"
   ]
 }
