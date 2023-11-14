@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Journal-Splash.jpg",
+        "image": "shopify:\/\/shop_images\/Hartung2_941452ef-1817-43b9-953c-99dcf8fe7215.jpg",
         "focal": 50,
-        "invert-logo": false
+        "invert-logo": true
       }
     },
     "collage": {
