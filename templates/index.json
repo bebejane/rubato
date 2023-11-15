@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rub-Back.jpg",
+        "image": "shopify:\/\/shop_images\/Hartung2_f27cce15-1a48-4e63-a34a-e9ed9ba7c808.jpg",
         "focal": 50,
         "invert-logo": true
       }
@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS41.jpg",
+            "image": "shopify:\/\/shop_images\/C4.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-start",
@@ -43,11 +43,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ed-ruscha--clarence-jones.jpg",
+            "image": "shopify:\/\/shop_images\/preview.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "ed ruscha 'CLARENCE JONES' 2001",
+            "caption": "'White Flag' By jasper johns 1955. 78 5\/16 in. × 10 ft. 3\/4 in. (198.9 × 306.7 cm)",
             "product": "",
             "collection": "",
             "page": "",
@@ -69,6 +69,34 @@
             "article": ""
           }
         },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-09-13-Rubato-180-web.jpg",
+            "columns": 2,
+            "width": 75,
+            "align": "center",
+            "caption": "Journal - EXPLORE",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": "journal\/brushed-shetland"
+          }
+        },
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/57.jpg",
+            "columns": 2,
+            "width": 78,
+            "align": "center",
+            "caption": "uniform shirt",
+            "product": "uniform-shirt-in-khaki",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
@@ -83,24 +111,10 @@
             "article": ""
           }
         },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Journal-Logo.jpg",
-            "columns": 2,
-            "width": 40,
-            "align": "center",
-            "caption": "EXPLORE",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": "journal\/the-r-shirt"
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga69_0852dca0-2ca1-488e-b644-3aad56d83404.jpg",
+            "image": "shopify:\/\/shop_images\/21.jpg",
             "columns": 4,
             "width": 44,
             "align": "center",
@@ -114,27 +128,13 @@
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
+            "image": "shopify:\/\/shop_images\/48.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
-            "page": "",
-            "article": ""
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Uniform-Insta-1.jpg",
-            "columns": 2,
-            "width": 78,
-            "align": "center",
-            "caption": "uniform shirt",
-            "product": "uniform-shirt-in-khaki",
-            "collection": "",
             "page": "",
             "article": ""
           }
@@ -157,9 +157,9 @@
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Caps-trio.jpg",
-            "columns": 4,
-            "width": 53,
+            "image": "shopify:\/\/shop_images\/Acc.jpg",
+            "columns": 2,
+            "width": 79,
             "align": "flex-end",
             "caption": "accessories",
             "product": "",
@@ -170,14 +170,13 @@
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen18.jpg",
-            "columns": 1,
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-09-27_kl._13.26.13.png",
+            "columns": 2,
             "width": 100,
             "align": "center",
-            "caption": "",
-            "product": "lot-nr-1-denim-white",
+            "caption": "Picture of Donald judd featured in his book 'DONALD JUDD'S FURNITURE RETROSPECTIVE' from 1993",
+            "product": "",
             "collection": "",
             "page": "",
             "article": ""
@@ -186,9 +185,9 @@
         "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Doek3.jpg",
+            "image": "shopify:\/\/shop_images\/Doek7.jpg",
             "columns": 2,
-            "width": 78,
+            "width": 64,
             "align": "flex-start",
             "caption": "",
             "product": "rubato-x-doek-oxford",
@@ -335,11 +334,11 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
