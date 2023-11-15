@@ -8,17 +8,23 @@
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/425150010005.jpg",
-        "caption": "",
-        "product": "",
+        "image": "shopify:\/\/shop_images\/17.jpg",
+        "caption": "Brushed Shetland in Harbour",
+        "product": "brushed-shetland-in-harbour",
         "collection": "",
         "page": ""
+      }
+    },
+    "quote": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "\"where you own your garments rather than the garments owning you\""
       }
     },
     "text": {
       "type": "article-section-text",
       "settings": {
-        "text": "I’m excited by where cultural worlds meet, particularly visual art and music. There’s a shared language and a sense that the arts are becoming more cohesive, more collaborative and more open. I encourage this by offering the artists I work with a platform to explore these ideas — whether it’s providing the gallery for a music performance, connecting artists or releasing their music on vinyl."
+        "text": "“What's the width of your leg opening?\"  For the better part of a decade as a menswear editor, I've been puzzled by the detailed nature of some of the questions I get. I don’t mind it, even though I sometimes question what purpose another man´s measurements may serve in your quest for the perfect trouser? More than anything, it made me contemplate what truly creates a sense of balance in a person's attire. I realized it's often about factors completely detached from measurements or cuts.\n\nWhile fit is important, style is to me about being thoughtful in what you wear, regardless of the situation, and, above all, letting your clothes be an extension of your own personality, in harmony with your surroundings. A sense of natural ease where you own your garments rather than the garments owning you."
       }
     },
     "8863a9b6-2499-473f-93af-d1567cd16286": {
@@ -27,7 +33,7 @@
         "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/425150030003.jpg",
+            "image": "shopify:\/\/shop_images\/34.jpg",
             "caption": "",
             "product": "",
             "collection": "",
@@ -37,7 +43,7 @@
         "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/425150030006.jpg",
+            "image": "shopify:\/\/shop_images\/35.jpg",
             "caption": "",
             "product": "",
             "collection": "",
@@ -52,24 +58,24 @@
       "settings": {
       }
     },
-    "quote": {
+    "a86b3b1e-84f4-46ff-9bbd-2d7ac194a1ba": {
       "type": "article-section-quote",
       "settings": {
-        "quote": "\"The younger generation consumes art differently...\""
+        "quote": "\"these are things meant to enrich the rest of your life, not define it.\""
       }
     },
     "10bb04ea-41a8-458b-a365-c038ef366cef": {
       "type": "article-section-text",
       "settings": {
-        "text": "I believe that music can be used to explore ideas that can’t be expressed in other art practices, and that each art form has its own unique mechanisms. The younger generation consumes art differently, with discernment but less hierarchy: on the same day they might want to go skating, then to see a museum exhibition, before checking out a clothing label and ending up at a music gig. \n\nThe potential audience for art has grown exponentially in the last 50 years or so, which is promising because it opens up conversations, creates communities and meaningful connections."
+        "text": "For me, balance is about choosing garments that feel natural, fit well, and are relevant to you, the situation and the potential dress code. What sets apart someone well-dressed in my eyes is not the style category they belong to, but rather the thoughtful choices behind the process. Being comfortable, to me, isn't about choosing between vintage denim or three-piece suits; it's about a natural nonchalance (not arrogance) in what you wear. \n\nFurthermore, balance, for me, encompasses much more than just the fit, cut, and colour of your garments. It's about understanding that style and clothing, as much as we appreciate them, should be the icing on the cake of life rather than life itself. There's nothing wrong with being passionate about a particular area, whether it's clothing, watches, cars, or wines, but it's important to remember that these are things meant to enrich the rest of your life, not define it. It is just clothes."
       }
     },
     "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/425150030010.jpg",
-        "caption": "",
-        "product": "",
+        "image": "shopify:\/\/shop_images\/12_b3b3e438-8cd3-492d-8eee-2f34dd2039d9.jpg",
+        "caption": "Lot nr. 1 denim in ecru",
+        "product": "lot-nr-1-denim-ecru",
         "collection": "",
         "page": ""
       }
@@ -77,36 +83,36 @@
     "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
       "type": "article-section-text",
       "settings": {
-        "text": "CEDRIC IS WEARING"
+        "text": "I value craftsmanship and quality in almost everything I purchase, but I often find that people place some garments on a pedestal, where handmade jackets or shoes become too precious to wear and ends up like ancient relics in their wardrobes. While I can understand the sentiment, it´s rather counterproductive as they cease to fulfil their fundamental purpose. On the other hand, seeing someone with a well-crafted garment that has been worn, loved, and repaired for decades can be deeply inspiring because the garment has become an almost seamless extension of the person wearing it."
       }
     },
-    "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
+    "bab86ff1-e398-42d8-be00-0d5ba701d16e": {
       "type": "article-section-gallery",
       "blocks": {
-        "896c030b-d286-4cec-8a98-543463912f84": {
+        "723cdff1-f40b-4cb0-b43f-5ef686b0dd4a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rubato-Officers-Chino-Taupe-NEW-SIZE-JOURNAL.jpg",
+            "image": "shopify:\/\/shop_images\/45.jpg",
             "caption": "",
-            "product": "officers-chino-in-dark-khaki",
+            "product": "",
             "collection": "",
             "page": ""
           }
         },
-        "5de407b7-2f0b-4ed4-8908-1a10093eb47d": {
+        "db11db9a-b24c-431e-9ec5-5c385cc5d96c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
+            "image": "shopify:\/\/shop_images\/51.jpg",
             "caption": "",
-            "product": "rubato-brown-suede-belt",
+            "product": "",
             "collection": "",
             "page": ""
           }
         }
       },
       "block_order": [
-        "896c030b-d286-4cec-8a98-543463912f84",
-        "5de407b7-2f0b-4ed4-8908-1a10093eb47d"
+        "723cdff1-f40b-4cb0-b43f-5ef686b0dd4a",
+        "db11db9a-b24c-431e-9ec5-5c385cc5d96c"
       ],
       "settings": {
       }
@@ -114,20 +120,32 @@
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
       "type": "article-section-text",
       "settings": {
-        "text": "Visit\nCEDRIC BARDAWIL GALLERY \n1–3 Old Compton St, London\nwww.cedricbardawil.com"
+        "text": "Finding these cornerstones of your wardrobe takes time, which is why I always encourage people to be patient and let their wardrobe accumulate slowly. We've all made fashion missteps, but I try to see them as lessons rather than mistakes. Not everything you buy will become a future classic, but the more trends we experience, cuts we explore, and colours we experiment with, the closer we get to the core of what suits us and makes us comfortable. Slowly but surely, a personal style takes shape where, like a sculptor, you carve away the excess until only the essence remains."
+      }
+    },
+    "f0d68f8e-61fa-4844-b397-918f32be70ad": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/44.jpg",
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
       }
     }
   },
   "order": [
     "main",
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
+    "quote",
     "text",
     "8863a9b6-2499-473f-93af-d1567cd16286",
-    "quote",
+    "a86b3b1e-84f4-46ff-9bbd-2d7ac194a1ba",
     "10bb04ea-41a8-458b-a365-c038ef366cef",
     "c99d749a-6dbb-4c5c-9463-44d3e1502201",
     "453247ad-adc0-48b7-8b33-6ed7026f0f63",
-    "8b69a79b-126e-4ace-944c-ca5f7d3e763d",
-    "32a6a7e6-9ff0-494d-84ea-6969e77126b4"
+    "bab86ff1-e398-42d8-be00-0d5ba701d16e",
+    "32a6a7e6-9ff0-494d-84ea-6969e77126b4",
+    "f0d68f8e-61fa-4844-b397-918f32be70ad"
   ]
 }
