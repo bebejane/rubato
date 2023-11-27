@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hartung2_f27cce15-1a48-4e63-a34a-e9ed9ba7c808.jpg",
+        "image": "shopify:\/\/shop_images\/57d17143-65c6-45b9-b328-bdef8566203a.jpg",
         "focal": 50,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
