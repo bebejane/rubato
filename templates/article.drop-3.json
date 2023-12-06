@@ -39,13 +39,13 @@
     "text": {
       "type": "article-section-text",
       "settings": {
-        "text": "For drop 3 we introduce a new style to the Standard Knitwear family. The sportier cousin of the other styles it is aptly named the Sportsman. With its raglan shoulder, single cuff and grosgrain backed placket it lends an air of casual attire but worn with a under a jacket the formality increases."
+        "text": "For drop 3 we introduce a new style to the Standard Knitwear family. Being the sportier cousin of the other styles it is aptly named the Sportsman. With its raglan shoulder, single cuff and grosgrain backed placket it lends an air of casual attire but worn with a under a jacket the formality increases."
       }
     },
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/D4.jpg",
+        "image": "shopify:\/\/shop_images\/D3.jpg",
         "caption": "Standard Sportsman in Ecru",
         "product": "standard-sportsman-in-ecru",
         "collection": "",
@@ -143,9 +143,9 @@
         "9eefb567-9f68-4690-8c23-87502c3ed029": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D62.jpg",
-            "caption": "Standard Sportsman in Navy",
-            "product": "standard-sportsman-in-navy",
+            "image": "shopify:\/\/shop_images\/D5_afefb127-372e-4388-81a7-718c544b5651.jpg",
+            "caption": "Standard Sportsman in Ecru",
+            "product": "standard-sportsman-in-ecru",
             "collection": "",
             "page": ""
           }
@@ -153,9 +153,9 @@
         "fa6c37c8-a73b-4fc6-8828-94a4e3de2ca2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D45.jpg",
-            "caption": "Standard sportsman in verdant",
-            "product": "standard-sportsman-in-verdant",
+            "image": "shopify:\/\/shop_images\/D62.jpg",
+            "caption": "Heavy weight dress chino in beige",
+            "product": "heavy-weight-dress-chino-in-beige",
             "collection": "",
             "page": ""
           }
