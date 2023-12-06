@@ -121,6 +121,12 @@
         "page": ""
       }
     },
+    "9ae98644-20e7-43ae-93a7-f4768e89d1a6": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "The colors of all new products are in keeping with the Rubato palette and gives you the opportunity to combine outfits across the whole range of our offering. It's easy elegance at it's finest."
+      }
+    },
     "cf099e15-f0cf-4384-80e5-53b6611902ab": {
       "type": "article-section-gallery",
       "blocks": {
@@ -129,7 +135,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/D11.jpg",
             "caption": "Standard Sportsman in Black",
-            "product": "",
+            "product": "standard-sportsman-in-black",
             "collection": "",
             "page": ""
           }
@@ -137,7 +143,7 @@
         "9eefb567-9f68-4690-8c23-87502c3ed029": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D64.jpg",
+            "image": "shopify:\/\/shop_images\/D62.jpg",
             "caption": "Standard Sportsman in Navy",
             "product": "standard-sportsman-in-navy",
             "collection": "",
@@ -147,8 +153,9 @@
         "fa6c37c8-a73b-4fc6-8828-94a4e3de2ca2": {
           "type": "image",
           "settings": {
-            "caption": "",
-            "product": "",
+            "image": "shopify:\/\/shop_images\/D45.jpg",
+            "caption": "Standard sportsman in verdant",
+            "product": "standard-sportsman-in-verdant",
             "collection": "",
             "page": ""
           }
@@ -160,6 +167,16 @@
         "fa6c37c8-a73b-4fc6-8828-94a4e3de2ca2"
       ],
       "settings": {
+      }
+    },
+    "58d09298-6fc7-46ef-a018-f73c912f5e6d": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/D18.jpg",
+        "caption": "Heavy weight dress chino in Dark brown",
+        "product": "heavy-weight-dress-chino-in-dark-brown",
+        "collection": "",
+        "page": ""
       }
     }
   },
@@ -174,6 +191,8 @@
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d",
     "38555cd4-904b-46c5-8700-aa3752257dcb",
     "02c76f17-0c47-4467-9ea6-c0fdb3a468a6",
-    "cf099e15-f0cf-4384-80e5-53b6611902ab"
+    "9ae98644-20e7-43ae-93a7-f4768e89d1a6",
+    "cf099e15-f0cf-4384-80e5-53b6611902ab",
+    "58d09298-6fc7-46ef-a018-f73c912f5e6d"
   ]
 }
