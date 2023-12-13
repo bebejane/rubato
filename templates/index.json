@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/57d17143-65c6-45b9-b328-bdef8566203a.jpg",
-        "focal": 70,
+        "focal": 55,
         "invert-logo": false
       }
     },
@@ -85,13 +85,28 @@
         },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/57.jpg",
+            "image": "shopify:\/\/shop_images\/NP35.jpg",
             "columns": 2,
-            "width": 78,
+            "width": 100,
             "align": "center",
-            "caption": "uniform shirt",
-            "product": "uniform-shirt-in-khaki",
+            "caption": "NONPAREIL TWENTY IN",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/960x0.webp",
+            "columns": 4,
+            "width": 70,
+            "align": "center",
+            "caption": "Philip Guston 'cellar' 1970",
+            "product": "",
             "collection": "",
             "page": "",
             "article": ""
@@ -164,20 +179,6 @@
             "caption": "accessories",
             "product": "",
             "collection": "accessories",
-            "page": "",
-            "article": ""
-          }
-        },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-09-27_kl._13.26.13.png",
-            "columns": 2,
-            "width": 100,
-            "align": "center",
-            "caption": "Picture of Donald judd featured in his book 'DONALD JUDD'S FURNITURE RETROSPECTIVE' from 1993",
-            "product": "",
-            "collection": "",
             "page": "",
             "article": ""
           }
@@ -336,12 +337,12 @@
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
