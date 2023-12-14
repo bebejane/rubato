@@ -103,18 +103,18 @@
           >
         {% endfor %}
       {% else %}
-      {% for variant in product.variant %}
-        {% if variant.image != blank %}
-          <img 
-            data-index="{{forloop.index}}"
-            class="product-gallery-zoom"
-            width="100"
-            height="100"
-            src="{{ variant.image | image_url: width: 3000 }}" 
-            alt="{{ variant.image.alt | escape }}" 
-            loading="lazy"
-          >
-        {% endif %}
+        {% for variant in product.variant %}
+          {% if variant.image != blank %}
+            <img 
+              data-index="{{forloop.index}}"
+              class="product-gallery-zoom"
+              width="100"
+              height="100"
+              src="{{ variant.image | image_url: width: 3000 }}" 
+              alt="{{ variant.image.alt | escape }}" 
+              loading="lazy"
+            >
+          {% endif %}
         {% endfor %}
       {% endif %}
       </div>
