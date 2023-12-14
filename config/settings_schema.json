@@ -21,8 +21,1418 @@
       },
       {
         "type": "checkbox",
+        "id": "ddp_AF",
+        "label": "Afghanistan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AX",
+        "label": "Åland Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AL",
+        "label": "Albania",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DZ",
+        "label": "Algeria",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AD",
+        "label": "Andorra",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AO",
+        "label": "Angola",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AI",
+        "label": "Anguilla",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AG",
+        "label": "Antigua &amp; Barbuda",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AR",
+        "label": "Argentina",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AM",
+        "label": "Armenia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AW",
+        "label": "Aruba",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AC",
+        "label": "Ascension Island",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AU",
+        "label": "Australia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AT",
+        "label": "Austria",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AZ",
+        "label": "Azerbaijan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BS",
+        "label": "Bahamas",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BH",
+        "label": "Bahrain",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BD",
+        "label": "Bangladesh",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BB",
+        "label": "Barbados",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BY",
+        "label": "Belarus",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BE",
+        "label": "Belgium",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BZ",
+        "label": "Belize",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BJ",
+        "label": "Benin",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BM",
+        "label": "Bermuda",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BT",
+        "label": "Bhutan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BO",
+        "label": "Bolivia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BA",
+        "label": "Bosnia &amp; Herzegovina",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BW",
+        "label": "Botswana",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BR",
+        "label": "Brazil",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IO",
+        "label": "British Indian Ocean Territory",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VG",
+        "label": "British Virgin Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BN",
+        "label": "Brunei",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BG",
+        "label": "Bulgaria",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BF",
+        "label": "Burkina Faso",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BI",
+        "label": "Burundi",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KH",
+        "label": "Cambodia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CM",
+        "label": "Cameroon",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CA",
+        "label": "Canada",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CV",
+        "label": "Cape Verde",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BQ",
+        "label": "Caribbean Netherlands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KY",
+        "label": "Cayman Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CF",
+        "label": "Central African Republic",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TD",
+        "label": "Chad",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CL",
+        "label": "Chile",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CN",
+        "label": "China",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CX",
+        "label": "Christmas Island",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CC",
+        "label": "Cocos (Keeling) Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CO",
+        "label": "Colombia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KM",
+        "label": "Comoros",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CG",
+        "label": "Congo - Brazzaville",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CD",
+        "label": "Congo - Kinshasa",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CK",
+        "label": "Cook Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CR",
+        "label": "Costa Rica",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CI",
+        "label": "Côte d’Ivoire",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_HR",
+        "label": "Croatia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CW",
+        "label": "Curaçao",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CY",
+        "label": "Cyprus",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CZ",
+        "label": "Czechia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DK",
+        "label": "Denmark",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DJ",
+        "label": "Djibouti",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DM",
+        "label": "Dominica",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DO",
+        "label": "Dominican Republic",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_EC",
+        "label": "Ecuador",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_EG",
+        "label": "Egypt",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SV",
+        "label": "El Salvador",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GQ",
+        "label": "Equatorial Guinea",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ER",
+        "label": "Eritrea",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_EE",
+        "label": "Estonia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SZ",
+        "label": "Eswatini",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ET",
+        "label": "Ethiopia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_FK",
+        "label": "Falkland Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_FO",
+        "label": "Faroe Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_FJ",
+        "label": "Fiji",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_FI",
+        "label": "Finland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_FR",
+        "label": "France",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GF",
+        "label": "French Guiana",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PF",
+        "label": "French Polynesia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TF",
+        "label": "French Southern Territories",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GA",
+        "label": "Gabon",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GM",
+        "label": "Gambia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GE",
+        "label": "Georgia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_DE",
+        "label": "Germany",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GH",
+        "label": "Ghana",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GI",
+        "label": "Gibraltar",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GR",
+        "label": "Greece",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GL",
+        "label": "Greenland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GD",
+        "label": "Grenada",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GP",
+        "label": "Guadeloupe",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GT",
+        "label": "Guatemala",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GG",
+        "label": "Guernsey",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GN",
+        "label": "Guinea",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GW",
+        "label": "Guinea-Bissau",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GY",
+        "label": "Guyana",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_HT",
+        "label": "Haiti",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_HN",
+        "label": "Honduras",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_HK",
+        "label": "Hong Kong SAR",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_HU",
+        "label": "Hungary",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IS",
+        "label": "Iceland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IN",
+        "label": "India",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ID",
+        "label": "Indonesia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IQ",
+        "label": "Iraq",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IE",
+        "label": "Ireland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IM",
+        "label": "Isle of Man",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IL",
+        "label": "Israel",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_IT",
+        "label": "Italy",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_JM",
+        "label": "Jamaica",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_JP",
+        "label": "Japan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_JE",
+        "label": "Jersey",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_JO",
+        "label": "Jordan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KZ",
+        "label": "Kazakhstan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KE",
+        "label": "Kenya",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KI",
+        "label": "Kiribati",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_XK",
+        "label": "Kosovo",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KW",
+        "label": "Kuwait",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KG",
+        "label": "Kyrgyzstan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LA",
+        "label": "Laos",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LV",
+        "label": "Latvia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LB",
+        "label": "Lebanon",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LS",
+        "label": "Lesotho",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LR",
+        "label": "Liberia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LY",
+        "label": "Libya",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LI",
+        "label": "Liechtenstein",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LT",
+        "label": "Lithuania",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LU",
+        "label": "Luxembourg",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MO",
+        "label": "Macao SAR",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MG",
+        "label": "Madagascar",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MW",
+        "label": "Malawi",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MY",
+        "label": "Malaysia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MV",
+        "label": "Maldives",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ML",
+        "label": "Mali",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MT",
+        "label": "Malta",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MQ",
+        "label": "Martinique",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MR",
+        "label": "Mauritania",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MU",
+        "label": "Mauritius",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_YT",
+        "label": "Mayotte",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MX",
+        "label": "Mexico",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MD",
+        "label": "Moldova",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MC",
+        "label": "Monaco",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MN",
+        "label": "Mongolia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ME",
+        "label": "Montenegro",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MS",
+        "label": "Montserrat",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MA",
+        "label": "Morocco",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MZ",
+        "label": "Mozambique",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MM",
+        "label": "Myanmar (Burma)",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NA",
+        "label": "Namibia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NR",
+        "label": "Nauru",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NP",
+        "label": "Nepal",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NL",
+        "label": "Netherlands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NC",
+        "label": "New Caledonia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NZ",
+        "label": "New Zealand",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NI",
+        "label": "Nicaragua",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NE",
+        "label": "Niger",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NG",
+        "label": "Nigeria",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NU",
+        "label": "Niue",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NF",
+        "label": "Norfolk Island",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MK",
+        "label": "North Macedonia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_NO",
+        "label": "Norway",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_OM",
+        "label": "Oman",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PK",
+        "label": "Pakistan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PS",
+        "label": "Palestinian Territories",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PA",
+        "label": "Panama",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PG",
+        "label": "Papua New Guinea",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PY",
+        "label": "Paraguay",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PE",
+        "label": "Peru",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PH",
+        "label": "Philippines",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PN",
+        "label": "Pitcairn Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PL",
+        "label": "Poland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PT",
+        "label": "Portugal",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_QA",
+        "label": "Qatar",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_RE",
+        "label": "Réunion",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_RO",
+        "label": "Romania",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_RW",
+        "label": "Rwanda",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_WS",
+        "label": "Samoa",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SM",
+        "label": "San Marino",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ST",
+        "label": "São Tomé &amp; Príncipe",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SA",
+        "label": "Saudi Arabia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SN",
+        "label": "Senegal",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_RS",
+        "label": "Serbia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SC",
+        "label": "Seychelles",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SL",
+        "label": "Sierra Leone",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SG",
+        "label": "Singapore",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SX",
+        "label": "Sint Maarten",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SK",
+        "label": "Slovakia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SI",
+        "label": "Slovenia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SB",
+        "label": "Solomon Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SO",
+        "label": "Somalia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ZA",
+        "label": "South Africa",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GS",
+        "label": "South Georgia &amp; South Sandwich Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KR",
+        "label": "South Korea",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SS",
+        "label": "South Sudan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ES",
+        "label": "Spain",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LK",
+        "label": "Sri Lanka",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_BL",
+        "label": "St. Barthélemy",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SH",
+        "label": "St. Helena",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_KN",
+        "label": "St. Kitts &amp; Nevis",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_LC",
+        "label": "St. Lucia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_MF",
+        "label": "St. Martin",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_PM",
+        "label": "St. Pierre &amp; Miquelon",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VC",
+        "label": "St. Vincent &amp; Grenadines",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SD",
+        "label": "Sudan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SR",
+        "label": "Suriname",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_SJ",
+        "label": "Svalbard &amp; Jan Mayen",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "ddp_SE",
         "label": "Sweden",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_CH",
+        "label": "Switzerland",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TW",
+        "label": "Taiwan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TJ",
+        "label": "Tajikistan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TZ",
+        "label": "Tanzania",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TH",
+        "label": "Thailand",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TL",
+        "label": "Timor-Leste",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TG",
+        "label": "Togo",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TK",
+        "label": "Tokelau",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TO",
+        "label": "Tonga",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TT",
+        "label": "Trinidad &amp; Tobago",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TA",
+        "label": "Tristan da Cunha",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TN",
+        "label": "Tunisia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TR",
+        "label": "Turkey",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TM",
+        "label": "Turkmenistan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TC",
+        "label": "Turks &amp; Caicos Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_TV",
+        "label": "Tuvalu",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_UM",
+        "label": "U.S. Outlying Islands",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_UG",
+        "label": "Uganda",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_UA",
+        "label": "Ukraine",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_AE",
+        "label": "United Arab Emirates",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_GB",
+        "label": "United Kingdom",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_US",
+        "label": "United States",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_UY",
+        "label": "Uruguay",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_UZ",
+        "label": "Uzbekistan",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VU",
+        "label": "Vanuatu",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VA",
+        "label": "Vatican City",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VE",
+        "label": "Venezuela",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_VN",
+        "label": "Vietnam",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_WF",
+        "label": "Wallis &amp; Futuna",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_EH",
+        "label": "Western Sahara",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_YE",
+        "label": "Yemen",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ZM",
+        "label": "Zambia",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ddp_ZW",
+        "label": "Zimbabwe",
         "default": false
       }
     ]
