@@ -11,16 +11,16 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D28.jpg",
+            "image": "shopify:\/\/shop_images\/NP35.jpg",
             "columns": 2,
             "width": 100,
-            "align": "flex-start",
-            "caption": "new arrivals",
+            "align": "center",
+            "caption": "NONPAREIL",
             "product": "",
-            "collection": "all-products",
+            "collection": "nonpareil",
             "page": "",
             "article": ""
           }
@@ -69,6 +69,20 @@
             "article": ""
           }
         },
+        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D28.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "new arrivals",
+            "product": "",
+            "collection": "all-products",
+            "page": "",
+            "article": ""
+          }
+        },
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
@@ -81,20 +95,6 @@
             "collection": "",
             "page": "",
             "article": "journal\/what-is-balance"
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NP35.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "center",
-            "caption": "NONPAREIL",
-            "product": "",
-            "collection": "nonpareil",
-            "page": "",
-            "article": ""
           }
         },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
@@ -330,12 +330,12 @@
         }
       },
       "block_order": [
-        "a6ec6d9f-da48-496a-b369-d447b2686e22",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
+        "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
