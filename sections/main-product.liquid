@@ -6,6 +6,13 @@
 {% render 'log', object: product %}
 <!-- Parse sizes table -->
 {% assign html = product.description %}
+{% assign has_variant_images = false %}
+
+{% for variant in product.variants %}
+  {% if variant.image != blank %}
+    {% assign has_variant_images = true %}
+  {% endif %}
+{% endfor %}
 
 {% if html contains '<table' %}
   {% assign arr = html | split: '<table' %}
