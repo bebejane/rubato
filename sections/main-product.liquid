@@ -65,6 +65,11 @@
             <div class="swiper-slide">
               {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
             </div>
+          {% endfor %}   
+          {% for image in product.variants %}
+            <div class="swiper-slide">
+              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
+            </div>
           {% endfor %}          
         </div>
         <div class="swiper-pagination"></div>
