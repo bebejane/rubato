@@ -217,9 +217,16 @@
       
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-
+      
       toggleUnavailable(available)
-      toggleVariantImage(id)
+      
+      var variantImage = document.querySelector('.swiper-slide[data-variant-id="'+ id +'"]')
+      if(variantImage){
+        var variantIndex = parseInt(variantImage.dataset.index)
+        swiper.slideTo(variantIndex)
+      }      
+      
+
 
       if(available)
         sizeSelect.value = id
