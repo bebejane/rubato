@@ -252,7 +252,7 @@
     var enabled = false
 
     swiper.on('slideChange', function(e){
-      zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex) +')')
+      zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex+1) +')')
       idx = e.realIndex
     })
 
@@ -265,7 +265,6 @@
       zImage.style.opacity = 1
       zImage.style.marginLeft = left + 'px'
       zImage.style.marginTop = top + 'px'
-      console.log(zImage.dataset.index)
     })
 
     function handleToggle(e){
