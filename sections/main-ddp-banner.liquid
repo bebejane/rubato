@@ -2,6 +2,7 @@
 
 {% assign is_home = false %}
 {% assign is_ddp_enabled = false %}
+{% capture ddp_settings_key %}ddp_{{ localization.country.iso_code }}{% endcapture %}
 
 {% if request.path == '/' %} {% assign is_home = true %}{% endif %}
 
