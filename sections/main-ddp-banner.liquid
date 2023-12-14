@@ -24,7 +24,11 @@
 {% javascript %}
 
   function initBanner(){
-    
+    const close = document.querySelector('#ddp-banner .ddp-close');
+    const banner = document.querySelector('#ddp-banner');
+    close.addEventListener('click', function(){
+      banner.style.display = 'none';
+    });
     
   }
 
