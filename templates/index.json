@@ -3,24 +3,24 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hartung2_f27cce15-1a48-4e63-a34a-e9ed9ba7c808.jpg",
-        "focal": 50,
-        "invert-logo": true
+        "image": "shopify:\/\/shop_images\/Nonpareil-Background.jpg",
+        "focal": 55,
+        "invert-logo": false
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
-        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C4.jpg",
+            "image": "shopify:\/\/shop_images\/NP35.jpg",
             "columns": 2,
             "width": 100,
-            "align": "flex-start",
-            "caption": "new arrivals",
+            "align": "center",
+            "caption": "NONPAREIL",
             "product": "",
-            "collection": "all-products",
+            "collection": "nonpareil",
             "page": "",
             "article": ""
           }
@@ -43,11 +43,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/preview.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_9650.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "'White Flag' By jasper johns 1955. 78 5\/16 in. × 10 ft. 3\/4 in. (198.9 × 306.7 cm)",
+            "caption": "Museum \"Louisiana\" Humlebaek by Jesper Hom 1958",
             "product": "",
             "collection": "",
             "page": "",
@@ -69,10 +69,24 @@
             "article": ""
           }
         },
+        "a6ec6d9f-da48-496a-b369-d447b2686e22": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D28.jpg",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "new arrivals",
+            "product": "",
+            "collection": "all-products",
+            "page": "",
+            "article": ""
+          }
+        },
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-09-13-Rubato-180-web.jpg",
+            "image": "shopify:\/\/shop_images\/12_b3b3e438-8cd3-492d-8eee-2f34dd2039d9.jpg",
             "columns": 2,
             "width": 75,
             "align": "center",
@@ -80,18 +94,18 @@
             "product": "",
             "collection": "",
             "page": "",
-            "article": "journal\/brushed-shetland"
+            "article": "journal\/what-is-balance"
           }
         },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/57.jpg",
-            "columns": 2,
-            "width": 78,
+            "image": "shopify:\/\/shop_images\/960x0.webp",
+            "columns": 4,
+            "width": 70,
             "align": "center",
-            "caption": "uniform shirt",
-            "product": "uniform-shirt-in-khaki",
+            "caption": "Philip Guston 'cellar' 1970",
+            "product": "",
             "collection": "",
             "page": "",
             "article": ""
@@ -114,7 +128,7 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21.jpg",
+            "image": "shopify:\/\/shop_images\/D5.jpg",
             "columns": 4,
             "width": 44,
             "align": "center",
@@ -164,20 +178,6 @@
             "caption": "accessories",
             "product": "",
             "collection": "accessories",
-            "page": "",
-            "article": ""
-          }
-        },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2023-09-27_kl._13.26.13.png",
-            "columns": 2,
-            "width": 100,
-            "align": "center",
-            "caption": "Picture of Donald judd featured in his book 'DONALD JUDD'S FURNITURE RETROSPECTIVE' from 1993",
-            "product": "",
-            "collection": "",
             "page": "",
             "article": ""
           }
@@ -330,18 +330,18 @@
         }
       },
       "block_order": [
-        "a6ec6d9f-da48-496a-b369-d447b2686e22",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
+        "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
