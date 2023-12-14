@@ -195,8 +195,10 @@
 
     function toggleVariantImage(id){
       var images = document.querySelectorAll('.product-variant-image-wrap')
-      console.log(image)
-      images.classList.remove('product-variant-image-show')
+      images.forEach(function(el){
+        el.classList.remove('product-variant-image-show')
+      })
+      
 
       var variantImage = document.querySelector('.product-variant-image-wrap[data-variant-image-id="'+ id +'"]')
       if(variantImage)
