@@ -6,5 +6,21 @@
     "theme_author": "Björn Berglund",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
     "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "DDP Banner",
+    "settings": [
+      {
+        "id": "text",
+        "type": "textarea",
+        "label": "Text"
+      },
+      {
+        "type": "checkbox",
+        "id": "currency_code_enabled",
+        "label": "Show currency codes",
+        "default": true
+      }
+    ]
   }
 ]
