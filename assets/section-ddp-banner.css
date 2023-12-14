@@ -1,5 +1,5 @@
 #ddp-banner {
-  position: fixed;
+  position: relative;
   display: none;
   flex-direction: row;
   align-items: center;
