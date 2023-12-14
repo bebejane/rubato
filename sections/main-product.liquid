@@ -215,6 +215,7 @@
         if(el.dataset.id === id){
           el.setAttribute('selected', true)
           const variantImage = document.querySelector('.product-variant-image-wrap[data-variant-image-id="'+ id +'"]')
+          console.log(variantImage)
           if(variantImage)
             variantImage.classList.add('product-variant-image-show')
         }
