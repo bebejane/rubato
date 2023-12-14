@@ -16,10 +16,14 @@
         "label": "Text"
       },
       {
+        "type": "header",
+        "content": "Countries"
+      },
+      {
         "type": "checkbox",
-        "id": "currency_code_enabled",
-        "label": "Show currency codes",
-        "default": true
+        "id": "ddp_SE",
+        "label": "Sweden",
+        "default": false
       }
     ]
   }
