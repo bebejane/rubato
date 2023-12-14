@@ -65,11 +65,17 @@
             <div class="swiper-slide">
               {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
             </div>
-          {% endfor %}   
-                 
+          {% endfor %}           
         </div>
         <div class="swiper-pagination"></div>
       </div>
+      {% for variant in product.variants %}
+        {% if variant.image != blank %}
+          <div class="product-variant-image-wrap" data-variant-image-id="{{ variant.id }}">
+            {% render 'image-responsive', image: variant.image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
+          </div>
+        {% endif %}
+      {% endfor %}   
       <div id="zoom-wrap" class="product-gallery-zoom-wrap">
         {% for image in product.images %}    
           <img 
@@ -83,13 +89,7 @@
           >
         {% endfor %}
       </div>
-      {% for variant in product.variants %}
-        {% if variant.image != blank %}
-          <div class="product-variant-image-wrap" data-variant-image-id="{{ variant.id }}">
-            {% render 'image-responsive', image: variant.image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
-          </div>
-        {% endif %}
-      {% endfor %}   
+      
       <div id="zoom-toggle" class="product-gallery-zoom-toggle">
         <img id="zoom-out" src="{{ 'zoom-out.svg' | asset_url }}" width="20" height="20">
         <img id="zoom-in"  src="{{ 'zoom-in.svg' | asset_url }}" width="20" height="20">
