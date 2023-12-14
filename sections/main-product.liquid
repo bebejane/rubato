@@ -79,7 +79,7 @@
           {% else %}
             {% for variant in product.variants %}
               {% if variant.image != blank %}
-                <div class="swiper-slide" data-variant-id="{{ variant.id }}">
+                <div class="swiper-slide" data-variant-id="{{ variant.id }}" data-index="{{ forloop.index }}">
                   {% render 'image-responsive', image: variant.image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
                 </div>
               {% endif %}
