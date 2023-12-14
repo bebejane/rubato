@@ -85,7 +85,7 @@
       </div>
       {% for variant in product.variants %}
         {% if variant.image != blank %}
-          <div class="product-variant-image-wrap" data-variant-image-id="{{  }}">
+          <div class="product-variant-image-wrap" data-variant-image-id="{{ variant.id }}">
             {% render 'image-responsive', image: variant.image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
           </div>
         {% endif %}
