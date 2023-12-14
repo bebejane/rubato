@@ -33,8 +33,10 @@
     
     if(!banner) return
 
-    if(!wasShown)
+    if(!wasShown){
+      console.log('showing banner')
       banner.classList.add('ddp-show');
+    }
 
     const close = document.querySelector('#ddp-banner .ddp-close');
     
