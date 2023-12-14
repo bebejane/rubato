@@ -26,10 +26,10 @@
 {% javascript %}
 
   function initBanner(){
-    Cookies.remove('ddp-banner-shown');
+    
     const wasShown = Cookies.get('ddp-banner-shown');
     const banner = document.querySelector('#ddp-banner');
-
+    console.log(wasShown)
     if(!banner) return
 
     if(!wasShown)
@@ -39,7 +39,8 @@
     
     close.addEventListener('click', function(){
       banner.style.display = 'none';
-      Cookies.set('ddp-banner-shown', true);
+      //Cookies.set('ddp-banner-shown', true);
+      Cookies.remove('ddp-banner-shown');
     });
     
   }
