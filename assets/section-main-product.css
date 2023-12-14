@@ -309,6 +309,16 @@
   margin: 0 !important;
 }
 
+
+.product-variant-image-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
 @media screen and (min-width: 750px) {
   .product {
     flex-direction: row;
