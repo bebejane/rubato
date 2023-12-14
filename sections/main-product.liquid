@@ -90,6 +90,7 @@
       </div>
      
       <div id="zoom-wrap" class="product-gallery-zoom-wrap">
+        {% if has_variant_images == false %}
         {% for image in product.images %}    
           <img 
             data-index="{{forloop.index}}"
@@ -101,6 +102,19 @@
             loading="lazy"
           >
         {% endfor %}
+      {% else %}
+      {% for image in product.images %}    
+          <img 
+            data-index="{{forloop.index}}"
+            class="product-gallery-zoom"
+            width="100"
+            height="100"
+            src="{{ image | image_url: width: 3000 }}" 
+            alt="{{ image.alt | escape }}" 
+            loading="lazy"
+          >
+        {% endfor %}
+      {% endif %}
       </div>
       
       <div id="zoom-toggle" class="product-gallery-zoom-toggle">
