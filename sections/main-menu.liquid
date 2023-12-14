@@ -9,6 +9,7 @@
 {% if request.path contains '/products' or request.path contains '/collections' or request.path contains '/pages' or request.path == '/' or request.path == '/cart' or request.path contains '/blogs' %} {% assign opaque_menu = true %}{% endif %}
 
 <div id="menu" class="{%if opaque_menu == true %}menu-opaque{% endif %} {%if borderless_menu == true %}menu-home{% endif %}">  
+  {%- section 'main-ddp-banner' -%}
   <div id="cartlink" class="cartlink {%if is_home == true %}home{% endif %}">
     <a href="/cart">
       View cart ({{ cart.items.size }})
