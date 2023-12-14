@@ -83,10 +83,12 @@
           >
         {% endfor %}
       </div>
-      {% for image in product.variants %}
-        <div class="product-variant-image-wrap">
-          {% render 'image-responsive', image: image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
-        </div>
+      {% for variant in product.variants %}
+        {% if variant.image != blank %}
+          <div class="product-variant-image-wrap" data-variant-image-id="{{  }}">
+            {% render 'image-responsive', image: variant.image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
+          </div>
+        {% endif %}
       {% endfor %}   
       <div id="zoom-toggle" class="product-gallery-zoom-toggle">
         <img id="zoom-out" src="{{ 'zoom-out.svg' | asset_url }}" width="20" height="20">
