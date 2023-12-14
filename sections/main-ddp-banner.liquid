@@ -1,5 +1,7 @@
 {{ 'section-ddp-banner.css' | asset_url | stylesheet_tag }}
 
+<script type="text/javascript" src="{{ 'js.cookie.min.js' | asset_url }}" async="defer"></script>
+
 {% assign is_home = false %}
 {% assign is_ddp_enabled = false %}
 {% capture ddp_settings_key %}ddp_{{ localization.country.iso_code }}{% endcapture %}
@@ -26,6 +28,7 @@
   function initBanner(){
     const close = document.querySelector('#ddp-banner .ddp-close');
     const banner = document.querySelector('#ddp-banner');
+
     close.addEventListener('click', function(){
       banner.style.display = 'none';
     });

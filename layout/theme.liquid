@@ -15,9 +15,7 @@
     <link rel="manifest" href="{{ 'site.webmanifest' | asset_url }}">
     <meta name="msapplication-TileColor" content="#f8f7f0">
     <meta name="theme-color" content="#ffffff">
-    
-    <script type="text/javascript" src="{{ 'js.cookie.min.js' | asset_url }}" async="defer"></script>
-    
+
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
