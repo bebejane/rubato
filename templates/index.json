@@ -85,7 +85,6 @@
         },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/NP35.jpg",
             "columns": 2,
