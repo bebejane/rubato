@@ -1,6 +1,7 @@
 {
   "current": {
     "ddp_text": "DDP banner text",
+    "ddp_SE": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
@@ -100,6 +101,11 @@
       },
       "cart": {
         "type": "cart",
+        "settings": {
+        }
+      },
+      "main-ddp-banner": {
+        "type": "main-ddp-banner",
         "settings": {
         }
       }
