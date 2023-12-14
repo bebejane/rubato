@@ -252,7 +252,7 @@
     var enabled = false
 
     swiper.on('slideChange', function(e){
-      zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex+1) +')')
+      zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex) +')')
       idx = e.realIndex
     })
 
