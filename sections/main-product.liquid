@@ -103,7 +103,8 @@
           >
         {% endfor %}
       {% else %}
-      {% for image in product.images %}    
+      {% for variant in product.variant %}
+        {% if variant.image != blank %}
           <img 
             data-index="{{forloop.index}}"
             class="product-gallery-zoom"
@@ -113,6 +114,7 @@
             alt="{{ image.alt | escape }}" 
             loading="lazy"
           >
+        {% endif %}
         {% endfor %}
       {% endif %}
       </div>
