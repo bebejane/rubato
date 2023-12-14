@@ -100,7 +100,9 @@
     </script>
     
     {% for country in localization.available_countries -%}
-      {% render 'log', string: country.iso_code + country.name %} 
+      {% assign c = country.name %}
+      {{ country.name | append: c }}
+      
     {%- endfor %}
   </body>
 </html>
