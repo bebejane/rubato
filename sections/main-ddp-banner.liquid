@@ -2,14 +2,13 @@
 
 {% assign is_home = false %}
 {% assign is_ddp_enabled = false %}
-{% capture ddp_settings_key %}ddp_{{ localization.country.iso_code }}{% endcapture %}
 
 {% if request.path == '/' %} {% assign is_home = true %}{% endif %}
 
 <div id="ddp-banner">  
   {{ settings.ddp_text }}
   {{ settings['ddp_SE'] }}
-  {{ ddp_settings_key }}
+  
 </div>
 
 {% javascript %}
