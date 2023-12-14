@@ -1,6 +1,6 @@
 #ddp-banner {
   position: fixed;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   top: 0;
@@ -11,6 +11,10 @@
   color: white;
   padding: 1rem;
   box-sizing: border-box;
+}
+
+.ddp-show {
+  display: flex;
 }
 
 .ddp-text {
