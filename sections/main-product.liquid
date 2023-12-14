@@ -72,14 +72,14 @@
         <div class="swiper-wrapper">
           {% if has_variant_images == false %}
             {% for image in product.images %}
-              <div class="swiper-slide">
+              <div class="swiper-slide" >
                 {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
               </div>
             {% endfor %}
           {% else %}
             {% for variant in product.variants %}
               {% if variant.image != blank %}
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-variant-id="{{ variant.id }}">
                   {% render 'image-responsive', image: variant.image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
                 </div>
               {% endif %}
