@@ -26,14 +26,18 @@
 {% javascript %}
 
   function initBanner(){
-    const is
-    const close = document.querySelector('#ddp-banner .ddp-close');
+    
     const banner = document.querySelector('#ddp-banner');
-    if(close){
+
+    if(!banner) return
+
+    const wasShown = Cookies.get('ddp-banner-shown');
+    const close = document.querySelector('#ddp-banner .ddp-close');
+    console.log(wasShown)
     close.addEventListener('click', function(){
       banner.style.display = 'none';
+      Cookies.set('ddp-banner-shown', true);
     });
-  }
     
   }
 
