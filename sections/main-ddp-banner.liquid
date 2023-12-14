@@ -32,6 +32,9 @@
 
     if(!banner) return
 
+    if(!wasShown)
+      banner.classList.add('ddp-show');
+
     const close = document.querySelector('#ddp-banner .ddp-close');
     
     close.addEventListener('click', function(){
