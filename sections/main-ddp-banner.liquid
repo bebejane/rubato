@@ -26,12 +26,14 @@
 {% javascript %}
 
   function initBanner(){
+    const is
     const close = document.querySelector('#ddp-banner .ddp-close');
     const banner = document.querySelector('#ddp-banner');
-
+    if(close){
     close.addEventListener('click', function(){
       banner.style.display = 'none';
     });
+  }
     
   }
 
