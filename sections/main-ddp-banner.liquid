@@ -26,7 +26,7 @@
 {% javascript %}
 
   function initBanner(){
-    //Cookies.remove('ddp-shown');
+    Cookies.remove('ddp-banner-shown');
     const wasShown = Cookies.get('ddp-banner-shown');
     const banner = document.querySelector('#ddp-banner');
 
