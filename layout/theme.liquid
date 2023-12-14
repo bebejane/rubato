@@ -98,6 +98,10 @@
         predictive_search_url: '{{ routes.predictive_search_url }}'
       };
     </script>
-    {% render 'log', array: localization.available_countries %}
+    
+    {% for country in localization.available_countries -%}
+      
+      {% render 'log', string: country.iso_code %}
+    {%- endfor %}
   </body>
 </html>
