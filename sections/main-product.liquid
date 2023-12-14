@@ -206,18 +206,6 @@
       })
     }
 
-    function toggleVariantImage(id){
-      var images = document.querySelectorAll('.product-variant-image-wrap')
-      images.forEach(function(el){
-        el.classList.remove('product-variant-image-show')
-      })
-      
-      var variantImage = document.querySelector('.product-variant-image-wrap[data-variant-image-id="'+ id +'"]')
-      if(variantImage)
-        variantImage.classList.add('product-variant-image-show')
-    } 
-
-
     var sizes = document.querySelectorAll('ul.product-variants li')
     var sizeSelect = document.getElementById('product-variant')
     var sizeSelector = document.querySelector('ul.product-variants')
@@ -246,9 +234,7 @@
     
     var selectedVariant = sizeSelect.options[sizeSelect.selectedIndex]
     var isDefaultAvailable = selectedVariant.dataset.available == 'true'
-    console.log(selectedVariant)
     toggleUnavailable(isDefaultAvailable)
-    toggleVariantImage(selectedVariant.dataset.id)
   }
 
   function initZoom(){
