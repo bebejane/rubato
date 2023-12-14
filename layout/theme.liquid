@@ -99,10 +99,5 @@
         predictive_search_url: '{{ routes.predictive_search_url }}'
       };
     </script>
-    
-    {% for country in localization.available_countries -%}
-      {% capture c %}{{ country.name }}:{{ country.iso_code }}{% endcapture %}
-      {% render 'log', string: c %} 
-    {%- endfor %}
   </body>
 </html>
