@@ -14,7 +14,7 @@
 }
 
 .ddp-show {
-  display: flex;
+  display: flex !important;
 }
 
 .ddp-text {
