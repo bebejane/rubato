@@ -84,7 +84,7 @@
         {% endfor %}
       </div>
       {% for image in product.variants %}
-        <div class="variant-image-wrap">
+        <div class="product-variant-image-wrap">
           {% render 'image-responsive', image: image, class:'variant-image', style:'max-width:100%', loading: 'eager' %}
         </div>
       {% endfor %}   
