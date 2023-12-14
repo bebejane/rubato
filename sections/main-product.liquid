@@ -212,8 +212,12 @@
 
       sizes.forEach(function(el){
         el.removeAttribute('selected')
-        if(el.dataset.id === id)
+        if(el.dataset.id === id){
           el.setAttribute('selected', true)
+          const variantImage = document.querySelector('.product-variant-image-wrap[data-variant-image-id="'+ id +'"]')
+          if(variantImage)
+            variantImage.classList.add('product-variant-image-show')
+        }
       })
     })
     
