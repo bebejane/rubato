@@ -11,7 +11,7 @@
     "name": "DDP Banner",
     "settings": [
       {
-        "id": "text",
+        "id": "ddp_text",
         "type": "textarea",
         "label": "Text"
       },

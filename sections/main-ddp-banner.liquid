@@ -4,8 +4,8 @@
 
 {% if request.path == '/' %} {% assign is_home = true %}{% endif %}
 
-<div id="ddp-banner" class="{%if opaque_menu == true %}menu-opaque{% endif %} {%if borderless_menu == true %}menu-home{% endif %}">  
-
+<div id="ddp-banner">  
+  {{ settings.ddp_text }}
 </div>
 
 {% javascript %}
