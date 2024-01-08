@@ -12,7 +12,7 @@
     "settings": [
       {
         "type": "checkbox",
-        "id": "enabled",
+        "id": "ddp_enabled",
         "label": "Enable",
         "default": false
       },
