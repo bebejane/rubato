@@ -4,16 +4,9 @@
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 
 {% render 'log', object: product %}
+
 <!-- Parse sizes table -->
 {% assign html = product.description %}
-{% assign has_variant_images = false %}
-
-{% for variant in product.variants %}
-  {% render 'log', object: variant.image %}
-  {% if variant.image != blank %}
-    {% assign has_variant_images = true %}
-  {% endif %}
-{% endfor %}
 
 {% if html contains '<table' %}
   {% assign arr = html | split: '<table' %}
@@ -26,6 +19,16 @@
 {% endif %}
 
 {% assign selected_variant = product.selected_or_first_available_variant %}
+
+{% assign has_variant_images = false %}
+
+{% for variant in product.variants %}
+  {% render 'log', object: variant.image %}
+  {% if variant.image != blank %}
+    {% assign has_variant_images = true %}
+  {% endif %}
+{% endfor %}
+
 
 <section class="product">
   
