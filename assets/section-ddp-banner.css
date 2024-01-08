@@ -48,7 +48,7 @@
 }
 
 .ddp-hide {
-  display: none;
+  display: none !important;
 }
 
 .ddp-text {
