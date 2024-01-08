@@ -14,11 +14,13 @@
 
 {% if is_ddp_enabled %}
   <div id="ddp-banner">
-    <div class="ddp-text">
-      {{ settings.ddp_text }}
-    </div>
-    <div class="ddp-close">
-      Close
+    <div class="ddp-wrap">
+      <div class="ddp-text">
+        {{ settings.ddp_text }}
+      </div>
+      <div class="ddp-close">
+        Close
+      </div>
     </div>
   </div>
 {% endif %}
