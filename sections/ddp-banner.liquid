@@ -1,0 +1,57 @@
+{{ 'section-ddp-banner.css' | asset_url | stylesheet_tag }}
+
+<script type="text/javascript" src="{{ 'js.cookie.min.js' | asset_url }}" async="defer"></script>
+
+{% assign is_home = false %}
+{% assign is_ddp_enabled = false %}
+{% capture ddp_settings_key %}ddp_{{ localization.country.iso_code }}{% endcapture %}
+{% if settings[ddp_settings_key] == true and settings.ddp_enabled %}
+  {% assign is_ddp_enabled = true %}
+{% endif %}
+
+{% if request.path == '/' %}
+  {% assign is_home = true %}
+{% endif %}
+
+{% if is_ddp_enabled %}
+  <div id="ddp-banner" class="{% if is_home == true %}ddp-home{% endif %}">
+    <div id="ddp-wrap">
+      <div class="ddp-text">
+        {{ settings.ddp_text }}
+      </div>
+      <button class="ddp-close">
+        Close
+      </button>
+    </div>
+  </div>
+{% endif %}
+
+{% javascript %}
+
+  function initBanner(){
+    
+    Cookies.remove('ddp-banner-shown');
+    const wasShown = Cookies.get('ddp-banner-shown');
+    const banner = document.querySelector('#ddp-banner');
+    
+    if(!banner) return
+    
+    if(!wasShown){
+      banner.classList.add('ddp-show');
+    }
+
+    const close = document.querySelector('#ddp-banner .ddp-close');
+    
+    close.addEventListener('click', function(){
+      console.log('closing banner')
+      banner.classList.remove('ddp-show');
+      banner.classList.add('ddp-hide');
+      Cookies.set('ddp-banner-shown', true);
+    });
+    
+  }
+
+  document.addEventListener("DOMContentLoaded", initBanner);
+  document.addEventListener("shopify:section:load", initBanner);
+
+{% endjavascript %}

@@ -2,9 +2,18 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+
 {% render 'log', object: product %}
 <!-- Parse sizes table -->
 {% assign html = product.description %}
+{% assign has_variant_images = false %}
+
+{% for variant in product.variants %}
+  {% if variant.image != blank %}
+    {% assign has_variant_images = true %}
+  {% endif %}
+{% endfor %}
+
 {% if html contains '<table' %}
   {% assign arr = html | split: '<table' %}
   {% assign arr2 = arr[1] | split: '</table>' %}
@@ -61,15 +70,27 @@
     <div id="gallery" class="product-gallery">
       <div class="swiper">
         <div class="swiper-wrapper">
-          {% for image in product.images %}
-            <div class="swiper-slide">
-              {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
-            </div>
-          {% endfor %}          
+          {% if has_variant_images == false %}
+            {% for image in product.images %}
+              <div class="swiper-slide" >
+                {% render 'image-responsive', image: image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
+              </div>
+            {% endfor %}
+          {% else %}
+            {% for variant in product.variants %}
+              {% if variant.image != blank %}
+                <div class="swiper-slide" data-variant-id="{{ variant.id }}" data-index="{{ forloop.index }}">
+                  {% render 'image-responsive', image: variant.image, class:'product-gallery-image', style:'max-width:100%', loading: 'eager' %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
         <div class="swiper-pagination"></div>
       </div>
+     
       <div id="zoom-wrap" class="product-gallery-zoom-wrap">
+        {% if has_variant_images == false %}
         {% for image in product.images %}    
           <img 
             data-index="{{forloop.index}}"
@@ -81,7 +102,23 @@
             loading="lazy"
           >
         {% endfor %}
+      {% else %}
+        {% for variant in product.variants %}
+          {% if variant.image != blank %}
+            <img 
+              data-index="{{forloop.index}}"
+              class="product-gallery-zoom"
+              width="100"
+              height="100"
+              src="{{ variant.image | image_url: width: 3000 }}" 
+              alt="{{ variant.image.alt | escape }}" 
+              loading="lazy"
+            >
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       </div>
+      
       <div id="zoom-toggle" class="product-gallery-zoom-toggle">
         <img id="zoom-out" src="{{ 'zoom-out.svg' | asset_url }}" width="20" height="20">
         <img id="zoom-in"  src="{{ 'zoom-in.svg' | asset_url }}" width="20" height="20">
@@ -196,16 +233,23 @@
       
       var id = e.target.dataset.id;
       var available = e.target.dataset.available === 'true'
-
+      
       toggleUnavailable(available)
       
+      var variantImage = document.querySelector('.swiper-slide[data-variant-id="'+ id +'"]')
+      if(variantImage){
+        var variantIndex = parseInt(variantImage.dataset.index)
+        swiper.slideTo(variantIndex)
+      }      
+
       if(available)
         sizeSelect.value = id
-
+      
       sizes.forEach(function(el){
         el.removeAttribute('selected')
-        if(el.dataset.id === id)
+        if(el.dataset.id === id){
           el.setAttribute('selected', true)
+        }
       })
     })
     
@@ -226,7 +270,6 @@
     swiper.on('slideChange', function(e){
       zImage = document.querySelector('#zoom-wrap :nth-child('+ (e.realIndex+1) +')')
       idx = e.realIndex
-      console.log(e.realIndex)
     })
 
     gallery.addEventListener('mousemove', function(e){
@@ -238,7 +281,6 @@
       zImage.style.opacity = 1
       zImage.style.marginLeft = left + 'px'
       zImage.style.marginTop = top + 'px'
-      console.log(zImage.dataset.index)
     })
 
     function handleToggle(e){

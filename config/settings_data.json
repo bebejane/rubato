@@ -1,8 +1,8 @@
 {
   "current": {
-    "colors_background_1": "#f8f7f0",
-    "colors_background_2": "#f8f7f0",
-    "type_header_font": "libre_baskerville_n4",
+    "ddp_enabled": false,
+    "ddp_text": "Delivered duty paid (DDP) is enabled for your country!",
+    "ddp_SE": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
@@ -12,6 +12,10 @@
     "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_button_color": "#1878b9",
+    "text": "DDP banner text",
+    "colors_background_1": "#f8f7f0",
+    "colors_background_2": "#f8f7f0",
+    "type_header_font": "libre_baskerville_n4",
     "sections": {
       "main-menu": {
         "type": "main-menu",
@@ -98,6 +102,11 @@
       },
       "cart": {
         "type": "cart",
+        "settings": {
+        }
+      },
+      "ddp-banner": {
+        "type": "ddp-banner",
         "settings": {
         }
       }
