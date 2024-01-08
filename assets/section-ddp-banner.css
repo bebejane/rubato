@@ -34,10 +34,6 @@
   border: var(--line);
 }
 
-.ddp-home>#ddp-wrap>.ddp-close {
-  display: none !important;
-}
-
 .ddp-show {
   transform: translateY(0%) !important;
 }
