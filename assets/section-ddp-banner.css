@@ -1,6 +1,6 @@
 #ddp-banner {
   position: fixed;
-  display: none;
+  display: flex;
   flex-direction: row;
   align-items: center;
   top: 0;
@@ -12,10 +12,12 @@
   padding: 1rem;
   box-sizing: border-box;
   border-bottom: var(--line);
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .ddp-show {
-  display: flex !important;
+  transform: translateY(0%);
 }
 
 .ddp-text {
