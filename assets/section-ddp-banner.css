@@ -18,6 +18,7 @@
   box-sizing: border-box;
   border-bottom: var(--line);
   transform: translateY(0%);
+  padding: var(--outer-margin);
   transition: transform 0.3s ease-in-out;
 }
 
