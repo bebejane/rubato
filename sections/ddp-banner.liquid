@@ -13,8 +13,8 @@
 {% endif %}
 
 {% if is_ddp_enabled %}
-  <div id="ddp-banner ddp-home">
-    <div class="ddp-wrap">
+  <div id="ddp-banner" class="{% if is_home == true %}ddp-home{% endif %}">
+    <div id="ddp-wrap">
       <div class="ddp-text">
         {{ settings.ddp_text }}
       </div>
