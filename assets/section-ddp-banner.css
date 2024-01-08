@@ -13,16 +13,14 @@
   box-sizing: border-box;
   border-bottom: var(--line);
   transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
+
 }
 
 .ddp-show {
+  transition: transform 0.3s ease-in-out;
   transform: translateY(0%) !important;
 }
 
-.ddp-hide {
-  transform: translateY(-100%) !important;
-}
 
 .ddp-text {
   flex: 1 1 auto;
