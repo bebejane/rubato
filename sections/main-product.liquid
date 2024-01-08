@@ -9,7 +9,7 @@
 {% assign has_variant_images = false %}
 
 {% for variant in product.variants %}
-  {% render 'log', object: variant %}
+  {% render 'log', object: variant.image %}
   {% if variant.image != blank %}
     {% assign has_variant_images = true %}
   {% endif %}
