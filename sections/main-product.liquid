@@ -9,6 +9,7 @@
 {% assign has_variant_images = false %}
 
 {% for variant in product.variants %}
+  {% render 'log', object: variant %}
   {% if variant.image != blank %}
     {% assign has_variant_images = true %}
   {% endif %}
@@ -27,7 +28,7 @@
 {% assign selected_variant = product.selected_or_first_available_variant %}
 
 <section class="product">
-  {{has_variant_images }}
+  
   <div class="product-wrap">
     <div class="product-details-wrap">
       <div class="product-details">
