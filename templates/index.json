@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nonpareil-Background.jpg",
+        "image": "shopify:\/\/shop_images\/NP12.jpg",
         "focal": 55,
         "invert-logo": false
       }
@@ -14,10 +14,10 @@
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NP35.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "center",
+            "image": "shopify:\/\/shop_images\/NP3.jpg",
+            "columns": 4,
+            "width": 63,
+            "align": "flex-end",
             "caption": "NONPAREIL",
             "product": "",
             "collection": "nonpareil",
@@ -42,6 +42,7 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_9650.jpg",
             "columns": 2,
