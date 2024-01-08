@@ -11,6 +11,7 @@
   color: black;
   padding: 1rem;
   box-sizing: border-box;
+  border-bottom: var(--line);
 }
 
 .ddp-show {
