@@ -30,6 +30,8 @@
 
 .ddp-home>#ddp-wrap {
   max-width: 500px;
+  border-bottom: 0;
+  border: var(--line);
 }
 
 .ddp-show {
