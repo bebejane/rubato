@@ -11,6 +11,12 @@
     "name": "DDP Banner",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "enabled",
+        "label": "Enable",
+        "default": false
+      },
+      {
         "id": "ddp_text",
         "type": "textarea",
         "label": "Text"
