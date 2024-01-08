@@ -38,6 +38,10 @@
   border: var(--line);
 }
 
+.ddp-home>#ddp-wrap>div {
+  margin: var(--outer-margin);
+}
+
 .ddp-show {
   transform: translateY(0%) !important;
 }
