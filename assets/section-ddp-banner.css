@@ -36,6 +36,7 @@
   max-width: 500px;
   border-bottom: 0;
   border: var(--line);
+  padding: var(--outer-margin);
 }
 
 .ddp-home>#ddp-wrap>div {
