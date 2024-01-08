@@ -18,10 +18,8 @@
 }
 
 .ddp-show {
-
   transform: translateY(0%) !important;
 }
-
 
 .ddp-text {
   flex: 1 1 auto;
