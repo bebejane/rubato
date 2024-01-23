@@ -6,7 +6,7 @@
       {% capture style %}
         object-position: {{ section.settings.focal }}% center;
       {% endcapture %}
-      <img src="{{ section.settings.image | image_url }}" class="banner-box-image" style="{{style}}"/>
+      <img id="banner-box-image" src="{{ section.settings.image | image_url }}" class="banner-box-image" style="{{style}}"/>
       <div id="banner-box-logo" class="banner-box-logo {% if section.settings.invert-logo == true %} invert{% endif %}">
         <img class="banner-box-logo-image" src="{{ 'rubato-wordmark.svg' | asset_url }}" width="100" height="15" loading="eager"/>
       </div>
@@ -19,6 +19,7 @@
   // Hide splash when coming from other url on site
   function initHomePage(){
     var banner = document.querySelector('.banner')
+    var bannerImage = document.getElementById('banner-box-image')
     var main = document.querySelector('main')
     var menu = document.getElementById('menu')
     
@@ -28,11 +29,23 @@
       menu.classList.add('menu-hidden');
       main.classList.add('main-intro');
       
-      banner.addEventListener('click', function(){ 
+      function handleClick(){ 
+        if(banner.classList.contains('banner-slideup')) 
+          return
         window.scrollTo(0,0);
         main.classList.add('main-slideup');
         banner.classList.add('banner-slideup');
         menu.classList.add('menu-show'); 
+      }
+
+      banner.addEventListener('click', handleClick)
+      banner.addEventListener('touchstart', handleClick)
+
+      if(bannerImage.complete) 
+        return setTimeout(handleClick, 1500)
+
+      bannerImage.addEventListener('load', function(){
+        setTimeout(handleClick, 1500)
       })
     }
   }
