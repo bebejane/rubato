@@ -30,6 +30,7 @@
       main.classList.add('main-intro');
       
       function handleClick(){ 
+        console.log('handle click')
         if(banner.classList.contains('banner-slideup')) 
           return
         window.scrollTo(0,0);
@@ -45,6 +46,7 @@
         return setTimeout(handleClick, 1500)
 
       bannerImage.addEventListener('load', function(){
+        console.log('loaded banner')
         setTimeout(handleClick, 1500)
       })
     }
