@@ -8,7 +8,7 @@
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/425150010005.jpg",
+        "image": "shopify:\/\/shop_images\/Simon1.jpg",
         "caption": "",
         "product": "",
         "collection": "",
@@ -27,7 +27,7 @@
         "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/425150030003.jpg",
+            "image": "shopify:\/\/shop_images\/Simon3.jpg",
             "caption": "",
             "product": "",
             "collection": "",
@@ -37,7 +37,7 @@
         "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/425150030006.jpg",
+            "image": "shopify:\/\/shop_images\/Simon7.jpg",
             "caption": "",
             "product": "",
             "collection": "",
@@ -67,7 +67,7 @@
     "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/425150030010.jpg",
+        "image": "shopify:\/\/shop_images\/Simon9.jpg",
         "caption": "",
         "product": "",
         "collection": "",
@@ -76,8 +76,9 @@
     },
     "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
       "type": "article-section-text",
+      "disabled": true,
       "settings": {
-        "text": "CEDRIC IS WEARING"
+        "text": "SIMON IS WEARING"
       }
     },
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
@@ -85,8 +86,8 @@
       "blocks": {
         "896c030b-d286-4cec-8a98-543463912f84": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rubato-Officers-Chino-Taupe-NEW-SIZE-JOURNAL.jpg",
             "caption": "",
             "product": "officers-chino-in-dark-khaki",
             "collection": "",
@@ -95,6 +96,7 @@
         },
         "5de407b7-2f0b-4ed4-8908-1a10093eb47d": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
             "caption": "",
@@ -108,13 +110,14 @@
         "896c030b-d286-4cec-8a98-543463912f84",
         "5de407b7-2f0b-4ed4-8908-1a10093eb47d"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
       "type": "article-section-text",
       "settings": {
-        "text": "Visit\nCEDRIC BARDAWIL GALLERY \n1–3 Old Compton St, London\nwww.cedricbardawil.com"
+        "text": "Read more from Simon on https:\/\/www.permanentstyle.com"
       }
     }
   },
