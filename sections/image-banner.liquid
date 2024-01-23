@@ -28,12 +28,15 @@
       menu.classList.add('menu-hidden');
       main.classList.add('main-intro');
       
-      banner.addEventListener('click', function(){ 
+      function handleClick(){ 
         window.scrollTo(0,0);
         main.classList.add('main-slideup');
         banner.classList.add('banner-slideup');
         menu.classList.add('menu-show'); 
-      })
+      }
+
+      banner.addEventListener('click', handleClick)
+      banner.addEventListener('touchstart', handleClick)
     }
   }
 
