@@ -76,8 +76,9 @@
     },
     "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
       "type": "article-section-text",
+      "disabled": true,
       "settings": {
-        "text": "CEDRIC IS WEARING"
+        "text": "SIMON IS WEARING"
       }
     },
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
@@ -114,7 +115,7 @@
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
       "type": "article-section-text",
       "settings": {
-        "text": "Visit\nCEDRIC BARDAWIL GALLERY \n1–3 Old Compton St, London\nwww.cedricbardawil.com"
+        "text": "Visit\nCEDRIC BARDAWIL GALLERY\n1–3 Old Compton St, London\nwww.cedricbardawil.com"
       }
     }
   },
