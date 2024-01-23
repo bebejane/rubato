@@ -30,7 +30,7 @@
 
   function initBanner(){
     
-    Cookies.remove('ddp-banner-shown');
+    //Cookies.remove('ddp-banner-shown');
     const wasShown = Cookies.get('ddp-banner-shown');
     const banner = document.querySelector('#ddp-banner');
     
@@ -43,7 +43,7 @@
     const close = document.querySelector('#ddp-banner .ddp-close');
     
     close.addEventListener('click', function(){
-      console.log('closing banner')
+      
       banner.classList.remove('ddp-show');
       banner.classList.add('ddp-hide');
       Cookies.set('ddp-banner-shown', true);
