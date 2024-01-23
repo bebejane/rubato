@@ -86,8 +86,8 @@
       "blocks": {
         "896c030b-d286-4cec-8a98-543463912f84": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rubato-Officers-Chino-Taupe-NEW-SIZE-JOURNAL.jpg",
             "caption": "",
             "product": "officers-chino-in-dark-khaki",
             "collection": "",
@@ -96,7 +96,6 @@
         },
         "5de407b7-2f0b-4ed4-8908-1a10093eb47d": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
             "caption": "",
@@ -110,7 +109,6 @@
         "896c030b-d286-4cec-8a98-543463912f84",
         "5de407b7-2f0b-4ed4-8908-1a10093eb47d"
       ],
-      "disabled": true,
       "settings": {
       }
     },
