@@ -40,6 +40,9 @@
       banner.addEventListener('click', handleClick)
       banner.addEventListener('touchstart', handleClick)
 
+      if(bannerImage.complete) 
+        return setTimeout(handleClick, 1500)
+      
       bannerImage.addEventListener('load', function(){
         setTimeout(handleClick, 1500)
       })
