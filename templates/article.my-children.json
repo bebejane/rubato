@@ -99,40 +99,7 @@
     "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
       "type": "article-section-text",
       "settings": {
-        "text": "It may surprise readers to think that a menswear writer, even ‘stylist’, should be at the mercy of their children. But I think they just have good, grounded taste. They also know me really well. They’ve grown up with who I am, they accept and cherish it, and they’re keenly aware of the context we live in. They, like me, want the two to exist in playful harmony: free to express ourselves, rather than trying to express someone else."
-      }
-    },
-    "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
-      "type": "article-section-gallery",
-      "blocks": {
-        "896c030b-d286-4cec-8a98-543463912f84": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "caption": "",
-            "product": "officers-chino-in-dark-khaki",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "5de407b7-2f0b-4ed4-8908-1a10093eb47d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
-            "caption": "",
-            "product": "rubato-brown-suede-belt",
-            "collection": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "896c030b-d286-4cec-8a98-543463912f84",
-        "5de407b7-2f0b-4ed4-8908-1a10093eb47d"
-      ],
-      "disabled": true,
-      "settings": {
+        "text": "It may surprise readers to think that a menswear writer, even ‘stylist’, should be at the mercy of their children. But I think they just have good, grounded taste. They also know me really well. They’ve grown up with who I am, they accept and cherish it, and they’re keenly aware of the context we live in. They, like me, want the two to exist in playful harmony: free to express ourselves, rather than trying to express someone else.\n\n■"
       }
     },
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
@@ -154,7 +121,6 @@
     "article_section_image_FDfJG3",
     "quote",
     "453247ad-adc0-48b7-8b33-6ed7026f0f63",
-    "8b69a79b-126e-4ace-944c-ca5f7d3e763d",
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4"
   ]
 }
