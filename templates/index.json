@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Simon7.jpg",
+        "image": "shopify:\/\/shop_images\/cytwombly.webp",
         "focal": 55,
-        "invert-logo": false
+        "invert-logo": true
       }
     },
     "collage": {
