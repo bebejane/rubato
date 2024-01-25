@@ -14,9 +14,9 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CK1.jpg",
-            "columns": 3,
-            "width": 80,
+            "image": "shopify:\/\/shop_images\/CK3.jpg",
+            "columns": 2,
+            "width": 90,
             "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
@@ -42,13 +42,12 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9650.jpg",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-01-25_kl._12.06.40.png",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Museum \"Louisiana\" Humlebaek by Jesper Hom 1958",
+            "caption": "Yves Klein 'Anthropométrie de l'époque bleue, (ANT 124)' 1960.",
             "product": "",
             "collection": "",
             "page": "",
