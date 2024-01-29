@@ -9,8 +9,9 @@
 {% assign limit = 10 %}
 
 {% if search.results.size > 0 %}
-  {% render 'product-grid', products: search.results %}
   {% paginate search.results by limit %}
+  {% render 'product-grid', products: search.results %}
+  
   {% render 'pagination', pagination: paginate %}
   {% endpaginate %}
 {% else %}
