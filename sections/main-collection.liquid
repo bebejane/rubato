@@ -1,5 +1,5 @@
 {% assign limit = 20 %}
-{% paginate collection.products by 20 %}
+{% paginate collection.products by 5 %}
 {% render 'product-grid', products: collection.products %}
 {% render 'pagination', pagination: paginate %}
 {% endpaginate %}
