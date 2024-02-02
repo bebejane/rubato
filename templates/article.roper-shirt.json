@@ -8,7 +8,8 @@
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "caption": "",
+        "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-24.jpg",
+        "caption": "roper shirt in indigo",
         "product": "",
         "collection": "",
         "page": ""
@@ -17,7 +18,7 @@
     "text": {
       "type": "article-section-text",
       "settings": {
-        "text": ""
+        "text": "Few garments have been reinterpreted as much as the classic Western Shirt. With its snap buttons, denim fabric and chest pockets it’s distinguishable through its yoke, seams and curvature of the pocket lids which can vary from extreme to sleek."
       }
     },
     "8863a9b6-2499-473f-93af-d1567cd16286": {
@@ -26,7 +27,8 @@
         "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-75.jpg",
+            "caption": "roper shirt in black",
             "product": "",
             "collection": "",
             "page": ""
@@ -35,7 +37,8 @@
         "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-28.jpg",
+            "caption": "roper shirt in indigo",
             "product": "",
             "collection": "",
             "page": ""
@@ -52,40 +55,108 @@
     "quote": {
       "type": "article-section-quote",
       "settings": {
-        "quote": ""
+        "quote": "\"...depicting both the good guys and the bad...\""
       }
     },
-    "10bb04ea-41a8-458b-a365-c038ef366cef": {
-      "type": "article-section-text",
-      "settings": {
-        "text": ""
-      }
-    },
-    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
+    "article_section_image_qBBtyz": {
       "type": "article-section-image",
       "settings": {
-        "caption": "",
+        "image": "shopify:\/\/shop_images\/Roper-Shirt-White-46.jpg",
+        "caption": "roper shirt in white",
         "product": "",
         "collection": "",
         "page": ""
       }
     },
-    "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
+    "10bb04ea-41a8-458b-a365-c038ef366cef": {
       "type": "article-section-text",
-      "disabled": true,
       "settings": {
-        "text": "SIMON IS WEARING"
+        "text": "This shirt has been shown thoroughly on the silver screen, depicting both the good guys and the bad. Its romance and the allure surrounding it cannot be understated. It goes to show that good design and hard-wearing garments stands the test of time and reoccurs time to time with a new group of discerning afficionados ready to embrace it."
       }
     },
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
       "type": "article-section-gallery",
+      "blocks": {
+        "image_rmtfEL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-White-44.jpg",
+            "caption": "roper shirt in white",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_JKY9d9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-62.jpg",
+            "caption": "roper shirt in black",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rmtfEL",
+        "image_JKY9d9"
+      ],
       "settings": {
+      }
+    },
+    "article_section_quote_FCKaWV": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "\"making the garment more personal and a testament to each individual wearers’ life\""
       }
     },
     "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
       "type": "article-section-text",
       "settings": {
-        "text": ""
+        "text": "While creating contemporary garments by looking to the past it seemed a perfect match to introduce our version, the Roper Shirt. Made up in a 3x1 denim for durability it features two chest pockets, angled front and back yoke and genuine mother of pearl buttons. The fit is similar to our “R” Shirt which makes it perfect to use on its own but also underneath a jacket. The carefully selected 6,5oz denim will fade overtime making the garment more personal and a testament to each individual wearers’ life."
+      }
+    },
+    "article_section_gallery_6Kd4rU": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_9wyX6R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rooper-Indigo-Journal.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_NqyFzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rooper-White-Journal.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_QYjPhF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rooper-Black-Journal.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9wyX6R",
+        "image_NqyFzQ",
+        "image_QYjPhF"
+      ],
+      "settings": {
       }
     }
   },
@@ -95,10 +166,11 @@
     "text",
     "8863a9b6-2499-473f-93af-d1567cd16286",
     "quote",
+    "article_section_image_qBBtyz",
     "10bb04ea-41a8-458b-a365-c038ef366cef",
-    "c99d749a-6dbb-4c5c-9463-44d3e1502201",
-    "453247ad-adc0-48b7-8b33-6ed7026f0f63",
     "8b69a79b-126e-4ace-944c-ca5f7d3e763d",
-    "32a6a7e6-9ff0-494d-84ea-6969e77126b4"
+    "article_section_quote_FCKaWV",
+    "32a6a7e6-9ff0-494d-84ea-6969e77126b4",
+    "article_section_gallery_6Kd4rU"
   ]
 }
