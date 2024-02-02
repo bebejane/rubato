@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
+      "type": "article-section-image",
+      "settings": {
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "text": {
+      "type": "article-section-text",
+      "settings": {
+        "text": ""
+      }
+    },
+    "8863a9b6-2499-473f-93af-d1567cd16286": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355",
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591"
+      ],
+      "settings": {
+      }
+    },
+    "quote": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": ""
+      }
+    },
+    "10bb04ea-41a8-458b-a365-c038ef366cef": {
+      "type": "article-section-text",
+      "settings": {
+        "text": ""
+      }
+    },
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
+      "type": "article-section-image",
+      "settings": {
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
+      "type": "article-section-text",
+      "disabled": true,
+      "settings": {
+        "text": "SIMON IS WEARING"
+      }
+    },
+    "8b69a79b-126e-4ace-944c-ca5f7d3e763d": {
+      "type": "article-section-gallery",
+      "settings": {
+      }
+    },
+    "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
+      "type": "article-section-text",
+      "settings": {
+        "text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
+    "text",
+    "8863a9b6-2499-473f-93af-d1567cd16286",
+    "quote",
+    "10bb04ea-41a8-458b-a365-c038ef366cef",
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201",
+    "453247ad-adc0-48b7-8b33-6ed7026f0f63",
+    "8b69a79b-126e-4ace-944c-ca5f7d3e763d",
+    "32a6a7e6-9ff0-494d-84ea-6969e77126b4"
+  ]
+}
