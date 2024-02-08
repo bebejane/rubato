@@ -98,34 +98,6 @@
             "article": "journal\/the-taste-of-my-children"
           }
         },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/960x0.webp",
-            "columns": 4,
-            "width": 70,
-            "align": "center",
-            "caption": "Philip Guston 'cellar' 1970",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Fire5.jpg",
-            "columns": 2,
-            "width": 82,
-            "align": "center",
-            "caption": "firemans jacket",
-            "product": "",
-            "collection": "outerwear",
-            "page": "",
-            "article": ""
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
@@ -140,6 +112,20 @@
             "article": ""
           }
         },
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/960x0.webp",
+            "columns": 4,
+            "width": 70,
+            "align": "center",
+            "caption": "Philip Guston 'cellar' 1970",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
@@ -150,6 +136,20 @@
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
+            "page": "",
+            "article": ""
+          }
+        },
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fire5.jpg",
+            "columns": 2,
+            "width": 82,
+            "align": "center",
+            "caption": "firemans jacket",
+            "product": "",
+            "collection": "outerwear",
             "page": "",
             "article": ""
           }
@@ -169,10 +169,24 @@
             "article": ""
           }
         },
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
+            "columns": 4,
+            "width": 50,
+            "align": "center",
+            "caption": "see our fits here",
+            "product": "",
+            "collection": "",
+            "page": "our-fits",
+            "article": ""
+          }
+        },
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
+            "image": "shopify:\/\/shop_images\/UniformBelt.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
@@ -195,20 +209,6 @@
             "product": "rubato-x-doek-oxford",
             "collection": "",
             "page": "",
-            "article": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "center",
-            "caption": "see our fits here",
-            "product": "",
-            "collection": "",
-            "page": "our-fits",
             "article": ""
           }
         },
@@ -338,14 +338,14 @@
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
         "fca140e1-e64a-4aec-98d1-cea4f8a46734",
         "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
