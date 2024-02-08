@@ -2,9 +2,10 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/cytwombly.webp",
-        "focal": 55,
+        "image": "shopify:\/\/shop_images\/Roper-Shirt-Splash.jpg",
+        "focal": 20,
         "invert-logo": true
       }
     },
@@ -43,11 +44,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-01-25_kl._12.06.40.png",
+            "image": "shopify:\/\/shop_images\/3969_10664988_0.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
-            "caption": "Yves Klein 'Anthropométrie de l'époque bleue, (ANT 124)' 1960.",
+            "caption": "Richard Serra 'Judgments on a sheet' 1973",
             "product": "",
             "collection": "",
             "page": "",
