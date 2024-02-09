@@ -4,7 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Roper-Shirt-Splash2.jpg",
-        "focal": 20,
+        "focal": 10,
         "invert-logo": false
       }
     },
