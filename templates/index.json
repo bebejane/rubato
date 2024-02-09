@@ -3,9 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Roper-Shirt-Splash.jpg",
+        "image": "shopify:\/\/shop_images\/Roper-Shirt-Splash2.jpg",
         "focal": 20,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
