@@ -103,7 +103,7 @@
             "image": "shopify:\/\/shop_images\/32.jpg",
             "columns": 4,
             "width": 44,
-            "align": "center",
+            "align": "flex-end",
             "caption": "knitwear",
             "product": "",
             "collection": "knitwear",
