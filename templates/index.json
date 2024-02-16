@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-Product.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-4.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
@@ -86,7 +86,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roper-Shirt-White-Product.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-15-Rubato-191-web_03ac88fa-9238-426f-8ed7-187f6977f257.jpg",
             "columns": 2,
             "width": 75,
             "align": "center",
@@ -114,11 +114,11 @@
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/960x0.webp",
+            "image": "shopify:\/\/shop_images\/imager.jpg",
             "columns": 4,
             "width": 70,
             "align": "center",
-            "caption": "Philip Guston 'cellar' 1970",
+            "caption": "Robert Motherwell - Photographer Unknown",
             "product": "",
             "collection": "",
             "page": "",
@@ -128,7 +128,7 @@
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D62.jpg",
+            "image": "shopify:\/\/shop_images\/D43.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
@@ -142,7 +142,7 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fire5.jpg",
+            "image": "shopify:\/\/shop_images\/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
             "columns": 2,
             "width": 82,
             "align": "center",
