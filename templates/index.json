@@ -14,7 +14,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-4.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-71.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
@@ -43,11 +43,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3969_10664988_0.jpg",
+            "image": "shopify:\/\/shop_images\/frankstellaformidablemag.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 70,
             "align": "flex-end",
-            "caption": "Richard Serra 'Judgments on a sheet' 1973",
+            "caption": "Frank Stella at work in his studio",
             "product": "",
             "collection": "",
             "page": "",
@@ -86,7 +86,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-01-15-Rubato-191-web_03ac88fa-9238-426f-8ed7-187f6977f257.jpg",
+            "image": "shopify:\/\/shop_images\/F2.jpg",
             "columns": 2,
             "width": 75,
             "align": "center",
@@ -94,7 +94,7 @@
             "product": "",
             "collection": "",
             "page": "",
-            "article": "journal\/roper-shirt"
+            "article": "journal\/fred-nieddu-of-taillour"
           }
         },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {

@@ -2,7 +2,7 @@
   "current": {
     "ddp_enabled": false,
     "ddp_text": "Delivered duty paid (DDP) is enabled for your country!",
-    "ddp_SE": true,
+    "ddp_SE": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
