@@ -5,10 +5,10 @@
       "settings": {
       }
     },
-    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-asset.jpg",
+        "image": "shopify:\/\/shop_images\/Lange-MigrantMother02.jpg",
         "caption": "",
         "product": "",
         "collection": "",
@@ -21,10 +21,10 @@
         "text": "She is most famous for being the lens towards the American people during the depression era. Her intimate and very real photos of real people and their struggles was an eye opener and a document of the times of significant magnitude. \n\nPerhaps her most famous picture is one of Florence Owens Thompson called ‘Migrant Mother’ from 1936 \n(see picture below). It portrays a mother with her three children clinging to her as she gazes out into nothingness. It’s a picture that has been etched into the mind of most people but a lesser-known body of work by Dorothea Lange is her coverage of the Japanese Internment Camps that were put into effect after the bombing of Pearl Harbor."
       }
     },
-    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Lange-MigrantMother02.jpg",
+        "image": "shopify:\/\/shop_images\/image-asset.jpg",
         "caption": "",
         "product": "",
         "collection": "",
@@ -34,7 +34,7 @@
     "10bb04ea-41a8-458b-a365-c038ef366cef": {
       "type": "article-section-text",
       "settings": {
-        "text": "It was an assignment she did for the WRA (War Relocation Authority) where she documented the forced evacuation of Japanese\/Americans and later their subsequent incarceration, from the west coast of the US. She traveled through the different camps documenting what the families went through."
+        "text": "It was an assignment she did for the WRA (War Relocation Authority) where she documented the forced evacuation of Japanese\/Americans and later their subsequent incarceration, from the west coast of the US. She traveled through the different camps documenting what the families went through.\n\nThese photos were seized by the military and where quietly put into the National Archive where they remained unseen and unpublished until 2006."
       }
     },
     "article_section_gallery_V9tRrk": {
@@ -79,12 +79,6 @@
       "settings": {
       }
     },
-    "article_section_text_Fkb3dk": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "These photos were seized by the military and where quietly put into the National Archive where they remained unseen and unpublished until 2006."
-      }
-    },
     "article_section_image_7caYFM": {
       "type": "article-section-image",
       "settings": {
@@ -124,6 +118,12 @@
         "image_AzxiCW"
       ],
       "settings": {
+      }
+    },
+    "article_section_text_eMjyDH": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "hot suit"
       }
     },
     "article_section_image_H996pL": {
@@ -186,14 +186,14 @@
   },
   "order": [
     "main",
-    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
-    "text",
     "c99d749a-6dbb-4c5c-9463-44d3e1502201",
+    "text",
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
     "10bb04ea-41a8-458b-a365-c038ef366cef",
     "article_section_gallery_V9tRrk",
-    "article_section_text_Fkb3dk",
     "article_section_image_7caYFM",
     "article_section_gallery_4DgVEC",
+    "article_section_text_eMjyDH",
     "article_section_image_H996pL",
     "article_section_gallery_yca8Pe",
     "article_section_image_6gbjej",
