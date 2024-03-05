@@ -176,12 +176,6 @@
         "collection": "",
         "page": ""
       }
-    },
-    "article_section_text_cgJjAH": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "To read more on the censored Dorothea Lange pictures go to: \nhttps:\/\/anchoreditions.com\/blog\/dorothea-lange-censored-photographs"
-      }
     }
   },
   "order": [
@@ -196,7 +190,6 @@
     "article_section_text_eMjyDH",
     "article_section_image_H996pL",
     "article_section_gallery_yca8Pe",
-    "article_section_image_6gbjej",
-    "article_section_text_cgJjAH"
+    "article_section_image_6gbjej"
   ]
 }
