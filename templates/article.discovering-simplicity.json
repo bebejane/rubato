@@ -146,16 +146,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rooper-White-Journal.jpg",
-            "caption": "ROPER SHIRT IN WHITE",
-            "product": "",
-            "collection": "",
-            "page": ""
-          }
-        },
-        "image_ckg7na": {
-          "type": "image",
-          "settings": {
-            "caption": "",
+            "caption": "ROPER SHIRT                                    IN WHITE",
             "product": "",
             "collection": "",
             "page": ""
@@ -164,7 +155,18 @@
         "image_LLwRdP": {
           "type": "image",
           "settings": {
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/Rubato-Symbol-Scarf-Journal_9ea1a44b-3c16-46f9-b6c6-7377050a136d.jpg",
+            "caption": "Square scarf Rubato",
+            "product": "square-scarf-rubato",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_ckg7na": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shetland-Gannets-Journal_645b8995-3b0b-40dc-b27a-ff9cd061ef2f.jpg",
+            "caption": "Brushed shetland in gannets head",
             "product": "",
             "collection": "",
             "page": ""
@@ -173,8 +175,9 @@
         "image_4QghKq": {
           "type": "image",
           "settings": {
-            "caption": "",
-            "product": "",
+            "image": "shopify:\/\/shop_images\/Ecru-Denim-Journal_91f72ff4-8530-4184-b41d-605a3fd78ee5.jpg",
+            "caption": "Lot nr. 1 denim in ecru",
+            "product": "lot-nr-1-denim-ecru",
             "collection": "",
             "page": ""
           }
@@ -182,8 +185,8 @@
       },
       "block_order": [
         "image_pjYzAa",
-        "image_ckg7na",
         "image_LLwRdP",
+        "image_ckg7na",
         "image_4QghKq"
       ],
       "settings": {
