@@ -31,17 +31,6 @@
       <img src="{{ 'rubato.svg' | asset_url }}" width="48" height="48">
     </a>
   </div>
-  <div id="country-selector" class="country-selector-desktop">
-    {% form 'localization' %}
-      <select name="country_code">
-      {% for country in localization.available_countries %}
-        <option value="{{ country.iso_code }}" {%- if country == localization.country %} selected="selected"{% endif %}>
-        {{ country.name }} ({{ country.iso_code }})
-        </option>
-      {% endfor %}
-      </select>
-      {% endform %}
-  </div>
   <img id="menu-toggle" src="{{ 'close.svg' | asset_url }}" width="20" height="20">
   <nav id="nav">
     <div class="navbar-wrap">
