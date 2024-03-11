@@ -13,6 +13,8 @@
     <a href="/cart">
       View cart ({{ cart.items.size }})
     </a>
+  </div>
+  <div class="country-selector">
     {% form 'localization' %}
       <select name="country_code">
       {% for country in localization.available_countries %}
