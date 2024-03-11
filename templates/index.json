@@ -2,9 +2,10 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/cytwombly.webp",
-        "focal": 55,
+        "image": "shopify:\/\/shop_images\/Background_8f34ed07-05a7-4f30-b50e-4e249ff934d6.jpg",
+        "focal": 50,
         "invert-logo": true
       }
     },
@@ -14,7 +15,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CK3.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-71.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
@@ -43,11 +44,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-01-25_kl._12.06.40.png",
+            "image": "shopify:\/\/shop_images\/frankstellaformidablemag.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 70,
             "align": "flex-end",
-            "caption": "Yves Klein 'Anthropométrie de l'époque bleue, (ANT 124)' 1960.",
+            "caption": "Frank Stella at work in his studio",
             "product": "",
             "collection": "",
             "page": "",
@@ -69,13 +70,27 @@
             "article": ""
           }
         },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-02-05_kl._14.44.13.png",
+            "columns": 4,
+            "width": 42,
+            "align": "center",
+            "caption": "Journal - EXPLORE",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": "journal\/lange-the-camps"
+          }
+        },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6D6CDB51-45D1-4C74-8914-2A9D3C4A8E02.jpg",
+            "image": "shopify:\/\/shop_images\/354F4E78-7F02-4202-9F28-F88BB4E7721B.jpg",
             "columns": 4,
-            "width": 63,
-            "align": "flex-end",
+            "width": 53,
+            "align": "flex-start",
             "caption": "NONPAREIL",
             "product": "",
             "collection": "nonpareil",
@@ -83,55 +98,13 @@
             "article": ""
           }
         },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Simon2_9181fbb8-8617-4a9a-8722-caa0a7d23f1b.jpg",
-            "columns": 2,
-            "width": 75,
-            "align": "center",
-            "caption": "Journal - EXPLORE",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": "journal\/the-taste-of-my-children"
-          }
-        },
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/960x0.webp",
-            "columns": 4,
-            "width": 70,
-            "align": "center",
-            "caption": "Philip Guston 'cellar' 1970",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Fire5.jpg",
-            "columns": 2,
-            "width": 82,
-            "align": "center",
-            "caption": "firemans jacket",
-            "product": "",
-            "collection": "outerwear",
-            "page": "",
-            "article": ""
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cardigan-Verdant-2_3842ca36-3e31-4b9c-9c36-fec86232f7a0.jpg",
+            "image": "shopify:\/\/shop_images\/32.jpg",
             "columns": 4,
             "width": 44,
-            "align": "center",
+            "align": "flex-end",
             "caption": "knitwear",
             "product": "",
             "collection": "knitwear",
@@ -139,16 +112,44 @@
             "article": ""
           }
         },
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imager.jpg",
+            "columns": 4,
+            "width": 70,
+            "align": "center",
+            "caption": "Robert Motherwell - Photographer Unknown",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D62.jpg",
+            "image": "shopify:\/\/shop_images\/D43.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
+            "page": "",
+            "article": ""
+          }
+        },
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
+            "columns": 2,
+            "width": 82,
+            "align": "center",
+            "caption": "firemans jacket",
+            "product": "",
+            "collection": "outerwear",
             "page": "",
             "article": ""
           }
@@ -168,10 +169,24 @@
             "article": ""
           }
         },
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
+            "columns": 4,
+            "width": 50,
+            "align": "center",
+            "caption": "see our fits here",
+            "product": "",
+            "collection": "",
+            "page": "our-fits",
+            "article": ""
+          }
+        },
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Brown-Suede-2022-Journal.jpg",
+            "image": "shopify:\/\/shop_images\/UniformBelt.jpg",
             "columns": 2,
             "width": 92,
             "align": "flex-end",
@@ -194,20 +209,6 @@
             "product": "rubato-x-doek-oxford",
             "collection": "",
             "page": "",
-            "article": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "center",
-            "caption": "see our fits here",
-            "product": "",
-            "collection": "",
-            "page": "our-fits",
             "article": ""
           }
         },
@@ -335,16 +336,16 @@
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
+        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
         "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "39a07fa7-7955-4546-bdc6-7edcdf922f90",
         "fca140e1-e64a-4aec-98d1-cea4f8a46734",
         "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",

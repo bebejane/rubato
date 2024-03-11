@@ -2,7 +2,7 @@
   "current": {
     "ddp_enabled": false,
     "ddp_text": "Delivered duty paid (DDP) is enabled for your country!",
-    "ddp_SE": true,
+    "ddp_SE": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/Rubato_wordmark.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
@@ -27,11 +27,11 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "headline": "BOUNDLESS POSSIBILITIES FOR THE MODERN MAN",
+          "headline": "ELEGANCE HAS NEVER BEEN EASIER",
           "description": "Rubato creates wearable, contemporary garments full of character by looking to the past.",
           "signup": "Sign up for our newsletter",
           "signup-button": "Sign up",
-          "copyright": "© RUBATO 2023",
+          "copyright": "© RUBATO 2024",
           "menu": "rubato-menu-footer"
         }
       },

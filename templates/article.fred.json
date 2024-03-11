@@ -129,6 +129,16 @@
       "settings": {
         "text": "Taillour; is a bespoke operation run by Fred Nieddu and Lee Rekert.\n\n2 Pecks Yard\nHanbury Street\nLondon\nwww.taillour.co.uk"
       }
+    },
+    "article_section_image_K8EeF7": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rubato-Officers-Chino-Ivory-NEW-SIZE-JOURNAL.jpg",
+        "caption": "Fred is wearing the Officer's Chino in Ivory",
+        "product": "rubato-officers-chino-ivory",
+        "collection": "",
+        "page": ""
+      }
     }
   },
   "order": [
@@ -146,6 +156,7 @@
     "article_section_quote_TWeUzE",
     "article_section_text_Fkb3dk",
     "article_section_image_7caYFM",
-    "article_section_text_tJpQAG"
+    "article_section_text_tJpQAG",
+    "article_section_image_K8EeF7"
   ]
 }

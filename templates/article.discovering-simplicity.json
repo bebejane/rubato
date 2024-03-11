@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/468900010001.jpg",
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "text": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "I can’t put my finger on why, but for the last few months I’ve been making less of an effort in the way I dress.\n\nPerhaps that’s not quite the right phrase. It’s not that I’ve been making less of an effort, more that I’ve been finding a real pleasure in not overthinking how I present myself each day. The younger, ‘wannabe hotshot’ me was forever preening, pressing trousers and folding pocket squares with ostentatious flourishes, but, today, I simply can’t be bothered to dress up to the nines.\n\nNow, I much prefer to keep things simple. If I’m seeing clients or catching up with one of my editors, then that might mean a dark double-breasted suit worn with a rollneck – something subtle and (hopefully) sleek, that’s all in the silhouette. If I’m not, then I gravitate towards easy garments in tonal colour combinations. My approach is ‘very Rubato’, you might say."
+      }
+    },
+    "8863a9b6-2499-473f-93af-d1567cd16286": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/468900010009.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/468900010002.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355",
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591"
+      ],
+      "settings": {
+      }
+    },
+    "quote": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "“The younger, ‘wannabe hotshot’ me was forever preening. Today, I simply can’t be bothered”"
+      }
+    },
+    "10bb04ea-41a8-458b-a365-c038ef366cef": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "I gravitate towards a controlled colour palette of cream, beige, taupe, browns, greys, charcoal and black. Something in navy or chambray blue comes out to play every once in a while, but warm, natural tones suit me – and they’re deceptively easy to put together. In practice, this can involve pairing ecru jeans with a white shirt and cream Shetland sweater, as seen here, or a black crewneck paired with charcoal whipcord trousers with a plain chocolate brown tweed sports coat over the top."
+      }
+    },
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/468900010014.jpg",
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_quote_6CDwDd": {
+      "type": "article-section-quote",
+      "settings": {
+        "quote": "“Alongside calming the mind, tonal dressing also somehow focuses the mind”"
+      }
+    },
+    "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "There is a subtlety to tonal dressing that’s hugely satisfying once you get the hang of it. You can approach the business of the day feeling confident that you are well put together, without looking shouty or like you’ve worked too hard to get dressed. In this age of relentless stimuli and visual ‘noise’, the principle of ‘less is more’ has never been more prescient.\n\nAs well as calming the mind, tonal dressing also somehow focuses the mind. Removing extraneous options like bright colours or bold patterns helps to reduce the distractions in one’s wardrobe and instead makes it easier to enjoy the process of pairing neutrals together. Now, I’ll start my morning by pondering “does this camel sweater go with these chocolate trousers?” Or, “how do I get these two shades of beige to sit together nicely?” It’s a more considered process – to me, at least – of approaching the day ahead."
+      }
+    },
+    "article_section_gallery_QHRHEB": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_ipDray": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/468900010008.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_JzHYqF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/468900010013.jpg",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ipDray",
+        "image_JzHYqF"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_text_Fkb3dk": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "In a hectic, intense world, anything that reduces sensory overload is to be encouraged. Perhaps beige isn’t so boring a colour, after all."
+      }
+    },
+    "article_section_image_7caYFM": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/468900010011.jpg",
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_text_tJpQAG": {
+      "type": "article-section-text",
+      "settings": {
+        "text": "ALEKS IS WEARING:"
+      }
+    },
+    "article_section_gallery_DLwgPk": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_pjYzAa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rooper-White-Journal.jpg",
+            "caption": "ROPER SHIRT                                    IN WHITE",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_LLwRdP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rubato-Symbol-Scarf-Journal_9ea1a44b-3c16-46f9-b6c6-7377050a136d.jpg",
+            "caption": "Square scarf Rubato",
+            "product": "square-scarf-rubato",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_ckg7na": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shetland-Gannets-Journal_645b8995-3b0b-40dc-b27a-ff9cd061ef2f.jpg",
+            "caption": "Brushed shetland in gannets head",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_4QghKq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ecru-Denim-Journal_91f72ff4-8530-4184-b41d-605a3fd78ee5.jpg",
+            "caption": "Lot nr. 1 denim in ecru",
+            "product": "lot-nr-1-denim-ecru",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pjYzAa",
+        "image_LLwRdP",
+        "image_ckg7na",
+        "image_4QghKq"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
+    "text",
+    "8863a9b6-2499-473f-93af-d1567cd16286",
+    "quote",
+    "10bb04ea-41a8-458b-a365-c038ef366cef",
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201",
+    "article_section_quote_6CDwDd",
+    "453247ad-adc0-48b7-8b33-6ed7026f0f63",
+    "article_section_gallery_QHRHEB",
+    "article_section_text_Fkb3dk",
+    "article_section_image_7caYFM",
+    "article_section_text_tJpQAG",
+    "article_section_gallery_DLwgPk"
+  ]
+}
