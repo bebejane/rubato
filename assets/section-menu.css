@@ -109,7 +109,7 @@
   display: flex;
   align-items: center;
   height: var(--navbar-height);
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 #country-selector select {
