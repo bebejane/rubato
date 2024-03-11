@@ -76,6 +76,14 @@
     if(bar) bar.remove()
   }
 
+  function initCountrySelector(){
+    var countrySelector = document.querySelector('.country-selector select')
+    countrySelector.addEventListener('change', function(e){
+      document.querySelector('.country-selector form').submit()
+    })
+  }
+
+
   document.addEventListener("DOMContentLoaded", initMenu);
   document.addEventListener("shopify:section:load", initMenu);
 
