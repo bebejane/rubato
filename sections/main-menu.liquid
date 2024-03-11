@@ -79,7 +79,7 @@
   function initCountrySelector(){
     var countrySelector = document.querySelector('#country-selector select')
     var form = document.querySelector('#country-selector form')
-    
+    if(!form || !countrySelector) return console.log('no form or country selector')
     countrySelector.addEventListener('change', function(e){
       form.submit()
     })
