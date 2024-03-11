@@ -233,7 +233,7 @@
   #country-selector {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 60px;
   }
 
   #country-selector select {
