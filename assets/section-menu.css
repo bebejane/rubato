@@ -106,8 +106,9 @@
 }
 
 .country-selector {
+  display: flex;
+  align-items: center;
   height: var(--navbar-height);
-
 
 }
 
