@@ -83,9 +83,13 @@
     })
   }
 
+  function init(){
+    initMenu()
+    initCountrySelector()
+  }
 
-  document.addEventListener("DOMContentLoaded", initMenu);
-  document.addEventListener("shopify:section:load", initMenu);
+  document.addEventListener("DOMContentLoaded", init);
+  document.addEventListener("shopify:section:load", init);
 
 {% endjavascript %}
 
