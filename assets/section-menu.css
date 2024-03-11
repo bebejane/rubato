@@ -113,6 +113,7 @@
 }
 
 #country-selector select {
+  display: inline-block;
   font-family: "Bembo Book" !important;
   border: none;
   padding: 0;
@@ -230,10 +231,10 @@
 
   #country-selector {
     position: fixed;
-    display: block;
     top: 0;
     right: 0;
   }
+
 
 }
 
