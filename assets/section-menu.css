@@ -115,6 +115,9 @@
 .country-selector select {
   font-family: "Bembo Book" !important;
   border: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
 }
 
 .logo {
