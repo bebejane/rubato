@@ -105,6 +105,13 @@
   font-family: "Bembo Book" !important;
 }
 
+.country-selector {
+  select {
+    font-family: "Bembo Book" !important;
+    border: none;
+  }
+}
+
 .logo {
   display: flex;
   height: var(--navbar-height);
