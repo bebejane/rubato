@@ -106,10 +106,14 @@
 }
 
 .country-selector {
-  select {
-    font-family: "Bembo Book" !important;
-    border: none;
-  }
+  height: var(--navbar-height);
+
+
+}
+
+.country-selector select {
+  font-family: "Bembo Book" !important;
+  border: none;
 }
 
 .logo {
