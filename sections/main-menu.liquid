@@ -13,7 +13,7 @@
     <a href="/cart">
       View cart ({{ cart.items.size }})
     </a>
-    {% form 'currency' %}
+    {% form 'country' %}
       {{ form | currency_selector: class: 'my_special_class', id: 'Submit'  }}
     {% endform %}
   </div>
