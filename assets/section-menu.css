@@ -228,6 +228,12 @@
     margin-left: var(--outer-margin) !important;
   }
 
+  .country-selector {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
 }
 
 @media screen and (min-width: 750px) {
