@@ -13,6 +13,17 @@
     <a href="/cart">
       View cart ({{ cart.items.size }})
     </a>
+    <div id="country-selector">
+      {% form 'localization' %}
+        <select name="country_code">
+        {% for country in localization.available_countries %}
+          <option value="{{ country.iso_code }}" {%- if country == localization.country %} selected="selected"{% endif %}>
+          {{ country.name }} ({{ country.iso_code }})
+          </option>
+        {% endfor %}
+        </select>
+        {% endform %}
+    </div>
   </div>
   <div class="logo">
     <a href="/">
@@ -28,7 +39,6 @@
             <li><h2>{{ link.title | escape }}</h2></li>
           </a>
         {%- endfor -%}
-        
       </ul>
     </div>
     <ul class="navbar-footer">
@@ -64,8 +74,22 @@
     if(bar) bar.remove()
   }
 
-  document.addEventListener("DOMContentLoaded", initMenu);
-  document.addEventListener("shopify:section:load", initMenu);
+  function initCountrySelector(){
+    var countrySelector = document.querySelector('#country-selector select')
+    var form = document.querySelector('#country-selector form')
+    if(!form || !countrySelector) return console.log('no form or country selector')
+    countrySelector.addEventListener('change', function(e){
+      form.submit()
+    })
+  }
+
+  function init(){
+    initMenu()
+    initCountrySelector()
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+  document.addEventListener("shopify:section:load", init);
 
 {% endjavascript %}
 
