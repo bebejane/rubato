@@ -14,25 +14,13 @@
       View cart ({{ cart.items.size }})
     </a>
     {% form 'localization' %}
-  
       <select name="country_code">
-          
       {% for country in localization.available_countries %}
-            
-      <option value="{{ country.iso_code }}"
-              
-      {%- if country == localization.country %} selected="selected"{% endif %}
-            
-      >
-              
+      <option value="{{ country.iso_code }}" {%- if country == localization.country %} selected="selected"{% endif %}>
       {{ country.name }} ({{ country.iso_code }}) - {{ country.currency.symbol }}
-            
       </option>
-          
       {% endfor %}
-        
       </select>
-        
       <input type="submit" value="Update">
       {% endform %}
   </div>
