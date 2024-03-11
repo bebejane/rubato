@@ -113,8 +113,9 @@
 }
 
 #country-selector::before {
-  content: "&nbsp;|&nbsp;";
+  content: " | ";
   display: block;
+  white-space: pre;
 
 }
 
