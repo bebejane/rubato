@@ -112,6 +112,12 @@
   margin-left: 1rem;
 }
 
+#country-selector::before {
+  content: " | ";
+  display: block;
+
+}
+
 #country-selector select {
   font-family: "Bembo Book" !important;
   border: none;
