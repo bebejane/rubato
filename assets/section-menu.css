@@ -236,6 +236,11 @@
     right: 0;
   }
 
+  #country-selector select {
+    width: 100px;
+    text-align: right;
+  }
+
 
 }
 
