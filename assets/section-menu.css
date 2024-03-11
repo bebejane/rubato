@@ -237,7 +237,7 @@
   }
 
   #country-selector select {
-    width: 80px;
+    width: 110px;
     text-align: right;
     text-overflow: ellipsis;
   }
