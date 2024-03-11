@@ -237,11 +237,10 @@
   }
 
   #country-selector select {
-    width: 100px;
+    width: 80px;
     text-align: right;
+    text-overflow: ellipsis;
   }
-
-
 }
 
 @media screen and (min-width: 750px) {
