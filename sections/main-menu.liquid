@@ -82,6 +82,7 @@
     var form = document.querySelector('#country-selector form')
     console.log(form)
     countrySelector.addEventListener('change', function(e){
+      console.log('change')
       form.submit()
     })
   }
