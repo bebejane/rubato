@@ -17,9 +17,9 @@
       {% form 'localization' %}
         <select name="country_code">
         {% for country in localization.available_countries %}
-        <option value="{{ country.iso_code }}" {%- if country == localization.country %} selected="selected"{% endif %}>
-        {{ country.name }} ({{ country.iso_code }})
-        </option>
+          <option value="{{ country.iso_code }}" {%- if country == localization.country %} selected="selected"{% endif %}>
+          {{ country.name }} ({{ country.iso_code }})
+          </option>
         {% endfor %}
         </select>
         {% endform %}
