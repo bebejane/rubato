@@ -282,4 +282,8 @@
     margin-bottom: 0;
   }
 
+  #country-selector::before {
+    content: " | ";
+    white-space: pre;
+  }
 }
