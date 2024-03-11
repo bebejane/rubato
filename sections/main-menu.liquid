@@ -77,12 +77,10 @@
   }
 
   function initCountrySelector(){
-    console.log('initCountrySelector')
     var countrySelector = document.querySelector('#country-selector select')
     var form = document.querySelector('#country-selector form')
-    console.log(form)
+    
     countrySelector.addEventListener('change', function(e){
-      console.log('change')
       form.submit()
     })
   }
