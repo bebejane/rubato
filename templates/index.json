@@ -18,7 +18,7 @@
             "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-5.jpg",
             "columns": 4,
             "width": 100,
-            "align": "flex-start",
+            "align": "flex-end",
             "caption": "new arrivals",
             "product": "",
             "collection": "all-products",
