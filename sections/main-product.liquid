@@ -12,7 +12,7 @@
   {% assign arr = html | split: '<table' %}
   {% assign arr2 = arr[1] | split: '</table>' %}
   {% capture sizes_table %}<table{{ arr2[0] }}</table>{% endcapture %}
-  {% assign description = arr[0] | remove: 'Size Chart' %}
+  {% assign description = arr[0] | remove: 'Size Chart' | append: arr2[1] %}
 {% else %}
   {% assign sizes_table = blank %}
   {% assign description = product.description %}
@@ -29,7 +29,7 @@
   {% endif %}
 {% endfor %}
   
-{% render 'log', object: description %}
+
 <section class="product">
   
   <div class="product-wrap">
