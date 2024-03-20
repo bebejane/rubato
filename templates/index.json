@@ -84,13 +84,27 @@
             "article": "journal\/lange-the-camps"
           }
         },
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
+            "columns": 2,
+            "width": 92,
+            "align": "flex-end",
+            "caption": "trousers",
+            "product": "",
+            "collection": "trousers",
+            "page": "",
+            "article": ""
+          }
+        },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/354F4E78-7F02-4202-9F28-F88BB4E7721B.jpg",
             "columns": 4,
             "width": 53,
-            "align": "flex-start",
+            "align": "flex-end",
             "caption": "NONPAREIL",
             "product": "",
             "collection": "nonpareil",
@@ -102,9 +116,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/32.jpg",
-            "columns": 4,
-            "width": 44,
-            "align": "flex-end",
+            "columns": 2,
+            "width": 79,
+            "align": "flex-start",
             "caption": "knitwear",
             "product": "",
             "collection": "knitwear",
@@ -116,26 +130,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/imager.jpg",
-            "columns": 4,
-            "width": 70,
+            "columns": 2,
+            "width": 100,
             "align": "center",
             "caption": "Robert Motherwell - Photographer Unknown",
             "product": "",
             "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/D43.jpg",
-            "columns": 2,
-            "width": 92,
-            "align": "flex-end",
-            "caption": "trousers",
-            "product": "",
-            "collection": "trousers",
             "page": "",
             "article": ""
           }
@@ -187,8 +187,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/UniformBelt.jpg",
-            "columns": 2,
-            "width": 92,
+            "columns": 4,
+            "width": 60,
             "align": "flex-end",
             "caption": "accessories",
             "product": "",
@@ -337,10 +337,10 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
