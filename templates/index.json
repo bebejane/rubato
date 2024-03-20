@@ -43,6 +43,7 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/frankstellaformidablemag.jpg",
             "columns": 2,
