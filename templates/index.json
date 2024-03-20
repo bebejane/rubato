@@ -76,7 +76,7 @@
             "image": "shopify:\/\/shop_images\/Skarmavbild_2024-02-05_kl._14.44.13.png",
             "columns": 4,
             "width": 42,
-            "align": "center",
+            "align": "flex-end",
             "caption": "Journal - EXPLORE",
             "product": "",
             "collection": "",
@@ -84,13 +84,26 @@
             "article": "journal\/lange-the-camps"
           }
         },
+        "image_ftqaa8": {
+          "type": "image",
+          "settings": {
+            "columns": 1,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
-            "columns": 2,
-            "width": 92,
-            "align": "flex-end",
+            "columns": 4,
+            "width": 56,
+            "align": "flex-start",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
@@ -337,6 +350,7 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "image_ftqaa8",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
