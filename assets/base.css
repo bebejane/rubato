@@ -248,6 +248,10 @@ input[type='checkbox'] {
   padding-right: var(--outer-margin);
 }
 
+.page-content img {
+  max-width: 50%;
+}
+
 .page.cart-page>.page-content {
   max-width: 1000px;
 }
