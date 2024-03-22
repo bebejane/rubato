@@ -237,6 +237,8 @@ input[type='checkbox'] {
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-left: var(--outer-margin);
+  padding-right: var(--outer-margin);
 }
 
 .page-content {
@@ -245,8 +247,7 @@ input[type='checkbox'] {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-left: var(--outer-margin);
-  padding-right: var(--outer-margin);
+
 }
 
 .page-content img {
