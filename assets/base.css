@@ -237,15 +237,22 @@ input[type='checkbox'] {
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-left: var(--outer-margin);
+  padding-right: var(--outer-margin);
 }
 
 .page-content {
+  width: 100%;
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-left: var(--outer-margin);
-  padding-right: var(--outer-margin);
+
+}
+
+.page-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .page.cart-page>.page-content {
