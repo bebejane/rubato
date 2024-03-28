@@ -355,3 +355,7 @@ main div {
 .paginate-current {
   font-weight: normal !important;
 }
+
+#GlobaleFreeShippingBannerContainer {
+  z-index: 10000;
+}
