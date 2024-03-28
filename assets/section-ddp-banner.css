@@ -65,7 +65,3 @@
   flex: 0 0;
   cursor: pointer;
 }
-
-#GlobaleFreeShippingBannerContainer {
-  z-index: 10000;
-}
