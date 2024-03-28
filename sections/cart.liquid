@@ -221,6 +221,25 @@
       <a href="/collections/new-arrivals" class="cart__continue-btn">{{ 'general.404.link' | t }}</a>
     </div>
   {% endif %}
+  {% if current_total_duties or total_landed_cost_additional_fees %}     
+ {% assign total_duties_line = 0 %}     
+ {% if current_total_duties %}
+  {% assign total_duties_line = total_duties_line | plus: current_total_duties %}
+ {% endif %}     
+ {% if total_landed_cost_additional_fees %}
+   {% assign total_duties_line = total_duties_line | plus: total_landed_cost_additional_fees %}
+ {% endif %}
+ <tr class="subtotal-line">
+  <td class="subtotal-line__title">
+   <p>
+   <span>Duties</span>
+   </p>
+  </td>
+  <td class="subtotal-line__value">
+    <strong>{{ total_duties_line | money }}</strong>
+  </td>
+ </tr> 
+{% endif %}
 </div>
 
 {% javascript %}
