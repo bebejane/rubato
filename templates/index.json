@@ -103,8 +103,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/D64.jpg",
             "columns": 2,
-            "width": 79,
-            "align": "flex-start",
+            "width": 72,
+            "align": "flex-end",
             "caption": "knitwear",
             "product": "",
             "collection": "knitwear",
@@ -116,9 +116,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
-            "columns": 4,
-            "width": 56,
-            "align": "flex-end",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
