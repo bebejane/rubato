@@ -161,6 +161,9 @@
 }
 
 .footer-links ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: var(--outer-margin);
   padding-bottom: var(--outer-margin);
   border-bottom: var(--line);
