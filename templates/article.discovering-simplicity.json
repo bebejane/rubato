@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rooper-White-Journal.jpg",
             "caption": "ROPER SHIRT                                    IN WHITE",
-            "product": "",
+            "product": "roper-shirt-in-white",
             "collection": "",
             "page": ""
           }
@@ -167,7 +167,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Shetland-Gannets-Journal_645b8995-3b0b-40dc-b27a-ff9cd061ef2f.jpg",
             "caption": "Brushed shetland in gannets head",
-            "product": "",
+            "product": "brushed-shetland-in-gannets-head",
             "collection": "",
             "page": ""
           }

@@ -15,7 +15,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-5.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-62.jpg",
             "columns": 4,
             "width": 100,
             "align": "flex-end",
@@ -98,38 +98,10 @@
             "article": ""
           }
         },
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
-            "columns": 4,
-            "width": 56,
-            "align": "flex-start",
-            "caption": "trousers",
-            "product": "",
-            "collection": "trousers",
-            "page": "",
-            "article": ""
-          }
-        },
-        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/354F4E78-7F02-4202-9F28-F88BB4E7721B.jpg",
-            "columns": 4,
-            "width": 53,
-            "align": "flex-end",
-            "caption": "NONPAREIL",
-            "product": "",
-            "collection": "nonpareil",
-            "page": "",
-            "article": ""
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/32.jpg",
+            "image": "shopify:\/\/shop_images\/D64.jpg",
             "columns": 2,
             "width": 79,
             "align": "flex-start",
@@ -140,14 +112,42 @@
             "article": ""
           }
         },
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
+            "columns": 4,
+            "width": 56,
+            "align": "flex-end",
+            "caption": "trousers",
+            "product": "",
+            "collection": "trousers",
+            "page": "",
+            "article": ""
+          }
+        },
+        "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NP21.jpg",
+            "columns": 4,
+            "width": 53,
+            "align": "center",
+            "caption": "NONPAREIL",
+            "product": "",
+            "collection": "nonpareil",
+            "page": "",
+            "article": ""
+          }
+        },
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/imager.jpg",
+            "image": "shopify:\/\/shop_images\/capa_robert_2013_92_109_449824_displaysize.jpg",
             "columns": 2,
             "width": 100,
             "align": "center",
-            "caption": "Robert Motherwell - Photographer Unknown",
+            "caption": "Robert Capa - Spectators at the Longchamp Racecourse, Paris.",
             "product": "",
             "collection": "",
             "page": "",
@@ -352,9 +352,9 @@
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "image_ftqaa8",
+        "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
-        "33893355-d256-4e1c-a9cf-b852382ded3b",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
