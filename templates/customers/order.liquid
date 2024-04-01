@@ -81,7 +81,7 @@
                     </dd>
                   </dl>
                 {%- else -%}
-                  {{ line_item.original_price | money }}
+                  {{ line_item.original_price | money_without_currency }} {{ order.currency }}
                 {%- endif -%}
               </td>
               <td class="text-right" data-label="{{ 'customer.order.quantity' | t }}">{{ line_item.quantity }}</td>
