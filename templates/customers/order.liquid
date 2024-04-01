@@ -128,7 +128,7 @@
                     <span class="order-discount order-discount--title text-left medium-up--hide">
                       {%- include 'icon-saletag' -%}{{- discount_application.title -}}
                     </span>
-                    <span class="order-discount">-{{ discount_application.total_allocated_amount | money }}</span>
+                    <span class="order-discount">-{{ discount_application.total_allocated_amount | money_without_currency }} {{ order.currency }}</span>
                   </div>
                 </td>
               {%- endfor -%}
@@ -138,7 +138,7 @@
           {%- for shipping_method in order.shipping_methods -%}
             <tr>
               <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})</th>
-              <td class="text-right" data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money }}</td>
+              <td class="text-right" data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money_without_currency }} {{ order.currency }}</td>
             </tr>
           {%- endfor -%}
 
