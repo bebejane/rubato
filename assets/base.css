@@ -364,3 +364,15 @@ main div {
   z-index: 10000;
   background-color: var(--background-color);
 }
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
