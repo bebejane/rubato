@@ -39,7 +39,7 @@
                     <ul class="order-discount order-discount--list order-discount--title" aria-label="{{ 'customer.order.discount' | t }}">
                       {%- for discount_allocation in line_item.line_level_discount_allocations -%}
                         <li class="order-discount__item">
-                          {%- include 'icon-saletag' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+                          {%- include 'icon-saletag' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money_without_currency }} {{ order.currency }})
                         </li>
                       {%- endfor -%}
                     </ul>
@@ -71,17 +71,17 @@
                       <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                     </dt>
                     <dd>
-                      <s>{{ line_item.original_price | money }}</s>
+                      <s>{{ line_item.original_price | money_without_currency }} {{ order.currency }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span class="order-discount">{{ line_item.final_price | money }}</span>
+                      <span class="order-discount">{{ line_item.final_price | money_without_currency }} {{ order.currency }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
-                  {{ line_item.original_price | money }}
+                  {{ line_item.original_price | money_without_currency }} {{ order.currency }}
                 {%- endif -%}
               </td>
               <td class="text-right" data-label="{{ 'customer.order.quantity' | t }}">{{ line_item.quantity }}</td>
@@ -92,17 +92,17 @@
                       <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                     </dt>
                     <dd>
-                      <s>{{ line_item.original_line_price | money }}</s>
+                      <s>{{ line_item.original_line_price | money_without_currency }} {{ order.currency }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span class="order-discount">{{ line_item.final_line_price | money }}</span>
+                      <span class="order-discount">{{ line_item.final_line_price | money_without_currency }} {{ order.currency }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
-                  {{ line_item.original_line_price | money }}
+                  {{ line_item.original_line_price | money_without_currency }} {{ order.currency }}
                 {%- endif -%}
               </td>
             </tr>
@@ -111,7 +111,7 @@
         <tfoot>
           <tr>
             <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.subtotal' | t }}</th>
-            <td class="text-right" data-label="{{ 'customer.order.subtotal' | t }}">{{ order.line_items_subtotal_price | money }}</td>
+            <td class="text-right" data-label="{{ 'customer.order.subtotal' | t }}">{{ order.line_items_subtotal_price | money_without_currency }} {{ order.currency }}</td>
           </tr>
 
           {%- if order.cart_level_discount_applications != blank -%}
@@ -128,7 +128,7 @@
                     <span class="order-discount order-discount--title text-left medium-up--hide">
                       {%- include 'icon-saletag' -%}{{- discount_application.title -}}
                     </span>
-                    <span class="order-discount">-{{ discount_application.total_allocated_amount | money }}</span>
+                    <span class="order-discount">-{{ discount_application.total_allocated_amount | money_without_currency }} {{ order.currency }}</span>
                   </div>
                 </td>
               {%- endfor -%}
@@ -138,20 +138,33 @@
           {%- for shipping_method in order.shipping_methods -%}
             <tr>
               <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})</th>
-              <td class="text-right" data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money }}</td>
+              <td class="text-right" data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money_without_currency }} {{ order.currency }}</td>
             </tr>
           {%- endfor -%}
 
           {%- for tax_line in order.tax_lines -%}
             <tr>
               <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)</th>
-              <td class="text-right" data-label="{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)">{{ tax_line.price | money }}</td>
+              <td class="text-right" data-label="{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)">{{ tax_line.price | money_without_currency }} {{ order.currency }}</td>
             </tr>
           {%- endfor -%}
-
+          {% if current_total_duties or total_landed_cost_additional_fees %}     
+            {% assign total_duties_line = 0 %}     
+            {% if current_total_duties %}
+              {% assign total_duties_line = total_duties_line | plus: current_total_duties %}
+            {% endif %}     
+            {% if total_landed_cost_additional_fees %}
+              {% assign total_duties_line = total_duties_line | plus: total_landed_cost_additional_fees %}
+              <tr class="subtotal-line">
+                <th class="small--hide" scope="row" colspan="4">Duties</th>
+                <td class="text-right" data-label="duties">{{ total_duties_line | money }}</td>
+              </tr> 
+          {% endif %}
+          
+          {% endif %}
           <tr>
             <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.total' | t }}</th>
-            <td class="text-right" data-label="{{ 'customer.order.total' | t }}">{{ order.total_price | money }} {{ order.currency }}</td>
+            <td class="text-right" data-label="{{ 'customer.order.total' | t }}">{{ order.total_price | money_without_currency }} {{ order.currency }}</td>
           </tr>
         </tfoot>
       </table>
