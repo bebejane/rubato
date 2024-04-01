@@ -71,13 +71,13 @@
                       <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
                     </dt>
                     <dd>
-                      <s>{{ line_item.original_price | money }}</s>
+                      <s>{{ line_item.original_price | money_without_currency }} {{ order.currency }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span class="order-discount">{{ line_item.final_price | money }}</span>
+                      <span class="order-discount">{{ line_item.final_price | money_without_currency }} {{ order.currency }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
