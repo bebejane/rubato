@@ -149,17 +149,18 @@
             </tr>
           {%- endfor -%}
           {% if current_total_duties or total_landed_cost_additional_fees %}     
-          {% assign total_duties_line = 0 %}     
-          {% if current_total_duties %}
-            {% assign total_duties_line = total_duties_line | plus: current_total_duties %}
-          {% endif %}     
-          {% if total_landed_cost_additional_fees %}
-            {% assign total_duties_line = total_duties_line | plus: total_landed_cost_additional_fees %}
+            {% assign total_duties_line = 0 %}     
+            {% if current_total_duties %}
+              {% assign total_duties_line = total_duties_line | plus: current_total_duties %}
+            {% endif %}     
+            {% if total_landed_cost_additional_fees %}
+              {% assign total_duties_line = total_duties_line | plus: total_landed_cost_additional_fees %}
+              <tr class="subtotal-line">
+                <th class="small--hide" scope="row" colspan="4">Duties</th>
+                <td class="text-right" data-label="duties">{{ total_duties_line | money }}</td>
+              </tr> 
           {% endif %}
-          <tr class="subtotal-line">
-            <th class="small--hide" scope="row" colspan="4">Duties</th>
-            <td class="text-right" data-label="duties">{{ total_duties_line | money }}</td>
-          </tr> 
+          
           {% endif %}
           <tr>
             <th class="small--hide" scope="row" colspan="4">{{ 'customer.order.total' | t }}</th>
