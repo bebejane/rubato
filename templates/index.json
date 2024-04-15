@@ -15,8 +15,8 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-62.jpg",
-            "columns": 4,
+            "image": "shopify:\/\/shop_images\/NPCrewGrigioDressChinoWorkShirt.jpg",
+            "columns": 2,
             "width": 100,
             "align": "flex-end",
             "caption": "new arrivals",
@@ -43,13 +43,12 @@
         },
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/frankstellaformidablemag.jpg",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-04-02_kl._11.11.57.png",
             "columns": 2,
-            "width": 70,
+            "width": 62,
             "align": "flex-end",
-            "caption": "Frank Stella at work in his studio",
+            "caption": "'twentysix gasoline stations' ed ruscha, published 1963",
             "product": "",
             "collection": "",
             "page": "",
@@ -74,7 +73,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/468900010014_c2420f64-8a87-423e-b600-7937d6db585b.jpg",
+            "image": "shopify:\/\/shop_images\/tumblr_e6b7cca3076f6bfd292f9958aa54d4e0_38d89bdb_1280.jpg",
             "columns": 4,
             "width": 56,
             "align": "flex-end",
@@ -82,7 +81,7 @@
             "product": "",
             "collection": "",
             "page": "",
-            "article": "journal\/discovering-simplicity"
+            "article": "journal\/case-study-house-nr-16"
           }
         },
         "image_ftqaa8": {
@@ -126,6 +125,20 @@
             "article": ""
           }
         },
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rubato.taillour.poster.jpg",
+            "columns": 2,
+            "width": 63,
+            "align": "center",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
@@ -154,20 +167,6 @@
             "article": ""
           }
         },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Background_9899bae3-48ed-4b6b-a768-528df195f9a2.jpg",
-            "columns": 2,
-            "width": 82,
-            "align": "center",
-            "caption": "firemans jacket",
-            "product": "",
-            "collection": "outerwear",
-            "page": "",
-            "article": ""
-          }
-        },
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
           "type": "image",
           "disabled": true,
@@ -185,6 +184,7 @@
         },
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
             "columns": 4,
@@ -354,9 +354,9 @@
         "image_ftqaa8",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
         "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
