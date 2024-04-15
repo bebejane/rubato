@@ -365,8 +365,15 @@ main div {
   background-color: var(--background-color);
   font-size: var(--small-font);
   font-family: 'Mars Extended Regular';
-  padding-top: 0.5rem;
+  padding-top: 0.6rem;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 749px) {
+  #GlobaleFreeShippingBannerContainer {
+    font-size: 0.8rem;
+  }
+
 }
 
 .text-right {
