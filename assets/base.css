@@ -363,6 +363,9 @@ main div {
   width: 100%;
   z-index: 10000;
   background-color: var(--background-color);
+  font-size: var(--small-font);
+  font-family: 'Mars Extended Regular';
+  padding: 0.3rem;
 }
 
 .text-right {
