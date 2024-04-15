@@ -365,7 +365,8 @@ main div {
   background-color: var(--background-color);
   font-size: var(--small-font);
   font-family: 'Mars Extended Regular';
-  padding: 0.3rem;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
 }
 
 .text-right {
