@@ -84,19 +84,6 @@
             "article": "journal\/officers-chino"
           }
         },
-        "image_ftqaa8": {
-          "type": "image",
-          "settings": {
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
@@ -128,12 +115,13 @@
         "image_8Emh6p": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-5.jpg",
             "columns": 2,
-            "width": 50,
-            "align": "flex-start",
-            "caption": "",
+            "width": 62,
+            "align": "center",
+            "caption": "shirts",
             "product": "",
-            "collection": "",
+            "collection": "shirts",
             "page": "",
             "article": ""
           }
@@ -227,7 +215,6 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "image_ftqaa8",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "image_8Emh6p",
