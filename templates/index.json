@@ -12,10 +12,23 @@
     "collage": {
       "type": "collage",
       "blocks": {
+        "image_jykVBf": {
+          "type": "image",
+          "settings": {
+            "columns": 1,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-04-29-Rubato-099-web.jpg",
+            "image": "shopify:\/\/shop_images\/2024-04-29-Rubato-099-web_5b1e8547-7dcc-49af-bfe7-bdfe9d938911.jpg",
             "columns": 2,
             "width": 100,
             "align": "flex-end",
@@ -210,6 +223,7 @@
         }
       },
       "block_order": [
+        "image_jykVBf",
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
