@@ -15,9 +15,9 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-04-29-Rubato-178-web.jpg",
+            "image": "shopify:\/\/shop_images\/French1Post.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 81,
             "align": "flex-end",
             "caption": "new arrivals",
             "product": "",
@@ -41,14 +41,14 @@
             "article": ""
           }
         },
-        "e021c317-f484-42f4-a72d-ad8756aaab59": {
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ce3ca40c2fb897367d4377deb9597-1024x576.jpg",
+            "image": "shopify:\/\/shop_images\/rubato.taillour.poster.jpg",
             "columns": 2,
-            "width": 100,
+            "width": 75,
             "align": "flex-end",
-            "caption": "wynton kelly 1931 – 1971",
+            "caption": "",
             "product": "",
             "collection": "",
             "page": "",
@@ -70,14 +70,14 @@
             "article": ""
           }
         },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+        "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rubato.taillour.poster.jpg",
-            "columns": 4,
-            "width": 47,
+            "image": "shopify:\/\/shop_images\/13.-Lee-Krasner-Siren-1966-Hirshhorn-Museum-and-Sculpture-Garden-Smithsonian-Institution-_-The-Pollock-Krasner-Foundation.-Photo-by-Cathy-Carver-1000x641.jpg",
+            "columns": 2,
+            "width": 100,
             "align": "flex-end",
-            "caption": "",
+            "caption": "Lee Krasner - 'Siren', 1966, Hirshhorn Museum and Sculpture Garden, Smithsonian",
             "product": "",
             "collection": "",
             "page": "",
@@ -87,7 +87,7 @@
         "36a27471-04fc-4043-b320-2e8bc5c150b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/French5.jpg",
+            "image": "shopify:\/\/shop_images\/2024-04-29-Rubato-079-web.jpg",
             "columns": 4,
             "width": 56,
             "align": "flex-start",
@@ -101,9 +101,9 @@
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D64.jpg",
+            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-278-web.jpg",
             "columns": 2,
-            "width": 79,
+            "width": 92,
             "align": "flex-start",
             "caption": "knitwear",
             "product": "",
@@ -129,7 +129,7 @@
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
+            "image": "shopify:\/\/shop_images\/Officers-Chinos.jpg",
             "columns": 4,
             "width": 63,
             "align": "flex-end",
@@ -143,7 +143,7 @@
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6D6CDB51-45D1-4C74-8914-2A9D3C4A8E02.jpg",
+            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-060-web_34aa8e24-8f2b-47eb-b273-7626b632f671.jpg",
             "columns": 4,
             "width": 53,
             "align": "center",
@@ -171,7 +171,7 @@
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/UniformBelt.jpg",
+            "image": "shopify:\/\/shop_images\/Shorts4.jpg",
             "columns": 4,
             "width": 60,
             "align": "flex-end",
@@ -212,9 +212,9 @@
       "block_order": [
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
-        "e021c317-f484-42f4-a72d-ad8756aaab59",
-        "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
+        "000b7fe8-2100-4fc1-b753-d253dda7ea78",
+        "e021c317-f484-42f4-a72d-ad8756aaab59",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "image_8Emh6p",
