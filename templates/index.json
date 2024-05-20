@@ -74,10 +74,23 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/13.-Lee-Krasner-Siren-1966-Hirshhorn-Museum-and-Sculpture-Garden-Smithsonian-Institution-_-The-Pollock-Krasner-Foundation.-Photo-by-Cathy-Carver-1000x641.jpg",
-            "columns": 2,
-            "width": 100,
+            "columns": 4,
+            "width": 57,
             "align": "flex-end",
             "caption": "Lee Krasner - 'Siren', 1966, Hirshhorn Museum and Sculpture Garden, Smithsonian",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
+        "image_yDACYW": {
+          "type": "image",
+          "settings": {
+            "columns": 1,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "",
             "product": "",
             "collection": "",
             "page": "",
@@ -215,6 +228,7 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
+        "image_yDACYW",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "image_8Emh6p",
