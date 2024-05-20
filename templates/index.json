@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Officers-Chinos.jpg",
             "columns": 4,
-            "width": 63,
+            "width": 58,
             "align": "flex-end",
             "caption": "trousers",
             "product": "",
@@ -158,7 +158,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-060-web_34aa8e24-8f2b-47eb-b273-7626b632f671.jpg",
             "columns": 4,
-            "width": 53,
+            "width": 43,
             "align": "center",
             "caption": "NONPAREIL",
             "product": "",
@@ -186,7 +186,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Shorts4.jpg",
             "columns": 4,
-            "width": 60,
+            "width": 48,
             "align": "flex-end",
             "caption": "accessories",
             "product": "",
