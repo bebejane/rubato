@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Barbican10splash.jpg",
         "focal": 50,
@@ -14,7 +13,9 @@
       "blocks": {
         "image_7fPLgm": {
           "type": "image",
+          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/L29.jpg",
             "columns": 1,
             "width": 100,
             "align": "flex-start",
