@@ -2,16 +2,28 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Background_8f34ed07-05a7-4f30-b50e-4e249ff934d6.jpg",
+        "image": "shopify:\/\/shop_images\/Barbican10splash.jpg",
         "focal": 50,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
+        "image_7fPLgm": {
+          "type": "image",
+          "settings": {
+            "columns": 1,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
@@ -224,6 +236,7 @@
         }
       },
       "block_order": [
+        "image_7fPLgm",
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
