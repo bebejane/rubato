@@ -17,15 +17,16 @@
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/F1.jpg",
-        "caption": "",
-        "product": "",
+        "image": "shopify:\/\/shop_images\/L7.jpg",
+        "caption": "Work shirt in black & cream cotton linen",
+        "product": "work-shirt-in-black-cream-cotton-linen",
         "collection": "",
         "page": ""
       }
     },
     "text": {
       "type": "article-section-text",
+      "disabled": true,
       "settings": {
         "text": "R - How is it that you ended up doing what you’re doing?\n\nFN - I worked in a men’s clothing store in east London just after graduating college. We sold incredible English shoes, American and Japanese denim, handmade eyewear etc. but I soon got a bit bored and realised selling clothes wasn’t what I wanted to do long term, I was interested in how the clothes were made. I went in search of something else, so I wandered down Savile Row, Jermyn Street and even applied to some shoemakers for an apprenticeship but I heard nothing back. Finally I tried a small shirt-maker and tailors around the corner from the shop I was working at, called Alexander Boyd\/ Rayner & Sturges, they offered me an apprenticeship working both in the day to day running of the store and also learning cutting and making. I worked 10-11 hours days, six days a week but it was an invaluable learning experience for me and my first job in tailoring that led to everything else."
       }
@@ -36,9 +37,9 @@
         "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/F3_25438041-cab6-420d-9018-a8cf7796c284.jpg",
-            "caption": "",
-            "product": "",
+            "image": "shopify:\/\/shop_images\/L8.jpg",
+            "caption": "Dress Chino in Cream",
+            "product": "dress-chino-in-cream",
             "collection": "",
             "page": ""
           }
@@ -46,9 +47,9 @@
         "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/F2.jpg",
-            "caption": "",
-            "product": "",
+            "image": "shopify:\/\/shop_images\/L14.jpg",
+            "caption": "Nonpareil Heavy cotton in grigio",
+            "product": "nonpareil-heavy-crew-neck-grigio",
             "collection": "",
             "page": ""
           }
@@ -61,82 +62,322 @@
       "settings": {
       }
     },
-    "quote": {
-      "type": "article-section-quote",
-      "settings": {
-        "quote": "\"Anything that doesn’t involve a computer or writing emails!\""
-      }
-    },
-    "10bb04ea-41a8-458b-a365-c038ef366cef": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "R - If you would’ve been anything else than a tailor, what would you have been?\n\nFN - I actually studied illustration and graphics at university. I enjoyed the drawing and mark making but the technology side really didn’t interest me and drawing pictures on paper, I soon realised, is not much of a career.\nI often think about what I would like to do if I weren’t a tailor. The answer is fairly consistently the same, I would have loved to have worked as a carpenter, shoemaker or tattooist. Anything that doesn’t involve a computer or writing emails!"
-      }
-    },
     "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/F4.jpg",
-        "caption": "",
-        "product": "",
+        "image": "shopify:\/\/shop_images\/L21.jpg",
+        "caption": "lot nr. 1 denim in black",
+        "product": "lot-nr-1-denim-black",
         "collection": "",
         "page": ""
       }
     },
-    "453247ad-adc0-48b7-8b33-6ed7026f0f63": {
-      "type": "article-section-text",
+    "article_section_gallery_GtrjeL": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_8Fn4n8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L29_40ea8b4d-9484-4bab-a794-3e4ea5e56a93.jpg",
+            "caption": "Nonpareil heavy crew neck nero",
+            "product": "nonpareil-heavy-crew-neck-nero",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_dbyDhh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L20.jpg",
+            "caption": "classic belt in black deer",
+            "product": "classic-belt-in-black-deer",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_KNbUbi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L27.jpg",
+            "caption": "nonpareil long sleeve crew in noir",
+            "product": "nonpareil-long-sleeve-crew-in-noir",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8Fn4n8",
+        "image_dbyDhh",
+        "image_KNbUbi"
+      ],
       "settings": {
-        "text": "R - What is style to you?\n\nFN - I think style is something natural to the individual, wearing things that feel comfortable and make you feel like yourself and at ease. I can usually tell when someone is dressed in a way that is authentic to them, rather than copying a style they have seen on someone else. In my opinion when you are dressing for yourself and not someone else, then I think you become truly stylish."
-      }
-    },
-    "article_section_quote_6CDwDd": {
-      "type": "article-section-quote",
-      "settings": {
-        "quote": "\"but way more important to me is the actual product and effort gone into making it.\""
-      }
-    },
-    "32a6a7e6-9ff0-494d-84ea-6969e77126b4": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "R - It seems you always embrace contradictions, such as classic British tailoring and Japanese fashion brands effortlessly, how do you walk that line and is it something you’ve always done? \n\nFN - I’ve always been interested in clothes and how different people dress! I love so many different styles and subcultures that I wouldn’t dream of wearing (punk, terrace wear, \ngoth, hip hop etc..). \n\nThe older I get the more I’ve refined my style, I know what I like and what suits me. I gravitate to makers, clothing or brands that have some kind of story or history to them. I love finding out the process someone went through to achieve a particular dye or in your case (Rubato) hearing about that famous first trip to Scotland to get exactly the fit you wanted with no compromise. \n\nI’m not so much interested in how old a brand or tailor is but way more important to me is the actual product and effort gone into making it. \n\nTailoring, denim and a few slightly more obscure Japanese brands just seem to work with my principles and aesthetic.  I do like to try new, maybe slightly odd or eccentric pieces in to the mix and maybe it doesn’t always work, but if you don’t try something you’ll never know!"
       }
     },
     "article_section_image_wJcbpy": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Skarmavbild_2024-02-05_kl._10.41.15.png",
-        "caption": "Fred drafting a pattern at taillour; picture by taillour;",
+        "image": "shopify:\/\/shop_images\/Barbican3.jpg",
+        "caption": "barbican london",
         "product": "",
         "collection": "",
         "page": ""
       }
     },
-    "article_section_quote_TWeUzE": {
-      "type": "article-section-quote",
+    "article_section_gallery_KqDFEG": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_TLwaFp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L34.jpg",
+            "caption": "dress chino in sage",
+            "product": "dress-chino-in-sage",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_CERQ6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L31.jpg",
+            "caption": "Nonpareil Long Sleeve Polo in Marin",
+            "product": "nonpareil-long-sleeve-polo-in-marin",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TLwaFp",
+        "image_CERQ6d"
+      ],
       "settings": {
-        "quote": "\"just turning out any old hand made garment isn’t really enough anymore.\""
-      }
-    },
-    "article_section_text_Fkb3dk": {
-      "type": "article-section-text",
-      "settings": {
-        "text": "R - How do you see your business and the bespoke market evolving over the next 10 years?\n\nFN - We only started Taillour; three years ago, straight after the pandemic, so at the moment I’m just extremely proud with what we have achieved growing our bespoke both here and in the US, also working on some really interesting film projects. I would love to one day have some RTW items available in the atelier to complement our bespoke at a more accessible price point.\n\nI think now and in the future bespoke has to be truly exemplary in the quality of the make and just turning out any old hand made garment isn’t really enough anymore.\nWe work with a super talented young inspiring team, so over the next ten years it would be incredible to teach more young people and grow our in house team."
       }
     },
     "article_section_image_7caYFM": {
       "type": "article-section-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/F5.jpg",
+        "image": "shopify:\/\/shop_images\/L39.jpg",
         "caption": "",
         "product": "",
         "collection": "",
         "page": ""
       }
     },
-    "article_section_text_tJpQAG": {
-      "type": "article-section-text",
+    "article_section_gallery_AVerY4": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_Rbq9gr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L46.jpg",
+            "caption": "\"R\" Shirt in classic stripe oxford",
+            "product": "r-shirt-in-classic-stripe-oxford",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_RcHhmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L48.jpg",
+            "caption": "nonpareil heavy crew in french navy",
+            "product": "nonpareil-heavy-crew-neck-french-navy",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Rbq9gr",
+        "image_RcHhmc"
+      ],
       "settings": {
-        "text": "Taillour; is a bespoke operation run by Fred Nieddu and Lee Rekert.\n\n2 Pecks Yard\nHanbury Street\nLondon\nwww.taillour.co.uk"
+      }
+    },
+    "article_section_image_k9dg7D": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L40.jpg",
+        "caption": "french pocket trouser in navy hbt",
+        "product": "french-pocket-trouser-in-navy-hbt",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_6WCfCd": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_3XyQ7H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Charterhouse2.jpg",
+            "caption": "Charterhouse square",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_Bnpagb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L53.jpg",
+            "caption": "",
+            "product": "nonpareil-heavy-crew-neck-hyannis",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3XyQ7H",
+        "image_Bnpagb"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_GA9aeT": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L57.jpg",
+        "caption": "french pocket trouser in cream hbt",
+        "product": "french-pocket-trouser-in-cream-hbt",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_fmVCpN": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_UdYDJJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L56.jpg",
+            "caption": "nonpareil long sleeve polo in nuage",
+            "product": "nonpareil-long-sleeve-polo-in-nuage",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_LPaMYX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L50.jpg",
+            "caption": "classic belt in brown deer",
+            "product": "classic-belt-in-brown-deer",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UdYDJJ",
+        "image_LPaMYX"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_iTdLcn": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L62.jpg",
+        "caption": "nonpareil heavy crew neck bone",
+        "product": "nonpareil-heavy-crew-neck-bone",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_Nqd8XX": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_zH8GeD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L60.jpg",
+            "caption": "\"r\" shirt in new haven blue oxford",
+            "product": "r-shirt-in-new-haven-blue-oxford",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_HCwPaz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L64.jpg",
+            "caption": "country club shorts in cream",
+            "product": "country-club-shorts-in-cream",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zH8GeD",
+        "image_HCwPaz"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_4EN3rJ": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L66.jpg",
+        "caption": "charterhouse square",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_image_JNjiEe": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L75.jpg",
+        "caption": "work shirt in indigo & cream check",
+        "product": "work-shirt-in-indigo-cream-check",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_gLLUAQ": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_4DmVwa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L69.jpg",
+            "caption": "country club shorts in navy",
+            "product": "country-club-shorts-in-navy",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_iU4nx4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L70.jpg",
+            "caption": "nonpareil t-shirt in nuage",
+            "product": "nonpareil-t-shirt-in-nuage",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4DmVwa",
+        "image_iU4nx4"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_hgYhmw": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L67.jpg",
+        "caption": "© rubato - london may 2024",
+        "product": "",
+        "collection": "",
+        "page": ""
       }
     }
   },
@@ -145,16 +386,21 @@
     "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
     "text",
     "8863a9b6-2499-473f-93af-d1567cd16286",
-    "quote",
-    "10bb04ea-41a8-458b-a365-c038ef366cef",
     "c99d749a-6dbb-4c5c-9463-44d3e1502201",
-    "453247ad-adc0-48b7-8b33-6ed7026f0f63",
-    "article_section_quote_6CDwDd",
-    "32a6a7e6-9ff0-494d-84ea-6969e77126b4",
+    "article_section_gallery_GtrjeL",
     "article_section_image_wJcbpy",
-    "article_section_quote_TWeUzE",
-    "article_section_text_Fkb3dk",
+    "article_section_gallery_KqDFEG",
     "article_section_image_7caYFM",
-    "article_section_text_tJpQAG"
+    "article_section_gallery_AVerY4",
+    "article_section_image_k9dg7D",
+    "article_section_gallery_6WCfCd",
+    "article_section_image_GA9aeT",
+    "article_section_gallery_fmVCpN",
+    "article_section_image_iTdLcn",
+    "article_section_gallery_Nqd8XX",
+    "article_section_image_4EN3rJ",
+    "article_section_image_JNjiEe",
+    "article_section_gallery_gLLUAQ",
+    "article_section_image_hgYhmw"
   ]
 }
