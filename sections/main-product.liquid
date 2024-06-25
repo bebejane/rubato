@@ -63,6 +63,12 @@
               <div class="product-attributes-value">{{product.metafields.custom.cut.value}}</div>
             </div>
           {% endif %}
+          {% if product.metafields.custom.features.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Features</div>
+              <div class="product-attributes-value">{{product.metafields.custom.features.value}}</div>
+            </div>
+          {% endif %}
           {% if product.metafields.custom.care.value != blank %}
             <div class="product-attributes-row">
               <div class="product-attributes-key">Care</div>
