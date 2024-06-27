@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -29,7 +38,7 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L79.jpg",
+            "image": "shopify:\/\/shop_images\/L7.jpg",
             "columns": 2,
             "width": 81,
             "align": "flex-start",
@@ -58,11 +67,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-06-14_kl._09.15.11.png",
+            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-06-27_kl._11.48.25.png",
             "columns": 2,
             "width": 70,
             "align": "flex-end",
-            "caption": "Hans Hartung 1904 - 1989",
+            "caption": "Robert Ryman 'Untitled' 1959",
             "product": "",
             "collection": "",
             "page": "",

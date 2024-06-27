@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "ddp_enabled": false,
@@ -115,12 +124,6 @@
 
     ],
     "blocks": {
-      "17530695623102652971": {
-        "type": "shopify:\/\/apps\/exemptify\/blocks\/ExemptifyApp\/53648040-92ea-472b-92a5-eb781e92b01b",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "12198985164985445843": {
         "type": "shopify:\/\/apps\/nova-eu-cookie-bar-gdpr\/blocks\/app-embed\/6667ecbd-70cf-4527-84a9-e6037e6ca706",
         "disabled": false,
