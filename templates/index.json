@@ -38,9 +38,9 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L7.jpg",
+            "image": "shopify:\/\/shop_images\/L69.jpg",
             "columns": 2,
-            "width": 81,
+            "width": 90,
             "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
@@ -67,11 +67,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-06-27_kl._11.48.25.png",
+            "image": "shopify:\/\/shop_images\/Cooper_Rie_3.webp",
             "columns": 2,
-            "width": 70,
+            "width": 99,
             "align": "flex-end",
-            "caption": "Robert Ryman 'Untitled' 1959",
+            "caption": "Lucie Rie’s display area in Albion Mews",
             "product": "",
             "collection": "",
             "page": "",
