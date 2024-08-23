@@ -11,6 +11,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Natur6splash.jpg",
         "focal": 50,
