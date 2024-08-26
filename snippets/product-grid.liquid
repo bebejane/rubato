@@ -25,6 +25,12 @@
             <div class="product-grid-caption-title">
               {{ product.title }}
             </div>
+                  {% if product.metafields.custom.discount.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Discount</div>
+              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
+            </div>
+            {% endif %}
             <div class="product-grid-caption-price">
               {{ product.price | money }}
       
