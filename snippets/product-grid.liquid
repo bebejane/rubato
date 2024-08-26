@@ -25,6 +25,10 @@
             <div class="product-grid-caption-title">
               {{ product.title }}
             </div>
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Discount</div>
+              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
+            </div>
             <div class="product-grid-caption-price">
               {{ product.price | money }}
       
