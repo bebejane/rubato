@@ -27,13 +27,7 @@
             </div>
             <div class="product-grid-caption-price">
               {{ product.price | money }}
-                       {% if product.metafields.custom.discount.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key"></div>
-              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
-            </div>
-            {% endif %}
-      
+          
                 <div class="omgrfq-collection-button" data-product-id="{{ product.id }}"></div>
   <script type="text/javascript">
       window.omgrfqListTags = [];
