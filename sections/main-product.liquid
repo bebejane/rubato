@@ -169,6 +169,7 @@
           </select>
           
           <div class="product-form-buttons">
+            {{ product.price | money}}
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
               Add to cart&nbsp;{{ product.price | money}}
             </button>
