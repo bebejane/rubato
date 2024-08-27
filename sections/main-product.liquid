@@ -170,7 +170,8 @@
           </select>        
           <div class="product-form-buttons">
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
-              Add to cart&nbsp; {% if product.compare_at_price and product.compare_at_price != product.price %}<span class="compare-at-price">{{ product.compare_at_price | money}}</span>&nbsp;{% endif %}<span class="{% if product.compare_at_price and product.compare_at_price != product.price %}lowered-price{%  endif %}">{{ product.price | money}}</span>
+              Add to cart&nbsp; {% if product.compare_at_price and product.compare_at_price != product.price %}<span class="compare-at-price">{{ product.compare_at_price | money}}</span>&nbsp;{% endif %}
+              <span class="{% if product.compare_at_price and product.compare_at_price != product.price %}lowered-price{%  endif %}">{{ product.price | money}}</span>
             </button>
             <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
               View cart
