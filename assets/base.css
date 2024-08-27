@@ -387,3 +387,7 @@ main div {
 .text-center {
   text-align: center;
 }
+
+.compare-at-price {
+  text-decoration: line-through;
+}
