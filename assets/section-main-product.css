@@ -136,6 +136,7 @@
   text-align: center;
   border: var(--line);
   margin-bottom: var(--margin);
+  background-color: pink;
 }
 
 .product-form-buttons button {
