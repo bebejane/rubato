@@ -170,7 +170,8 @@
             {% endfor %}
           </select>
           <div class="product-form-buttons">
-            {{ product.price }}
+
+            <button>{{ product.compare_at_price | money}}</button>
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
               Add to cart&nbsp;{{ product.price | money}}
             </button>
