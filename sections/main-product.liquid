@@ -172,8 +172,8 @@
           {%if product.price_compare_at != product.price %}
             <span class="compare-at-price">{{ product.price_compare_at | money}}</span>
           {% endif %}
+          <span class="compare-at-price">{{ product.price | money}}</span>
           <div class="product-form-buttons">
-            
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
               Add to cart&nbsp;{{ product.price | money}}
             </button>
