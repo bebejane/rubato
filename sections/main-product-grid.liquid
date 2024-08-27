@@ -26,7 +26,7 @@
               {{ product.title }}
             </div>
             <div class="product-grid-caption-price">
-              {{ product.price | money }}
+              {%if product.price_compare_at != product.price %}<span class="compare-at-price">{{ product.price_compare_at | money}}</span>&nbsp;  {% endif %}{{ product.price | money }}
             </div>
           </div>
         </div>
