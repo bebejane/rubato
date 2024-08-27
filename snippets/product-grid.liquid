@@ -26,7 +26,8 @@
               {{ product.title }}
             </div>
             <div class="product-grid-caption-price">
-            <span class="compare-at-price">{{ product.price | money}}</span>&nbsp;{{ product.price | money }}
+            <span>{{ product.price | money }}</span>
+            <span class="compare-at-price">{{ product.price | money}}</span>
             {% if product.metafields.custom.discount.value != blank %}
             <div class="product-attributes-row">
               <div class="product-attributes-key"></div>
