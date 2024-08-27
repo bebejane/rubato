@@ -39,6 +39,12 @@
           <h2 class="product-attributes-header">
             {{ product.title }}
           </h2>
+          {% if product.metafields.custom.discount.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Discount</div>
+              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
+            </div>
+            {% endif %}
           {% if product.metafields.custom.color.value != blank %}
           <div class="product-attributes-row">
             <div class="product-attributes-key">Color</div>
@@ -61,6 +67,12 @@
             <div class="product-attributes-row">
               <div class="product-attributes-key">Cut</div>
               <div class="product-attributes-value">{{product.metafields.custom.cut.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.features.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Features</div>
+              <div class="product-attributes-value">{{product.metafields.custom.features.value}}</div>
             </div>
           {% endif %}
           {% if product.metafields.custom.care.value != blank %}
