@@ -138,6 +138,10 @@
   margin-bottom: var(--margin);
 }
 
+.compare-at-price {
+  text-decoration: line-through;
+}
+
 .product-form-buttons button {
   border: 0px;
   border-radius: 0px;

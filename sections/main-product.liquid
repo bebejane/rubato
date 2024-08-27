@@ -3,8 +3,6 @@
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 
-{% render 'log', object: product %}
-
 <!-- Parse sizes table -->
 {% assign html = product.description %}
 
@@ -169,7 +167,9 @@
                 </option>
             {% endfor %}
           </select>
+          
           <div class="product-form-buttons">
+            {%if product.price_compare_at != product.price%}<span class="compare-at-price">{{ product.price_compare_at | money}}</span>{% endif %}
             <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
               Add to cart&nbsp;{{ product.price | money}}
             </button>
