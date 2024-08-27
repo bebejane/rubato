@@ -27,7 +27,7 @@
             </div>
             <div class="product-grid-caption-price">
               {% if product.compare_at_price and product.compare_at_price != product.price %}<span class="compare-at-price">{{ product.compare_at_price | money}}</span>{% endif %}
-              <span>{{ product.price | money }}</span>
+              <span class="{% if product.compare_at_price and product.compare_at_price != product.price %}lowered-price{%  endif %}">{{ product.price | money}}</span>
               {% if product.metafields.custom.discount.value != blank %}
               <div class="product-attributes-row">
                 <div class="product-attributes-key"></div>

@@ -391,3 +391,7 @@ main div {
 .compare-at-price {
   text-decoration: line-through;
 }
+
+.lowered-price {
+  color: rgba(200, 0, 0);
+}
