@@ -18,7 +18,6 @@
         </thead>
         <tbody>
           {% for item in cart.items %}
-            {% render 'log', object:item %}
             <tr class="cart__row">
               <td class="cart__image-wrapper">
                 {% render 'image-responsive', image: item.image, class: 'cart__image' %}
