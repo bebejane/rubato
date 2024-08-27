@@ -111,6 +111,8 @@
 }
 
 .product-grid-caption-price {
+  display: flex;
+  flex-direction: column;
   flex: 0 0 auto;
   text-align: right;
   font-size: 15px;
