@@ -26,9 +26,7 @@
               {{ product.title }}
             </div>
             <div class="product-grid-caption-price">
-             {% if product.compare_at_price > product.price %}
-  <small><s>{% include 'price' with product.compare_at_price %}</s></small>
-{% endif %} {{ product.price | money }}
+              {{ product.price | money }}
             </div>
           </div>
         </div>
