@@ -136,7 +136,10 @@
   text-align: center;
   border: var(--line);
   margin-bottom: var(--margin);
-  background-color: pink;
+}
+
+.compare-at-price {
+  text-decoration: line-through;
 }
 
 .product-form-buttons button {
