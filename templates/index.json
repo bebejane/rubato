@@ -1,24 +1,48 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Background_8f34ed07-05a7-4f30-b50e-4e249ff934d6.jpg",
+        "image": "shopify:\/\/shop_images\/Natur6splash.jpg",
         "focal": 50,
-        "invert-logo": true
+        "invert-logo": false
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
+        "image_7fPLgm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L29.jpg",
+            "columns": 1,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NPCrewGrigioDressChinoWorkShirt.jpg",
+            "image": "shopify:\/\/shop_images\/L69.jpg",
             "columns": 2,
-            "width": 100,
-            "align": "flex-end",
+            "width": 90,
+            "align": "flex-start",
             "caption": "new arrivals",
             "product": "",
             "collection": "all-products",
@@ -44,11 +68,26 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skarmavbild_2024-04-02_kl._11.11.57.png",
+            "image": "shopify:\/\/shop_images\/Cooper_Rie_3.webp",
             "columns": 2,
-            "width": 62,
+            "width": 99,
             "align": "flex-end",
-            "caption": "'twentysix gasoline stations' ed ruscha, published 1963",
+            "caption": "Lucie Rie’s display area in Albion Mews",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
+        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rubato.taillour.poster.jpg",
+            "columns": 2,
+            "width": 75,
+            "align": "flex-end",
+            "caption": "",
             "product": "",
             "collection": "",
             "page": "",
@@ -70,21 +109,7 @@
             "article": ""
           }
         },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tumblr_e6b7cca3076f6bfd292f9958aa54d4e0_38d89bdb_1280.jpg",
-            "columns": 4,
-            "width": 56,
-            "align": "flex-end",
-            "caption": "Journal - EXPLORE",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": "journal\/case-study-house-nr-16"
-          }
-        },
-        "image_ftqaa8": {
+        "image_yDACYW": {
           "type": "image",
           "settings": {
             "columns": 1,
@@ -97,13 +122,27 @@
             "article": ""
           }
         },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
+            "columns": 4,
+            "width": 56,
+            "align": "flex-start",
+            "caption": "Journal - SERGE DE NÎMES",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": "journal\/serge-de-nimes"
+          }
+        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D64.jpg",
+            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-278-web.jpg",
             "columns": 2,
-            "width": 72,
-            "align": "flex-end",
+            "width": 92,
+            "align": "flex-start",
             "caption": "knitwear",
             "product": "",
             "collection": "knitwear",
@@ -111,13 +150,27 @@
             "article": ""
           }
         },
+        "image_8Emh6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Indigo-5.jpg",
+            "columns": 2,
+            "width": 62,
+            "align": "center",
+            "caption": "shirts",
+            "product": "",
+            "collection": "shirts",
+            "page": "",
+            "article": ""
+          }
+        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-start",
+            "image": "shopify:\/\/shop_images\/Officers-Chinos.jpg",
+            "columns": 4,
+            "width": 58,
+            "align": "flex-end",
             "caption": "trousers",
             "product": "",
             "collection": "trousers",
@@ -125,26 +178,12 @@
             "article": ""
           }
         },
-        "29388188-1d36-45c5-ae8d-ebe1eb58e97b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rubato.taillour.poster.jpg",
-            "columns": 2,
-            "width": 63,
-            "align": "center",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NP21.jpg",
+            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-060-web_34aa8e24-8f2b-47eb-b273-7626b632f671.jpg",
             "columns": 4,
-            "width": 53,
+            "width": 43,
             "align": "center",
             "caption": "NONPAREIL",
             "product": "",
@@ -156,53 +195,23 @@
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/capa_robert_2013_92_109_449824_displaysize.jpg",
+            "image": "shopify:\/\/shop_images\/Saul-Leiter-Harlem-1960-Chromogenic-print-copyright-Saul-Leiter-Foundation.jpg",
             "columns": 2,
             "width": 100,
             "align": "center",
-            "caption": "Robert Capa - Spectators at the Longchamp Racecourse, Paris.",
+            "caption": "Saul Leiter, Harlem, 1960",
             "product": "",
             "collection": "",
             "page": "",
-            "article": ""
-          }
-        },
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Haga25.jpg",
-            "columns": 2,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "TROUSERS",
-            "product": "",
-            "collection": "trousers",
-            "page": "",
-            "article": ""
-          }
-        },
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heavy-Cotton-Fit_166419d5-8d72-45d8-aaa4-ba0b82cc58c5.jpg",
-            "columns": 4,
-            "width": 50,
-            "align": "center",
-            "caption": "see our fits here",
-            "product": "",
-            "collection": "",
-            "page": "our-fits",
             "article": ""
           }
         },
         "04353ef3-3733-41da-bab9-dfcc58778ed4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/UniformBelt.jpg",
+            "image": "shopify:\/\/shop_images\/Shorts4.jpg",
             "columns": 4,
-            "width": 60,
+            "width": 48,
             "align": "flex-end",
             "caption": "accessories",
             "product": "",
@@ -211,116 +220,9 @@
             "article": ""
           }
         },
-        "68521fa5-38c3-491c-abd7-b51bab83ac0f": {
+        "image_Qc7Dpx": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Doek7.jpg",
-            "columns": 2,
-            "width": 64,
-            "align": "flex-start",
-            "caption": "",
-            "product": "rubato-x-doek-oxford",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "39a07fa7-7955-4546-bdc6-7edcdf922f90": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/back_3d7d0ca4-391e-4774-b2fa-a9480658455f.jpg",
-            "columns": 2,
-            "width": 72,
-            "align": "center",
-            "caption": "",
-            "product": "nonpareil-fairbanks-polo-in-porto-cervo",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "fca140e1-e64a-4aec-98d1-cea4f8a46734": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RubDen16.jpg",
-            "columns": 2,
-            "width": 53,
-            "align": "flex-start",
-            "caption": "",
-            "product": "work-shirt-in-cream-denim",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web3_01969615-81c2-4609-8b1f-c2750e1231de.jpg",
-            "columns": 2,
-            "width": 47,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "47338339-a384-49b2-b00d-441a7b71efa2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Flat-Look-NP-1-BACKGROUND-3.jpg",
-            "columns": 2,
-            "width": 96,
-            "align": "flex-end",
-            "caption": "",
-            "product": "country-club-shorts-in-drab-linen",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/201109-sartoism-banner.png",
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "0df765c7-a05b-4475-9689-d9b99d419e6b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/201109-sartoism-a-tempo-rubato-lookbook-9_600x600_93ef57c3-4860-43e8-b93f-50fec8bef8c0.jpg",
-            "columns": 2,
-            "width": 66,
-            "align": "flex-start",
-            "caption": "",
-            "product": "officers-chino-in-dark-khaki",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "16d16ca3-b71c-44fb-983e-bf4913980eef": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rubato-V-Camel-1_1024x1024_2x_78b591e1-5259-4196-840a-6fc23d5be51a.jpg",
             "columns": 1,
             "width": 100,
             "align": "flex-start",
@@ -346,28 +248,21 @@
         }
       },
       "block_order": [
+        "image_7fPLgm",
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
         "e021c317-f484-42f4-a72d-ad8756aaab59",
-        "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
-        "image_ftqaa8",
-        "33893355-d256-4e1c-a9cf-b852382ded3b",
-        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
+        "000b7fe8-2100-4fc1-b753-d253dda7ea78",
+        "image_yDACYW",
+        "36a27471-04fc-4043-b320-2e8bc5c150b2",
+        "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "image_8Emh6p",
+        "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
-        "8dba02ed-21b7-4a3a-927e-fa2cfb36918b",
-        "bf2b24a7-67a7-46bc-bad6-cf3b43ab25de",
         "04353ef3-3733-41da-bab9-dfcc58778ed4",
-        "68521fa5-38c3-491c-abd7-b51bab83ac0f",
-        "39a07fa7-7955-4546-bdc6-7edcdf922f90",
-        "fca140e1-e64a-4aec-98d1-cea4f8a46734",
-        "732f07cb-2bd9-4ff3-bf7f-de49f6bfa123",
-        "47338339-a384-49b2-b00d-441a7b71efa2",
-        "cc4b8d79-211e-4cd0-bd9f-01e2cefa998c",
-        "0df765c7-a05b-4475-9689-d9b99d419e6b",
-        "16d16ca3-b71c-44fb-983e-bf4913980eef",
+        "image_Qc7Dpx",
         "d14738c6-2cc3-42d3-883f-b5653cec03e0"
       ],
       "settings": {

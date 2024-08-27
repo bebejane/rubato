@@ -1,0 +1,406 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L7.jpg",
+        "caption": "Work shirt in black & cream cotton linen",
+        "product": "work-shirt-in-black-cream-cotton-linen",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "text": {
+      "type": "article-section-text",
+      "disabled": true,
+      "settings": {
+        "text": "R - How is it that you ended up doing what you’re doing?\n\nFN - I worked in a men’s clothing store in east London just after graduating college. We sold incredible English shoes, American and Japanese denim, handmade eyewear etc. but I soon got a bit bored and realised selling clothes wasn’t what I wanted to do long term, I was interested in how the clothes were made. I went in search of something else, so I wandered down Savile Row, Jermyn Street and even applied to some shoemakers for an apprenticeship but I heard nothing back. Finally I tried a small shirt-maker and tailors around the corner from the shop I was working at, called Alexander Boyd\/ Rayner & Sturges, they offered me an apprenticeship working both in the day to day running of the store and also learning cutting and making. I worked 10-11 hours days, six days a week but it was an invaluable learning experience for me and my first job in tailoring that led to everything else."
+      }
+    },
+    "8863a9b6-2499-473f-93af-d1567cd16286": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L8.jpg",
+            "caption": "Dress Chino in Cream",
+            "product": "dress-chino-in-cream",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L14.jpg",
+            "caption": "Nonpareil Heavy cotton in grigio",
+            "product": "nonpareil-heavy-crew-neck-grigio",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d54a02b-60d2-49cf-bfc0-8b46b2711355",
+        "7f7f36f1-709a-497f-9c6e-4d62c87ad591"
+      ],
+      "settings": {
+      }
+    },
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L21.jpg",
+        "caption": "lot nr. 1 denim in black",
+        "product": "lot-nr-1-denim-black",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_GtrjeL": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_8Fn4n8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L29_40ea8b4d-9484-4bab-a794-3e4ea5e56a93.jpg",
+            "caption": "Nonpareil heavy crew neck nero",
+            "product": "nonpareil-heavy-crew-neck-nero",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_dbyDhh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L20.jpg",
+            "caption": "classic belt in black deer",
+            "product": "classic-belt-in-black-deer",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_KNbUbi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L27.jpg",
+            "caption": "nonpareil long sleeve crew in noir",
+            "product": "nonpareil-long-sleeve-crew-in-noir",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8Fn4n8",
+        "image_dbyDhh",
+        "image_KNbUbi"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_wJcbpy": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Barbican3.jpg",
+        "caption": "barbican london",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_KqDFEG": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_TLwaFp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L34.jpg",
+            "caption": "dress chino in sage",
+            "product": "dress-chino-in-sage",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_CERQ6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L31.jpg",
+            "caption": "Nonpareil Long Sleeve Polo in Marin",
+            "product": "nonpareil-long-sleeve-polo-in-marin",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TLwaFp",
+        "image_CERQ6d"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_7caYFM": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L39.jpg",
+        "caption": "",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_AVerY4": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_Rbq9gr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L46.jpg",
+            "caption": "\"R\" Shirt in classic stripe oxford",
+            "product": "r-shirt-in-classic-stripe-oxford",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_RcHhmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L48.jpg",
+            "caption": "nonpareil heavy crew in french navy",
+            "product": "nonpareil-heavy-crew-neck-french-navy",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Rbq9gr",
+        "image_RcHhmc"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_k9dg7D": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L40.jpg",
+        "caption": "french pocket trouser in navy hbt",
+        "product": "french-pocket-trouser-in-navy-hbt",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_6WCfCd": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_3XyQ7H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Charterhouse2.jpg",
+            "caption": "Charterhouse square",
+            "product": "",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_Bnpagb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L53.jpg",
+            "caption": "nonpareil heavy crew neck hyannis",
+            "product": "nonpareil-heavy-crew-neck-hyannis",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3XyQ7H",
+        "image_Bnpagb"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_GA9aeT": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L57.jpg",
+        "caption": "french pocket trouser in cream hbt",
+        "product": "french-pocket-trouser-in-cream-hbt",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_fmVCpN": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_UdYDJJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L56.jpg",
+            "caption": "nonpareil long sleeve polo in nuage",
+            "product": "nonpareil-long-sleeve-polo-in-nuage",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_LPaMYX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L50.jpg",
+            "caption": "classic belt in brown deer",
+            "product": "classic-belt-in-brown-deer",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UdYDJJ",
+        "image_LPaMYX"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_iTdLcn": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L62.jpg",
+        "caption": "nonpareil heavy crew neck bone",
+        "product": "nonpareil-heavy-crew-neck-bone",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_Nqd8XX": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_zH8GeD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L60.jpg",
+            "caption": "\"r\" shirt in new haven blue oxford",
+            "product": "r-shirt-in-new-haven-blue-oxford",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_HCwPaz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L64.jpg",
+            "caption": "country club shorts in cream",
+            "product": "country-club-shorts-in-cream",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zH8GeD",
+        "image_HCwPaz"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_4EN3rJ": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L66.jpg",
+        "caption": "charterhouse square",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_image_JNjiEe": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L75.jpg",
+        "caption": "work shirt in indigo & cream check",
+        "product": "work-shirt-in-indigo-cream-check",
+        "collection": "",
+        "page": ""
+      }
+    },
+    "article_section_gallery_gLLUAQ": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_4DmVwa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L69.jpg",
+            "caption": "country club shorts in navy",
+            "product": "country-club-shorts-in-navy",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_iU4nx4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L70.jpg",
+            "caption": "nonpareil t-shirt in nuage",
+            "product": "nonpareil-t-shirt-in-nuage",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4DmVwa",
+        "image_iU4nx4"
+      ],
+      "settings": {
+      }
+    },
+    "article_section_image_hgYhmw": {
+      "type": "article-section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L67.jpg",
+        "caption": "© rubato - london may 2024",
+        "product": "",
+        "collection": "",
+        "page": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6b575b3c-a3ad-4efd-aa32-91e5761a5c7f",
+    "text",
+    "8863a9b6-2499-473f-93af-d1567cd16286",
+    "c99d749a-6dbb-4c5c-9463-44d3e1502201",
+    "article_section_gallery_GtrjeL",
+    "article_section_image_wJcbpy",
+    "article_section_gallery_KqDFEG",
+    "article_section_image_7caYFM",
+    "article_section_gallery_AVerY4",
+    "article_section_image_k9dg7D",
+    "article_section_gallery_6WCfCd",
+    "article_section_image_GA9aeT",
+    "article_section_gallery_fmVCpN",
+    "article_section_image_iTdLcn",
+    "article_section_gallery_Nqd8XX",
+    "article_section_image_4EN3rJ",
+    "article_section_image_JNjiEe",
+    "article_section_gallery_gLLUAQ",
+    "article_section_image_hgYhmw"
+  ]
+}
