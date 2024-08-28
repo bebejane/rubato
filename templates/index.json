@@ -39,13 +39,13 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L30.jpg",
+            "image": "shopify:\/\/shop_images\/sale.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
-            "caption": "new arrivals",
+            "caption": "SALE",
             "product": "",
-            "collection": "all-products",
+            "collection": "sale",
             "page": "",
             "article": ""
           }
