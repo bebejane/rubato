@@ -36,7 +36,7 @@
       <ul class="navbar">
         {%- for link in section.settings.menu.links -%}  
           <a href="{{ link.url }}" {% if link.current %} aria-current="page" class="nav-selected"{% endif %}>
-            <li><h2 class="">{{ link.title | escape }}</h2></li>
+            <li><h2 class="{% if link.title == 'sale' %}red{% endif %}">{{ link.title | escape }}</h2></li>
           </a>
         {%- endfor -%}
       </ul>
