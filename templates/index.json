@@ -122,20 +122,6 @@
             "article": ""
           }
         },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-OldJOunral.jpg",
-            "columns": 4,
-            "width": 56,
-            "align": "flex-start",
-            "caption": "See our journal",
-            "product": "",
-            "collection": "",
-            "page": "journal",
-            "article": ""
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
@@ -147,6 +133,20 @@
             "product": "",
             "collection": "knitwear",
             "page": "",
+            "article": ""
+          }
+        },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-OldJOunral.jpg",
+            "columns": 4,
+            "width": 56,
+            "align": "flex-start",
+            "caption": "See our journal",
+            "product": "",
+            "collection": "",
+            "page": "journal",
             "article": ""
           }
         },
@@ -255,8 +255,8 @@
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
         "image_yDACYW",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "image_8Emh6p",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
