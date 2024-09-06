@@ -129,11 +129,11 @@
             "columns": 4,
             "width": 56,
             "align": "flex-start",
-            "caption": "Journal - SERGE DE NÎMES",
+            "caption": "See our journal",
             "product": "",
             "collection": "",
-            "page": "",
-            "article": "journal\/serge-de-nimes"
+            "page": "journal",
+            "article": ""
           }
         },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
