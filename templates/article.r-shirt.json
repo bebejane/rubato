@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -69,14 +78,35 @@
         "text": "EXPLORE THE \"R\" SHIRT BELOW"
       }
     },
-    "a2308bad-792a-46fb-b1ea-6f5060faac3f": {
-      "type": "article-section-image",
+    "article_section_gallery_NGRebN": {
+      "type": "article-section-gallery",
+      "blocks": {
+        "image_yz3xLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rshirt-New-Journal2.jpg",
+            "caption": "\"R\" Shirt in Classic stripe oxford",
+            "product": "r-shirt-in-classic-stripe-oxford",
+            "collection": "",
+            "page": ""
+          }
+        },
+        "image_Fztfii": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rshirt-New-Journal.jpg",
+            "caption": "\"R\" Shirt in New Haven Blue Oxford",
+            "product": "r-shirt-in-new-haven-blue-oxford",
+            "collection": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yz3xLB",
+        "image_Fztfii"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/R-Shirt-Chambray-1-Journal.jpg",
-        "caption": "",
-        "product": "r-shirt-in-classic-chambray",
-        "collection": "",
-        "page": ""
       }
     }
   },
@@ -90,6 +120,6 @@
     "694dd4fe-4f18-4d91-b8dc-81a77882ce1d",
     "6f549b0d-3d41-44cf-bb3b-c96c63c82f31",
     "e934343d-3126-4a20-9b1f-1a91366faf49",
-    "a2308bad-792a-46fb-b1ea-6f5060faac3f"
+    "article_section_gallery_NGRebN"
   ]
 }
