@@ -39,11 +39,11 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L30.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-68.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
-            "caption": "new arrivals",
+            "caption": "LATEST",
             "product": "",
             "collection": "all-products",
             "page": "",
@@ -68,11 +68,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cooper_Rie_3.webp",
+            "image": "shopify:\/\/shop_images\/Franz-Kline.jpg",
             "columns": 2,
             "width": 99,
             "align": "flex-end",
-            "caption": "Lucie Rie’s display area in Albion Mews",
+            "caption": "Detail of franz kline 'Sabro' 1956",
             "product": "",
             "collection": "",
             "page": "",
@@ -109,33 +109,6 @@
             "article": ""
           }
         },
-        "image_yDACYW": {
-          "type": "image",
-          "settings": {
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
-        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-Old.jpg",
-            "columns": 4,
-            "width": 56,
-            "align": "flex-start",
-            "caption": "Journal - SERGE DE NÎMES",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": "journal\/serge-de-nimes"
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
@@ -150,6 +123,20 @@
             "article": ""
           }
         },
+        "36a27471-04fc-4043-b320-2e8bc5c150b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lot-Nr.1-Dark-Blue-Denim-New-OldJOunral.jpg",
+            "columns": 4,
+            "width": 56,
+            "align": "flex-start",
+            "caption": "See our journal",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": "journal\/serge-de-nimes"
+          }
+        },
         "image_8Emh6p": {
           "type": "image",
           "settings": {
@@ -160,6 +147,20 @@
             "caption": "shirts",
             "product": "",
             "collection": "shirts",
+            "page": "",
+            "article": ""
+          }
+        },
+        "image_yDACYW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Motherwell-Background.png",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "Robert Motherwell 'Elegy to the Spanish republic' 1959",
+            "product": "",
+            "collection": "",
             "page": "",
             "article": ""
           }
@@ -181,7 +182,7 @@
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-060-web_34aa8e24-8f2b-47eb-b273-7626b632f671.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-15-Rubato-077-stucko-web.jpg",
             "columns": 4,
             "width": 43,
             "align": "center",
@@ -254,10 +255,10 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "image_yDACYW",
-        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
+        "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "image_8Emh6p",
+        "image_yDACYW",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
