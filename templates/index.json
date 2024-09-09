@@ -39,13 +39,13 @@
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale.jpg",
+            "image": "shopify:\/\/shop_images\/Roper-Shirt-Black-68.jpg",
             "columns": 2,
             "width": 90,
             "align": "flex-start",
-            "caption": "SALE",
+            "caption": "LATEST",
             "product": "",
-            "collection": "sale",
+            "collection": "all-products",
             "page": "",
             "article": ""
           }
@@ -68,11 +68,11 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cooper_Rie_3.webp",
+            "image": "shopify:\/\/shop_images\/Franz-Kline.jpg",
             "columns": 2,
             "width": 99,
             "align": "flex-end",
-            "caption": "Lucie Rie’s display area in Albion Mews",
+            "caption": "Detail of franz kline 'Sabro' 1956",
             "product": "",
             "collection": "",
             "page": "",
