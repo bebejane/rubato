@@ -49,6 +49,8 @@
           {{block.settings.collection.url}}
         {%- elsif block.settings.product != blank -%}
           {{block.settings.product.url}}
+          {%- elsif block.settings.url != blank -%}
+          {{block.settings.url}}
         {%- endif -%}
       {% endcapture %}
       
