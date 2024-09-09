@@ -32,12 +32,11 @@
             "collection": "",
             "page": "",
             "article": "",
-            "url": ""
+            "url": "http:\/\/dn.se"
           }
         },
         "image_7fPLgm": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/L29.jpg",
             "columns": 1,
