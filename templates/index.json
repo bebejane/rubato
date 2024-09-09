@@ -109,19 +109,6 @@
             "article": ""
           }
         },
-        "image_yDACYW": {
-          "type": "image",
-          "settings": {
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": ""
-          }
-        },
         "33893355-d256-4e1c-a9cf-b852382ded3b": {
           "type": "image",
           "settings": {
@@ -164,6 +151,20 @@
             "article": ""
           }
         },
+        "image_yDACYW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Motherwell-Background.png",
+            "columns": 2,
+            "width": 100,
+            "align": "flex-start",
+            "caption": "Robert Motherwell 'Elegy to the Spanish republic' 1959",
+            "product": "",
+            "collection": "",
+            "page": "",
+            "article": ""
+          }
+        },
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5": {
           "type": "image",
           "settings": {
@@ -181,7 +182,7 @@
         "8888a774-2eff-4c59-84fc-1f8f2038dc99": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024-03-18-Rubato-060-web_34aa8e24-8f2b-47eb-b273-7626b632f671.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-15-Rubato-077-stucko-web.jpg",
             "columns": 4,
             "width": 43,
             "align": "center",
@@ -254,10 +255,10 @@
         "e021c317-f484-42f4-a72d-ad8756aaab59",
         "29388188-1d36-45c5-ae8d-ebe1eb58e97b",
         "000b7fe8-2100-4fc1-b753-d253dda7ea78",
-        "image_yDACYW",
         "33893355-d256-4e1c-a9cf-b852382ded3b",
         "36a27471-04fc-4043-b320-2e8bc5c150b2",
         "image_8Emh6p",
+        "image_yDACYW",
         "cfbb716f-4b19-49f9-a1f8-03d762e5e9c5",
         "8888a774-2eff-4c59-84fc-1f8f2038dc99",
         "3f0ed502-d64e-4010-aa25-d42aa8de5fa9",
