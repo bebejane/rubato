@@ -49,6 +49,8 @@
           {{block.settings.collection.url}}
         {%- elsif block.settings.product != blank -%}
           {{block.settings.product.url}}
+        {%- elsif block.settings.url != blank -%}
+          {{block.settings.url}}
         {%- endif -%}
       {% endcapture %}
       
@@ -57,8 +59,8 @@
           {% render 'image-responsive', image:block.settings.image, style: image_style, picture_style: picture_style %}
         
         {%- if block.settings.product != blank -%}
-          <div class="collage-block-caption" style="{{caption_block_style}}"">
-            <div class="collage-block-caption-wrap" style="{{caption_style}}"">
+          <div class="collage-block-caption" style="{{caption_block_style}}">
+            <div class="collage-block-caption-wrap" style="{{caption_style}}">
               <h2 class="collage-block-caption-title">
                 {{ block.settings.product.title }}
               </h2>
@@ -68,8 +70,8 @@
             </div>
           </div>
         {%- elsif block.settings.caption != blank -%}
-          <div class="collage-block-caption" style="{{caption_block_style}}"" >
-            <h2 class="collage-block-caption-title" style="{{caption_style}}"">{{block.settings.caption}}</h2>
+          <div class="collage-block-caption" style="{{caption_block_style}}" >
+            <h2 class="collage-block-caption-title" style="{{caption_style}}">{{block.settings.caption}}</h2>
           </div>
         {%- endif -%} 
         {%- if a_href != blank -%}</a>{%- endif -%}
@@ -180,6 +182,11 @@
         "type": "article",
         "id": "article",
         "label": "Link blog post"
+      },
+      {
+        "type": "text",
+        "id": "url",
+        "label": "URL"
       }  
     ]
   }]
