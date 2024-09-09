@@ -21,20 +21,6 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "image_teUFtc": {
-          "type": "image",
-          "settings": {
-            "columns": 1,
-            "width": 100,
-            "align": "flex-start",
-            "caption": "",
-            "product": "",
-            "collection": "",
-            "page": "",
-            "article": "",
-            "url": "http:\/\/dn.se"
-          }
-        },
         "image_7fPLgm": {
           "type": "image",
           "settings": {
@@ -47,7 +33,7 @@
             "collection": "",
             "page": "",
             "article": "",
-            "url": ""
+            "url": "\/collections\/shirts"
           }
         },
         "a6ec6d9f-da48-496a-b369-d447b2686e22": {
@@ -278,7 +264,6 @@
         }
       },
       "block_order": [
-        "image_teUFtc",
         "image_7fPLgm",
         "a6ec6d9f-da48-496a-b369-d447b2686e22",
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d",
