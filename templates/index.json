@@ -13,7 +13,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/Splash_8b4f29a8-5bb1-4897-a249-4f92431140db.jpg",
-        "focal": 50,
+        "focal": 25,
         "invert-logo": false
       }
     },
