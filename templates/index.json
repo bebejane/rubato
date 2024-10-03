@@ -11,9 +11,8 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/splash.jpg",
+        "image": "shopify://shop_images/Splash_718c3039-675c-467d-9f9a-a8754a3e973e.jpg",
         "focal": 50,
         "invert-logo": false
       }
