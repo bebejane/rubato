@@ -43,12 +43,12 @@
             "columns": 2,
             "width": 90,
             "align": "flex-start",
-            "caption": "shirts",
+            "caption": "latest",
             "product": "",
-            "collection": "",
+            "collection": "all-products",
             "page": "",
             "article": "",
-            "url": "/collections/shirts"
+            "url": ""
           }
         },
         "0db9e8e0-e5c0-45b9-b143-a8abc27e5c6d": {
