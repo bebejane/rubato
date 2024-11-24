@@ -32,56 +32,75 @@
 <section class="product">
   
   <div class="product-wrap">
-    <div class="product-details-wrap">
-      <div class="product-details">
-        <div class="product-attributes">
-          <h2 class="product-attributes-header">
-            {{ product.title }}
-          </h2>
-          {% if product.metafields.custom.discount.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Discount</div>
-              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
-            </div>
+    <div class="product-order-wrap">
+      <div class="product-form-wrap">
+        <h2 class="product-attributes-header">
+          {{ product.title }}
+          <div class="product-attributes-header-price">{{ product.price | money }}</div>
+        </h2>
+        <ul class="product-color-box-wrap">
+          {% assign current_product_name = product.title | split: ' in ' | first %}
+          {% assign current_color = product.metafields.custom.color.value | downcase %}    
+          {% for other_product in collections['all-products'].products %}
+            {% assign other_product_name = other_product.title | split: ' in ' | first %}
+            {% assign other_color = other_product.metafields.custom.color.value | downcase %}
+            {% if current_product_name == other_product_name %}
+              <li>
+                <a href="{{ other_product.url }}" 
+                   class="product-color-link {% if other_color == current_color %}active{% endif %}">
+                  <span class="product-color-box" style="background-color: {{ other_color }};"></span>
+                  <!--{{ other_color | capitalize }}-->
+                </a>
+              </li>
             {% endif %}
-          {% if product.metafields.custom.color.value != blank %}
-          <div class="product-attributes-row">
-            <div class="product-attributes-key">Color</div>
-            <div class="product-attributes-value">{{product.metafields.custom.color.value}}</div>
-          </div>
+          {% endfor %}
+        </ul>
+
+        <div class="product-description">
+          {% if description %}
+            {{ description }}
+          {% else %}
+            {{ product.description }}
           {% endif %}
-          {% if product.metafields.custom.material.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Material</div>
-              <div class="product-attributes-value">{{product.metafields.custom.material.value}}</div>
-            </div>
-          {% endif %}
-          {% if product.metafields.custom.made_in.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Made in</div>
-              <div class="product-attributes-value">{{product.metafields.custom.made_in.value}}</div>
-            </div>
-          {% endif %}
-          {% if product.metafields.custom.cut.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Cut</div>
-              <div class="product-attributes-value">{{product.metafields.custom.cut.value}}</div>
-            </div>
-          {% endif %}
-          {% if product.metafields.custom.features.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Features</div>
-              <div class="product-attributes-value">{{product.metafields.custom.features.value}}</div>
-            </div>
-          {% endif %}
-          {% if product.metafields.custom.care.value != blank %}
-            <div class="product-attributes-row">
-              <div class="product-attributes-key">Care</div>
-              <div class="product-attributes-value">{{product.metafields.custom.care.value}}</div>
-            </div>
-          {% endif%}
         </div>
-      </div> 
+
+        <div class="product-variants-wrapper">
+          <ul class="product-variants {%if product.variants.size == 1 %} hide{% endif %}">
+            {% for variant in product.variants %}
+                <li data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant == selected_variant %}selected="selected"{% endif %}>
+                  {{ variant.title }}
+                </li>
+            {% endfor %}
+          </ul>
+          <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
+            <select id="product-variant" class="product-variants-select" name="id" data-variant-selector>
+              {% for variant in product.variants %}
+                  <option value="{{variant.id}}" data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant.available == false %} disabled {% endif %} {% if variant == selected_variant %}selected="selected"{% endif %}>
+                    {{ variant.title }}
+                  </option>
+              {% endfor %}
+            </select> 
+            <div class="product-variants-button">
+              Size
+              <div>
+                <span class="product-variants-size">XS</span>
+                <span class="product-variants-arrow"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 10L11.7735 0L0.226497 0L6 10Z" fill="black"/>
+                  </svg>
+                </span>
+              </div>
+            </div>    
+            <div class="product-form-buttons">
+              <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
+                Add to cart
+              </button>
+              <a id="product-unavailable" href="#" class="product-form-submit BIS_trigger hide" data-product-data="{{ product | json | escape }}">
+                ENQUIRE NOW
+              </a> 
+            </div> 
+          </form>
+        </div>
+      </div>
     </div>
     <div id="gallery" class="product-gallery">
       <div class="swiper">
@@ -142,58 +161,65 @@
     </div>
   </div>
   <div class="product-info">
-    <div class="product-description-wrap">
-      <div class="product-description">
-        {% if description %}
-          {{ description }}
-        {% else %}
-          {{ product.description }}
-        {% endif %}
-      </div>
-    </div>
-    <div class="product-order-wrap">
-      <div class="product-form-wrap">
-        <ul class="product-variants {%if product.variants.size == 1 %} hide{% endif %}">
-          {% for variant in product.variants %}
-              <li data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant == selected_variant %}selected="selected"{% endif %}>
-                {{ variant.title }}
-              </li>
-          {% endfor %}
-        </ul>
-        <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
-          <select id="product-variant" class="product-variants-select" name="id" data-variant-selector>
-            {% for variant in product.variants %}
-                <option value="{{variant.id}}" data-id="{{variant.id}}" data-available="{{ variant.available }}" {% if variant.available == false %} disabled {% endif %} {% if variant == selected_variant %}selected="selected"{% endif %}>
-                  {{ variant.title }}
-                </option>
-            {% endfor %}
-          </select>        
-          <div class="product-form-buttons">
-            <button name="add" id="add" value="Add to Cart" class="product-form-submit button-capitalized">
-              Add to cart&nbsp; {% if product.compare_at_price and product.compare_at_price != product.price %}<span class="compare-at-price">{{ product.compare_at_price | money}}</span>&nbsp;{% endif %}
-              <span class="{% if product.compare_at_price and product.compare_at_price != product.price %}red{%  endif %}">{{ product.price | money}}</span>
-            </button>
-            <button onclick="location.href='/cart'" class="product-form-view-cart button-capitalized">
-              View cart
-            </button>
+    <div class="product-details-wrap">
+      <div class="product-details">
+        <div class="product-attributes">
+          {% if product.metafields.custom.discount.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Discount</div>
+              <div class="product-attributes-value">{{product.metafields.custom.discount.value}}</div>
+            </div>
+            {% endif %}
+          {% if product.metafields.custom.color.value != blank %}
+          <div class="product-attributes-row">
+            <div class="product-attributes-key">Color</div>
+            <div class="product-attributes-value">{{product.metafields.custom.color.value}}</div>
           </div>
-          <a id="product-unavailable" href="#" class="BIS_trigger hide" data-product-data="{{ product | json | escape }}">
-            Sold out - Email me when available
-          </a>  
-        </form> 
-      </div>
+          {% endif %}
+          {% if product.metafields.custom.material.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Material</div>
+              <div class="product-attributes-value">{{product.metafields.custom.material.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.made_in.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Made in</div>
+              <div class="product-attributes-value">{{product.metafields.custom.made_in.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.cut.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Cut</div>
+              <div class="product-attributes-value">{{product.metafields.custom.cut.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.features.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Features</div>
+              <div class="product-attributes-value">{{product.metafields.custom.features.value}}</div>
+            </div>
+          {% endif %}
+          {% if product.metafields.custom.care.value != blank %}
+            <div class="product-attributes-row">
+              <div class="product-attributes-key">Care</div>
+              <div class="product-attributes-value">{{product.metafields.custom.care.value}}</div>
+            </div>
+          {% endif%}
+        </div>
+      </div> 
     </div>
+    {% if sizes_table != blank %}
+      <div class="product-sizes">
+        <h2 class="product-sizes-header">
+          Size Chart
+        </h2>
+        <div class="product-sizes-wrap">
+          {{ sizes_table }}
+        </div>
+      </div>
+    {% endif %}
   </div>
-  {% if sizes_table != blank %}
-    <div class="product-sizes">
-      <h2 class="product-sizes-header">
-        Size Chart
-      </h2>
-      <div class="product-sizes-wrap">
-        {{ sizes_table }}
-      </div>
-    </div>
-  {% endif %}
 </section>
   
 {% javascript %}
@@ -320,4 +346,37 @@
   document.addEventListener("DOMContentLoaded", init);
   document.addEventListener("shopify:section:load", init);
   
+
+  document.addEventListener('DOMContentLoaded', function () {
+  const button = document.querySelector('.product-variants-button');
+  const arrow = document.querySelector('.product-variants-arrow');
+  const variants = document.querySelector('.product-variants');
+
+    button.addEventListener('click', function () {
+      arrow.classList.toggle('open');
+      variants.classList.toggle('open');
+    });
+  });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+  const sizeDisplay = document.querySelector('.product-variants-size');
+  const variantsList = document.querySelector('.product-variants'); 
+
+    function updateSelectedSize() {
+      const selectedVariant = document.querySelector('.product-variants li[selected="true"]');
+      if (selectedVariant) {
+        const size = selectedVariant.textContent.trim();
+        sizeDisplay.textContent = size;
+      }
+    }
+
+    variantsList.addEventListener('click', function (event) {
+      const clickedVariant = event.target.closest('li');
+      if (clickedVariant) {
+        updateSelectedSize();
+      }
+    });
+  });
+
 {% endjavascript %}
